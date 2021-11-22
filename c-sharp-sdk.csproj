@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>c_sharp_sdk</RootNamespace>
+    <RootNamespace>SensoryCloud</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,10 +20,14 @@
     <Folder Include="Test\" />
     <Folder Include="Src\" />
     <Folder Include="Src\Generated\" />
+    <Folder Include="Src\Services\" />
+    <Folder Include="Src\TokenManager\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Test\" />
     <None Remove="Src\" />
     <None Remove="Src\Generated\" />
+    <None Remove="Src\Services\" />
+    <None Remove="Src\TokenManager\" />
   </ItemGroup>
 </Project>
