@@ -17,24 +17,6 @@ namespace SensoryCloud.Src
             this.TenantId = tenantId;
         }
 
-        public Config SetFullyQualifiedDomainName(string fullyQualifiedDomainName)
-        {
-            this.FullyQualifiedDomainName = fullyQualifiedDomainName;
-            return this;
-        }
-
-        public Config SetIsConnectionSecure(bool isConnectionSecure)
-        {
-            this.IsConnectionSecure = isConnectionSecure;
-            return this;
-        }
-
-        public Config SetTenantId(string tenantId)
-        {
-            this.TenantId = tenantId;
-            return this;
-        }
-
         public Config Connect()
         {
             if (this.IsConnectionSecure)
