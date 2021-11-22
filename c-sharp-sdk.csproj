@@ -14,7 +14,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Grpc" Version="2.42.0" />
-    <PackageReference Include="Google.ProtocolBuffers" Version="2.4.1.555" />
     <PackageReference Include="Google.Protobuf" Version="3.19.1" />
   </ItemGroup>
   <ItemGroup>
