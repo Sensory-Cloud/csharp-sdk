@@ -5,4 +5,19 @@
     <RootNamespace>c_sharp_sdk</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Protobuf Include="proto/**/*.proto" ProtoRoot="proto" OutputDir="generated" CompileOutputs="false" GrpcServices="None" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Grpc.Tools" Version="2.42.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Grpc" Version="2.42.0" />
+    <PackageReference Include="Google.ProtocolBuffers" Version="2.4.1.555" />
+    <PackageReference Include="Google.Protobuf" Version="3.19.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Generated\" />
+  </ItemGroup>
 </Project>
