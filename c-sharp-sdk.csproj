@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Proto/**/*.proto" ProtoRoot="Proto" OutputDir="Src/Generated" CompileOutputs="false" GrpcServices="None" />
+    <Protobuf Include="Proto/**/*.proto" ProtoRoot="Proto" OutputDir="Src/Generated" CompileOutputs="false" GrpcServices="Client" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Grpc.Tools" Version="2.42.0">
@@ -22,6 +22,7 @@
     <Folder Include="Src\Generated\" />
     <Folder Include="Src\Services\" />
     <Folder Include="Src\TokenManager\" />
+    <Folder Include="Test\TokenManager\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Test\" />
@@ -29,5 +30,6 @@
     <None Remove="Src\Generated\" />
     <None Remove="Src\Services\" />
     <None Remove="Src\TokenManager\" />
+    <None Remove="Test\TokenManager\" />
   </ItemGroup>
 </Project>
