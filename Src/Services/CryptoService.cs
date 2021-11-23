@@ -30,7 +30,5 @@ namespace SensoryCloud.Src.Services
 
             return new string(chars);
         }
-
-
     }
 }

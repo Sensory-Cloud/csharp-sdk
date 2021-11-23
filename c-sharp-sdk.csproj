@@ -1,8 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>SensoryCloud</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,19 +19,35 @@
     <PackageReference Include="Google.Protobuf" Version="3.19.1" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Test\" />
     <Folder Include="Src\" />
     <Folder Include="Src\Generated\" />
     <Folder Include="Src\Services\" />
     <Folder Include="Src\TokenManager\" />
-    <Folder Include="Test\TokenManager\" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Test\" />
     <None Remove="Src\" />
     <None Remove="Src\Generated\" />
     <None Remove="Src\Services\" />
     <None Remove="Src\TokenManager\" />
-    <None Remove="Test\TokenManager\" />
+    <None Remove="Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache" />
+    <None Remove="Test\obj\Test.csproj.nuget.g.props" />
+    <None Remove="Test\obj\Test.csproj.nuget.g.targets" />
+    <None Remove="Test\obj\project.assets.json" />
+    <None Remove="Test\obj\project.nuget.cache" />
+    <None Remove="Test\obj\Test.csproj.nuget.dgspec.json" />
+    <None Remove="Test\obj\Debug\netcoreapp3.1\Test.assets.cache" />
+    <None Remove="Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache" />
+    <None Remove="Test\obj\project.assets.json" />
+    <None Remove="Test\obj\project.nuget.cache" />
+    <None Remove="Test\obj\Test.csproj.nuget.dgspec.json" />
+    <None Remove="Test\obj\Debug\netcoreapp3.1\Test.assets.cache" />
+    <None Remove="Test\obj\Test.csproj.nuget.g.props" />
+    <None Remove="Test\obj\Test.csproj.nuget.g.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Test\Test.cs" />
+    <Compile Remove="Test\Class1.cs" />
+    <Compile Remove="Test\Services\OauthServiceTest.cs" />
+    <Compile Remove="Test\Services\CryptoServiceTest.cs" />
   </ItemGroup>
 </Project>
