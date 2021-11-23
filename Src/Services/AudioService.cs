@@ -28,6 +28,22 @@ namespace SensoryCloud.Src.Services
             this.AudioTranscriptionsClient = new AudioTranscriptions.AudioTranscriptionsClient(config.GetChannel());
         }
 
+        protected AudioService(
+            Config config,
+            ITokenManager tokenManager,
+            AudioModels.AudioModelsClient audioModelsClient,
+            AudioBiometrics.AudioBiometricsClient audioBiometricsClient,
+            AudioEvents.AudioEventsClient audioEventsClient,
+            AudioTranscriptions.AudioTranscriptionsClient audioTranscriptionsClient)
+        {
+            this.Config = config;
+            this.TokenManager = tokenManager;
+            this.AudioModelsClient = audioModelsClient;
+            this.AudioBiometricsClient = audioBiometricsClient;
+            this.AudioEventsClient = audioEventsClient;
+            this.AudioTranscriptionsClient = audioTranscriptionsClient;
+        }
+
         /// <summary>
         /// Fetch all the audio models supported by your instance of Sensory Cloud.
         /// </summary>

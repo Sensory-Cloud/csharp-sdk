@@ -21,6 +21,13 @@ namespace SensoryCloud.Src.Services
             this.EnrollmentClient = new EnrollmentService.EnrollmentServiceClient(config.GetChannel());
         }
 
+        protected ManagementService(Config config, ITokenManager tokenManager, EnrollmentService.EnrollmentServiceClient enrollmentClient)
+        {
+            this.Config = config;
+            this.TokenManager = tokenManager;
+            this.EnrollmentClient = enrollmentClient;
+        }
+
         /// <summary>
         /// Obtains all of the active enrollments given the userId
         /// </summary>

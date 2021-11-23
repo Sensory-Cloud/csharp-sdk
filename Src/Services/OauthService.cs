@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Security.Cryptography;
 using Sensory.Api.Common;
 using Sensory.Api.Oauth;
 using Sensory.Api.V1.Management;
@@ -91,6 +90,18 @@ namespace SensoryCloud.Src.Services
             this.DeviceClient = new DeviceService.DeviceServiceClient(config.GetChannel());
         }
 
+        protected OauthService(
+            Config config,
+            ISecureCredentialStore secureCredentialStore,
+            Sensory.Api.Oauth.OauthService.OauthServiceClient oauthClient,
+            DeviceService.DeviceServiceClient deviceClient)
+        {
+            this.Config = config;
+            this.SecureCredentialStore = secureCredentialStore;
+            this.OauthClient = oauthClient;
+            this.DeviceClient = deviceClient;
+        }
+
         /// <summary>
         /// Can be called to generate secure and guaranteed unique credentials.
         /// Should be used the first time the SDK registers and OAuth token with the cloud.
@@ -108,13 +119,13 @@ namespace SensoryCloud.Src.Services
         public OAuthToken GetToken()
         {
             string clientId = this.SecureCredentialStore.GetClientId();
-            if (String.IsNullOrEmpty(clientId))
+            if (string.IsNullOrEmpty(clientId))
             {
                 throw new ArgumentNullException("null clientId was returned from the secure credential store");
             }
 
             string clientSecret = this.SecureCredentialStore.GetClientSecret();
-            if (String.IsNullOrEmpty(clientSecret))
+            if (string.IsNullOrEmpty(clientSecret))
             {
                 throw new ArgumentNullException("null clientSecret was returned from the secure credential store");
             }
@@ -136,13 +147,13 @@ namespace SensoryCloud.Src.Services
         public void Register(string deviceId, string deviceName, string credential)
         {
             string clientId = this.SecureCredentialStore.GetClientId();
-            if (String.IsNullOrEmpty(clientId))
+            if (string.IsNullOrEmpty(clientId))
             {
                 throw new ArgumentNullException("null clientId was returned from the secure credential store");
             }
 
             string clientSecret = this.SecureCredentialStore.GetClientSecret();
-            if (String.IsNullOrEmpty(clientSecret))
+            if (string.IsNullOrEmpty(clientSecret))
             {
                 throw new ArgumentNullException("null clientSecret was returned from the secure credential store");
             }

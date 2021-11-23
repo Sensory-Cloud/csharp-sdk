@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Grpc.Core;
 using Sensory.Api.V1.Video;
 using SensoryCloud.Src.TokenManager;
@@ -21,6 +20,20 @@ namespace SensoryCloud.Src.Services
             this.VideoModelsClient = new VideoModels.VideoModelsClient(config.GetChannel());
             this.VideoBiometricsClient = new VideoBiometrics.VideoBiometricsClient(config.GetChannel());
             this.VideoRecognitionClient = new VideoRecognition.VideoRecognitionClient(config.GetChannel());
+        }
+
+        protected VideoService(
+            Config config,
+            ITokenManager tokenManager,
+            VideoModels.VideoModelsClient videoModelsClient,
+            VideoBiometrics.VideoBiometricsClient videoBiometricsClient,
+            VideoRecognition.VideoRecognitionClient videoRecognitionClient)
+        {
+            this.Config = config;
+            this.TokenManager = tokenManager;
+            this.VideoModelsClient = videoModelsClient;
+            this.VideoBiometricsClient = videoBiometricsClient;
+            this.VideoRecognitionClient = videoRecognitionClient;
         }
 
         /// <summary>
