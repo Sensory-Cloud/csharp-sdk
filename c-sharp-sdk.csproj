@@ -383,6 +383,7 @@
     <None Remove="Test\obj\Debug\netcoreapp3.1\Test.pdb" />
     <None Remove="Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete" />
     <None Remove="Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache" />
+    <None Remove="Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Test\Test.cs" />
@@ -406,5 +407,8 @@
     <Compile Remove="Test\Services\ManagementServiceTest.cs" />
     <Compile Remove="Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs" />
     <Compile Remove="Test\Services\ManagementServiceTest.cs" />
+    <Compile Remove="Test\Services\ManagementServiceTest.cs" />
+    <Compile Remove="Test\Services\AudioServiceTest.cs" />
+    <Compile Remove="Test\TokenManager\TokenManagerTest.cs" />
   </ItemGroup>
 </Project>
