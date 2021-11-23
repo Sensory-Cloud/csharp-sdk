@@ -30,7 +30,7 @@ namespace SensoryCloud.Src.Services
         /// <param name="deviceId">The unique hardware identifier of the registering device</param>
         /// <param name="deviceName">The friendly name of the registering device</param>
         /// <param name="credential">The credential configured on the Sensory Cloud server</param>
-        void Register(string deviceId, string deviceName, string credential);
+        DeviceResponse Register(string deviceId, string deviceName, string credential);
     }
 
     /// <summary>
@@ -53,8 +53,8 @@ namespace SensoryCloud.Src.Services
     /// </summary>
     public struct OAuthClient
     {
-        string ClientId { get; }
-        string ClientSecret { get; }
+        public string ClientId { get; }
+        public string ClientSecret { get; }
 
         public OAuthClient(string clientId, string clientSecret)
         {
@@ -144,7 +144,8 @@ namespace SensoryCloud.Src.Services
         /// <param name="deviceId">The unique hardware identifier of the registering device</param>
         /// <param name="deviceName">The friendly name of the registering device</param>
         /// <param name="credential">The credential configured on the Sensory Cloud server</param>
-        public void Register(string deviceId, string deviceName, string credential)
+        /// <returns>device response indicating the device was successfully registered</returns>
+        public DeviceResponse Register(string deviceId, string deviceName, string credential)
         {
             string clientId = this.SecureCredentialStore.GetClientId();
             if (string.IsNullOrEmpty(clientId))
@@ -168,7 +169,7 @@ namespace SensoryCloud.Src.Services
                 TenantId = Config.TenantId
             };
 
-            this.DeviceClient.EnrollDevice(request);
+            return this.DeviceClient.EnrollDevice(request);
         }
     }
 }
