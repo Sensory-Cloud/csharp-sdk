@@ -46,7 +46,7 @@ namespace SensoryCloud.Src.TokenManager
         public string GetToken()
         {
             TokenMutex.WaitOne();
-            if (!String.IsNullOrEmpty(this.Token) && this.Expires != null && DateTime.UtcNow < this.Expires)
+            if (!string.IsNullOrEmpty(this.Token) && this.Expires != null && DateTime.UtcNow < this.Expires)
             {
                 TokenMutex.ReleaseMutex();
                 return this.Token;

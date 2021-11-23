@@ -4,7 +4,6 @@ using Sensory.Api.V1.Management;
 using SensoryCloud.Src;
 using SensoryCloud.Src.Services;
 using SensoryCloud.Src.TokenManager;
-using Test.TokenManager;
 using System.Threading;
 using Grpc.Core;
 
@@ -130,6 +129,25 @@ namespace Test.Services
             Config config, ITokenManager tokenManager, EnrollmentService.EnrollmentServiceClient enrollmentClient): base(config, tokenManager, enrollmentClient)
         {
 
+        }
+    }
+
+    public class MockTokenManager : ITokenManager
+    {
+        public string Token { get; }
+
+        public Metadata GetAuthorizationMetadata()
+        {
+            string token = this.GetToken();
+            return new Metadata
+            {
+                {"Authorization", "Bearer " + token }
+            };
+        }
+
+        public string GetToken()
+        {
+            return this.Token;
         }
     }
 }
