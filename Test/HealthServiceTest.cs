@@ -5,7 +5,7 @@ using SensoryCloud.Src;
 using SensoryCloud.Src.Services;
 using System.Threading;
 
-namespace Test.Services
+namespace Test
 {
     [TestFixture]
     public class HealthServiceTest

@@ -8,17 +8,17 @@
     <ProjectReference Include="..\c-sharp-sdk.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Services\" />
     <None Remove="NUnit" />
     <None Remove="NUnit3TestAdapter" />
     <None Remove="Microsoft.NET.Test.Sdk" />
     <None Remove="Moq" />
-    <None Remove="TokenManager\" />
     <None Remove="Grpc.Core.Testing" />
+    <None Remove="Examples\" />
+    <None Remove="Portable.BouncyCastle" />
+    <None Remove="ScottBrady.IdentityModel" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="TokenManager\" />
+    <Folder Include="Examples\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.13.2" />
@@ -26,5 +26,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="Moq" Version="4.16.1" />
     <PackageReference Include="Grpc.Core.Testing" Version="2.42.0" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+    <PackageReference Include="ScottBrady.IdentityModel" Version="1.4.0" />
   </ItemGroup>
 </Project>

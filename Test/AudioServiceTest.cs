@@ -10,7 +10,7 @@ using SensoryCloud.Src;
 using SensoryCloud.Src.Services;
 using SensoryCloud.Src.TokenManager;
 
-namespace Test.Services
+namespace Test
 {
     [TestFixture]
     public class AudioServiceTest

@@ -15,13 +15,13 @@ namespace SensoryCloud.Src.Services
         /// Creates a new cryptographically random OAuth client
         /// </summary>
         /// <returns></returns>
-        OAuthClient GenerateCredentials();
+        OauthClient GenerateCredentials();
 
         /// <summary>
         /// Obtains an OAuth token used for API authentication
         /// </summary>
         /// <returns></returns>
-        OAuthToken GetToken();
+        OauthToken GetToken();
 
         /// <summary>
         /// Register credentials provided by the attached SecureCredentialStore to Sensory Cloud. This function should only be called
@@ -36,12 +36,12 @@ namespace SensoryCloud.Src.Services
     /// <summary>
     /// Holds OAuth token and expiration
     /// </summary>
-    public struct OAuthToken
+    public struct OauthToken
     {
         public string Token { get; }
         public DateTime Expires { get; }
 
-        public OAuthToken(string token, DateTime expires)
+        public OauthToken(string token, DateTime expires)
         {
             this.Token = token;
             this.Expires = expires;
@@ -51,12 +51,12 @@ namespace SensoryCloud.Src.Services
     /// <summary>
     /// Holds OAuth clientId and secret
     /// </summary>
-    public struct OAuthClient
+    public struct OauthClient
     {
         public string ClientId { get; }
         public string ClientSecret { get; }
 
-        public OAuthClient(string clientId, string clientSecret)
+        public OauthClient(string clientId, string clientSecret)
         {
             this.ClientId = clientId;
             this.ClientSecret = clientSecret;
@@ -107,16 +107,16 @@ namespace SensoryCloud.Src.Services
         /// Should be used the first time the SDK registers and OAuth token with the cloud.
         /// </summary>
         /// <returns>An OAuth Client</returns>
-        public OAuthClient GenerateCredentials()
+        public OauthClient GenerateCredentials()
         {
-            return new OAuthClient(Guid.NewGuid().ToString(), CryptoService.GetSecureRandomString(16));
+            return new OauthClient(Guid.NewGuid().ToString(), CryptoService.GetSecureRandomString(16));
         }
 
         /// <summary>
         /// Obtains an Oauth JWT from Sensory Cloud.
         /// </summary>
         /// <returns>OAuth JWT and expiration</returns>
-        public OAuthToken GetToken()
+        public OauthToken GetToken()
         {
             string clientId = this.SecureCredentialStore.GetClientId();
             if (string.IsNullOrEmpty(clientId))
@@ -134,7 +134,7 @@ namespace SensoryCloud.Src.Services
             TokenRequest request = new TokenRequest{ClientId = clientId, Secret = clientSecret};
             TokenResponse tokenResponse = this.OauthClient.GetToken(request);
 
-            return new OAuthToken(tokenResponse.AccessToken, now.AddSeconds(tokenResponse.ExpiresIn));
+            return new OauthToken(tokenResponse.AccessToken, now.AddSeconds(tokenResponse.ExpiresIn));
         }
 
         /// <summary>

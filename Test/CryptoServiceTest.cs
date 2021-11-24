@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using SensoryCloud.Src.Services;
 
-namespace Test.Services
+namespace Test
 {
     [TestFixture]
     public class CryptoServiceTest

@@ -7,7 +7,7 @@ using SensoryCloud.Src.TokenManager;
 using System.Threading;
 using Grpc.Core;
 
-namespace Test.Services
+namespace Test
 {
     [TestFixture]
     public class ManagementServiceTest

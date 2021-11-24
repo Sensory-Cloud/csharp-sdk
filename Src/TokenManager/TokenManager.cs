@@ -54,7 +54,7 @@ namespace SensoryCloud.Src.TokenManager
 
             try
             {
-                OAuthToken oAuthToken = this.OauthService.GetToken();
+                OauthToken oAuthToken = this.OauthService.GetToken();
                 this.SetToken(oAuthToken);
                 TokenMutex.ReleaseMutex();
                 return oAuthToken.Token;
@@ -80,7 +80,7 @@ namespace SensoryCloud.Src.TokenManager
             };
         }
 
-        private void SetToken(OAuthToken oAuthToken)
+        private void SetToken(OauthToken oAuthToken)
         {
             this.Token = oAuthToken.Token;
             this.Expires = oAuthToken.Expires.AddSeconds(-1 * this.ExpiresBufferSeconds);
