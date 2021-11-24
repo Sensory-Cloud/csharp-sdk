@@ -384,6 +384,11 @@
     <None Remove="Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete" />
     <None Remove="Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache" />
     <None Remove="Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache" />
+    <None Remove="Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache" />
+    <None Remove="Test\obj\project.assets.json" />
+    <None Remove="Test\obj\project.nuget.cache" />
+    <None Remove="Test\obj\Test.csproj.nuget.dgspec.json" />
+    <None Remove="Test\bin\Debug\netcoreapp3.1\Grpc.Core.Testing.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Test\Test.cs" />
@@ -410,5 +415,7 @@
     <Compile Remove="Test\Services\ManagementServiceTest.cs" />
     <Compile Remove="Test\Services\AudioServiceTest.cs" />
     <Compile Remove="Test\TokenManager\TokenManagerTest.cs" />
+    <Compile Remove="Test\Services\AudioServiceTest.cs" />
+    <Compile Remove="Test\Services\VideoServiceTest.cs" />
   </ItemGroup>
 </Project>

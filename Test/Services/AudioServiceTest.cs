@@ -27,7 +27,7 @@ namespace Test.Services
             var audioTranscriptionsClient = new Mock<AudioTranscriptions.AudioTranscriptionsClient>();
 
             var response = new GetModelsResponse();
-            response.Models.Add(new AudioModel { IsEnrollable = true, ModelType = ModelType.FaceBiometric, Name = "model-name" });
+            response.Models.Add(new AudioModel { IsEnrollable = true, ModelType = ModelType.SoundEventFixed, Name = "model-name" });
 
             audioModelsClient.Setup(client => client.GetModels(It.IsAny<GetModelsRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
@@ -119,7 +119,7 @@ namespace Test.Services
 
             var audioConfig = new AudioConfig { AudioChannelCount = 1, Encoding = AudioConfig.Types.AudioEncoding.Linear16, LanguageCode = "en-US", SampleRateHertz = 16000 };
             var enrollmentStream = await audioService.StreamAuthentication(audioConfig, enrollmentId, isLivenessEnabled, sensitivity, security);
-            Assert.IsNotNull(enrollmentStream, "enrollment stream should be returned");
+            Assert.IsNotNull(enrollmentStream, "authentication stream should be returned");
 
             Assert.AreEqual(mockRequestStream.Invocations.Count, 1, "one call should have been made to pass config to the server");
             var configMessage = (AuthenticateRequest)mockRequestStream.Invocations[0].Arguments[0];
@@ -163,7 +163,7 @@ namespace Test.Services
 
             var audioConfig = new AudioConfig { AudioChannelCount = 1, Encoding = AudioConfig.Types.AudioEncoding.Linear16, LanguageCode = "en-US", SampleRateHertz = 16000 };
             var enrollmentStream = await audioService.StreamGroupAuthentication(audioConfig, enrollmentGroupId, isLivenessEnabled, sensitivity, security);
-            Assert.IsNotNull(enrollmentStream, "enrollment stream should be returned");
+            Assert.IsNotNull(enrollmentStream, "authentication stream should be returned");
 
             Assert.AreEqual(mockRequestStream.Invocations.Count, 1, "one call should have been made to pass config to the server");
             var configMessage = (AuthenticateRequest)mockRequestStream.Invocations[0].Arguments[0];
@@ -206,7 +206,7 @@ namespace Test.Services
 
             var audioConfig = new AudioConfig { AudioChannelCount = 1, Encoding = AudioConfig.Types.AudioEncoding.Linear16, LanguageCode = "en-US", SampleRateHertz = 16000 };
             var enrollmentStream = await audioService.StreamEvent(audioConfig, userId, modelName, sensitivity);
-            Assert.IsNotNull(enrollmentStream, "enrollment stream should be returned");
+            Assert.IsNotNull(enrollmentStream, "event stream should be returned");
 
             Assert.AreEqual(mockRequestStream.Invocations.Count, 1, "one call should have been made to pass config to the server");
             var configMessage = (ValidateEventRequest)mockRequestStream.Invocations[0].Arguments[0];
@@ -246,7 +246,7 @@ namespace Test.Services
 
             var audioConfig = new AudioConfig { AudioChannelCount = 1, Encoding = AudioConfig.Types.AudioEncoding.Linear16, LanguageCode = "en-US", SampleRateHertz = 16000 };
             var enrollmentStream = await audioService.StreamTranscription(audioConfig, userId, modelName);
-            Assert.IsNotNull(enrollmentStream, "enrollment stream should be returned");
+            Assert.IsNotNull(enrollmentStream, "transcription stream should be returned");
 
             Assert.AreEqual(mockRequestStream.Invocations.Count, 1, "one call should have been made to pass config to the server");
             var configMessage = (TranscribeRequest)mockRequestStream.Invocations[0].Arguments[0];
