@@ -120,7 +120,7 @@ namespace SensoryCloud.Src.Services
         /// <param name="security">the security threshold enforced by the recognition engine. Defaults to high.</param>
         /// <returns>a bidirectional stream where AuthenticateRequests can be passed to the cloud and AuthenticateResponses are passed back</returns>
         public async Task<AsyncDuplexStreamingCall<AuthenticateRequest, AuthenticateResponse>> StreamGroupAuthentication(
-            AudioConfig audioConfig, string enrollmentGroupId, bool isLivenessEnabled, ThresholdSensitivity sensitivity, AuthenticateConfig.Types.ThresholdSecurity security)
+            AudioConfig audioConfig, string enrollmentGroupId, bool isLivenessEnabled, ThresholdSensitivity sensitivity = ThresholdSensitivity.Medium, AuthenticateConfig.Types.ThresholdSecurity security = AuthenticateConfig.Types.ThresholdSecurity.High)
         {
             AuthenticateConfig authenticateConfig = new AuthenticateConfig
             {
