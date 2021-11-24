@@ -186,7 +186,7 @@ namespace Sensory.Api.Oauth {
       /// Sign and return an OAuth token. The passed authorization token must have the SignToken authority.
       /// Therefore, Devices are not allowed to make this request.
       /// Sign does not validate credentials, and therefore should be used in specific circumstances where credentials are not required.
-      /// One common use case for the Sign request is an Io server issuing a user-scoped token after a successful authentication.
+      /// One common usecase for the Sign request is an Io server issuing a user-scoped token after a successful authentication.
       /// Only a limited subset of of scopes may be requested from the SignToken request.
       /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
       /// </summary>
@@ -204,7 +204,7 @@ namespace Sensory.Api.Oauth {
       /// Sign and return an OAuth token. The passed authorization token must have the SignToken authority.
       /// Therefore, Devices are not allowed to make this request.
       /// Sign does not validate credentials, and therefore should be used in specific circumstances where credentials are not required.
-      /// One common use case for the Sign request is an Io server issuing a user-scoped token after a successful authentication.
+      /// One common usecase for the Sign request is an Io server issuing a user-scoped token after a successful authentication.
       /// Only a limited subset of of scopes may be requested from the SignToken request.
       /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
       /// </summary>
@@ -220,7 +220,7 @@ namespace Sensory.Api.Oauth {
       /// Sign and return an OAuth token. The passed authorization token must have the SignToken authority.
       /// Therefore, Devices are not allowed to make this request.
       /// Sign does not validate credentials, and therefore should be used in specific circumstances where credentials are not required.
-      /// One common use case for the Sign request is an Io server issuing a user-scoped token after a successful authentication.
+      /// One common usecase for the Sign request is an Io server issuing a user-scoped token after a successful authentication.
       /// Only a limited subset of of scopes may be requested from the SignToken request.
       /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
       /// </summary>
@@ -238,7 +238,7 @@ namespace Sensory.Api.Oauth {
       /// Sign and return an OAuth token. The passed authorization token must have the SignToken authority.
       /// Therefore, Devices are not allowed to make this request.
       /// Sign does not validate credentials, and therefore should be used in specific circumstances where credentials are not required.
-      /// One common use case for the Sign request is an Io server issuing a user-scoped token after a successful authentication.
+      /// One common usecase for the Sign request is an Io server issuing a user-scoped token after a successful authentication.
       /// Only a limited subset of of scopes may be requested from the SignToken request.
       /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
       /// </summary>

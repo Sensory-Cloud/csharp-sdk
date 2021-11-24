@@ -16,8 +16,8 @@ namespace Test.Examples
             Config config = new Config("https://your-inference-server.com", sensoryTenantId);
 
             ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
-            IOAuthService oAuthService = new OAuthService(config, credentialStore);
-            ITokenManager tokenManager = new TokenManager(OAuthService);
+            IOauthService oauthService = new OauthService(config, credentialStore);
+            ITokenManager tokenManager = new TokenManager(oauthService);
 
             return new ManagementService(config, tokenManager);
         }
