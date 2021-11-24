@@ -31,7 +31,7 @@ ISecureCrential is an interface that store and serves your OAuth credentials (cl
 ISecureCrential must be implemented by you and the credentials should be persisted in a secure manner, such as in an excrypted database.
 OAuth credentials should be generated one time per unique machine.
 
-An crude example of ISecureCredential is as follows:
+A crude example of ISecureCredential is as follows:
 
 ```csharp
 public class SecureCredentialStoreExample : ISecureCredentialStore
@@ -53,7 +53,7 @@ public class SecureCredentialStoreExample : ISecureCredentialStore
 
 ## Registering OAuth Credentials
 
-OAuth credentials should be registered once per unique machine that communicates with Sensory Cloud. Registration is very simple, and provided as part of the SDK.
+OAuth credentials should be registered once per unique machine. Registration is very simple, and provided as part of the SDK.
 
 The below example shows how to create an OAuthService and register a client for the first time.
 
@@ -111,6 +111,7 @@ oauthService.Register(globallyUniqueDeviceId, friendlyDeviceName, token);
 
 ## Creating a TokenManager
 
+The TokenManger class handles requesting OAuth tokens when necessary.
 
 ```csharp
 // Tenant ID granted by Sensory Inc.
