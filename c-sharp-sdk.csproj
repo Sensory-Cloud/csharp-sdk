@@ -5,6 +5,13 @@
     <RootNamespace>SensoryCloud</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>SensoryCloudSDK</PackageId>
+    <PackageVersion>0.4.2</PackageVersion>
+    <Authors>Bryan McGrane</Authors>
+    <Owners>Sensory Inc</Owners>
+    <Description>Enables C# applications to communicate with Sensory Cloud.</Description>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
