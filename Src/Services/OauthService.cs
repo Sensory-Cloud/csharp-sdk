@@ -1,4 +1,5 @@
 ﻿using System;
+using Grpc.Core;
 using Sensory.Api.Common;
 using Sensory.Api.Oauth;
 using Sensory.Api.V1.Management;
@@ -110,6 +111,18 @@ namespace SensoryCloud.Src.Services
         public OauthClient GenerateCredentials()
         {
             return new OauthClient(Guid.NewGuid().ToString(), CryptoService.GetSecureRandomString(16));
+        }
+
+        /// <summary>
+        /// Get information about the current registered device as inferred by the OAuth credentials supplied by the credential manager.
+        /// A new token is request every time this call is made, so use sparingly.
+        /// </summary>
+        /// <returns>information about the current device</returns>
+        public DeviceResponse GetWhoAmI()
+        {
+            OauthToken token = this.GetToken();
+            Metadata metadata = new Metadata { { "Authorization", "Bearer " + token } };
+            return this.DeviceClient.GetWhoAmI(new DeviceGetWhoAmIRequest(), metadata);
         }
 
         /// <summary>

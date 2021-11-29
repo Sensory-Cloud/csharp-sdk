@@ -27,8 +27,8 @@ ServerHealthResponse serverHealth = healthService.GetHealth();
 
 ## Secure Credential Store
 
-ISecureCrential is an interface that store and serves your OAuth credentials (clientId and clientSecret).
-ISecureCrential must be implemented by you and the credentials should be persisted in a secure manner, such as in an excrypted database.
+ISecureCredential is an interface that store and serves your OAuth credentials (clientId and clientSecret).
+ISecureCredential must be implemented by you and the credentials should be persisted in a secure manner, such as in an encrypted database.
 OAuth credentials should be generated one time per unique machine.
 
 A crude example of ISecureCredential is as follows:
@@ -84,6 +84,8 @@ oauthService.Register(globallyUniqueDeviceId, friendlyDeviceName, insecureShared
 
 // Path 2 --------
 // Secure Public / private keypair registration using Portable.BouncyCastle and ScottBrady.IdentityModel
+
+// Keypair generation happens out of band and long before a registration occurs. The below example shows how to generate and sign an enrollment JWT as a comprehensive example.
 var keyPairGenerator = new Ed25519KeyPairGenerator();
 keyPairGenerator.Init(new Ed25519KeyGenerationParameters(new SecureRandom()));
 var keyPair = keyPairGenerator.GenerateKeyPair();
