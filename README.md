@@ -18,7 +18,7 @@ It's important to check the health of your Sensory Inference server. You can do 
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
 
 // Configuration specific to your tenant
-Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
 
 HealthService healthService = new HealthService(config);
 
@@ -62,7 +62,7 @@ The below example shows how to create an OAuthService and register a client for 
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
 
 // Configuration specific to your tenant
-Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
 
 ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
 OauthService oauthService = new OauthService(config, credentialStore);
@@ -120,7 +120,7 @@ The TokenManger class handles requesting OAuth tokens when necessary.
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
 
 // Configuration specific to your tenant
-Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
 
 ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
 IOAuthService oAuthService = new OAuthService(config, credentialStore);
@@ -146,7 +146,7 @@ public static AudioService GetAudioService()
     string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
 
     // Configuration specific to your tenant
-    Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+    Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
 
     ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
     IOAuthService oAuthService = new OAuthService(config, credentialStore);
@@ -325,7 +325,8 @@ await readTask;
 
 ### Audio events
 
-Audio events are used to recognize specific words, phrases, or sounds.
+Audio events are used to recognize specific words, phrases, or sounds. The below example waits for a single
+event to be recognized and ends the stream.
 
 ```csharp
 AudioService audioService = GetAudioService();
@@ -361,6 +362,8 @@ var readTask = Task.Run(async () =>
             // Response contains information about the recognition.
             ValidateEventResponse response = stream.ResponseStream.Current;
             eventRecognized = response.Success;
+
+            // response.ResultId contains the specific sound that was heard in the case of combined models.
         }
     }
     catch (RpcException ex)
@@ -391,6 +394,99 @@ while (!eventRecognized)
 await stream.RequestStream.CompleteAsync();
 await readTask;
 
+```
+
+The below example outlines how to stream a wav file in chunks to Sensory Cloud and process all events before closing the stream.
+
+```csharp
+AudioService audioService = new AudioService(config, tokenManager);
+AudioConfig audioConfig = new AudioConfig
+{
+    Encoding = AudioConfig.Types.AudioEncoding.Linear16,
+    AudioChannelCount = 1,
+    SampleRateHertz = 16000,
+    LanguageCode = "en-US",
+};
+
+// Print out available models
+var models = audioService.GetModels();
+Console.WriteLine($"Found {models.Models.Count} model(s): {models.Models}");
+
+// Set basic enrollment information
+// Set to userId in your system who is making the request
+string userId = "unique-user-id";
+string modelName = "sound-16kHz-combined.trg";
+
+// Stream is of type AsyncDuplexStreamingCall<ValidateEventRequest, ValidateEventResponse>
+var stream = await audioService.StreamEvent(audioConfig, userId, modelName);
+
+var results = new List<ValidateEventResponse>();
+
+// Start background task to receive messages from the cloud
+var readTask = Task.Run(async () =>
+{
+    try
+    {
+        while (await stream.ResponseStream.MoveNext())
+        {
+            // Response contains information about the recognition.
+            ValidateEventResponse response = stream.ResponseStream.Current;
+            //eventRecognized = response.Success;
+            if (response.Success)
+            {
+                Console.WriteLine($"Event recognized {response}");
+                results.Add(response);
+            }
+        }
+    }
+    catch (RpcException ex)
+    {
+        // Do something with the error - generally this is due to the server closing the stream
+        Console.WriteLine($"A server error occurred: {ex}");
+    }
+});
+
+// load wav file and cut out wav file header
+byte[] wavFile = File.ReadAllBytes(args[0])[44..];
+var bytesPerSample = 2;
+var chunkTimeSeconds = 0.100; // 100ms
+var bytesPerChunk = Convert.ToInt32(bytesPerSample * audioConfig.SampleRateHertz * chunkTimeSeconds);
+
+Console.WriteLine($"Uploading {args[0]} ({wavFile.Length} bytes) for recognition");
+
+// Start blocking while streaming up audio data in 100ms chunks.
+for (int index = 0; index < wavFile.Length; index += bytesPerChunk)
+{
+    int length = bytesPerChunk;
+    if (index + length > wavFile.Length - 1)
+    {
+        length = wavFile.Length - index - 1;
+    }
+
+    // Create audio message
+    // Could be more efficient than using a copy
+    var audioChunk = ByteString.CopyFrom(new ArraySegment<byte>(wavFile, index, length));
+    var message = new ValidateEventRequest { AudioContent = audioChunk };
+
+    try
+    {
+        await stream.RequestStream.WriteAsync(message);
+    }
+    catch (RpcException ex)
+    {
+        Console.WriteLine($"A client error occurred: {ex}");
+    }
+}
+
+await stream.RequestStream.CompleteAsync();
+await readTask;
+
+
+Console.WriteLine($"Sounds recognized:");
+results.ForEach((result) =>
+{
+    Console.WriteLine($"{result}");
+});
 ```
 
 ### Transcription
@@ -469,7 +565,7 @@ multiple Sensory Cloud servers.
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
 
 // Configuration specific to your tenant
-Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
 
 ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
 IOAuthService oAuthService = new OAuthService(config, credentialStore);
@@ -674,7 +770,7 @@ For more information on the specific functions of the ManagementService, please 
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
 
 // Configuration specific to your tenant
-Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
 
 ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
 IOAuthService oAuthService = new OAuthService(config, credentialStore);

@@ -66,6 +66,11 @@ namespace Test
             return this.OauthToken;
         }
 
+        public DeviceResponse GetWhoAmI()
+        {
+            throw new NotImplementedException();
+        }
+
         public DeviceResponse Register(string deviceId, string deviceName, string credential)
         {
             throw new NotImplementedException();

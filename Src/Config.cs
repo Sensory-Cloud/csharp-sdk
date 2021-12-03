@@ -6,7 +6,7 @@ namespace SensoryCloud.Src
     public class Config
     {
         public string FullyQualifiedDomainName { get; private set; }
-        public bool IsConnectionSecure { get; private set; } = true; 
+        public bool IsConnectionSecure { get; set; } = true; 
         public string TenantId { get; private set; }
 
         private Channel Channel = null;

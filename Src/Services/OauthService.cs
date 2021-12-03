@@ -32,6 +32,13 @@ namespace SensoryCloud.Src.Services
         /// <param name="deviceName">The friendly name of the registering device</param>
         /// <param name="credential">The credential configured on the Sensory Cloud server</param>
         DeviceResponse Register(string deviceId, string deviceName, string credential);
+
+        /// <summary>
+        /// Get information about the current registered device as inferred by the OAuth credentials supplied by the credential manager.
+        /// A new token is request every time this call is made, so use sparingly.
+        /// </summary>
+        /// <returns>information about the current device</returns>
+        DeviceResponse GetWhoAmI();
     }
 
     /// <summary>
@@ -121,7 +128,7 @@ namespace SensoryCloud.Src.Services
         public DeviceResponse GetWhoAmI()
         {
             OauthToken token = this.GetToken();
-            Metadata metadata = new Metadata { { "Authorization", "Bearer " + token } };
+            Metadata metadata = new Metadata { { "Authorization", "Bearer " + token.Token } };
             return this.DeviceClient.GetWhoAmI(new DeviceGetWhoAmIRequest(), metadata);
         }
 
