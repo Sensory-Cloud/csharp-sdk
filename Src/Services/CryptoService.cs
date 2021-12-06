@@ -14,7 +14,7 @@ namespace SensoryCloud.Src.Services
         /// </summary>
         /// <param name="length">length of the string</param>
         /// <returns>a cryptographically-random string of the specified length</returns>
-        public static string GetSecureRandomString(int length)
+        public static string GetSecureRandomString(int length=24)
         {
             // Generate random data
             var rnd = new byte[length];

@@ -117,7 +117,7 @@ namespace SensoryCloud.Src.Services
         /// <returns>An OAuth Client</returns>
         public OauthClient GenerateCredentials()
         {
-            return new OauthClient(Guid.NewGuid().ToString(), CryptoService.GetSecureRandomString(16));
+            return new OauthClient(Guid.NewGuid().ToString(), CryptoService.GetSecureRandomString(24));
         }
 
         /// <summary>
