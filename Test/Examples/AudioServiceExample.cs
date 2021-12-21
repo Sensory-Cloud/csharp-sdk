@@ -172,6 +172,150 @@ namespace Test.Examples
             await readTask;
         }
 
+        public static async void CreateEnrolledEvent()
+        {
+            AudioService audioService = GetAudioService();
+            AudioConfig audioConfig = new AudioConfig
+            {
+                Encoding = AudioConfig.Types.AudioEncoding.Linear16,
+                AudioChannelCount = 1,
+                SampleRateHertz = 16000,
+                LanguageCode = "en-US",
+            };
+
+            // Set basic enrollment information
+            string enrollmentDescription = "My Enrollment";
+            string userId = "72f286b8-173f-436a-8869-6f7887789ee9";
+            string modelName = "wakeword-16kHz-open_sesame.ubm";
+
+            // Stream is of type AsyncDuplexStreamingCall<CreateEnrollmentRequest, CreateEnrollmentResponse>
+            var stream = await audioService.StreamCreateEnrolledEvent(
+                audioConfig,
+                enrollmentDescription,
+                userId,
+                modelName
+                );
+
+            // EnrollmentId if enrollment is successful
+            string enrollmentId = null;
+
+            // Start background task to receive messages from the cloud
+            var readTask = Task.Run(async () =>
+            {
+                try
+                {
+                    while (await stream.ResponseStream.MoveNext())
+                    {
+                        // Response contains information about the enrollment status.
+                        // For enrollments with liveness, there are two additional fields that are populated.
+                        // * ModelPrompt - indicaites what the user should say in order to proceed with the enrollment.
+                        // * SectionPercentComplete - indicates the percentage of the current ModelPrompt that has been spoken.
+                        CreateEnrollmentResponse response = stream.ResponseStream.Current;
+                        enrollmentId = response.EnrollmentId;
+                    }
+                }
+                catch (RpcException ex)
+                {
+                    // Do something with the error - generally this is due to the server closing the stream
+                }
+
+            });
+
+            // Start blocking while streaming up audio data. If you have the entire audio file already you can ignore the while loop.
+            while (String.IsNullOrEmpty(enrollmentId))
+            {
+                // Populate with real audio data. This example creates an empty bytestring.
+                var lin16AudioData = Google.Protobuf.ByteString.Empty;
+                var message = new CreateEnrolledEventRequest { AudioContent = lin16AudioData };
+
+                try
+                {
+                    await stream.RequestStream.WriteAsync(message);
+                }
+                catch (RpcException ex)
+                {
+                    // Do something with the error. An error
+                }
+            }
+
+            await stream.RequestStream.CompleteAsync();
+            await readTask;
+        }
+
+        public static async void ValidateEnrolledEvent()
+        {
+            AudioService audioService = GetAudioService();
+            AudioConfig audioConfig = new AudioConfig
+            {
+                Encoding = AudioConfig.Types.AudioEncoding.Linear16,
+                AudioChannelCount = 1,
+                SampleRateHertz = 16000,
+                LanguageCode = "en-US",
+            };
+
+            // Set basic enrollment information
+            string enrollmentId = "72f286b8-173f-436a-8869-6f7887789ee9";
+
+            // Stream is of type AsyncDuplexStreamingCall<AuthenticateRequest, AuthenticateResponse>
+            // You can also authenticate against an enrolment group by using the StreamGroupAuthentication method.
+            var stream = await audioService.StreamValidateEnrolledEvent(
+                audioConfig,
+                enrollmentId
+                );
+
+            // Indicates if the authentication is successful
+            bool done = false;
+
+            // Start background task to receive messages from the cloud
+            var readTask = Task.Run(async () =>
+            {
+                try
+                {
+                    while (await stream.ResponseStream.MoveNext())
+                    {
+                        // Response contains information about the authentication status.
+                        // For enrollments with liveness, there are two additional fields that are populated.
+                        // * ModelPrompt - indicaites what the user should say in order to proceed with the authentication.
+                        // * SectionPercentComplete - indicates the percentage of the current ModelPrompt that has been spoken.
+                        ValidateEnrolledEventResponse response = stream.ResponseStream.Current;
+
+                        if (response.Success)
+                        {
+                            // Erolled Event was recognized
+                            // response.EnrollmentId
+                        }
+
+                        // Set "done" to true to end the blocking on the client side
+                    }
+                }
+                catch (RpcException ex)
+                {
+                    // Do something with the error - generally this is due to the server closing the stream
+                }
+
+            });
+
+            // Start blocking while streaming up audio data. If you have the entire audio file already you can ignore the while loop.
+            while (!done)
+            {
+                // Populate with real audio data. This example creates an empty bytestring.
+                var lin16AudioData = Google.Protobuf.ByteString.Empty;
+                var message = new ValidateEnrolledEventRequest { AudioContent = lin16AudioData };
+
+                try
+                {
+                    await stream.RequestStream.WriteAsync(message);
+                }
+                catch (RpcException ex)
+                {
+                    // Do something with the error
+                }
+            }
+
+            await stream.RequestStream.CompleteAsync();
+            await readTask;
+        }
+
         public static async void AudioEvent()
         {
             AudioService audioService = GetAudioService();

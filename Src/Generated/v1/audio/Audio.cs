@@ -74,82 +74,83 @@ namespace Sensory.Api.V1.Audio {
             "c2USEwoLYXVkaW9FbmVyZ3kYASABKAISDwoHc3VjY2VzcxgCIAEoCBIQCghy",
             "ZXN1bHRJZBgDIAEoCRINCgVzY29yZRgEIAEoAhJVChRwb3N0UHJvY2Vzc2lu",
             "Z0FjdGlvbhgKIAEoCzI3LnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1ZGlvUmVz",
-            "cG9uc2VQb3N0UHJvY2Vzc2luZ0FjdGlvbiJ/Ch1WYWxpZGF0ZUVucm9sbGVk",
-            "RXZlbnRSZXNwb25zZRITCgthdWRpb0VuZXJneRgBIAEoAhIPCgdzdWNjZXNz",
-            "GAIgASgIEhMKC2Vucm9sbGVudElkGAMgASgJEg4KBnVzZXJJZBgEIAEoCRIT",
-            "Cgttb2RlbFByb21wdBgFIAEoCSKtAQoSVHJhbnNjcmliZVJlc3BvbnNlEhMK",
-            "C2F1ZGlvRW5lcmd5GAEgASgCEhIKCnRyYW5zY3JpcHQYAiABKAkSFwoPaXNQ",
-            "YXJ0aWFsUmVzdWx0GAMgASgIElUKFHBvc3RQcm9jZXNzaW5nQWN0aW9uGAog",
-            "ASgLMjcuc2Vuc29yeS5hcGkudjEuYXVkaW8uQXVkaW9SZXNwb25zZVBvc3RQ",
-            "cm9jZXNzaW5nQWN0aW9uIvACChZDcmVhdGVFbnJvbGxtZW50Q29uZmlnEjoK",
-            "BWF1ZGlvGAEgASgLMiEuc2Vuc29yeS5hcGkudjEuYXVkaW8uQXVkaW9Db25m",
-            "aWdCCPpCBYoBAhABEhkKBnVzZXJJZBgCIAEoCUIJ+kIGcgQQARh/EhsKCGRl",
-            "dmljZUlkGAMgASgJQgn6QgZyBBABGH8SHQoJbW9kZWxOYW1lGAQgASgJQgr6",
-            "QgdyBRABGP8BEh0KC2Rlc2NyaXB0aW9uGAUgASgJQgj6QgVyAxj/BxIZChFp",
-            "c0xpdmVuZXNzRW5hYmxlZBgGIAEoCBIsChdlbnJvbGxtZW50TnVtVXR0ZXJh",
-            "bmNlcxgHIAEoDUIJ+kIGKgQYCigASAASLQoSZW5yb2xsbWVudER1cmF0aW9u",
-            "GAggASgCQg/6QgwKCh0AAHBBLQAAAABIABIcCgtyZWZlcmVuY2VJZBgJIAEo",
-            "CUIH+kIEcgIYf0IOCgxlbnJvbGxMZW5ndGginAMKEkF1dGhlbnRpY2F0ZUNv",
-            "bmZpZxI6CgVhdWRpbxgBIAEoCzIhLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1",
-            "ZGlvQ29uZmlnQgj6QgWKAQIQARIgCgxlbnJvbGxtZW50SWQYAiABKAlCCPpC",
-            "BXIDsAEBSAASGwoRZW5yb2xsbWVudEdyb3VwSWQYAyABKAlIABIWCg5kb0lu",
-            "Y2x1ZGVUb2tlbhgEIAEoCBJJCgtzZW5zaXRpdml0eRgFIAEoDjIqLnNlbnNv",
-            "cnkuYXBpLnYxLmF1ZGlvLlRocmVzaG9sZFNlbnNpdGl2aXR5Qgj6QgWCAQIQ",
-            "ARJWCghzZWN1cml0eRgGIAEoDjI6LnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1",
-            "dGhlbnRpY2F0ZUNvbmZpZy5UaHJlc2hvbGRTZWN1cml0eUII+kIFggECEAES",
-            "GQoRaXNMaXZlbmVzc0VuYWJsZWQYByABKAgiJgoRVGhyZXNob2xkU2VjdXJp",
-            "dHkSCAoESElHSBAAEgcKA0xPVxABQg0KBmF1dGhJZBID+EIBItYBChNWYWxp",
-            "ZGF0ZUV2ZW50Q29uZmlnEjoKBWF1ZGlvGAEgASgLMiEuc2Vuc29yeS5hcGku",
-            "djEuYXVkaW8uQXVkaW9Db25maWdCCPpCBYoBAhABEh0KCW1vZGVsTmFtZRgC",
-            "IAEoCUIK+kIHcgUQARj/ARIZCgZ1c2VySWQYAyABKAlCCfpCBnIEEAEYfxJJ",
-            "CgtzZW5zaXRpdml0eRgEIAEoDjIqLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlRo",
-            "cmVzaG9sZFNlbnNpdGl2aXR5Qgj6QgWCAQIQASK9AgobQ3JlYXRlRW5yb2xs",
-            "bWVudEV2ZW50Q29uZmlnEjoKBWF1ZGlvGAEgASgLMiEuc2Vuc29yeS5hcGku",
-            "djEuYXVkaW8uQXVkaW9Db25maWdCCPpCBYoBAhABEhkKBnVzZXJJZBgCIAEo",
-            "CUIJ+kIGcgQQARh/Eh0KCW1vZGVsTmFtZRgDIAEoCUIK+kIHcgUQARj/ARId",
-            "CgtkZXNjcmlwdGlvbhgEIAEoCUII+kIFcgMY/wcSLAoXZW5yb2xsbWVudE51",
-            "bVV0dGVyYW5jZXMYBSABKA1CCfpCBioEGAooAEgAEi0KEmVucm9sbG1lbnRE",
-            "dXJhdGlvbhgGIAEoAkIP+kIMCgodAABwQS0AAAAASAASHAoLcmVmZXJlbmNl",
-            "SWQYByABKAlCB/pCBHICGH9CDgoMZW5yb2xsTGVuZ3RoIvIBChtWYWxpZGF0",
-            "ZUVucm9sbGVkRXZlbnRDb25maWcSOgoFYXVkaW8YASABKAsyIS5zZW5zb3J5",
-            "LmFwaS52MS5hdWRpby5BdWRpb0NvbmZpZ0II+kIFigECEAESIAoMZW5yb2xs",
-            "bWVudElkGAIgASgJQgj6QgVyA7ABAUgAEhsKEWVucm9sbG1lbnRHcm91cElk",
-            "GAMgASgJSAASSQoLc2Vuc2l0aXZpdHkYBCABKA4yKi5zZW5zb3J5LmFwaS52",
-            "MS5hdWRpby5UaHJlc2hvbGRTZW5zaXRpdml0eUII+kIFggECEAFCDQoGYXV0",
-            "aElkEgP4QgEiiAEKEFRyYW5zY3JpYmVDb25maWcSOgoFYXVkaW8YASABKAsy",
-            "IS5zZW5zb3J5LmFwaS52MS5hdWRpby5BdWRpb0NvbmZpZ0II+kIFigECEAES",
-            "HQoJbW9kZWxOYW1lGAIgASgJQgr6QgdyBRABGP8BEhkKBnVzZXJJZBgDIAEo",
-            "CUIJ+kIGcgQQARh/IusBCgtBdWRpb0NvbmZpZxJLCghlbmNvZGluZxgBIAEo",
-            "DjIvLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1ZGlvQ29uZmlnLkF1ZGlvRW5j",
-            "b2RpbmdCCPpCBYIBAhABEiEKD3NhbXBsZVJhdGVIZXJ0ehgCIAEoBUII+kIF",
-            "GgMgwD4SIgoRYXVkaW9DaGFubmVsQ291bnQYAyABKAVCB/pCBBoCIAASFAoM",
-            "bGFuZ3VhZ2VDb2RlGAQgASgJIjIKDUF1ZGlvRW5jb2RpbmcSDAoITElORUFS",
-            "MTYQABIICgRGTEFDEAESCQoFTVVMQVcQAio+ChlBdWRpb1Bvc3RQcm9jZXNz",
-            "aW5nQWN0aW9uEgsKB05PVF9TRVQQABIJCgVGTFVTSBABEgkKBVJFU0VUEAIq",
-            "TgoUVGhyZXNob2xkU2Vuc2l0aXZpdHkSCgoGTE9XRVNUEAASBwoDTE9XEAES",
-            "CgoGTUVESVVNEAISCAoESElHSBADEgsKB0hJR0hFU1QQBDJtCgtBdWRpb01v",
-            "ZGVscxJeCglHZXRNb2RlbHMSJi5zZW5zb3J5LmFwaS52MS5hdWRpby5HZXRN",
-            "b2RlbHNSZXF1ZXN0Gicuc2Vuc29yeS5hcGkudjEuYXVkaW8uR2V0TW9kZWxz",
-            "UmVzcG9uc2UiADL3AQoPQXVkaW9CaW9tZXRyaWNzEncKEENyZWF0ZUVucm9s",
-            "bG1lbnQSLS5zZW5zb3J5LmFwaS52MS5hdWRpby5DcmVhdGVFbnJvbGxtZW50",
-            "UmVxdWVzdBouLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkNyZWF0ZUVucm9sbG1l",
-            "bnRSZXNwb25zZSIAKAEwARJrCgxBdXRoZW50aWNhdGUSKS5zZW5zb3J5LmFw",
-            "aS52MS5hdWRpby5BdXRoZW50aWNhdGVSZXF1ZXN0Giouc2Vuc29yeS5hcGku",
-            "djEuYXVkaW8uQXV0aGVudGljYXRlUmVzcG9uc2UiACgBMAEyhQMKC0F1ZGlv",
-            "RXZlbnRzEm4KDVZhbGlkYXRlRXZlbnQSKi5zZW5zb3J5LmFwaS52MS5hdWRp",
-            "by5WYWxpZGF0ZUV2ZW50UmVxdWVzdBorLnNlbnNvcnkuYXBpLnYxLmF1ZGlv",
-            "LlZhbGlkYXRlRXZlbnRSZXNwb25zZSIAKAEwARJ9ChNDcmVhdGVFbnJvbGxl",
-            "ZEV2ZW50EjAuc2Vuc29yeS5hcGkudjEuYXVkaW8uQ3JlYXRlRW5yb2xsZWRF",
-            "dmVudFJlcXVlc3QaLi5zZW5zb3J5LmFwaS52MS5hdWRpby5DcmVhdGVFbnJv",
-            "bGxtZW50UmVzcG9uc2UiACgBMAEShgEKFVZhbGlkYXRlRW5yb2xsZWRFdmVu",
-            "dBIyLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlZhbGlkYXRlRW5yb2xsZWRFdmVu",
-            "dFJlcXVlc3QaMy5zZW5zb3J5LmFwaS52MS5hdWRpby5WYWxpZGF0ZUVucm9s",
-            "bGVkRXZlbnRSZXNwb25zZSIAKAEwATJ8ChNBdWRpb1RyYW5zY3JpcHRpb25z",
-            "EmUKClRyYW5zY3JpYmUSJy5zZW5zb3J5LmFwaS52MS5hdWRpby5UcmFuc2Ny",
-            "aWJlUmVxdWVzdBooLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlRyYW5zY3JpYmVS",
-            "ZXNwb25zZSIAKAEwAUJvChdpby5zZW5zb3J5LmFwaS52MS5hdWRpb0IWU2Vu",
-            "c29yeUFwaVYxQXVkaW9Qcm90b1ABWjpnaXRsYWIuY29tL3NlbnNvcnktY2xv",
-            "dWQvc2VydmVyL3RpdGFuLmdpdC9wa2cvYXBpL3YxL2F1ZGlvYgZwcm90bzM="));
+            "cG9uc2VQb3N0UHJvY2Vzc2luZ0FjdGlvbiKAAQodVmFsaWRhdGVFbnJvbGxl",
+            "ZEV2ZW50UmVzcG9uc2USEwoLYXVkaW9FbmVyZ3kYASABKAISDwoHc3VjY2Vz",
+            "cxgCIAEoCBIUCgxlbnJvbGxtZW50SWQYAyABKAkSDgoGdXNlcklkGAQgASgJ",
+            "EhMKC21vZGVsUHJvbXB0GAUgASgJIq0BChJUcmFuc2NyaWJlUmVzcG9uc2US",
+            "EwoLYXVkaW9FbmVyZ3kYASABKAISEgoKdHJhbnNjcmlwdBgCIAEoCRIXCg9p",
+            "c1BhcnRpYWxSZXN1bHQYAyABKAgSVQoUcG9zdFByb2Nlc3NpbmdBY3Rpb24Y",
+            "CiABKAsyNy5zZW5zb3J5LmFwaS52MS5hdWRpby5BdWRpb1Jlc3BvbnNlUG9z",
+            "dFByb2Nlc3NpbmdBY3Rpb24i8AIKFkNyZWF0ZUVucm9sbG1lbnRDb25maWcS",
+            "OgoFYXVkaW8YASABKAsyIS5zZW5zb3J5LmFwaS52MS5hdWRpby5BdWRpb0Nv",
+            "bmZpZ0II+kIFigECEAESGQoGdXNlcklkGAIgASgJQgn6QgZyBBABGH8SGwoI",
+            "ZGV2aWNlSWQYAyABKAlCCfpCBnIEEAEYfxIdCgltb2RlbE5hbWUYBCABKAlC",
+            "CvpCB3IFEAEY/wESHQoLZGVzY3JpcHRpb24YBSABKAlCCPpCBXIDGP8HEhkK",
+            "EWlzTGl2ZW5lc3NFbmFibGVkGAYgASgIEiwKF2Vucm9sbG1lbnROdW1VdHRl",
+            "cmFuY2VzGAcgASgNQgn6QgYqBBgKKABIABItChJlbnJvbGxtZW50RHVyYXRp",
+            "b24YCCABKAJCD/pCDAoKHQAAcEEtAAAAAEgAEhwKC3JlZmVyZW5jZUlkGAkg",
+            "ASgJQgf6QgRyAhh/Qg4KDGVucm9sbExlbmd0aCKcAwoSQXV0aGVudGljYXRl",
+            "Q29uZmlnEjoKBWF1ZGlvGAEgASgLMiEuc2Vuc29yeS5hcGkudjEuYXVkaW8u",
+            "QXVkaW9Db25maWdCCPpCBYoBAhABEiAKDGVucm9sbG1lbnRJZBgCIAEoCUII",
+            "+kIFcgOwAQFIABIbChFlbnJvbGxtZW50R3JvdXBJZBgDIAEoCUgAEhYKDmRv",
+            "SW5jbHVkZVRva2VuGAQgASgIEkkKC3NlbnNpdGl2aXR5GAUgASgOMiouc2Vu",
+            "c29yeS5hcGkudjEuYXVkaW8uVGhyZXNob2xkU2Vuc2l0aXZpdHlCCPpCBYIB",
+            "AhABElYKCHNlY3VyaXR5GAYgASgOMjouc2Vuc29yeS5hcGkudjEuYXVkaW8u",
+            "QXV0aGVudGljYXRlQ29uZmlnLlRocmVzaG9sZFNlY3VyaXR5Qgj6QgWCAQIQ",
+            "ARIZChFpc0xpdmVuZXNzRW5hYmxlZBgHIAEoCCImChFUaHJlc2hvbGRTZWN1",
+            "cml0eRIICgRISUdIEAASBwoDTE9XEAFCDQoGYXV0aElkEgP4QgEi1gEKE1Zh",
+            "bGlkYXRlRXZlbnRDb25maWcSOgoFYXVkaW8YASABKAsyIS5zZW5zb3J5LmFw",
+            "aS52MS5hdWRpby5BdWRpb0NvbmZpZ0II+kIFigECEAESHQoJbW9kZWxOYW1l",
+            "GAIgASgJQgr6QgdyBRABGP8BEhkKBnVzZXJJZBgDIAEoCUIJ+kIGcgQQARh/",
+            "EkkKC3NlbnNpdGl2aXR5GAQgASgOMiouc2Vuc29yeS5hcGkudjEuYXVkaW8u",
+            "VGhyZXNob2xkU2Vuc2l0aXZpdHlCCPpCBYIBAhABIr0CChtDcmVhdGVFbnJv",
+            "bGxtZW50RXZlbnRDb25maWcSOgoFYXVkaW8YASABKAsyIS5zZW5zb3J5LmFw",
+            "aS52MS5hdWRpby5BdWRpb0NvbmZpZ0II+kIFigECEAESGQoGdXNlcklkGAIg",
+            "ASgJQgn6QgZyBBABGH8SHQoJbW9kZWxOYW1lGAMgASgJQgr6QgdyBRABGP8B",
+            "Eh0KC2Rlc2NyaXB0aW9uGAQgASgJQgj6QgVyAxj/BxIsChdlbnJvbGxtZW50",
+            "TnVtVXR0ZXJhbmNlcxgFIAEoDUIJ+kIGKgQYCigASAASLQoSZW5yb2xsbWVu",
+            "dER1cmF0aW9uGAYgASgCQg/6QgwKCh0AAHBBLQAAAABIABIcCgtyZWZlcmVu",
+            "Y2VJZBgHIAEoCUIH+kIEcgIYf0IOCgxlbnJvbGxMZW5ndGgi8gEKG1ZhbGlk",
+            "YXRlRW5yb2xsZWRFdmVudENvbmZpZxI6CgVhdWRpbxgBIAEoCzIhLnNlbnNv",
+            "cnkuYXBpLnYxLmF1ZGlvLkF1ZGlvQ29uZmlnQgj6QgWKAQIQARIgCgxlbnJv",
+            "bGxtZW50SWQYAiABKAlCCPpCBXIDsAEBSAASGwoRZW5yb2xsbWVudEdyb3Vw",
+            "SWQYAyABKAlIABJJCgtzZW5zaXRpdml0eRgEIAEoDjIqLnNlbnNvcnkuYXBp",
+            "LnYxLmF1ZGlvLlRocmVzaG9sZFNlbnNpdGl2aXR5Qgj6QgWCAQIQAUINCgZh",
+            "dXRoSWQSA/hCASKIAQoQVHJhbnNjcmliZUNvbmZpZxI6CgVhdWRpbxgBIAEo",
+            "CzIhLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1ZGlvQ29uZmlnQgj6QgWKAQIQ",
+            "ARIdCgltb2RlbE5hbWUYAiABKAlCCvpCB3IFEAEY/wESGQoGdXNlcklkGAMg",
+            "ASgJQgn6QgZyBBABGH8i6wEKC0F1ZGlvQ29uZmlnEksKCGVuY29kaW5nGAEg",
+            "ASgOMi8uc2Vuc29yeS5hcGkudjEuYXVkaW8uQXVkaW9Db25maWcuQXVkaW9F",
+            "bmNvZGluZ0II+kIFggECEAESIQoPc2FtcGxlUmF0ZUhlcnR6GAIgASgFQgj6",
+            "QgUaAyDAPhIiChFhdWRpb0NoYW5uZWxDb3VudBgDIAEoBUIH+kIEGgIgABIU",
+            "CgxsYW5ndWFnZUNvZGUYBCABKAkiMgoNQXVkaW9FbmNvZGluZxIMCghMSU5F",
+            "QVIxNhAAEggKBEZMQUMQARIJCgVNVUxBVxACKj4KGUF1ZGlvUG9zdFByb2Nl",
+            "c3NpbmdBY3Rpb24SCwoHTk9UX1NFVBAAEgkKBUZMVVNIEAESCQoFUkVTRVQQ",
+            "AipOChRUaHJlc2hvbGRTZW5zaXRpdml0eRIKCgZMT1dFU1QQABIHCgNMT1cQ",
+            "ARIKCgZNRURJVU0QAhIICgRISUdIEAMSCwoHSElHSEVTVBAEMm0KC0F1ZGlv",
+            "TW9kZWxzEl4KCUdldE1vZGVscxImLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkdl",
+            "dE1vZGVsc1JlcXVlc3QaJy5zZW5zb3J5LmFwaS52MS5hdWRpby5HZXRNb2Rl",
+            "bHNSZXNwb25zZSIAMvcBCg9BdWRpb0Jpb21ldHJpY3MSdwoQQ3JlYXRlRW5y",
+            "b2xsbWVudBItLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkNyZWF0ZUVucm9sbG1l",
+            "bnRSZXF1ZXN0Gi4uc2Vuc29yeS5hcGkudjEuYXVkaW8uQ3JlYXRlRW5yb2xs",
+            "bWVudFJlc3BvbnNlIgAoATABEmsKDEF1dGhlbnRpY2F0ZRIpLnNlbnNvcnku",
+            "YXBpLnYxLmF1ZGlvLkF1dGhlbnRpY2F0ZVJlcXVlc3QaKi5zZW5zb3J5LmFw",
+            "aS52MS5hdWRpby5BdXRoZW50aWNhdGVSZXNwb25zZSIAKAEwATKFAwoLQXVk",
+            "aW9FdmVudHMSbgoNVmFsaWRhdGVFdmVudBIqLnNlbnNvcnkuYXBpLnYxLmF1",
+            "ZGlvLlZhbGlkYXRlRXZlbnRSZXF1ZXN0Gisuc2Vuc29yeS5hcGkudjEuYXVk",
+            "aW8uVmFsaWRhdGVFdmVudFJlc3BvbnNlIgAoATABEn0KE0NyZWF0ZUVucm9s",
+            "bGVkRXZlbnQSMC5zZW5zb3J5LmFwaS52MS5hdWRpby5DcmVhdGVFbnJvbGxl",
+            "ZEV2ZW50UmVxdWVzdBouLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkNyZWF0ZUVu",
+            "cm9sbG1lbnRSZXNwb25zZSIAKAEwARKGAQoVVmFsaWRhdGVFbnJvbGxlZEV2",
+            "ZW50EjIuc2Vuc29yeS5hcGkudjEuYXVkaW8uVmFsaWRhdGVFbnJvbGxlZEV2",
+            "ZW50UmVxdWVzdBozLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlZhbGlkYXRlRW5y",
+            "b2xsZWRFdmVudFJlc3BvbnNlIgAoATABMnwKE0F1ZGlvVHJhbnNjcmlwdGlv",
+            "bnMSZQoKVHJhbnNjcmliZRInLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlRyYW5z",
+            "Y3JpYmVSZXF1ZXN0Giguc2Vuc29yeS5hcGkudjEuYXVkaW8uVHJhbnNjcmli",
+            "ZVJlc3BvbnNlIgAoATABQm8KF2lvLnNlbnNvcnkuYXBpLnYxLmF1ZGlvQhZT",
+            "ZW5zb3J5QXBpVjFBdWRpb1Byb3RvUAFaOmdpdGxhYi5jb20vc2Vuc29yeS1j",
+            "bG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEvYXVkaW9iBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.Audio.AudioPostProcessingAction), typeof(global::Sensory.Api.V1.Audio.ThresholdSensitivity), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -167,7 +168,7 @@ namespace Sensory.Api.V1.Audio {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.CreateEnrollmentResponse), global::Sensory.Api.V1.Audio.CreateEnrollmentResponse.Parser, new[]{ "PercentComplete", "AudioEnergy", "EnrollmentId", "ModelName", "ModelVersion", "ModelPrompt", "PercentSegmentComplete" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AuthenticateResponse), global::Sensory.Api.V1.Audio.AuthenticateResponse.Parser, new[]{ "AudioEnergy", "Success", "Token", "UserId", "EnrollmentId", "ModelPrompt", "PercentSegmentComplete" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEventResponse), global::Sensory.Api.V1.Audio.ValidateEventResponse.Parser, new[]{ "AudioEnergy", "Success", "ResultId", "Score", "PostProcessingAction" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse), global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse.Parser, new[]{ "AudioEnergy", "Success", "EnrollentId", "UserId", "ModelPrompt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse), global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse.Parser, new[]{ "AudioEnergy", "Success", "EnrollmentId", "UserId", "ModelPrompt" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.TranscribeResponse), global::Sensory.Api.V1.Audio.TranscribeResponse.Parser, new[]{ "AudioEnergy", "Transcript", "IsPartialResult", "PostProcessingAction" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.CreateEnrollmentConfig), global::Sensory.Api.V1.Audio.CreateEnrollmentConfig.Parser, new[]{ "Audio", "UserId", "DeviceId", "ModelName", "Description", "IsLivenessEnabled", "EnrollmentNumUtterances", "EnrollmentDuration", "ReferenceId" }, new[]{ "EnrollLength" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AuthenticateConfig), global::Sensory.Api.V1.Audio.AuthenticateConfig.Parser, new[]{ "Audio", "EnrollmentId", "EnrollmentGroupId", "DoIncludeToken", "Sensitivity", "Security", "IsLivenessEnabled" }, new[]{ "AuthId" }, new[]{ typeof(global::Sensory.Api.V1.Audio.AuthenticateConfig.Types.ThresholdSecurity) }, null, null),
@@ -4644,7 +4645,7 @@ namespace Sensory.Api.V1.Audio {
     public ValidateEnrolledEventResponse(ValidateEnrolledEventResponse other) : this() {
       audioEnergy_ = other.audioEnergy_;
       success_ = other.success_;
-      enrollentId_ = other.enrollentId_;
+      enrollmentId_ = other.enrollmentId_;
       userId_ = other.userId_;
       modelPrompt_ = other.modelPrompt_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -4686,19 +4687,19 @@ namespace Sensory.Api.V1.Audio {
       }
     }
 
-    /// <summary>Field number for the "enrollentId" field.</summary>
-    public const int EnrollentIdFieldNumber = 3;
-    private string enrollentId_ = "";
+    /// <summary>Field number for the "enrollmentId" field.</summary>
+    public const int EnrollmentIdFieldNumber = 3;
+    private string enrollmentId_ = "";
     /// <summary>
     /// The enrollmentID of the authenticated user
     /// Useful when evaluating enrollment groups
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string EnrollentId {
-      get { return enrollentId_; }
+    public string EnrollmentId {
+      get { return enrollmentId_; }
       set {
-        enrollentId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        enrollmentId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -4750,7 +4751,7 @@ namespace Sensory.Api.V1.Audio {
       }
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(AudioEnergy, other.AudioEnergy)) return false;
       if (Success != other.Success) return false;
-      if (EnrollentId != other.EnrollentId) return false;
+      if (EnrollmentId != other.EnrollmentId) return false;
       if (UserId != other.UserId) return false;
       if (ModelPrompt != other.ModelPrompt) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -4762,7 +4763,7 @@ namespace Sensory.Api.V1.Audio {
       int hash = 1;
       if (AudioEnergy != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(AudioEnergy);
       if (Success != false) hash ^= Success.GetHashCode();
-      if (EnrollentId.Length != 0) hash ^= EnrollentId.GetHashCode();
+      if (EnrollmentId.Length != 0) hash ^= EnrollmentId.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
       if (ModelPrompt.Length != 0) hash ^= ModelPrompt.GetHashCode();
       if (_unknownFields != null) {
@@ -4791,9 +4792,9 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(16);
         output.WriteBool(Success);
       }
-      if (EnrollentId.Length != 0) {
+      if (EnrollmentId.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteString(EnrollentId);
+        output.WriteString(EnrollmentId);
       }
       if (UserId.Length != 0) {
         output.WriteRawTag(34);
@@ -4821,9 +4822,9 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(16);
         output.WriteBool(Success);
       }
-      if (EnrollentId.Length != 0) {
+      if (EnrollmentId.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteString(EnrollentId);
+        output.WriteString(EnrollmentId);
       }
       if (UserId.Length != 0) {
         output.WriteRawTag(34);
@@ -4849,8 +4850,8 @@ namespace Sensory.Api.V1.Audio {
       if (Success != false) {
         size += 1 + 1;
       }
-      if (EnrollentId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(EnrollentId);
+      if (EnrollmentId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EnrollmentId);
       }
       if (UserId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(UserId);
@@ -4876,8 +4877,8 @@ namespace Sensory.Api.V1.Audio {
       if (other.Success != false) {
         Success = other.Success;
       }
-      if (other.EnrollentId.Length != 0) {
-        EnrollentId = other.EnrollentId;
+      if (other.EnrollmentId.Length != 0) {
+        EnrollmentId = other.EnrollmentId;
       }
       if (other.UserId.Length != 0) {
         UserId = other.UserId;
@@ -4909,7 +4910,7 @@ namespace Sensory.Api.V1.Audio {
             break;
           }
           case 26: {
-            EnrollentId = input.ReadString();
+            EnrollmentId = input.ReadString();
             break;
           }
           case 34: {
@@ -4944,7 +4945,7 @@ namespace Sensory.Api.V1.Audio {
             break;
           }
           case 26: {
-            EnrollentId = input.ReadString();
+            EnrollmentId = input.ReadString();
             break;
           }
           case 34: {
