@@ -71,7 +71,7 @@ namespace Test
             throw new NotImplementedException();
         }
 
-        public DeviceResponse Register(string deviceId, string deviceName, string credential)
+        public DeviceResponse Register(string deviceName, string credential)
         {
             throw new NotImplementedException();
         }

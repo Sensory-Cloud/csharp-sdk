@@ -57,14 +57,14 @@ namespace Sensory.Api.Common {
             "VkVOVF9GSVhFRBBmEhUKEVNPVU5EX1NDRU5FX0ZJWEVEEGcSEwoORkFDRV9C",
             "SU9NRVRSSUMQyQESFQoQRkFDRV9SRUNPR05JVElPThDKARIXChJPQkpFQ1Rf",
             "UkVDT0dOSVRJT04QywESFAoPSU1BR0VfVFJBTlNGT1JNEMwBEgwKB1VOS05P",
-            "V04Q6AcqOAoOVGVjaG5vbG9neVR5cGUSCwoHTk9UX1NFVBAAEggKBFRTU1YQ",
-            "ARIGCgJUUxACEgcKA1ROTBADKiYKD0NvbXByZXNzaW9uVHlwZRITCg9JTUFH",
-            "RV9HUkFZU0NBTEUQACo5CgpDbGllbnRUeXBlEggKBFJPT1QQABIKCgZERVZJ",
-            "Q0UQARILCgdDTFVTVEVSEAISCAoEVVNFUhADKkUKDlVzYWdlRXZlbnRUeXBl",
-            "EhIKDkFVVEhFTlRJQ0FUSU9OEAASDwoLUkVDT0dOSVRJT04QARIOCgpFTlJP",
-            "TExNRU5UEAJCagoVaW8uc2Vuc29yeS5hcGkuY29tbW9uQhVTZW5zb3J5QXBp",
-            "Q29tbW9uUHJvdG9QAVo4Z2l0bGFiLmNvbS9zZW5zb3J5LWNsb3VkL3NlcnZl",
-            "ci90aXRhbi5naXQvcGtnL2FwaS9jb21tb25iBnByb3RvMw=="));
+            "V04Q6AcqQQoOVGVjaG5vbG9neVR5cGUSCwoHTk9UX1NFVBAAEggKBFRTU1YQ",
+            "ARIGCgJUUxACEgcKA1ROTBADEgcKA1NUVBAEKiYKD0NvbXByZXNzaW9uVHlw",
+            "ZRITCg9JTUFHRV9HUkFZU0NBTEUQACo5CgpDbGllbnRUeXBlEggKBFJPT1QQ",
+            "ABIKCgZERVZJQ0UQARILCgdDTFVTVEVSEAISCAoEVVNFUhADKkUKDlVzYWdl",
+            "RXZlbnRUeXBlEhIKDkFVVEhFTlRJQ0FUSU9OEAASDwoLUkVDT0dOSVRJT04Q",
+            "ARIOCgpFTlJPTExNRU5UEAJCagoVaW8uc2Vuc29yeS5hcGkuY29tbW9uQhVT",
+            "ZW5zb3J5QXBpQ29tbW9uUHJvdG9QAVo4Z2l0bGFiLmNvbS9zZW5zb3J5LWNs",
+            "b3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS9jb21tb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.Common.KeyType), typeof(global::Sensory.Api.Common.ModelType), typeof(global::Sensory.Api.Common.TechnologyType), typeof(global::Sensory.Api.Common.CompressionType), typeof(global::Sensory.Api.Common.ClientType), typeof(global::Sensory.Api.Common.UsageEventType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -200,6 +200,10 @@ namespace Sensory.Api.Common {
     /// Truly Natural, a wakeword and speech recognition tool
     /// </summary>
     [pbr::OriginalName("TNL")] Tnl = 3,
+    /// <summary>
+    /// Speech to Text, a large scale neural speech recognition tool
+    /// </summary>
+    [pbr::OriginalName("STT")] Stt = 4,
   }
 
   /// <summary>

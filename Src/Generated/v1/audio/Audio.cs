@@ -31,99 +31,149 @@ namespace Sensory.Api.V1.Audio {
             "Mh0uc2Vuc29yeS5hcGkuY29tbW9uLk1vZGVsVHlwZRITCgtmaXhlZFBocmFz",
             "ZRgEIAEoCRISCgpzYW1wbGVSYXRlGAUgASgFEhAKCHZlcnNpb25zGAYgAygJ",
             "EjYKCnRlY2hub2xvZ3kYByABKA4yIi5zZW5zb3J5LmFwaS5jb21tb24uVGVj",
-            "aG5vbG9neVR5cGUSGwoTaXNMaXZlbmVzc1N1cHBvcnRlZBgIIAEoCCJFChFH",
-            "ZXRNb2RlbHNSZXNwb25zZRIwCgZtb2RlbHMYASADKAsyIC5zZW5zb3J5LmFw",
-            "aS52MS5hdWRpby5BdWRpb01vZGVsIooBChdDcmVhdGVFbnJvbGxtZW50UmVx",
-            "dWVzdBI+CgZjb25maWcYASABKAsyLC5zZW5zb3J5LmFwaS52MS5hdWRpby5D",
-            "cmVhdGVFbnJvbGxtZW50Q29uZmlnSAASFgoMYXVkaW9Db250ZW50GAIgASgM",
-            "SABCFwoQc3RyZWFtaW5nUmVxdWVzdBID+EIBIoIBChNBdXRoZW50aWNhdGVS",
-            "ZXF1ZXN0EjoKBmNvbmZpZxgBIAEoCzIoLnNlbnNvcnkuYXBpLnYxLmF1ZGlv",
-            "LkF1dGhlbnRpY2F0ZUNvbmZpZ0gAEhYKDGF1ZGlvQ29udGVudBgCIAEoDEgA",
-            "QhcKEHN0cmVhbWluZ1JlcXVlc3QSA/hCASKEAQoUVmFsaWRhdGVFdmVudFJl",
-            "cXVlc3QSOwoGY29uZmlnGAEgASgLMikuc2Vuc29yeS5hcGkudjEuYXVkaW8u",
-            "VmFsaWRhdGVFdmVudENvbmZpZ0gAEhYKDGF1ZGlvQ29udGVudBgCIAEoDEgA",
-            "QhcKEHN0cmVhbWluZ1JlcXVlc3QSA/hCASJ+ChFUcmFuc2NyaWJlUmVxdWVz",
-            "dBI4CgZjb25maWcYASABKAsyJi5zZW5zb3J5LmFwaS52MS5hdWRpby5UcmFu",
-            "c2NyaWJlQ29uZmlnSAASFgoMYXVkaW9Db250ZW50GAIgASgMSABCFwoQc3Ry",
-            "ZWFtaW5nUmVxdWVzdBID+EIBIrwBChhDcmVhdGVFbnJvbGxtZW50UmVzcG9u",
-            "c2USFwoPcGVyY2VudENvbXBsZXRlGAEgASgDEhMKC2F1ZGlvRW5lcmd5GAIg",
-            "ASgCEhQKDGVucm9sbG1lbnRJZBgDIAEoCRIRCgltb2RlbE5hbWUYBCABKAkS",
-            "FAoMbW9kZWxWZXJzaW9uGAUgASgJEhMKC21vZGVsUHJvbXB0GAYgASgJEh4K",
-            "FnBlcmNlbnRTZWdtZW50Q29tcGxldGUYByABKAMiyQEKFEF1dGhlbnRpY2F0",
-            "ZVJlc3BvbnNlEhMKC2F1ZGlvRW5lcmd5GAEgASgCEg8KB3N1Y2Nlc3MYAiAB",
-            "KAgSMAoFdG9rZW4YAyABKAsyIS5zZW5zb3J5LmFwaS5jb21tb24uVG9rZW5S",
-            "ZXNwb25zZRIOCgZ1c2VySWQYBCABKAkSFAoMZW5yb2xsbWVudElkGAUgASgJ",
-            "EhMKC21vZGVsUHJvbXB0GAYgASgJEh4KFnBlcmNlbnRTZWdtZW50Q29tcGxl",
-            "dGUYByABKAMiXgoVVmFsaWRhdGVFdmVudFJlc3BvbnNlEhMKC2F1ZGlvRW5l",
-            "cmd5GAEgASgCEg8KB3N1Y2Nlc3MYAiABKAgSEAoIcmVzdWx0SWQYAyABKAkS",
-            "DQoFc2NvcmUYBCABKAIiVgoSVHJhbnNjcmliZVJlc3BvbnNlEhMKC2F1ZGlv",
-            "RW5lcmd5GAEgASgCEhIKCnRyYW5zY3JpcHQYAiABKAkSFwoPaXNQYXJ0aWFs",
-            "UmVzdWx0GAMgASgIItICChZDcmVhdGVFbnJvbGxtZW50Q29uZmlnEjoKBWF1",
-            "ZGlvGAEgASgLMiEuc2Vuc29yeS5hcGkudjEuYXVkaW8uQXVkaW9Db25maWdC",
-            "CPpCBYoBAhABEhkKBnVzZXJJZBgCIAEoCUIJ+kIGcgQQARh/EhsKCGRldmlj",
-            "ZUlkGAMgASgJQgn6QgZyBBABGH8SHQoJbW9kZWxOYW1lGAQgASgJQgr6Qgdy",
-            "BRABGP8BEh0KC2Rlc2NyaXB0aW9uGAUgASgJQgj6QgVyAxj/BxIZChFpc0xp",
-            "dmVuZXNzRW5hYmxlZBgGIAEoCBIsChdlbnJvbGxtZW50TnVtVXR0ZXJhbmNl",
-            "cxgHIAEoDUIJ+kIGKgQYCigASAASLQoSZW5yb2xsbWVudER1cmF0aW9uGAgg",
-            "ASgCQg/6QgwKCh0AAHBBLQAAAABIAEIOCgxlbnJvbGxMZW5ndGginAMKEkF1",
-            "dGhlbnRpY2F0ZUNvbmZpZxI6CgVhdWRpbxgBIAEoCzIhLnNlbnNvcnkuYXBp",
-            "LnYxLmF1ZGlvLkF1ZGlvQ29uZmlnQgj6QgWKAQIQARIgCgxlbnJvbGxtZW50",
-            "SWQYAiABKAlCCPpCBXIDsAEBSAASGwoRZW5yb2xsbWVudEdyb3VwSWQYAyAB",
-            "KAlIABIWCg5kb0luY2x1ZGVUb2tlbhgEIAEoCBJJCgtzZW5zaXRpdml0eRgF",
-            "IAEoDjIqLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlRocmVzaG9sZFNlbnNpdGl2",
-            "aXR5Qgj6QgWCAQIQARJWCghzZWN1cml0eRgGIAEoDjI6LnNlbnNvcnkuYXBp",
-            "LnYxLmF1ZGlvLkF1dGhlbnRpY2F0ZUNvbmZpZy5UaHJlc2hvbGRTZWN1cml0",
-            "eUII+kIFggECEAESGQoRaXNMaXZlbmVzc0VuYWJsZWQYByABKAgiJgoRVGhy",
-            "ZXNob2xkU2VjdXJpdHkSCAoESElHSBAAEgcKA0xPVxABQg0KBmF1dGhJZBID",
-            "+EIBItYBChNWYWxpZGF0ZUV2ZW50Q29uZmlnEjoKBWF1ZGlvGAEgASgLMiEu",
-            "c2Vuc29yeS5hcGkudjEuYXVkaW8uQXVkaW9Db25maWdCCPpCBYoBAhABEh0K",
-            "CW1vZGVsTmFtZRgCIAEoCUIK+kIHcgUQARj/ARIZCgZ1c2VySWQYAyABKAlC",
-            "CfpCBnIEEAEYfxJJCgtzZW5zaXRpdml0eRgEIAEoDjIqLnNlbnNvcnkuYXBp",
-            "LnYxLmF1ZGlvLlRocmVzaG9sZFNlbnNpdGl2aXR5Qgj6QgWCAQIQASKIAQoQ",
-            "VHJhbnNjcmliZUNvbmZpZxI6CgVhdWRpbxgBIAEoCzIhLnNlbnNvcnkuYXBp",
-            "LnYxLmF1ZGlvLkF1ZGlvQ29uZmlnQgj6QgWKAQIQARIdCgltb2RlbE5hbWUY",
-            "AiABKAlCCvpCB3IFEAEY/wESGQoGdXNlcklkGAMgASgJQgn6QgZyBBABGH8i",
-            "6wEKC0F1ZGlvQ29uZmlnEksKCGVuY29kaW5nGAEgASgOMi8uc2Vuc29yeS5h",
-            "cGkudjEuYXVkaW8uQXVkaW9Db25maWcuQXVkaW9FbmNvZGluZ0II+kIFggEC",
-            "EAESIQoPc2FtcGxlUmF0ZUhlcnR6GAIgASgFQgj6QgUaAyDAPhIiChFhdWRp",
-            "b0NoYW5uZWxDb3VudBgDIAEoBUIH+kIEGgIgABIUCgxsYW5ndWFnZUNvZGUY",
-            "BCABKAkiMgoNQXVkaW9FbmNvZGluZxIMCghMSU5FQVIxNhAAEggKBEZMQUMQ",
-            "ARIJCgVNVUxBVxACKk4KFFRocmVzaG9sZFNlbnNpdGl2aXR5EgoKBkxPV0VT",
-            "VBAAEgcKA0xPVxABEgoKBk1FRElVTRACEggKBEhJR0gQAxILCgdISUdIRVNU",
-            "EAQybQoLQXVkaW9Nb2RlbHMSXgoJR2V0TW9kZWxzEiYuc2Vuc29yeS5hcGku",
-            "djEuYXVkaW8uR2V0TW9kZWxzUmVxdWVzdBonLnNlbnNvcnkuYXBpLnYxLmF1",
-            "ZGlvLkdldE1vZGVsc1Jlc3BvbnNlIgAy9wEKD0F1ZGlvQmlvbWV0cmljcxJ3",
-            "ChBDcmVhdGVFbnJvbGxtZW50Ei0uc2Vuc29yeS5hcGkudjEuYXVkaW8uQ3Jl",
-            "YXRlRW5yb2xsbWVudFJlcXVlc3QaLi5zZW5zb3J5LmFwaS52MS5hdWRpby5D",
-            "cmVhdGVFbnJvbGxtZW50UmVzcG9uc2UiACgBMAESawoMQXV0aGVudGljYXRl",
-            "Eikuc2Vuc29yeS5hcGkudjEuYXVkaW8uQXV0aGVudGljYXRlUmVxdWVzdBoq",
-            "LnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1dGhlbnRpY2F0ZVJlc3BvbnNlIgAo",
-            "ATABMn0KC0F1ZGlvRXZlbnRzEm4KDVZhbGlkYXRlRXZlbnQSKi5zZW5zb3J5",
-            "LmFwaS52MS5hdWRpby5WYWxpZGF0ZUV2ZW50UmVxdWVzdBorLnNlbnNvcnku",
-            "YXBpLnYxLmF1ZGlvLlZhbGlkYXRlRXZlbnRSZXNwb25zZSIAKAEwATJ8ChNB",
-            "dWRpb1RyYW5zY3JpcHRpb25zEmUKClRyYW5zY3JpYmUSJy5zZW5zb3J5LmFw",
-            "aS52MS5hdWRpby5UcmFuc2NyaWJlUmVxdWVzdBooLnNlbnNvcnkuYXBpLnYx",
-            "LmF1ZGlvLlRyYW5zY3JpYmVSZXNwb25zZSIAKAEwAUJvChdpby5zZW5zb3J5",
-            "LmFwaS52MS5hdWRpb0IWU2Vuc29yeUFwaVYxQXVkaW9Qcm90b1ABWjpnaXRs",
-            "YWIuY29tL3NlbnNvcnktY2xvdWQvc2VydmVyL3RpdGFuLmdpdC9wa2cvYXBp",
-            "L3YxL2F1ZGlvYgZwcm90bzM="));
+            "aG5vbG9neVR5cGUSGwoTaXNMaXZlbmVzc1N1cHBvcnRlZBgIIAEoCCJ/CiBB",
+            "dWRpb1JlcXVlc3RQb3N0UHJvY2Vzc2luZ0FjdGlvbhIQCghhY3Rpb25JZBgB",
+            "IAEoCRJJCgZhY3Rpb24YAiABKA4yLy5zZW5zb3J5LmFwaS52MS5hdWRpby5B",
+            "dWRpb1Bvc3RQcm9jZXNzaW5nQWN0aW9uQgj6QgWCAQIQASKAAQohQXVkaW9S",
+            "ZXNwb25zZVBvc3RQcm9jZXNzaW5nQWN0aW9uEhAKCGFjdGlvbklkGAEgASgJ",
+            "EkkKBmFjdGlvbhgCIAEoDjIvLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1ZGlv",
+            "UG9zdFByb2Nlc3NpbmdBY3Rpb25CCPpCBYIBAhABIkUKEUdldE1vZGVsc1Jl",
+            "c3BvbnNlEjAKBm1vZGVscxgBIAMoCzIgLnNlbnNvcnkuYXBpLnYxLmF1ZGlv",
+            "LkF1ZGlvTW9kZWwiigEKF0NyZWF0ZUVucm9sbG1lbnRSZXF1ZXN0Ej4KBmNv",
+            "bmZpZxgBIAEoCzIsLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkNyZWF0ZUVucm9s",
+            "bG1lbnRDb25maWdIABIWCgxhdWRpb0NvbnRlbnQYAiABKAxIAEIXChBzdHJl",
+            "YW1pbmdSZXF1ZXN0EgP4QgEiggEKE0F1dGhlbnRpY2F0ZVJlcXVlc3QSOgoG",
+            "Y29uZmlnGAEgASgLMiguc2Vuc29yeS5hcGkudjEuYXVkaW8uQXV0aGVudGlj",
+            "YXRlQ29uZmlnSAASFgoMYXVkaW9Db250ZW50GAIgASgMSABCFwoQc3RyZWFt",
+            "aW5nUmVxdWVzdBID+EIBItoBChRWYWxpZGF0ZUV2ZW50UmVxdWVzdBI7CgZj",
+            "b25maWcYASABKAsyKS5zZW5zb3J5LmFwaS52MS5hdWRpby5WYWxpZGF0ZUV2",
+            "ZW50Q29uZmlnSAASFgoMYXVkaW9Db250ZW50GAIgASgMSAASVAoUcG9zdFBy",
+            "b2Nlc3NpbmdBY3Rpb24YCiABKAsyNi5zZW5zb3J5LmFwaS52MS5hdWRpby5B",
+            "dWRpb1JlcXVlc3RQb3N0UHJvY2Vzc2luZ0FjdGlvbkIXChBzdHJlYW1pbmdS",
+            "ZXF1ZXN0EgP4QgEikgEKGkNyZWF0ZUVucm9sbGVkRXZlbnRSZXF1ZXN0EkMK",
+            "BmNvbmZpZxgBIAEoCzIxLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkNyZWF0ZUVu",
+            "cm9sbG1lbnRFdmVudENvbmZpZ0gAEhYKDGF1ZGlvQ29udGVudBgCIAEoDEgA",
+            "QhcKEHN0cmVhbWluZ1JlcXVlc3QSA/hCASKUAQocVmFsaWRhdGVFbnJvbGxl",
+            "ZEV2ZW50UmVxdWVzdBJDCgZjb25maWcYASABKAsyMS5zZW5zb3J5LmFwaS52",
+            "MS5hdWRpby5WYWxpZGF0ZUVucm9sbGVkRXZlbnRDb25maWdIABIWCgxhdWRp",
+            "b0NvbnRlbnQYAiABKAxIAEIXChBzdHJlYW1pbmdSZXF1ZXN0EgP4QgEi1AEK",
+            "EVRyYW5zY3JpYmVSZXF1ZXN0EjgKBmNvbmZpZxgBIAEoCzImLnNlbnNvcnku",
+            "YXBpLnYxLmF1ZGlvLlRyYW5zY3JpYmVDb25maWdIABIWCgxhdWRpb0NvbnRl",
+            "bnQYAiABKAxIABJUChRwb3N0UHJvY2Vzc2luZ0FjdGlvbhgKIAEoCzI2LnNl",
+            "bnNvcnkuYXBpLnYxLmF1ZGlvLkF1ZGlvUmVxdWVzdFBvc3RQcm9jZXNzaW5n",
+            "QWN0aW9uQhcKEHN0cmVhbWluZ1JlcXVlc3QSA/hCASK8AQoYQ3JlYXRlRW5y",
+            "b2xsbWVudFJlc3BvbnNlEhcKD3BlcmNlbnRDb21wbGV0ZRgBIAEoAxITCgth",
+            "dWRpb0VuZXJneRgCIAEoAhIUCgxlbnJvbGxtZW50SWQYAyABKAkSEQoJbW9k",
+            "ZWxOYW1lGAQgASgJEhQKDG1vZGVsVmVyc2lvbhgFIAEoCRITCgttb2RlbFBy",
+            "b21wdBgGIAEoCRIeChZwZXJjZW50U2VnbWVudENvbXBsZXRlGAcgASgDIskB",
+            "ChRBdXRoZW50aWNhdGVSZXNwb25zZRITCgthdWRpb0VuZXJneRgBIAEoAhIP",
+            "CgdzdWNjZXNzGAIgASgIEjAKBXRva2VuGAMgASgLMiEuc2Vuc29yeS5hcGku",
+            "Y29tbW9uLlRva2VuUmVzcG9uc2USDgoGdXNlcklkGAQgASgJEhQKDGVucm9s",
+            "bG1lbnRJZBgFIAEoCRITCgttb2RlbFByb21wdBgGIAEoCRIeChZwZXJjZW50",
+            "U2VnbWVudENvbXBsZXRlGAcgASgDIrUBChVWYWxpZGF0ZUV2ZW50UmVzcG9u",
+            "c2USEwoLYXVkaW9FbmVyZ3kYASABKAISDwoHc3VjY2VzcxgCIAEoCBIQCghy",
+            "ZXN1bHRJZBgDIAEoCRINCgVzY29yZRgEIAEoAhJVChRwb3N0UHJvY2Vzc2lu",
+            "Z0FjdGlvbhgKIAEoCzI3LnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1ZGlvUmVz",
+            "cG9uc2VQb3N0UHJvY2Vzc2luZ0FjdGlvbiJ/Ch1WYWxpZGF0ZUVucm9sbGVk",
+            "RXZlbnRSZXNwb25zZRITCgthdWRpb0VuZXJneRgBIAEoAhIPCgdzdWNjZXNz",
+            "GAIgASgIEhMKC2Vucm9sbGVudElkGAMgASgJEg4KBnVzZXJJZBgEIAEoCRIT",
+            "Cgttb2RlbFByb21wdBgFIAEoCSKtAQoSVHJhbnNjcmliZVJlc3BvbnNlEhMK",
+            "C2F1ZGlvRW5lcmd5GAEgASgCEhIKCnRyYW5zY3JpcHQYAiABKAkSFwoPaXNQ",
+            "YXJ0aWFsUmVzdWx0GAMgASgIElUKFHBvc3RQcm9jZXNzaW5nQWN0aW9uGAog",
+            "ASgLMjcuc2Vuc29yeS5hcGkudjEuYXVkaW8uQXVkaW9SZXNwb25zZVBvc3RQ",
+            "cm9jZXNzaW5nQWN0aW9uIvACChZDcmVhdGVFbnJvbGxtZW50Q29uZmlnEjoK",
+            "BWF1ZGlvGAEgASgLMiEuc2Vuc29yeS5hcGkudjEuYXVkaW8uQXVkaW9Db25m",
+            "aWdCCPpCBYoBAhABEhkKBnVzZXJJZBgCIAEoCUIJ+kIGcgQQARh/EhsKCGRl",
+            "dmljZUlkGAMgASgJQgn6QgZyBBABGH8SHQoJbW9kZWxOYW1lGAQgASgJQgr6",
+            "QgdyBRABGP8BEh0KC2Rlc2NyaXB0aW9uGAUgASgJQgj6QgVyAxj/BxIZChFp",
+            "c0xpdmVuZXNzRW5hYmxlZBgGIAEoCBIsChdlbnJvbGxtZW50TnVtVXR0ZXJh",
+            "bmNlcxgHIAEoDUIJ+kIGKgQYCigASAASLQoSZW5yb2xsbWVudER1cmF0aW9u",
+            "GAggASgCQg/6QgwKCh0AAHBBLQAAAABIABIcCgtyZWZlcmVuY2VJZBgJIAEo",
+            "CUIH+kIEcgIYf0IOCgxlbnJvbGxMZW5ndGginAMKEkF1dGhlbnRpY2F0ZUNv",
+            "bmZpZxI6CgVhdWRpbxgBIAEoCzIhLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1",
+            "ZGlvQ29uZmlnQgj6QgWKAQIQARIgCgxlbnJvbGxtZW50SWQYAiABKAlCCPpC",
+            "BXIDsAEBSAASGwoRZW5yb2xsbWVudEdyb3VwSWQYAyABKAlIABIWCg5kb0lu",
+            "Y2x1ZGVUb2tlbhgEIAEoCBJJCgtzZW5zaXRpdml0eRgFIAEoDjIqLnNlbnNv",
+            "cnkuYXBpLnYxLmF1ZGlvLlRocmVzaG9sZFNlbnNpdGl2aXR5Qgj6QgWCAQIQ",
+            "ARJWCghzZWN1cml0eRgGIAEoDjI6LnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1",
+            "dGhlbnRpY2F0ZUNvbmZpZy5UaHJlc2hvbGRTZWN1cml0eUII+kIFggECEAES",
+            "GQoRaXNMaXZlbmVzc0VuYWJsZWQYByABKAgiJgoRVGhyZXNob2xkU2VjdXJp",
+            "dHkSCAoESElHSBAAEgcKA0xPVxABQg0KBmF1dGhJZBID+EIBItYBChNWYWxp",
+            "ZGF0ZUV2ZW50Q29uZmlnEjoKBWF1ZGlvGAEgASgLMiEuc2Vuc29yeS5hcGku",
+            "djEuYXVkaW8uQXVkaW9Db25maWdCCPpCBYoBAhABEh0KCW1vZGVsTmFtZRgC",
+            "IAEoCUIK+kIHcgUQARj/ARIZCgZ1c2VySWQYAyABKAlCCfpCBnIEEAEYfxJJ",
+            "CgtzZW5zaXRpdml0eRgEIAEoDjIqLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlRo",
+            "cmVzaG9sZFNlbnNpdGl2aXR5Qgj6QgWCAQIQASK9AgobQ3JlYXRlRW5yb2xs",
+            "bWVudEV2ZW50Q29uZmlnEjoKBWF1ZGlvGAEgASgLMiEuc2Vuc29yeS5hcGku",
+            "djEuYXVkaW8uQXVkaW9Db25maWdCCPpCBYoBAhABEhkKBnVzZXJJZBgCIAEo",
+            "CUIJ+kIGcgQQARh/Eh0KCW1vZGVsTmFtZRgDIAEoCUIK+kIHcgUQARj/ARId",
+            "CgtkZXNjcmlwdGlvbhgEIAEoCUII+kIFcgMY/wcSLAoXZW5yb2xsbWVudE51",
+            "bVV0dGVyYW5jZXMYBSABKA1CCfpCBioEGAooAEgAEi0KEmVucm9sbG1lbnRE",
+            "dXJhdGlvbhgGIAEoAkIP+kIMCgodAABwQS0AAAAASAASHAoLcmVmZXJlbmNl",
+            "SWQYByABKAlCB/pCBHICGH9CDgoMZW5yb2xsTGVuZ3RoIvIBChtWYWxpZGF0",
+            "ZUVucm9sbGVkRXZlbnRDb25maWcSOgoFYXVkaW8YASABKAsyIS5zZW5zb3J5",
+            "LmFwaS52MS5hdWRpby5BdWRpb0NvbmZpZ0II+kIFigECEAESIAoMZW5yb2xs",
+            "bWVudElkGAIgASgJQgj6QgVyA7ABAUgAEhsKEWVucm9sbG1lbnRHcm91cElk",
+            "GAMgASgJSAASSQoLc2Vuc2l0aXZpdHkYBCABKA4yKi5zZW5zb3J5LmFwaS52",
+            "MS5hdWRpby5UaHJlc2hvbGRTZW5zaXRpdml0eUII+kIFggECEAFCDQoGYXV0",
+            "aElkEgP4QgEiiAEKEFRyYW5zY3JpYmVDb25maWcSOgoFYXVkaW8YASABKAsy",
+            "IS5zZW5zb3J5LmFwaS52MS5hdWRpby5BdWRpb0NvbmZpZ0II+kIFigECEAES",
+            "HQoJbW9kZWxOYW1lGAIgASgJQgr6QgdyBRABGP8BEhkKBnVzZXJJZBgDIAEo",
+            "CUIJ+kIGcgQQARh/IusBCgtBdWRpb0NvbmZpZxJLCghlbmNvZGluZxgBIAEo",
+            "DjIvLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkF1ZGlvQ29uZmlnLkF1ZGlvRW5j",
+            "b2RpbmdCCPpCBYIBAhABEiEKD3NhbXBsZVJhdGVIZXJ0ehgCIAEoBUII+kIF",
+            "GgMgwD4SIgoRYXVkaW9DaGFubmVsQ291bnQYAyABKAVCB/pCBBoCIAASFAoM",
+            "bGFuZ3VhZ2VDb2RlGAQgASgJIjIKDUF1ZGlvRW5jb2RpbmcSDAoITElORUFS",
+            "MTYQABIICgRGTEFDEAESCQoFTVVMQVcQAio+ChlBdWRpb1Bvc3RQcm9jZXNz",
+            "aW5nQWN0aW9uEgsKB05PVF9TRVQQABIJCgVGTFVTSBABEgkKBVJFU0VUEAIq",
+            "TgoUVGhyZXNob2xkU2Vuc2l0aXZpdHkSCgoGTE9XRVNUEAASBwoDTE9XEAES",
+            "CgoGTUVESVVNEAISCAoESElHSBADEgsKB0hJR0hFU1QQBDJtCgtBdWRpb01v",
+            "ZGVscxJeCglHZXRNb2RlbHMSJi5zZW5zb3J5LmFwaS52MS5hdWRpby5HZXRN",
+            "b2RlbHNSZXF1ZXN0Gicuc2Vuc29yeS5hcGkudjEuYXVkaW8uR2V0TW9kZWxz",
+            "UmVzcG9uc2UiADL3AQoPQXVkaW9CaW9tZXRyaWNzEncKEENyZWF0ZUVucm9s",
+            "bG1lbnQSLS5zZW5zb3J5LmFwaS52MS5hdWRpby5DcmVhdGVFbnJvbGxtZW50",
+            "UmVxdWVzdBouLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLkNyZWF0ZUVucm9sbG1l",
+            "bnRSZXNwb25zZSIAKAEwARJrCgxBdXRoZW50aWNhdGUSKS5zZW5zb3J5LmFw",
+            "aS52MS5hdWRpby5BdXRoZW50aWNhdGVSZXF1ZXN0Giouc2Vuc29yeS5hcGku",
+            "djEuYXVkaW8uQXV0aGVudGljYXRlUmVzcG9uc2UiACgBMAEyhQMKC0F1ZGlv",
+            "RXZlbnRzEm4KDVZhbGlkYXRlRXZlbnQSKi5zZW5zb3J5LmFwaS52MS5hdWRp",
+            "by5WYWxpZGF0ZUV2ZW50UmVxdWVzdBorLnNlbnNvcnkuYXBpLnYxLmF1ZGlv",
+            "LlZhbGlkYXRlRXZlbnRSZXNwb25zZSIAKAEwARJ9ChNDcmVhdGVFbnJvbGxl",
+            "ZEV2ZW50EjAuc2Vuc29yeS5hcGkudjEuYXVkaW8uQ3JlYXRlRW5yb2xsZWRF",
+            "dmVudFJlcXVlc3QaLi5zZW5zb3J5LmFwaS52MS5hdWRpby5DcmVhdGVFbnJv",
+            "bGxtZW50UmVzcG9uc2UiACgBMAEShgEKFVZhbGlkYXRlRW5yb2xsZWRFdmVu",
+            "dBIyLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlZhbGlkYXRlRW5yb2xsZWRFdmVu",
+            "dFJlcXVlc3QaMy5zZW5zb3J5LmFwaS52MS5hdWRpby5WYWxpZGF0ZUVucm9s",
+            "bGVkRXZlbnRSZXNwb25zZSIAKAEwATJ8ChNBdWRpb1RyYW5zY3JpcHRpb25z",
+            "EmUKClRyYW5zY3JpYmUSJy5zZW5zb3J5LmFwaS52MS5hdWRpby5UcmFuc2Ny",
+            "aWJlUmVxdWVzdBooLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlRyYW5zY3JpYmVS",
+            "ZXNwb25zZSIAKAEwAUJvChdpby5zZW5zb3J5LmFwaS52MS5hdWRpb0IWU2Vu",
+            "c29yeUFwaVYxQXVkaW9Qcm90b1ABWjpnaXRsYWIuY29tL3NlbnNvcnktY2xv",
+            "dWQvc2VydmVyL3RpdGFuLmdpdC9wa2cvYXBpL3YxL2F1ZGlvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.Audio.ThresholdSensitivity), }, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.Audio.AudioPostProcessingAction), typeof(global::Sensory.Api.V1.Audio.ThresholdSensitivity), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.GetModelsRequest), global::Sensory.Api.V1.Audio.GetModelsRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AudioModel), global::Sensory.Api.V1.Audio.AudioModel.Parser, new[]{ "Name", "IsEnrollable", "ModelType", "FixedPhrase", "SampleRate", "Versions", "Technology", "IsLivenessSupported" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction), global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction.Parser, new[]{ "ActionId", "Action" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction), global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction.Parser, new[]{ "ActionId", "Action" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.GetModelsResponse), global::Sensory.Api.V1.Audio.GetModelsResponse.Parser, new[]{ "Models" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.CreateEnrollmentRequest), global::Sensory.Api.V1.Audio.CreateEnrollmentRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AuthenticateRequest), global::Sensory.Api.V1.Audio.AuthenticateRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEventRequest), global::Sensory.Api.V1.Audio.ValidateEventRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.TranscribeRequest), global::Sensory.Api.V1.Audio.TranscribeRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEventRequest), global::Sensory.Api.V1.Audio.ValidateEventRequest.Parser, new[]{ "Config", "AudioContent", "PostProcessingAction" }, new[]{ "StreamingRequest" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.CreateEnrolledEventRequest), global::Sensory.Api.V1.Audio.CreateEnrolledEventRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEnrolledEventRequest), global::Sensory.Api.V1.Audio.ValidateEnrolledEventRequest.Parser, new[]{ "Config", "AudioContent" }, new[]{ "StreamingRequest" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.TranscribeRequest), global::Sensory.Api.V1.Audio.TranscribeRequest.Parser, new[]{ "Config", "AudioContent", "PostProcessingAction" }, new[]{ "StreamingRequest" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.CreateEnrollmentResponse), global::Sensory.Api.V1.Audio.CreateEnrollmentResponse.Parser, new[]{ "PercentComplete", "AudioEnergy", "EnrollmentId", "ModelName", "ModelVersion", "ModelPrompt", "PercentSegmentComplete" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AuthenticateResponse), global::Sensory.Api.V1.Audio.AuthenticateResponse.Parser, new[]{ "AudioEnergy", "Success", "Token", "UserId", "EnrollmentId", "ModelPrompt", "PercentSegmentComplete" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEventResponse), global::Sensory.Api.V1.Audio.ValidateEventResponse.Parser, new[]{ "AudioEnergy", "Success", "ResultId", "Score" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.TranscribeResponse), global::Sensory.Api.V1.Audio.TranscribeResponse.Parser, new[]{ "AudioEnergy", "Transcript", "IsPartialResult" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.CreateEnrollmentConfig), global::Sensory.Api.V1.Audio.CreateEnrollmentConfig.Parser, new[]{ "Audio", "UserId", "DeviceId", "ModelName", "Description", "IsLivenessEnabled", "EnrollmentNumUtterances", "EnrollmentDuration" }, new[]{ "EnrollLength" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEventResponse), global::Sensory.Api.V1.Audio.ValidateEventResponse.Parser, new[]{ "AudioEnergy", "Success", "ResultId", "Score", "PostProcessingAction" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse), global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse.Parser, new[]{ "AudioEnergy", "Success", "EnrollentId", "UserId", "ModelPrompt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.TranscribeResponse), global::Sensory.Api.V1.Audio.TranscribeResponse.Parser, new[]{ "AudioEnergy", "Transcript", "IsPartialResult", "PostProcessingAction" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.CreateEnrollmentConfig), global::Sensory.Api.V1.Audio.CreateEnrollmentConfig.Parser, new[]{ "Audio", "UserId", "DeviceId", "ModelName", "Description", "IsLivenessEnabled", "EnrollmentNumUtterances", "EnrollmentDuration", "ReferenceId" }, new[]{ "EnrollLength" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AuthenticateConfig), global::Sensory.Api.V1.Audio.AuthenticateConfig.Parser, new[]{ "Audio", "EnrollmentId", "EnrollmentGroupId", "DoIncludeToken", "Sensitivity", "Security", "IsLivenessEnabled" }, new[]{ "AuthId" }, new[]{ typeof(global::Sensory.Api.V1.Audio.AuthenticateConfig.Types.ThresholdSecurity) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEventConfig), global::Sensory.Api.V1.Audio.ValidateEventConfig.Parser, new[]{ "Audio", "ModelName", "UserId", "Sensitivity" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig), global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig.Parser, new[]{ "Audio", "UserId", "ModelName", "Description", "EnrollmentNumUtterances", "EnrollmentDuration", "ReferenceId" }, new[]{ "EnrollLength" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig), global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig.Parser, new[]{ "Audio", "EnrollmentId", "EnrollmentGroupId", "Sensitivity" }, new[]{ "AuthId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.TranscribeConfig), global::Sensory.Api.V1.Audio.TranscribeConfig.Parser, new[]{ "Audio", "ModelName", "UserId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Audio.AudioConfig), global::Sensory.Api.V1.Audio.AudioConfig.Parser, new[]{ "Encoding", "SampleRateHertz", "AudioChannelCount", "LanguageCode" }, null, new[]{ typeof(global::Sensory.Api.V1.Audio.AudioConfig.Types.AudioEncoding) }, null, null)
           }));
@@ -132,6 +182,21 @@ namespace Sensory.Api.V1.Audio {
 
   }
   #region Enums
+  public enum AudioPostProcessingAction {
+    /// <summary>
+    /// Default value to perform no action
+    /// </summary>
+    [pbr::OriginalName("NOT_SET")] NotSet = 0,
+    /// <summary>
+    /// Request the audio engine to flush its buffers.
+    /// </summary>
+    [pbr::OriginalName("FLUSH")] Flush = 1,
+    /// <summary>
+    /// Request the audio engine reset itself.
+    /// </summary>
+    [pbr::OriginalName("RESET")] Reset = 2,
+  }
+
   /// <summary>
   /// Specifies how sensitive the event threshold of the model should be
   /// </summary>
@@ -786,6 +851,478 @@ namespace Sensory.Api.V1.Audio {
   }
 
   /// <summary>
+  /// Action that can be passed along with any audio data. This message instructs the audio engine to
+  /// perfrom some kind of action after the data is processed.
+  /// </summary>
+  public sealed partial class AudioRequestPostProcessingAction : pb::IMessage<AudioRequestPostProcessingAction>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AudioRequestPostProcessingAction> _parser = new pb::MessageParser<AudioRequestPostProcessingAction>(() => new AudioRequestPostProcessingAction());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AudioRequestPostProcessingAction> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioRequestPostProcessingAction() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioRequestPostProcessingAction(AudioRequestPostProcessingAction other) : this() {
+      actionId_ = other.actionId_;
+      action_ = other.action_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioRequestPostProcessingAction Clone() {
+      return new AudioRequestPostProcessingAction(this);
+    }
+
+    /// <summary>Field number for the "actionId" field.</summary>
+    public const int ActionIdFieldNumber = 1;
+    private string actionId_ = "";
+    /// <summary>
+    /// ID that can be set by the client. If a flush or reset is requested,
+    /// this ID will be returned to the client upon a successful flush or reset.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ActionId {
+      get { return actionId_; }
+      set {
+        actionId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "action" field.</summary>
+    public const int ActionFieldNumber = 2;
+    private global::Sensory.Api.V1.Audio.AudioPostProcessingAction action_ = global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet;
+    /// <summary>
+    /// The specific action that is being requested.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.AudioPostProcessingAction Action {
+      get { return action_; }
+      set {
+        action_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AudioRequestPostProcessingAction);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AudioRequestPostProcessingAction other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ActionId != other.ActionId) return false;
+      if (Action != other.Action) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ActionId.Length != 0) hash ^= ActionId.GetHashCode();
+      if (Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) hash ^= Action.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ActionId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ActionId);
+      }
+      if (Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Action);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ActionId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ActionId);
+      }
+      if (Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Action);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (ActionId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActionId);
+      }
+      if (Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Action);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AudioRequestPostProcessingAction other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ActionId.Length != 0) {
+        ActionId = other.ActionId;
+      }
+      if (other.Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) {
+        Action = other.Action;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ActionId = input.ReadString();
+            break;
+          }
+          case 16: {
+            Action = (global::Sensory.Api.V1.Audio.AudioPostProcessingAction) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            ActionId = input.ReadString();
+            break;
+          }
+          case 16: {
+            Action = (global::Sensory.Api.V1.Audio.AudioPostProcessingAction) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Metadata that can be passed along with any audio response indicating
+  /// </summary>
+  public sealed partial class AudioResponsePostProcessingAction : pb::IMessage<AudioResponsePostProcessingAction>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AudioResponsePostProcessingAction> _parser = new pb::MessageParser<AudioResponsePostProcessingAction>(() => new AudioResponsePostProcessingAction());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AudioResponsePostProcessingAction> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioResponsePostProcessingAction() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioResponsePostProcessingAction(AudioResponsePostProcessingAction other) : this() {
+      actionId_ = other.actionId_;
+      action_ = other.action_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioResponsePostProcessingAction Clone() {
+      return new AudioResponsePostProcessingAction(this);
+    }
+
+    /// <summary>Field number for the "actionId" field.</summary>
+    public const int ActionIdFieldNumber = 1;
+    private string actionId_ = "";
+    /// <summary>
+    /// ID that was optionally set by the client with the metadata request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ActionId {
+      get { return actionId_; }
+      set {
+        actionId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "action" field.</summary>
+    public const int ActionFieldNumber = 2;
+    private global::Sensory.Api.V1.Audio.AudioPostProcessingAction action_ = global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet;
+    /// <summary>
+    /// The specific action that was completed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.AudioPostProcessingAction Action {
+      get { return action_; }
+      set {
+        action_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AudioResponsePostProcessingAction);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AudioResponsePostProcessingAction other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ActionId != other.ActionId) return false;
+      if (Action != other.Action) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ActionId.Length != 0) hash ^= ActionId.GetHashCode();
+      if (Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) hash ^= Action.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (ActionId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ActionId);
+      }
+      if (Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Action);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (ActionId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(ActionId);
+      }
+      if (Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Action);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (ActionId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ActionId);
+      }
+      if (Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Action);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AudioResponsePostProcessingAction other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ActionId.Length != 0) {
+        ActionId = other.ActionId;
+      }
+      if (other.Action != global::Sensory.Api.V1.Audio.AudioPostProcessingAction.NotSet) {
+        Action = other.Action;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            ActionId = input.ReadString();
+            break;
+          }
+          case 16: {
+            Action = (global::Sensory.Api.V1.Audio.AudioPostProcessingAction) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            ActionId = input.ReadString();
+            break;
+          }
+          case 16: {
+            Action = (global::Sensory.Api.V1.Audio.AudioPostProcessingAction) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// Response containing the models currently available
   /// </summary>
   public sealed partial class GetModelsResponse : pb::IMessage<GetModelsResponse>
@@ -802,7 +1339,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -990,7 +1527,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1282,7 +1819,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1574,7 +2111,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1594,6 +2131,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ValidateEventRequest(ValidateEventRequest other) : this() {
+      postProcessingAction_ = other.postProcessingAction_ != null ? other.postProcessingAction_.Clone() : null;
       switch (other.StreamingRequestCase) {
         case StreamingRequestOneofCase.Config:
           Config = other.Config.Clone();
@@ -1649,6 +2187,21 @@ namespace Sensory.Api.V1.Audio {
       }
     }
 
+    /// <summary>Field number for the "postProcessingAction" field.</summary>
+    public const int PostProcessingActionFieldNumber = 10;
+    private global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction postProcessingAction_;
+    /// <summary>
+    /// Message used to instruct the audio recognition engine to flush or reset.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction PostProcessingAction {
+      get { return postProcessingAction_; }
+      set {
+        postProcessingAction_ = value;
+      }
+    }
+
     private object streamingRequest_;
     /// <summary>Enum of possible cases for the "streamingRequest" oneof.</summary>
     public enum StreamingRequestOneofCase {
@@ -1679,6 +2232,331 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool Equals(ValidateEventRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Config, other.Config)) return false;
+      if (AudioContent != other.AudioContent) return false;
+      if (!object.Equals(PostProcessingAction, other.PostProcessingAction)) return false;
+      if (StreamingRequestCase != other.StreamingRequestCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (streamingRequestCase_ == StreamingRequestOneofCase.Config) hash ^= Config.GetHashCode();
+      if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) hash ^= AudioContent.GetHashCode();
+      if (postProcessingAction_ != null) hash ^= PostProcessingAction.GetHashCode();
+      hash ^= (int) streamingRequestCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Config);
+      }
+      if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) {
+        output.WriteRawTag(18);
+        output.WriteBytes(AudioContent);
+      }
+      if (postProcessingAction_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(PostProcessingAction);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Config);
+      }
+      if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) {
+        output.WriteRawTag(18);
+        output.WriteBytes(AudioContent);
+      }
+      if (postProcessingAction_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(PostProcessingAction);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
+      }
+      if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(AudioContent);
+      }
+      if (postProcessingAction_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostProcessingAction);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ValidateEventRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.postProcessingAction_ != null) {
+        if (postProcessingAction_ == null) {
+          PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction();
+        }
+        PostProcessingAction.MergeFrom(other.PostProcessingAction);
+      }
+      switch (other.StreamingRequestCase) {
+        case StreamingRequestOneofCase.Config:
+          if (Config == null) {
+            Config = new global::Sensory.Api.V1.Audio.ValidateEventConfig();
+          }
+          Config.MergeFrom(other.Config);
+          break;
+        case StreamingRequestOneofCase.AudioContent:
+          AudioContent = other.AudioContent;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            global::Sensory.Api.V1.Audio.ValidateEventConfig subBuilder = new global::Sensory.Api.V1.Audio.ValidateEventConfig();
+            if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+              subBuilder.MergeFrom(Config);
+            }
+            input.ReadMessage(subBuilder);
+            Config = subBuilder;
+            break;
+          }
+          case 18: {
+            AudioContent = input.ReadBytes();
+            break;
+          }
+          case 82: {
+            if (postProcessingAction_ == null) {
+              PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction();
+            }
+            input.ReadMessage(PostProcessingAction);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            global::Sensory.Api.V1.Audio.ValidateEventConfig subBuilder = new global::Sensory.Api.V1.Audio.ValidateEventConfig();
+            if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+              subBuilder.MergeFrom(Config);
+            }
+            input.ReadMessage(subBuilder);
+            Config = subBuilder;
+            break;
+          }
+          case 18: {
+            AudioContent = input.ReadBytes();
+            break;
+          }
+          case 82: {
+            if (postProcessingAction_ == null) {
+              PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction();
+            }
+            input.ReadMessage(PostProcessingAction);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The top-level message sent by the client for the `CreateEnrolledEvent` method.
+  /// Multiple `CreateEnrolledEventRequest` messages are sent in a stream. The first message
+  /// must contain a `config` message and must not contain `audioContent`.
+  /// All subsequent messages must contain `audioContent` and
+  /// must not contain a `config` message.
+  /// </summary>
+  public sealed partial class CreateEnrolledEventRequest : pb::IMessage<CreateEnrolledEventRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CreateEnrolledEventRequest> _parser = new pb::MessageParser<CreateEnrolledEventRequest>(() => new CreateEnrolledEventRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CreateEnrolledEventRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateEnrolledEventRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateEnrolledEventRequest(CreateEnrolledEventRequest other) : this() {
+      switch (other.StreamingRequestCase) {
+        case StreamingRequestOneofCase.Config:
+          Config = other.Config.Clone();
+          break;
+        case StreamingRequestOneofCase.AudioContent:
+          AudioContent = other.AudioContent;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateEnrolledEventRequest Clone() {
+      return new CreateEnrolledEventRequest(this);
+    }
+
+    /// <summary>Field number for the "config" field.</summary>
+    public const int ConfigFieldNumber = 1;
+    /// <summary>
+    /// Provides information that specifies how to process the
+    /// request. The first `CreateEnrolledEventRequest` message must contain a
+    /// `config`  message.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig Config {
+      get { return streamingRequestCase_ == StreamingRequestOneofCase.Config ? (global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig) streamingRequest_ : null; }
+      set {
+        streamingRequest_ = value;
+        streamingRequestCase_ = value == null ? StreamingRequestOneofCase.None : StreamingRequestOneofCase.Config;
+      }
+    }
+
+    /// <summary>Field number for the "audioContent" field.</summary>
+    public const int AudioContentFieldNumber = 2;
+    /// <summary>
+    /// The audio data to be recognized. Sequential chunks of audio data are sent
+    /// in sequential `CreateEnrolledEventRequest` messages. The first
+    /// `CreateEnrolledEventRequest` message must not contain `audioContent` data
+    /// and all subsequent `CreateEnrolledEventRequest` messages must contain
+    /// `audioContent` data. The audio bytes must be encoded as specified in
+    /// `AudioConfig`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString AudioContent {
+      get { return streamingRequestCase_ == StreamingRequestOneofCase.AudioContent ? (pb::ByteString) streamingRequest_ : pb::ByteString.Empty; }
+      set {
+        streamingRequest_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        streamingRequestCase_ = StreamingRequestOneofCase.AudioContent;
+      }
+    }
+
+    private object streamingRequest_;
+    /// <summary>Enum of possible cases for the "streamingRequest" oneof.</summary>
+    public enum StreamingRequestOneofCase {
+      None = 0,
+      Config = 1,
+      AudioContent = 2,
+    }
+    private StreamingRequestOneofCase streamingRequestCase_ = StreamingRequestOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingRequestOneofCase StreamingRequestCase {
+      get { return streamingRequestCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearStreamingRequest() {
+      streamingRequestCase_ = StreamingRequestOneofCase.None;
+      streamingRequest_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CreateEnrolledEventRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CreateEnrolledEventRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1766,14 +2644,14 @@ namespace Sensory.Api.V1.Audio {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ValidateEventRequest other) {
+    public void MergeFrom(CreateEnrolledEventRequest other) {
       if (other == null) {
         return;
       }
       switch (other.StreamingRequestCase) {
         case StreamingRequestOneofCase.Config:
           if (Config == null) {
-            Config = new global::Sensory.Api.V1.Audio.ValidateEventConfig();
+            Config = new global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig();
           }
           Config.MergeFrom(other.Config);
           break;
@@ -1798,7 +2676,7 @@ namespace Sensory.Api.V1.Audio {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            global::Sensory.Api.V1.Audio.ValidateEventConfig subBuilder = new global::Sensory.Api.V1.Audio.ValidateEventConfig();
+            global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig subBuilder = new global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig();
             if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
               subBuilder.MergeFrom(Config);
             }
@@ -1826,7 +2704,299 @@ namespace Sensory.Api.V1.Audio {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            global::Sensory.Api.V1.Audio.ValidateEventConfig subBuilder = new global::Sensory.Api.V1.Audio.ValidateEventConfig();
+            global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig subBuilder = new global::Sensory.Api.V1.Audio.CreateEnrollmentEventConfig();
+            if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+              subBuilder.MergeFrom(Config);
+            }
+            input.ReadMessage(subBuilder);
+            Config = subBuilder;
+            break;
+          }
+          case 18: {
+            AudioContent = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// The top-level message sent by the client for the `ValidateEnrolledEvent` method.
+  /// Multiple `ValidateEnrolledEventRequest` messages are sent in a stream. The first message
+  /// must contain a `config` message and must not contain `audioContent`.
+  /// All subsequent messages must contain `audioContent` and
+  /// must not contain a `config` message.
+  /// </summary>
+  public sealed partial class ValidateEnrolledEventRequest : pb::IMessage<ValidateEnrolledEventRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ValidateEnrolledEventRequest> _parser = new pb::MessageParser<ValidateEnrolledEventRequest>(() => new ValidateEnrolledEventRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ValidateEnrolledEventRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventRequest(ValidateEnrolledEventRequest other) : this() {
+      switch (other.StreamingRequestCase) {
+        case StreamingRequestOneofCase.Config:
+          Config = other.Config.Clone();
+          break;
+        case StreamingRequestOneofCase.AudioContent:
+          AudioContent = other.AudioContent;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventRequest Clone() {
+      return new ValidateEnrolledEventRequest(this);
+    }
+
+    /// <summary>Field number for the "config" field.</summary>
+    public const int ConfigFieldNumber = 1;
+    /// <summary>
+    /// Provides information that specifies how to process the
+    /// request. The first `ValidateEnrolledEventRequest` message must contain a
+    /// `config`  message.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig Config {
+      get { return streamingRequestCase_ == StreamingRequestOneofCase.Config ? (global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig) streamingRequest_ : null; }
+      set {
+        streamingRequest_ = value;
+        streamingRequestCase_ = value == null ? StreamingRequestOneofCase.None : StreamingRequestOneofCase.Config;
+      }
+    }
+
+    /// <summary>Field number for the "audioContent" field.</summary>
+    public const int AudioContentFieldNumber = 2;
+    /// <summary>
+    /// The audio data to be recognized. Sequential chunks of audio data are sent
+    /// in sequential `ValidateEnrolledEventRequest` messages. The first
+    /// `ValidateEnrolledEventRequest` message must not contain `audioContent` data
+    /// and all subsequent `ValidateEnrolledEventRequest` messages must contain
+    /// `audioContent` data. The audio bytes must be encoded as specified in
+    /// `ValidateEnrolledEventConfig`.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString AudioContent {
+      get { return streamingRequestCase_ == StreamingRequestOneofCase.AudioContent ? (pb::ByteString) streamingRequest_ : pb::ByteString.Empty; }
+      set {
+        streamingRequest_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        streamingRequestCase_ = StreamingRequestOneofCase.AudioContent;
+      }
+    }
+
+    private object streamingRequest_;
+    /// <summary>Enum of possible cases for the "streamingRequest" oneof.</summary>
+    public enum StreamingRequestOneofCase {
+      None = 0,
+      Config = 1,
+      AudioContent = 2,
+    }
+    private StreamingRequestOneofCase streamingRequestCase_ = StreamingRequestOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StreamingRequestOneofCase StreamingRequestCase {
+      get { return streamingRequestCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearStreamingRequest() {
+      streamingRequestCase_ = StreamingRequestOneofCase.None;
+      streamingRequest_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ValidateEnrolledEventRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ValidateEnrolledEventRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Config, other.Config)) return false;
+      if (AudioContent != other.AudioContent) return false;
+      if (StreamingRequestCase != other.StreamingRequestCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (streamingRequestCase_ == StreamingRequestOneofCase.Config) hash ^= Config.GetHashCode();
+      if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) hash ^= AudioContent.GetHashCode();
+      hash ^= (int) streamingRequestCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Config);
+      }
+      if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) {
+        output.WriteRawTag(18);
+        output.WriteBytes(AudioContent);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Config);
+      }
+      if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) {
+        output.WriteRawTag(18);
+        output.WriteBytes(AudioContent);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Config);
+      }
+      if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(AudioContent);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ValidateEnrolledEventRequest other) {
+      if (other == null) {
+        return;
+      }
+      switch (other.StreamingRequestCase) {
+        case StreamingRequestOneofCase.Config:
+          if (Config == null) {
+            Config = new global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig();
+          }
+          Config.MergeFrom(other.Config);
+          break;
+        case StreamingRequestOneofCase.AudioContent:
+          AudioContent = other.AudioContent;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig subBuilder = new global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig();
+            if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
+              subBuilder.MergeFrom(Config);
+            }
+            input.ReadMessage(subBuilder);
+            Config = subBuilder;
+            break;
+          }
+          case 18: {
+            AudioContent = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig subBuilder = new global::Sensory.Api.V1.Audio.ValidateEnrolledEventConfig();
             if (streamingRequestCase_ == StreamingRequestOneofCase.Config) {
               subBuilder.MergeFrom(Config);
             }
@@ -1866,7 +3036,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1886,6 +3056,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TranscribeRequest(TranscribeRequest other) : this() {
+      postProcessingAction_ = other.postProcessingAction_ != null ? other.postProcessingAction_.Clone() : null;
       switch (other.StreamingRequestCase) {
         case StreamingRequestOneofCase.Config:
           Config = other.Config.Clone();
@@ -1941,6 +3112,21 @@ namespace Sensory.Api.V1.Audio {
       }
     }
 
+    /// <summary>Field number for the "postProcessingAction" field.</summary>
+    public const int PostProcessingActionFieldNumber = 10;
+    private global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction postProcessingAction_;
+    /// <summary>
+    /// Message used to instruct the audio recognition engine to flush or reset.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction PostProcessingAction {
+      get { return postProcessingAction_; }
+      set {
+        postProcessingAction_ = value;
+      }
+    }
+
     private object streamingRequest_;
     /// <summary>Enum of possible cases for the "streamingRequest" oneof.</summary>
     public enum StreamingRequestOneofCase {
@@ -1979,6 +3165,7 @@ namespace Sensory.Api.V1.Audio {
       }
       if (!object.Equals(Config, other.Config)) return false;
       if (AudioContent != other.AudioContent) return false;
+      if (!object.Equals(PostProcessingAction, other.PostProcessingAction)) return false;
       if (StreamingRequestCase != other.StreamingRequestCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1989,6 +3176,7 @@ namespace Sensory.Api.V1.Audio {
       int hash = 1;
       if (streamingRequestCase_ == StreamingRequestOneofCase.Config) hash ^= Config.GetHashCode();
       if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) hash ^= AudioContent.GetHashCode();
+      if (postProcessingAction_ != null) hash ^= PostProcessingAction.GetHashCode();
       hash ^= (int) streamingRequestCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2016,6 +3204,10 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(18);
         output.WriteBytes(AudioContent);
       }
+      if (postProcessingAction_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(PostProcessingAction);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2034,6 +3226,10 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(18);
         output.WriteBytes(AudioContent);
       }
+      if (postProcessingAction_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(PostProcessingAction);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2050,6 +3246,9 @@ namespace Sensory.Api.V1.Audio {
       if (streamingRequestCase_ == StreamingRequestOneofCase.AudioContent) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(AudioContent);
       }
+      if (postProcessingAction_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostProcessingAction);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2061,6 +3260,12 @@ namespace Sensory.Api.V1.Audio {
     public void MergeFrom(TranscribeRequest other) {
       if (other == null) {
         return;
+      }
+      if (other.postProcessingAction_ != null) {
+        if (postProcessingAction_ == null) {
+          PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction();
+        }
+        PostProcessingAction.MergeFrom(other.PostProcessingAction);
       }
       switch (other.StreamingRequestCase) {
         case StreamingRequestOneofCase.Config:
@@ -2102,6 +3307,13 @@ namespace Sensory.Api.V1.Audio {
             AudioContent = input.ReadBytes();
             break;
           }
+          case 82: {
+            if (postProcessingAction_ == null) {
+              PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction();
+            }
+            input.ReadMessage(PostProcessingAction);
+            break;
+          }
         }
       }
     #endif
@@ -2130,6 +3342,13 @@ namespace Sensory.Api.V1.Audio {
             AudioContent = input.ReadBytes();
             break;
           }
+          case 82: {
+            if (postProcessingAction_ == null) {
+              PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioRequestPostProcessingAction();
+            }
+            input.ReadMessage(PostProcessingAction);
+            break;
+          }
         }
       }
     }
@@ -2154,7 +3373,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2590,7 +3809,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3037,7 +4256,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3061,6 +4280,7 @@ namespace Sensory.Api.V1.Audio {
       success_ = other.success_;
       resultId_ = other.resultId_;
       score_ = other.score_;
+      postProcessingAction_ = other.postProcessingAction_ != null ? other.postProcessingAction_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3131,6 +4351,22 @@ namespace Sensory.Api.V1.Audio {
       }
     }
 
+    /// <summary>Field number for the "postProcessingAction" field.</summary>
+    public const int PostProcessingActionFieldNumber = 10;
+    private global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction postProcessingAction_;
+    /// <summary>
+    /// If a post processing audio action was requested, this will be populated with the specific
+    /// action that was completed along with the actionId optionally set by the client.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction PostProcessingAction {
+      get { return postProcessingAction_; }
+      set {
+        postProcessingAction_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3150,6 +4386,7 @@ namespace Sensory.Api.V1.Audio {
       if (Success != other.Success) return false;
       if (ResultId != other.ResultId) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Score, other.Score)) return false;
+      if (!object.Equals(PostProcessingAction, other.PostProcessingAction)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3161,6 +4398,7 @@ namespace Sensory.Api.V1.Audio {
       if (Success != false) hash ^= Success.GetHashCode();
       if (ResultId.Length != 0) hash ^= ResultId.GetHashCode();
       if (Score != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Score);
+      if (postProcessingAction_ != null) hash ^= PostProcessingAction.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3195,6 +4433,10 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(37);
         output.WriteFloat(Score);
       }
+      if (postProcessingAction_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(PostProcessingAction);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3221,6 +4463,10 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(37);
         output.WriteFloat(Score);
       }
+      if (postProcessingAction_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(PostProcessingAction);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3242,6 +4488,9 @@ namespace Sensory.Api.V1.Audio {
       }
       if (Score != 0F) {
         size += 1 + 4;
+      }
+      if (postProcessingAction_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostProcessingAction);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3266,6 +4515,12 @@ namespace Sensory.Api.V1.Audio {
       }
       if (other.Score != 0F) {
         Score = other.Score;
+      }
+      if (other.postProcessingAction_ != null) {
+        if (postProcessingAction_ == null) {
+          PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction();
+        }
+        PostProcessingAction.MergeFrom(other.PostProcessingAction);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3296,6 +4551,13 @@ namespace Sensory.Api.V1.Audio {
           }
           case 37: {
             Score = input.ReadFloat();
+            break;
+          }
+          case 82: {
+            if (postProcessingAction_ == null) {
+              PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction();
+            }
+            input.ReadMessage(PostProcessingAction);
             break;
           }
         }
@@ -3329,6 +4591,370 @@ namespace Sensory.Api.V1.Audio {
             Score = input.ReadFloat();
             break;
           }
+          case 82: {
+            if (postProcessingAction_ == null) {
+              PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction();
+            }
+            input.ReadMessage(PostProcessingAction);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Response from a ValidateEventRequest
+  /// </summary>
+  public sealed partial class ValidateEnrolledEventResponse : pb::IMessage<ValidateEnrolledEventResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ValidateEnrolledEventResponse> _parser = new pb::MessageParser<ValidateEnrolledEventResponse>(() => new ValidateEnrolledEventResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ValidateEnrolledEventResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventResponse(ValidateEnrolledEventResponse other) : this() {
+      audioEnergy_ = other.audioEnergy_;
+      success_ = other.success_;
+      enrollentId_ = other.enrollentId_;
+      userId_ = other.userId_;
+      modelPrompt_ = other.modelPrompt_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventResponse Clone() {
+      return new ValidateEnrolledEventResponse(this);
+    }
+
+    /// <summary>Field number for the "audioEnergy" field.</summary>
+    public const int AudioEnergyFieldNumber = 1;
+    private float audioEnergy_;
+    /// <summary>
+    /// Relative energy of the processed audio as a value between 0 and 1
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float AudioEnergy {
+      get { return audioEnergy_; }
+      set {
+        audioEnergy_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "success" field.</summary>
+    public const int SuccessFieldNumber = 2;
+    private bool success_;
+    /// <summary>
+    /// Success / Failure bit
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Success {
+      get { return success_; }
+      set {
+        success_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "enrollentId" field.</summary>
+    public const int EnrollentIdFieldNumber = 3;
+    private string enrollentId_ = "";
+    /// <summary>
+    /// The enrollmentID of the authenticated user
+    /// Useful when evaluating enrollment groups
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string EnrollentId {
+      get { return enrollentId_; }
+      set {
+        enrollentId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "userId" field.</summary>
+    public const int UserIdFieldNumber = 4;
+    private string userId_ = "";
+    /// <summary>
+    /// The userID of the authenticated user
+    /// Useful when evaluating enrollment groups
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UserId {
+      get { return userId_; }
+      set {
+        userId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modelPrompt" field.</summary>
+    public const int ModelPromptFieldNumber = 5;
+    private string modelPrompt_ = "";
+    /// <summary>
+    /// Model prompt instructs the user to say something during authentication
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ModelPrompt {
+      get { return modelPrompt_; }
+      set {
+        modelPrompt_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ValidateEnrolledEventResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ValidateEnrolledEventResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(AudioEnergy, other.AudioEnergy)) return false;
+      if (Success != other.Success) return false;
+      if (EnrollentId != other.EnrollentId) return false;
+      if (UserId != other.UserId) return false;
+      if (ModelPrompt != other.ModelPrompt) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AudioEnergy != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(AudioEnergy);
+      if (Success != false) hash ^= Success.GetHashCode();
+      if (EnrollentId.Length != 0) hash ^= EnrollentId.GetHashCode();
+      if (UserId.Length != 0) hash ^= UserId.GetHashCode();
+      if (ModelPrompt.Length != 0) hash ^= ModelPrompt.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AudioEnergy != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(AudioEnergy);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (EnrollentId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(EnrollentId);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(UserId);
+      }
+      if (ModelPrompt.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(ModelPrompt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AudioEnergy != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(AudioEnergy);
+      }
+      if (Success != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Success);
+      }
+      if (EnrollentId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(EnrollentId);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(UserId);
+      }
+      if (ModelPrompt.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(ModelPrompt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AudioEnergy != 0F) {
+        size += 1 + 4;
+      }
+      if (Success != false) {
+        size += 1 + 1;
+      }
+      if (EnrollentId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EnrollentId);
+      }
+      if (UserId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UserId);
+      }
+      if (ModelPrompt.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModelPrompt);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ValidateEnrolledEventResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AudioEnergy != 0F) {
+        AudioEnergy = other.AudioEnergy;
+      }
+      if (other.Success != false) {
+        Success = other.Success;
+      }
+      if (other.EnrollentId.Length != 0) {
+        EnrollentId = other.EnrollentId;
+      }
+      if (other.UserId.Length != 0) {
+        UserId = other.UserId;
+      }
+      if (other.ModelPrompt.Length != 0) {
+        ModelPrompt = other.ModelPrompt;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 13: {
+            AudioEnergy = input.ReadFloat();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+          case 26: {
+            EnrollentId = input.ReadString();
+            break;
+          }
+          case 34: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 42: {
+            ModelPrompt = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 13: {
+            AudioEnergy = input.ReadFloat();
+            break;
+          }
+          case 16: {
+            Success = input.ReadBool();
+            break;
+          }
+          case 26: {
+            EnrollentId = input.ReadString();
+            break;
+          }
+          case 34: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 42: {
+            ModelPrompt = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -3353,7 +4979,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3376,6 +5002,7 @@ namespace Sensory.Api.V1.Audio {
       audioEnergy_ = other.audioEnergy_;
       transcript_ = other.transcript_;
       isPartialResult_ = other.isPartialResult_;
+      postProcessingAction_ = other.postProcessingAction_ != null ? other.postProcessingAction_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3430,6 +5057,22 @@ namespace Sensory.Api.V1.Audio {
       }
     }
 
+    /// <summary>Field number for the "postProcessingAction" field.</summary>
+    public const int PostProcessingActionFieldNumber = 10;
+    private global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction postProcessingAction_;
+    /// <summary>
+    /// If a post processing audio action was requested, this will be populated with the specific
+    /// action that was completed along with the actionId optionally set by the client.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction PostProcessingAction {
+      get { return postProcessingAction_; }
+      set {
+        postProcessingAction_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3448,6 +5091,7 @@ namespace Sensory.Api.V1.Audio {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(AudioEnergy, other.AudioEnergy)) return false;
       if (Transcript != other.Transcript) return false;
       if (IsPartialResult != other.IsPartialResult) return false;
+      if (!object.Equals(PostProcessingAction, other.PostProcessingAction)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3458,6 +5102,7 @@ namespace Sensory.Api.V1.Audio {
       if (AudioEnergy != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(AudioEnergy);
       if (Transcript.Length != 0) hash ^= Transcript.GetHashCode();
       if (IsPartialResult != false) hash ^= IsPartialResult.GetHashCode();
+      if (postProcessingAction_ != null) hash ^= PostProcessingAction.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3488,6 +5133,10 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(24);
         output.WriteBool(IsPartialResult);
       }
+      if (postProcessingAction_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(PostProcessingAction);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3510,6 +5159,10 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(24);
         output.WriteBool(IsPartialResult);
       }
+      if (postProcessingAction_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(PostProcessingAction);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3528,6 +5181,9 @@ namespace Sensory.Api.V1.Audio {
       }
       if (IsPartialResult != false) {
         size += 1 + 1;
+      }
+      if (postProcessingAction_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PostProcessingAction);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3549,6 +5205,12 @@ namespace Sensory.Api.V1.Audio {
       }
       if (other.IsPartialResult != false) {
         IsPartialResult = other.IsPartialResult;
+      }
+      if (other.postProcessingAction_ != null) {
+        if (postProcessingAction_ == null) {
+          PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction();
+        }
+        PostProcessingAction.MergeFrom(other.PostProcessingAction);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3575,6 +5237,13 @@ namespace Sensory.Api.V1.Audio {
           }
           case 24: {
             IsPartialResult = input.ReadBool();
+            break;
+          }
+          case 82: {
+            if (postProcessingAction_ == null) {
+              PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction();
+            }
+            input.ReadMessage(PostProcessingAction);
             break;
           }
         }
@@ -3604,6 +5273,13 @@ namespace Sensory.Api.V1.Audio {
             IsPartialResult = input.ReadBool();
             break;
           }
+          case 82: {
+            if (postProcessingAction_ == null) {
+              PostProcessingAction = new global::Sensory.Api.V1.Audio.AudioResponsePostProcessingAction();
+            }
+            input.ReadMessage(PostProcessingAction);
+            break;
+          }
         }
       }
     }
@@ -3628,7 +5304,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3654,6 +5330,7 @@ namespace Sensory.Api.V1.Audio {
       modelName_ = other.modelName_;
       description_ = other.description_;
       isLivenessEnabled_ = other.isLivenessEnabled_;
+      referenceId_ = other.referenceId_;
       switch (other.EnrollLengthCase) {
         case EnrollLengthOneofCase.EnrollmentNumUtterances:
           EnrollmentNumUtterances = other.EnrollmentNumUtterances;
@@ -3798,6 +5475,22 @@ namespace Sensory.Api.V1.Audio {
       }
     }
 
+    /// <summary>Field number for the "referenceId" field.</summary>
+    public const int ReferenceIdFieldNumber = 9;
+    private string referenceId_ = "";
+    /// <summary>
+    /// Reference Id allows clients to assign their own identifier to enrollments for various purposes
+    /// such as tying an audio and video enrollment together.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ReferenceId {
+      get { return referenceId_; }
+      set {
+        referenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     private object enrollLength_;
     /// <summary>Enum of possible cases for the "enrollLength" oneof.</summary>
     public enum EnrollLengthOneofCase {
@@ -3842,6 +5535,7 @@ namespace Sensory.Api.V1.Audio {
       if (IsLivenessEnabled != other.IsLivenessEnabled) return false;
       if (EnrollmentNumUtterances != other.EnrollmentNumUtterances) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EnrollmentDuration, other.EnrollmentDuration)) return false;
+      if (ReferenceId != other.ReferenceId) return false;
       if (EnrollLengthCase != other.EnrollLengthCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -3858,6 +5552,7 @@ namespace Sensory.Api.V1.Audio {
       if (IsLivenessEnabled != false) hash ^= IsLivenessEnabled.GetHashCode();
       if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentNumUtterances) hash ^= EnrollmentNumUtterances.GetHashCode();
       if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentDuration) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EnrollmentDuration);
+      if (ReferenceId.Length != 0) hash ^= ReferenceId.GetHashCode();
       hash ^= (int) enrollLengthCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3909,6 +5604,10 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(69);
         output.WriteFloat(EnrollmentDuration);
       }
+      if (ReferenceId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ReferenceId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3951,6 +5650,10 @@ namespace Sensory.Api.V1.Audio {
         output.WriteRawTag(69);
         output.WriteFloat(EnrollmentDuration);
       }
+      if (ReferenceId.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(ReferenceId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3985,6 +5688,9 @@ namespace Sensory.Api.V1.Audio {
       if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentDuration) {
         size += 1 + 4;
       }
+      if (ReferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ReferenceId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4017,6 +5723,9 @@ namespace Sensory.Api.V1.Audio {
       }
       if (other.IsLivenessEnabled != false) {
         IsLivenessEnabled = other.IsLivenessEnabled;
+      }
+      if (other.ReferenceId.Length != 0) {
+        ReferenceId = other.ReferenceId;
       }
       switch (other.EnrollLengthCase) {
         case EnrollLengthOneofCase.EnrollmentNumUtterances:
@@ -4077,6 +5786,10 @@ namespace Sensory.Api.V1.Audio {
             EnrollmentDuration = input.ReadFloat();
             break;
           }
+          case 74: {
+            ReferenceId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -4127,6 +5840,10 @@ namespace Sensory.Api.V1.Audio {
             EnrollmentDuration = input.ReadFloat();
             break;
           }
+          case 74: {
+            ReferenceId = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -4151,7 +5868,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4662,7 +6379,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4971,6 +6688,844 @@ namespace Sensory.Api.V1.Audio {
 
   }
 
+  public sealed partial class CreateEnrollmentEventConfig : pb::IMessage<CreateEnrollmentEventConfig>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<CreateEnrollmentEventConfig> _parser = new pb::MessageParser<CreateEnrollmentEventConfig>(() => new CreateEnrollmentEventConfig());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<CreateEnrollmentEventConfig> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[19]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateEnrollmentEventConfig() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateEnrollmentEventConfig(CreateEnrollmentEventConfig other) : this() {
+      audio_ = other.audio_ != null ? other.audio_.Clone() : null;
+      userId_ = other.userId_;
+      modelName_ = other.modelName_;
+      description_ = other.description_;
+      referenceId_ = other.referenceId_;
+      switch (other.EnrollLengthCase) {
+        case EnrollLengthOneofCase.EnrollmentNumUtterances:
+          EnrollmentNumUtterances = other.EnrollmentNumUtterances;
+          break;
+        case EnrollLengthOneofCase.EnrollmentDuration:
+          EnrollmentDuration = other.EnrollmentDuration;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public CreateEnrollmentEventConfig Clone() {
+      return new CreateEnrollmentEventConfig(this);
+    }
+
+    /// <summary>Field number for the "audio" field.</summary>
+    public const int AudioFieldNumber = 1;
+    private global::Sensory.Api.V1.Audio.AudioConfig audio_;
+    /// <summary>
+    /// Required. Provides information that specifies how to
+    /// process the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.AudioConfig Audio {
+      get { return audio_; }
+      set {
+        audio_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "userId" field.</summary>
+    public const int UserIdFieldNumber = 2;
+    private string userId_ = "";
+    /// <summary>
+    /// The unique user Identifer. This value should be a unique email address or username known by the user.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UserId {
+      get { return userId_; }
+      set {
+        userId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "modelName" field.</summary>
+    public const int ModelNameFieldNumber = 3;
+    private string modelName_ = "";
+    /// <summary>
+    /// Name of background model to be enrolled in
+    /// Background models can be retrieved from the GetModels() gRPC call
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ModelName {
+      get { return modelName_; }
+      set {
+        modelName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "description" field.</summary>
+    public const int DescriptionFieldNumber = 4;
+    private string description_ = "";
+    /// <summary>
+    /// Description of the enrollment as entered by the user.
+    /// Max length is 1023 characters
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Description {
+      get { return description_; }
+      set {
+        description_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "enrollmentNumUtterances" field.</summary>
+    public const int EnrollmentNumUtterancesFieldNumber = 5;
+    /// <summary>
+    /// The number of times a specific phrase should be uttered during an enrollment.
+    /// The default value is 4.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint EnrollmentNumUtterances {
+      get { return enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentNumUtterances ? (uint) enrollLength_ : 0; }
+      set {
+        enrollLength_ = value;
+        enrollLengthCase_ = EnrollLengthOneofCase.EnrollmentNumUtterances;
+      }
+    }
+
+    /// <summary>Field number for the "enrollmentDuration" field.</summary>
+    public const int EnrollmentDurationFieldNumber = 6;
+    /// <summary>
+    /// The allowed length of text-independent enrollments (such as digit liveness)
+    /// The default value is 12.5 seconds without liveness and 8 seconds with liveness.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float EnrollmentDuration {
+      get { return enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentDuration ? (float) enrollLength_ : 0F; }
+      set {
+        enrollLength_ = value;
+        enrollLengthCase_ = EnrollLengthOneofCase.EnrollmentDuration;
+      }
+    }
+
+    /// <summary>Field number for the "referenceId" field.</summary>
+    public const int ReferenceIdFieldNumber = 7;
+    private string referenceId_ = "";
+    /// <summary>
+    /// Reference Id allows clients to assign their own identifier to enrollments for various purposes
+    /// such as tying an audio and video enrollment together.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ReferenceId {
+      get { return referenceId_; }
+      set {
+        referenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    private object enrollLength_;
+    /// <summary>Enum of possible cases for the "enrollLength" oneof.</summary>
+    public enum EnrollLengthOneofCase {
+      None = 0,
+      EnrollmentNumUtterances = 5,
+      EnrollmentDuration = 6,
+    }
+    private EnrollLengthOneofCase enrollLengthCase_ = EnrollLengthOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EnrollLengthOneofCase EnrollLengthCase {
+      get { return enrollLengthCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearEnrollLength() {
+      enrollLengthCase_ = EnrollLengthOneofCase.None;
+      enrollLength_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as CreateEnrollmentEventConfig);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(CreateEnrollmentEventConfig other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Audio, other.Audio)) return false;
+      if (UserId != other.UserId) return false;
+      if (ModelName != other.ModelName) return false;
+      if (Description != other.Description) return false;
+      if (EnrollmentNumUtterances != other.EnrollmentNumUtterances) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EnrollmentDuration, other.EnrollmentDuration)) return false;
+      if (ReferenceId != other.ReferenceId) return false;
+      if (EnrollLengthCase != other.EnrollLengthCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (audio_ != null) hash ^= Audio.GetHashCode();
+      if (UserId.Length != 0) hash ^= UserId.GetHashCode();
+      if (ModelName.Length != 0) hash ^= ModelName.GetHashCode();
+      if (Description.Length != 0) hash ^= Description.GetHashCode();
+      if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentNumUtterances) hash ^= EnrollmentNumUtterances.GetHashCode();
+      if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentDuration) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EnrollmentDuration);
+      if (ReferenceId.Length != 0) hash ^= ReferenceId.GetHashCode();
+      hash ^= (int) enrollLengthCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (audio_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Audio);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UserId);
+      }
+      if (ModelName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ModelName);
+      }
+      if (Description.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Description);
+      }
+      if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentNumUtterances) {
+        output.WriteRawTag(40);
+        output.WriteUInt32(EnrollmentNumUtterances);
+      }
+      if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentDuration) {
+        output.WriteRawTag(53);
+        output.WriteFloat(EnrollmentDuration);
+      }
+      if (ReferenceId.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ReferenceId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (audio_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Audio);
+      }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(UserId);
+      }
+      if (ModelName.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(ModelName);
+      }
+      if (Description.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Description);
+      }
+      if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentNumUtterances) {
+        output.WriteRawTag(40);
+        output.WriteUInt32(EnrollmentNumUtterances);
+      }
+      if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentDuration) {
+        output.WriteRawTag(53);
+        output.WriteFloat(EnrollmentDuration);
+      }
+      if (ReferenceId.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(ReferenceId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (audio_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Audio);
+      }
+      if (UserId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UserId);
+      }
+      if (ModelName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ModelName);
+      }
+      if (Description.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
+      }
+      if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentNumUtterances) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(EnrollmentNumUtterances);
+      }
+      if (enrollLengthCase_ == EnrollLengthOneofCase.EnrollmentDuration) {
+        size += 1 + 4;
+      }
+      if (ReferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ReferenceId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(CreateEnrollmentEventConfig other) {
+      if (other == null) {
+        return;
+      }
+      if (other.audio_ != null) {
+        if (audio_ == null) {
+          Audio = new global::Sensory.Api.V1.Audio.AudioConfig();
+        }
+        Audio.MergeFrom(other.Audio);
+      }
+      if (other.UserId.Length != 0) {
+        UserId = other.UserId;
+      }
+      if (other.ModelName.Length != 0) {
+        ModelName = other.ModelName;
+      }
+      if (other.Description.Length != 0) {
+        Description = other.Description;
+      }
+      if (other.ReferenceId.Length != 0) {
+        ReferenceId = other.ReferenceId;
+      }
+      switch (other.EnrollLengthCase) {
+        case EnrollLengthOneofCase.EnrollmentNumUtterances:
+          EnrollmentNumUtterances = other.EnrollmentNumUtterances;
+          break;
+        case EnrollLengthOneofCase.EnrollmentDuration:
+          EnrollmentDuration = other.EnrollmentDuration;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (audio_ == null) {
+              Audio = new global::Sensory.Api.V1.Audio.AudioConfig();
+            }
+            input.ReadMessage(Audio);
+            break;
+          }
+          case 18: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 26: {
+            ModelName = input.ReadString();
+            break;
+          }
+          case 34: {
+            Description = input.ReadString();
+            break;
+          }
+          case 40: {
+            EnrollmentNumUtterances = input.ReadUInt32();
+            break;
+          }
+          case 53: {
+            EnrollmentDuration = input.ReadFloat();
+            break;
+          }
+          case 58: {
+            ReferenceId = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (audio_ == null) {
+              Audio = new global::Sensory.Api.V1.Audio.AudioConfig();
+            }
+            input.ReadMessage(Audio);
+            break;
+          }
+          case 18: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 26: {
+            ModelName = input.ReadString();
+            break;
+          }
+          case 34: {
+            Description = input.ReadString();
+            break;
+          }
+          case 40: {
+            EnrollmentNumUtterances = input.ReadUInt32();
+            break;
+          }
+          case 53: {
+            EnrollmentDuration = input.ReadFloat();
+            break;
+          }
+          case 58: {
+            ReferenceId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Provides information for an audio-based event validation
+  /// </summary>
+  public sealed partial class ValidateEnrolledEventConfig : pb::IMessage<ValidateEnrolledEventConfig>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ValidateEnrolledEventConfig> _parser = new pb::MessageParser<ValidateEnrolledEventConfig>(() => new ValidateEnrolledEventConfig());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ValidateEnrolledEventConfig> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[20]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventConfig() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventConfig(ValidateEnrolledEventConfig other) : this() {
+      audio_ = other.audio_ != null ? other.audio_.Clone() : null;
+      sensitivity_ = other.sensitivity_;
+      switch (other.AuthIdCase) {
+        case AuthIdOneofCase.EnrollmentId:
+          EnrollmentId = other.EnrollmentId;
+          break;
+        case AuthIdOneofCase.EnrollmentGroupId:
+          EnrollmentGroupId = other.EnrollmentGroupId;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ValidateEnrolledEventConfig Clone() {
+      return new ValidateEnrolledEventConfig(this);
+    }
+
+    /// <summary>Field number for the "audio" field.</summary>
+    public const int AudioFieldNumber = 1;
+    private global::Sensory.Api.V1.Audio.AudioConfig audio_;
+    /// <summary>
+    /// Required. Provides information that specifies how to
+    /// process the request.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.AudioConfig Audio {
+      get { return audio_; }
+      set {
+        audio_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "enrollmentId" field.</summary>
+    public const int EnrollmentIdFieldNumber = 2;
+    /// <summary>
+    /// Unique identifier created at enrollment
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string EnrollmentId {
+      get { return authIdCase_ == AuthIdOneofCase.EnrollmentId ? (string) authId_ : ""; }
+      set {
+        authId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        authIdCase_ = AuthIdOneofCase.EnrollmentId;
+      }
+    }
+
+    /// <summary>Field number for the "enrollmentGroupId" field.</summary>
+    public const int EnrollmentGroupIdFieldNumber = 3;
+    /// <summary>
+    /// Unique identifier for an enrollment group
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string EnrollmentGroupId {
+      get { return authIdCase_ == AuthIdOneofCase.EnrollmentGroupId ? (string) authId_ : ""; }
+      set {
+        authId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        authIdCase_ = AuthIdOneofCase.EnrollmentGroupId;
+      }
+    }
+
+    /// <summary>Field number for the "sensitivity" field.</summary>
+    public const int SensitivityFieldNumber = 4;
+    private global::Sensory.Api.V1.Audio.ThresholdSensitivity sensitivity_ = global::Sensory.Api.V1.Audio.ThresholdSensitivity.Lowest;
+    /// <summary>
+    /// The model sensitivity
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.V1.Audio.ThresholdSensitivity Sensitivity {
+      get { return sensitivity_; }
+      set {
+        sensitivity_ = value;
+      }
+    }
+
+    private object authId_;
+    /// <summary>Enum of possible cases for the "authId" oneof.</summary>
+    public enum AuthIdOneofCase {
+      None = 0,
+      EnrollmentId = 2,
+      EnrollmentGroupId = 3,
+    }
+    private AuthIdOneofCase authIdCase_ = AuthIdOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AuthIdOneofCase AuthIdCase {
+      get { return authIdCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAuthId() {
+      authIdCase_ = AuthIdOneofCase.None;
+      authId_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ValidateEnrolledEventConfig);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ValidateEnrolledEventConfig other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Audio, other.Audio)) return false;
+      if (EnrollmentId != other.EnrollmentId) return false;
+      if (EnrollmentGroupId != other.EnrollmentGroupId) return false;
+      if (Sensitivity != other.Sensitivity) return false;
+      if (AuthIdCase != other.AuthIdCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (audio_ != null) hash ^= Audio.GetHashCode();
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentId) hash ^= EnrollmentId.GetHashCode();
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentGroupId) hash ^= EnrollmentGroupId.GetHashCode();
+      if (Sensitivity != global::Sensory.Api.V1.Audio.ThresholdSensitivity.Lowest) hash ^= Sensitivity.GetHashCode();
+      hash ^= (int) authIdCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (audio_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Audio);
+      }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentId) {
+        output.WriteRawTag(18);
+        output.WriteString(EnrollmentId);
+      }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentGroupId) {
+        output.WriteRawTag(26);
+        output.WriteString(EnrollmentGroupId);
+      }
+      if (Sensitivity != global::Sensory.Api.V1.Audio.ThresholdSensitivity.Lowest) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Sensitivity);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (audio_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Audio);
+      }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentId) {
+        output.WriteRawTag(18);
+        output.WriteString(EnrollmentId);
+      }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentGroupId) {
+        output.WriteRawTag(26);
+        output.WriteString(EnrollmentGroupId);
+      }
+      if (Sensitivity != global::Sensory.Api.V1.Audio.ThresholdSensitivity.Lowest) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Sensitivity);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (audio_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Audio);
+      }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EnrollmentId);
+      }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentGroupId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EnrollmentGroupId);
+      }
+      if (Sensitivity != global::Sensory.Api.V1.Audio.ThresholdSensitivity.Lowest) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Sensitivity);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ValidateEnrolledEventConfig other) {
+      if (other == null) {
+        return;
+      }
+      if (other.audio_ != null) {
+        if (audio_ == null) {
+          Audio = new global::Sensory.Api.V1.Audio.AudioConfig();
+        }
+        Audio.MergeFrom(other.Audio);
+      }
+      if (other.Sensitivity != global::Sensory.Api.V1.Audio.ThresholdSensitivity.Lowest) {
+        Sensitivity = other.Sensitivity;
+      }
+      switch (other.AuthIdCase) {
+        case AuthIdOneofCase.EnrollmentId:
+          EnrollmentId = other.EnrollmentId;
+          break;
+        case AuthIdOneofCase.EnrollmentGroupId:
+          EnrollmentGroupId = other.EnrollmentGroupId;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (audio_ == null) {
+              Audio = new global::Sensory.Api.V1.Audio.AudioConfig();
+            }
+            input.ReadMessage(Audio);
+            break;
+          }
+          case 18: {
+            EnrollmentId = input.ReadString();
+            break;
+          }
+          case 26: {
+            EnrollmentGroupId = input.ReadString();
+            break;
+          }
+          case 32: {
+            Sensitivity = (global::Sensory.Api.V1.Audio.ThresholdSensitivity) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (audio_ == null) {
+              Audio = new global::Sensory.Api.V1.Audio.AudioConfig();
+            }
+            input.ReadMessage(Audio);
+            break;
+          }
+          case 18: {
+            EnrollmentId = input.ReadString();
+            break;
+          }
+          case 26: {
+            EnrollmentGroupId = input.ReadString();
+            break;
+          }
+          case 32: {
+            Sensitivity = (global::Sensory.Api.V1.Audio.ThresholdSensitivity) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   /// <summary>
   /// Provides information for an audio-based transcription
   /// </summary>
@@ -4988,7 +7543,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5274,7 +7829,7 @@ namespace Sensory.Api.V1.Audio {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Sensory.Api.V1.Audio.AudioReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

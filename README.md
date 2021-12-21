@@ -16,9 +16,10 @@ It's important to check the health of your Sensory Inference server. You can do 
 ```csharp
 // Tenant ID granted by Sensory Inc.
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+string deviceId = "a-hardware-identifier-unique-to-your-device";
 
 // Configuration specific to your tenant
-Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
+Config config = new Config("your-inference-server.com", sensoryTenantId, deviceId).Connect();
 
 HealthService healthService = new HealthService(config);
 
@@ -60,9 +61,10 @@ The below example shows how to create an OAuthService and register a client for 
 ```csharp
 // Tenant ID granted by Sensory Inc.
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+string deviceId = "a-hardware-identifier-unique-to-your-device";
 
 // Configuration specific to your tenant
-Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
+Config config = new Config("your-inference-server.com", sensoryTenantId, deviceId).Connect();
 
 ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
 OauthService oauthService = new OauthService(config, credentialStore);
@@ -71,7 +73,6 @@ OauthService oauthService = new OauthService(config, credentialStore);
 OauthClient oAuthClient = oauthService.GenerateCredentials();
 
 // Register credentials with Sensory Cloud
-var globallyUniqueDeviceId = "72ef26b8-9b39-4351-8f2f-aa47773f29d4";
 var friendlyDeviceName = "Server 1";
 
 // OAuth registration can take one of two paths, the insecure path that uses a shared secret between this device and your instance of Sensory Cloud
@@ -80,7 +81,7 @@ var friendlyDeviceName = "Server 1";
 // Path 1 --------
 // Insecure authorization credential as configured on your instance of Sensory Cloud
 var insecureSharedSecret = "password";
-oauthService.Register(globallyUniqueDeviceId, friendlyDeviceName, insecureSharedSecret);
+oauthService.Register(friendlyDeviceName, insecureSharedSecret);
 
 // Path 2 --------
 // Secure Public / private keypair registration using Portable.BouncyCastle and ScottBrady.IdentityModel
@@ -108,7 +109,7 @@ var token = handler.CreateToken(new SecurityTokenDescriptor
     new EdDsaSecurityKey(privateKey), ExtendedSecurityAlgorithms.EdDsa)
 });
 
-oauthService.Register(globallyUniqueDeviceId, friendlyDeviceName, token);
+oauthService.Register(friendlyDeviceName, token);
 ```
 
 ## Creating a TokenManager
@@ -118,9 +119,10 @@ The TokenManger class handles requesting OAuth tokens when necessary.
 ```csharp
 // Tenant ID granted by Sensory Inc.
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+string deviceId = "a-hardware-identifier-unique-to-your-device";
 
 // Configuration specific to your tenant
-Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
+Config config = new Config("your-inference-server.com", sensoryTenantId, deviceId).Connect();
 
 ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
 IOAuthService oAuthService = new OAuthService(config, credentialStore);
@@ -144,9 +146,10 @@ public static AudioService GetAudioService()
 {
     // Tenant ID granted by Sensory Inc.
     string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+    string deviceId = "a-hardware-identifier-unique-to-your-device";
 
     // Configuration specific to your tenant
-    Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
+    Config config = new Config("your-inference-server.com", sensoryTenantId, deviceId).Connect();
 
     ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
     IOAuthService oAuthService = new OAuthService(config, credentialStore);
@@ -232,7 +235,7 @@ var readTask = Task.Run(async () =>
 });
 
 // Start blocking while streaming up audio data. If you have the entire audio file already you can ignore the while loop.
-while (enrollmentId == null)
+while (String.IsNullOrEmpty(enrollmentId))
 {
     // Populate with real audio data. This example creates an empty bytestring.
     var lin16AudioData = Google.Protobuf.ByteString.Empty;
@@ -563,9 +566,10 @@ multiple Sensory Cloud servers.
 ```csharp
 // Tenant ID granted by Sensory Inc.
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+string deviceId = "a-hardware-identifier-unique-to-your-device";
 
 // Configuration specific to your tenant
-Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
+Config config = new Config("your-inference-server.com", sensoryTenantId, deviceId).Connect();
 
 ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
 IOAuthService oAuthService = new OAuthService(config, credentialStore);
@@ -618,7 +622,7 @@ var stream = await videoService.StreamEnrollment(
 string enrollmentId = null;
 
 // Start blocking while streaming up image data.
-while (enrollmentId == null)
+while (String.IsNullOrEmpty(enrollmentId))
 {
     // Populate with real video data. This example creates an empty bytestring.
     var lin16VideoData = Google.Protobuf.ByteString.Empty;
@@ -672,7 +676,7 @@ var stream = await videoService.StreamAuthentication(
 bool authenticateSuccess = false;
 
 // Start blocking while streaming up image data.
-while (enrollmentId == null)
+while (String.IsNullOrEmpty(enrollmentId))
 {
     // Populate with real video data. This example creates an empty bytestring.
     var lin16VideoData = Google.Protobuf.ByteString.Empty;
@@ -768,9 +772,10 @@ For more information on the specific functions of the ManagementService, please 
 ```csharp
 // Tenant ID granted by Sensory Inc.
 string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+string deviceId = "a-hardware-identifier-unique-to-your-device";
 
 // Configuration specific to your tenant
-Config config = new Config("your-inference-server.com", sensoryTenantId).Connect();
+Config config = new Config("your-inference-server.com", sensoryTenantId, deviceId).Connect();
 
 ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
 IOAuthService oAuthService = new OAuthService(config, credentialStore);

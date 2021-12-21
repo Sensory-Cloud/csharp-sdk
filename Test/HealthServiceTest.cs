@@ -25,7 +25,7 @@ namespace Test
 
             healthClient.Setup(client => client.GetHealth(It.IsAny<Sensory.Api.Health.HealthRequest>(), null, null, CancellationToken.None)).Returns(response);
 
-            var healthService = new MockHealthService(new Config("doesnt-matter", "doesnt-matter"), healthClient.Object);
+            var healthService = new MockHealthService(new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"), healthClient.Object);
 
             var healthResponse = healthService.GetHealth();
             Assert.AreSame(healthResponse, response);

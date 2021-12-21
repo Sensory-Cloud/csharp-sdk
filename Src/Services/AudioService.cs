@@ -58,6 +58,7 @@ namespace SensoryCloud.Src.Services
 
         /// <summary>
         /// Stream audio to Sensory Cloud as a means for user enrollment.
+        /// Only biometric-typed models are supported by the method.
         /// </summary>
         /// <param name="audioConfig">the audio-specifc configuration. Currently only LIN16 at 16000Hz is supported.</param>
         /// <param name="description">a description of this enrollment. Useful if a user could have multiple enrollments, as it helps differentiate between them.</param>
@@ -76,6 +77,7 @@ namespace SensoryCloud.Src.Services
                 Audio = audioConfig,
                 Description = description,
                 UserId = userId,
+                DeviceId = this.Config.DeviceId,
                 ModelName = modelName,
                 IsLivenessEnabled = isLivenessEnabled,
             };
@@ -88,6 +90,7 @@ namespace SensoryCloud.Src.Services
 
         /// <summary>
         /// Authenticate against an existing audio enrollment in Sensory Cloud.
+        /// Only biometric-typed models are supported by the method.
         /// </summary>
         /// <param name="audioConfig">the audio-specifc configuration. Currently only LIN16 at 16000Hz is supported.</param>
         /// <param name="enrollmentId">the ID assocaited with the enrollment</param>
@@ -160,6 +163,103 @@ namespace SensoryCloud.Src.Services
 
             await eventStream.RequestStream.WriteAsync(request);
             return eventStream;
+        }
+
+        /// <summary>
+        /// Stream audio to Sensory Cloud as a means for audio enrollment.
+        /// This method is similar to StreamEnrollment, but does not have the same
+        /// time limits or model type restrictions.
+        /// Biometric model types are not supported by this function.
+        /// This endpoint cannot be used to establish device trust.
+        /// </summary>
+        /// <param name="audioConfig">the audio-specifc configuration. Currently only LIN16 at 16000Hz is supported.</param>
+        /// <param name="description">a description of this enrollment. Useful if a user could have multiple enrollments, as it helps differentiate between them.</param>
+        /// <param name="userId">the unique userId for this enrollment.</param>
+        /// <param name="modelName">the exact name of the model you intend to enroll into. This model name can be retrieved from the getModels() call.</param>
+        /// <param name="isLivenessEnabled">indicates if liveness is enabled for this request</param>
+        /// <returns>a bidirectional stream where CreateEnrolledEventRequests can be passed to the cloud and CreateEnrollmentResponses are passed back</returns>
+        public async Task<AsyncDuplexStreamingCall<CreateEnrolledEventRequest, CreateEnrollmentResponse>> StreamCreateEnrolledEvent(
+            AudioConfig audioConfig, string description, string userId, string modelName)
+        {
+            Metadata metadata = this.TokenManager.GetAuthorizationMetadata();
+            AsyncDuplexStreamingCall<CreateEnrolledEventRequest, CreateEnrollmentResponse> enrollmentStream = this.AudioEventsClient.CreateEnrolledEvent(metadata);
+
+            CreateEnrollmentEventConfig config = new CreateEnrollmentEventConfig
+            {
+                Audio = audioConfig,
+                Description = description,
+                UserId = userId,
+                ModelName = modelName,
+            };
+
+            CreateEnrolledEventRequest request = new CreateEnrolledEventRequest { Config = config };
+
+            await enrollmentStream.RequestStream.WriteAsync(request);
+            return enrollmentStream;
+        }
+
+        /// <summary>
+        /// Validate an existing event enrollment in Sensory Cloud.
+        /// This method is similar to Authenticate, but does not have the same
+        /// time limits or model type restrictions. Additionally, the server will
+        /// never close the stream, and thus a client may validate an enrolled sound
+        /// as many times as they'd like.
+        /// Biometric model types are not supported by this function.
+        /// This endpoint cannot be used to establish device trust.
+        /// </summary>
+        /// <param name="audioConfig">the audio-specifc configuration. Currently only LIN16 at 16000Hz is supported.</param>
+        /// <param name="enrollmentId">the ID assocaited with the enrollment</param>
+        /// <param name="sensitivity">the sensitivity of the recognition engine. Defaults to medium.</param>
+        /// <returns>a bidirectional stream where ValidateEnrolledEventRequests can be passed to the cloud and ValidateEnrolledEventResponses are passed back</returns>
+        public async Task<AsyncDuplexStreamingCall<ValidateEnrolledEventRequest, ValidateEnrolledEventResponse>> StreamValidateEnrolledEvent(
+            AudioConfig audioConfig, string enrollmentId, ThresholdSensitivity sensitivity = ThresholdSensitivity.Medium)
+        {
+            ValidateEnrolledEventConfig config = new ValidateEnrolledEventConfig
+            {
+                Audio = audioConfig,
+                EnrollmentId = enrollmentId,
+                Sensitivity = sensitivity,
+            };
+
+            Metadata metadata = this.TokenManager.GetAuthorizationMetadata();
+            AsyncDuplexStreamingCall<ValidateEnrolledEventRequest, ValidateEnrolledEventResponse> authenticationStream = this.AudioEventsClient.ValidateEnrolledEvent(metadata);
+
+            ValidateEnrolledEventRequest request = new ValidateEnrolledEventRequest { Config = config };
+
+            await authenticationStream.RequestStream.WriteAsync(request);
+            return authenticationStream;
+        }
+
+        /// <summary>
+        /// Validate an existing groupd of events in Sensory Cloud.
+        /// This method is similar to GroupAuthenticate, but does not have the same
+        /// time limits or model type restrictions. Additionally, the server will
+        /// never close the stream, and thus a client may validate an enrolled group
+        /// as many times as they'd like.
+        /// Biometric model types are not supported by this function.
+        /// This endpoint cannot be used to establish device trust.
+        /// </summary>
+        /// <param name="audioConfig">the audio-specifc configuration. Currently only LIN16 at 16000Hz is supported.</param>
+        /// <param name="enrollmentGroupId">the ID assocaited with the enrollment group</param>
+        /// <param name="sensitivity">the sensitivity of the recognition engine. Defaults to medium.</param>
+        /// <returns>a bidirectional stream where ValidateEnrolledEventRequests can be passed to the cloud and ValidateEnrolledEventResponses are passed back</returns>
+        public async Task<AsyncDuplexStreamingCall<ValidateEnrolledEventRequest, ValidateEnrolledEventResponse>> StreamGroupValidateEnrolledEvent(
+            AudioConfig audioConfig, string enrollmentGroupId, ThresholdSensitivity sensitivity = ThresholdSensitivity.Medium)
+        {
+            ValidateEnrolledEventConfig config = new ValidateEnrolledEventConfig
+            {
+                Audio = audioConfig,
+                EnrollmentGroupId = enrollmentGroupId,
+                Sensitivity = sensitivity,
+            };
+
+            Metadata metadata = this.TokenManager.GetAuthorizationMetadata();
+            AsyncDuplexStreamingCall<ValidateEnrolledEventRequest, ValidateEnrolledEventResponse> authenticationStream = this.AudioEventsClient.ValidateEnrolledEvent(metadata);
+
+            ValidateEnrolledEventRequest request = new ValidateEnrolledEventRequest { Config = config };
+
+            await authenticationStream.RequestStream.WriteAsync(request);
+            return authenticationStream;
         }
 
         /// <summary>

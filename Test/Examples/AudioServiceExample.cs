@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Grpc.Core;
 using Sensory.Api.V1.Audio;
 using SensoryCloud.Src;
@@ -13,9 +14,10 @@ namespace Test.Examples
         {
             // Tenant ID granted by Sensory Inc.
             string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+            string deviceId = "a-hardware-identifier-unique-to-your-device";
 
             // Configuration specific to your tenant
-            Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+            Config config = new Config("https://your-inference-server.com", sensoryTenantId, deviceId);
 
             ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
             IOauthService oAuthService = new OauthService(config, credentialStore);
@@ -82,7 +84,7 @@ namespace Test.Examples
             });
 
             // Start blocking while streaming up audio data. If you have the entire audio file already you can ignore the while loop.
-            while (enrollmentId == null)
+            while (String.IsNullOrEmpty(enrollmentId))
             {
                 // Populate with real audio data. This example creates an empty bytestring.
                 var lin16AudioData = Google.Protobuf.ByteString.Empty;

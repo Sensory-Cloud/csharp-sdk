@@ -53,12 +53,13 @@ namespace SensoryCloud.Src.Services
         /// </summary>
         /// <param name="description">a description of this enrollment. Useful if a user could have multiple enrollments, as it helps differentiate between them.</param>
         /// <param name="userId">the unique userId for this enrollment.</param>
+        /// <param name="deviceId">the unique hardware identifier of the registering device - used during OAuth registration</param>
         /// <param name="modelName">the exact name of the model you intend to enroll into. This model name can be retrieved from the getModels() call.</param>
         /// <param name="isLivenessEnabled">indicates if liveness is enabled for this request</param>
         /// <param name="threshold">the liveness threshold (if liveness is enabled). Defaults to HIGH.</param>
         /// <returns>a bidirectional stream where CreateEnrollmentRequests can be passed to the cloud and CreateEnrollmentResponses are passed back</returns>
         public async Task<AsyncDuplexStreamingCall<CreateEnrollmentRequest, CreateEnrollmentResponse>> StreamEnrollment(
-            string description, string userId, string modelName, bool isLivenessEnabled, RecognitionThreshold threshold = RecognitionThreshold.High)
+            string description, string userId, string deviceId, string modelName, bool isLivenessEnabled, RecognitionThreshold threshold = RecognitionThreshold.High)
         {
             Metadata metadata = this.TokenManager.GetAuthorizationMetadata();
             AsyncDuplexStreamingCall<CreateEnrollmentRequest, CreateEnrollmentResponse> enrollmentStream = this.VideoBiometricsClient.CreateEnrollment(metadata);
@@ -67,6 +68,7 @@ namespace SensoryCloud.Src.Services
             {
                 Description = description,
                 UserId = userId,
+                DeviceId = deviceId,
                 ModelName = modelName,
                 IsLivenessEnabled = isLivenessEnabled,
                 LivenessThreshold = threshold,

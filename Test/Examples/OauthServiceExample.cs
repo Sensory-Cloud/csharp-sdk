@@ -18,9 +18,10 @@ namespace Test.Examples
         {
             // Tenant ID granted by Sensory Inc.
             string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+            string deviceId = "a-hardware-identifier-unique-to-your-device";
 
             // Configuration specific to your tenant
-            Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+            Config config = new Config("https://your-inference-server.com", sensoryTenantId, deviceId);
 
             ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
             OauthService oauthService = new OauthService(config, credentialStore);
@@ -29,7 +30,6 @@ namespace Test.Examples
             OauthClient oAuthClient = oauthService.GenerateCredentials();
 
             // Register credentials with Sensory Cloud
-            var globallyUniqueDeviceId = "72ef26b8-9b39-4351-8f2f-aa47773f29d4";
             var friendlyDeviceName = "Server 1";
 
             // OAuth registration can take one of two paths, the unsecure path that uses a shared secret between this device and your instance of Sensory Cloud
@@ -38,7 +38,7 @@ namespace Test.Examples
             // Path 1 --------
             // Unsecure authorization credential as configured on your instance of Sensory Cloud
             var unsecureSharedSecret = "password";
-            oauthService.Register(globallyUniqueDeviceId, friendlyDeviceName, unsecureSharedSecret);
+            oauthService.Register(friendlyDeviceName, unsecureSharedSecret);
 
             // Path 2 --------
             // Secure Public / private keypair registration using Portable.BouncyCastle and ScottBrady.IdentityModel
@@ -64,7 +64,7 @@ namespace Test.Examples
                 new EdDsaSecurityKey(privateKey), ExtendedSecurityAlgorithms.EdDsa)
             });
 
-            oauthService.Register(globallyUniqueDeviceId, friendlyDeviceName, token);
+            oauthService.Register(friendlyDeviceName, token);
         }
     }
 }

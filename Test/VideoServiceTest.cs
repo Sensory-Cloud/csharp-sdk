@@ -30,7 +30,7 @@ namespace Test
             videoModelsClient.Setup(client => client.GetModels(It.IsAny<GetModelsRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter"),
+                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,
@@ -56,7 +56,7 @@ namespace Test
             videoBiometricsClient.Setup(m => m.CreateEnrollment(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter"),
+                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,
@@ -66,9 +66,10 @@ namespace Test
             var description = "my description";
             var isLivenessEnabled = false;
             var userId = "1234";
+            var deviceId = "1234";
             var modelName = "my-model";
 
-            var enrollmentStream = await videoService.StreamEnrollment(description, userId, modelName, isLivenessEnabled);
+            var enrollmentStream = await videoService.StreamEnrollment(description, userId, deviceId, modelName, isLivenessEnabled);
             Assert.IsNotNull(enrollmentStream, "enrollment stream should be returned");
 
             Assert.AreEqual(mockRequestStream.Invocations.Count, 1, "one call should have been made to pass config to the server");
@@ -95,7 +96,7 @@ namespace Test
             videoBiometricsClient.Setup(m => m.Authenticate(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter"),
+                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,
@@ -132,7 +133,7 @@ namespace Test
             videoRecognitionsClient.Setup(m => m.ValidateLiveness(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter"),
+                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,

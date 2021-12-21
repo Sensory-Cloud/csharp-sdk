@@ -6,15 +6,17 @@ namespace SensoryCloud.Src
     public class Config
     {
         public string FullyQualifiedDomainName { get; private set; }
-        public bool IsConnectionSecure { get; set; } = true; 
+        public bool IsConnectionSecure { get; set; } = true;
         public string TenantId { get; private set; }
+        public string DeviceId { get; private set; }
 
         private Channel Channel = null;
 
-        public Config(string fullyQualifiedDomainName, string tenantId)
+        public Config(string fullyQualifiedDomainName, string tenantId, string deviceId)
         {
             this.FullyQualifiedDomainName = fullyQualifiedDomainName;
             this.TenantId = tenantId;
+            this.DeviceId = deviceId;
         }
 
         public Config Connect()

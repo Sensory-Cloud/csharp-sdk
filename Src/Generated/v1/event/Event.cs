@@ -30,7 +30,7 @@ namespace Sensory.Api.V1.Event {
             "c2FnZUV2ZW50c1JlcXVlc3QSMAoGZXZlbnRzGAEgAygLMiAuc2Vuc29yeS5h",
             "cGkudjEuZXZlbnQuVXNhZ2VFdmVudCLqAQoKVXNhZ2VFdmVudBI3Cgl0aW1l",
             "c3RhbXAYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQgj6QgWy",
-            "AQIIARIZCghkdXJhdGlvbhgCIAEoA0IH+kIEIgIgABIUCgJpZBgDIAEoCUII",
+            "AQIIARIZCghkdXJhdGlvbhgCIAEoA0IH+kIEIgIoABIUCgJpZBgDIAEoCUII",
             "+kIFcgOwAQESGwoIY2xpZW50SWQYBCABKAlCCfpCBnIEEAEYfxI6CgR0eXBl",
             "GAUgASgOMiIuc2Vuc29yeS5hcGkuY29tbW9uLlVzYWdlRXZlbnRUeXBlQgj6",
             "QgWCAQIQARIZCgVyb3V0ZRgGIAEoCUIK+kIHcgUQARj/AyIcChpQdWJsaXNo",

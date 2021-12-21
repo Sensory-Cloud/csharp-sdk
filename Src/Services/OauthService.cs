@@ -28,10 +28,9 @@ namespace SensoryCloud.Src.Services
         /// Register credentials provided by the attached SecureCredentialStore to Sensory Cloud. This function should only be called
         /// once per unique credential pair.An error will be thrown if registration fails.
         /// </summary>
-        /// <param name="deviceId">The unique hardware identifier of the registering device</param>
         /// <param name="deviceName">The friendly name of the registering device</param>
         /// <param name="credential">The credential configured on the Sensory Cloud server</param>
-        DeviceResponse Register(string deviceId, string deviceName, string credential);
+        DeviceResponse Register(string deviceName, string credential);
 
         /// <summary>
         /// Get information about the current registered device as inferred by the OAuth credentials supplied by the credential manager.
@@ -161,11 +160,10 @@ namespace SensoryCloud.Src.Services
         /// Register credentials provided by the attached SecureCredentialStore to Sensory Cloud. This function should only be called
         /// once per unique credential pair. An error will be thrown if registration fails.
         /// </summary>
-        /// <param name="deviceId">The unique hardware identifier of the registering device</param>
         /// <param name="deviceName">The friendly name of the registering device</param>
         /// <param name="credential">The credential configured on the Sensory Cloud server</param>
         /// <returns>device response indicating the device was successfully registered</returns>
-        public DeviceResponse Register(string deviceId, string deviceName, string credential)
+        public DeviceResponse Register(string deviceName, string credential)
         {
             string clientId = this.SecureCredentialStore.GetClientId();
             if (string.IsNullOrEmpty(clientId))
@@ -183,7 +181,7 @@ namespace SensoryCloud.Src.Services
             EnrollDeviceRequest request = new EnrollDeviceRequest
             {
                 Client = client,
-                DeviceId = deviceId,
+                DeviceId = this.Config.DeviceId,
                 Name = deviceName,
                 Credential = credential,
                 TenantId = Config.TenantId

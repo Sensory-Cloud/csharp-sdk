@@ -30,7 +30,7 @@ namespace Sensory.Api.V1.Management {
             "b3RvIjIKFUdldEVucm9sbG1lbnRzUmVxdWVzdBIZCgZ1c2VySWQYASABKAlC",
             "CfpCBnIEEAEYfyJ4ChZHZXRFbnJvbGxtZW50c1Jlc3BvbnNlEkIKC2Vucm9s",
             "bG1lbnRzGAEgAygLMi0uc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJv",
-            "bGxtZW50UmVzcG9uc2USGgoSaXNSZXF1ZXN0b3JUcnVzdGVkGAIgASgIIoYD",
+            "bGxtZW50UmVzcG9uc2USGgoSaXNSZXF1ZXN0b3JUcnVzdGVkGAIgASgIIpsD",
             "ChJFbnJvbGxtZW50UmVzcG9uc2USCgoCaWQYASABKAkSLQoJY3JlYXRlZEF0",
             "GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBItCgl1cGRhdGVk",
             "QXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhMKC2Rlc2Ny",
@@ -39,53 +39,53 @@ namespace Sensory.Api.V1.Management {
             "VmVyc2lvbhgHIAEoCRIQCghkZXZpY2VJZBgIIAEoCRIOCgZ1c2VySWQYCSAB",
             "KAkSQQoLY29tcHJlc3Npb24YCiABKAsyLC5zZW5zb3J5LmFwaS5jb21tb24u",
             "Q29tcHJlc3Npb25Db25maWd1cmF0aW9uEhIKCmRldmljZU5hbWUYCyABKAkS",
-            "HQoVZGlkRW5yb2xsV2l0aExpdmVuZXNzGAwgASgIImsKG0dldEVucm9sbG1l",
-            "bnRHcm91cHNSZXNwb25zZRJMChBlbnJvbGxtZW50R3JvdXBzGAEgAygLMjIu",
-            "c2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50R3JvdXBSZXNw",
-            "b25zZSLVAgoXRW5yb2xsbWVudEdyb3VwUmVzcG9uc2USCgoCaWQYASABKAkS",
-            "LQoJY3JlYXRlZEF0GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
-            "cBItCgl1cGRhdGVkQXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0",
-            "YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVzY3JpcHRpb24YBSABKAkSEQoJbW9k",
-            "ZWxOYW1lGAYgASgJEjAKCW1vZGVsVHlwZRgHIAEoDjIdLnNlbnNvcnkuYXBp",
-            "LmNvbW1vbi5Nb2RlbFR5cGUSFAoMbW9kZWxWZXJzaW9uGAggASgJEg4KBnVz",
-            "ZXJJZBgJIAEoCRJCCgtlbnJvbGxtZW50cxgKIAMoCzItLnNlbnNvcnkuYXBp",
-            "LnYxLm1hbmFnZW1lbnQuRW5yb2xsbWVudFJlc3BvbnNlIr8BChxDcmVhdGVF",
-            "bnJvbGxtZW50R3JvdXBSZXF1ZXN0EhUKAmlkGAEgASgJQgn6QgZyBBABGH8S",
-            "GAoEbmFtZRgCIAEoCUIK+kIHcgUQARj/ARIdCgtkZXNjcmlwdGlvbhgDIAEo",
-            "CUII+kIFcgMY/wcSHQoJbW9kZWxOYW1lGAQgASgJQgr6QgdyBRABGP8BEhkK",
-            "BnVzZXJJZBgFIAEoCUIJ+kIGcgQQARh/EhUKDWVucm9sbG1lbnRJZHMYBiAD",
-            "KAkiUQocQXBwZW5kRW5yb2xsbWVudEdyb3VwUmVxdWVzdBIaCgdncm91cElk",
-            "GAEgASgJQgn6QgZyBBABGH8SFQoNZW5yb2xsbWVudElkcxgCIAMoCSIvChdE",
-            "ZWxldGVFbnJvbGxtZW50UmVxdWVzdBIUCgJpZBgBIAEoCUII+kIFcgOwAQEi",
-            "NQocRGVsZXRlRW5yb2xsbWVudEdyb3VwUmVxdWVzdBIVCgJpZBgBIAEoCUIJ",
-            "+kIGcgQQARh/MqQGChFFbnJvbGxtZW50U2VydmljZRJ3Cg5HZXRFbnJvbGxt",
-            "ZW50cxIwLnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuR2V0RW5yb2xsbWVu",
-            "dHNSZXF1ZXN0GjEuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5HZXRFbnJv",
-            "bGxtZW50c1Jlc3BvbnNlIgASgQEKE0dldEVucm9sbG1lbnRHcm91cHMSMC5z",
-            "ZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50LkdldEVucm9sbG1lbnRzUmVxdWVz",
-            "dBo2LnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuR2V0RW5yb2xsbWVudEdy",
-            "b3Vwc1Jlc3BvbnNlIgAShgEKFUNyZWF0ZUVucm9sbG1lbnRHcm91cBI3LnNl",
-            "bnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuQ3JlYXRlRW5yb2xsbWVudEdyb3Vw",
-            "UmVxdWVzdBoyLnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuRW5yb2xsbWVu",
-            "dEdyb3VwUmVzcG9uc2UiABKGAQoVQXBwZW5kRW5yb2xsbWVudEdyb3VwEjcu",
-            "c2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5BcHBlbmRFbnJvbGxtZW50R3Jv",
-            "dXBSZXF1ZXN0GjIuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxt",
-            "ZW50R3JvdXBSZXNwb25zZSIAEncKEERlbGV0ZUVucm9sbG1lbnQSMi5zZW5z",
-            "b3J5LmFwaS52MS5tYW5hZ2VtZW50LkRlbGV0ZUVucm9sbG1lbnRSZXF1ZXN0",
-            "Gi0uc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50UmVzcG9u",
-            "c2UiABKGAQoVRGVsZXRlRW5yb2xsbWVudEdyb3VwEjcuc2Vuc29yeS5hcGku",
-            "djEubWFuYWdlbWVudC5EZWxldGVFbnJvbGxtZW50R3JvdXBSZXF1ZXN0GjIu",
-            "c2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50R3JvdXBSZXNw",
-            "b25zZSIAQogBChxpby5zZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50QiVTZW5z",
-            "b3J5QXBpVjFNYW5hZ2VtZW50RW5yb2xsbWVudFByb3RvUAFaP2dpdGxhYi5j",
-            "b20vc2Vuc29yeS1jbG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEv",
-            "bWFuYWdlbWVudGIGcHJvdG8z"));
+            "HQoVZGlkRW5yb2xsV2l0aExpdmVuZXNzGAwgASgIEhMKC3JlZmVyZW5jZUlk",
+            "GA0gASgJImsKG0dldEVucm9sbG1lbnRHcm91cHNSZXNwb25zZRJMChBlbnJv",
+            "bGxtZW50R3JvdXBzGAEgAygLMjIuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVu",
+            "dC5FbnJvbGxtZW50R3JvdXBSZXNwb25zZSLVAgoXRW5yb2xsbWVudEdyb3Vw",
+            "UmVzcG9uc2USCgoCaWQYASABKAkSLQoJY3JlYXRlZEF0GAIgASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBItCgl1cGRhdGVkQXQYAyABKAsyGi5n",
+            "b29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVz",
+            "Y3JpcHRpb24YBSABKAkSEQoJbW9kZWxOYW1lGAYgASgJEjAKCW1vZGVsVHlw",
+            "ZRgHIAEoDjIdLnNlbnNvcnkuYXBpLmNvbW1vbi5Nb2RlbFR5cGUSFAoMbW9k",
+            "ZWxWZXJzaW9uGAggASgJEg4KBnVzZXJJZBgJIAEoCRJCCgtlbnJvbGxtZW50",
+            "cxgKIAMoCzItLnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuRW5yb2xsbWVu",
+            "dFJlc3BvbnNlIr8BChxDcmVhdGVFbnJvbGxtZW50R3JvdXBSZXF1ZXN0EhUK",
+            "AmlkGAEgASgJQgn6QgZyBBABGH8SGAoEbmFtZRgCIAEoCUIK+kIHcgUQARj/",
+            "ARIdCgtkZXNjcmlwdGlvbhgDIAEoCUII+kIFcgMY/wcSHQoJbW9kZWxOYW1l",
+            "GAQgASgJQgr6QgdyBRABGP8BEhkKBnVzZXJJZBgFIAEoCUIJ+kIGcgQQARh/",
+            "EhUKDWVucm9sbG1lbnRJZHMYBiADKAkiUQocQXBwZW5kRW5yb2xsbWVudEdy",
+            "b3VwUmVxdWVzdBIaCgdncm91cElkGAEgASgJQgn6QgZyBBABGH8SFQoNZW5y",
+            "b2xsbWVudElkcxgCIAMoCSIvChdEZWxldGVFbnJvbGxtZW50UmVxdWVzdBIU",
+            "CgJpZBgBIAEoCUII+kIFcgOwAQEiNQocRGVsZXRlRW5yb2xsbWVudEdyb3Vw",
+            "UmVxdWVzdBIVCgJpZBgBIAEoCUIJ+kIGcgQQARh/MqQGChFFbnJvbGxtZW50",
+            "U2VydmljZRJ3Cg5HZXRFbnJvbGxtZW50cxIwLnNlbnNvcnkuYXBpLnYxLm1h",
+            "bmFnZW1lbnQuR2V0RW5yb2xsbWVudHNSZXF1ZXN0GjEuc2Vuc29yeS5hcGku",
+            "djEubWFuYWdlbWVudC5HZXRFbnJvbGxtZW50c1Jlc3BvbnNlIgASgQEKE0dl",
+            "dEVucm9sbG1lbnRHcm91cHMSMC5zZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50",
+            "LkdldEVucm9sbG1lbnRzUmVxdWVzdBo2LnNlbnNvcnkuYXBpLnYxLm1hbmFn",
+            "ZW1lbnQuR2V0RW5yb2xsbWVudEdyb3Vwc1Jlc3BvbnNlIgAShgEKFUNyZWF0",
+            "ZUVucm9sbG1lbnRHcm91cBI3LnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQu",
+            "Q3JlYXRlRW5yb2xsbWVudEdyb3VwUmVxdWVzdBoyLnNlbnNvcnkuYXBpLnYx",
+            "Lm1hbmFnZW1lbnQuRW5yb2xsbWVudEdyb3VwUmVzcG9uc2UiABKGAQoVQXBw",
+            "ZW5kRW5yb2xsbWVudEdyb3VwEjcuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVu",
+            "dC5BcHBlbmRFbnJvbGxtZW50R3JvdXBSZXF1ZXN0GjIuc2Vuc29yeS5hcGku",
+            "djEubWFuYWdlbWVudC5FbnJvbGxtZW50R3JvdXBSZXNwb25zZSIAEncKEERl",
+            "bGV0ZUVucm9sbG1lbnQSMi5zZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50LkRl",
+            "bGV0ZUVucm9sbG1lbnRSZXF1ZXN0Gi0uc2Vuc29yeS5hcGkudjEubWFuYWdl",
+            "bWVudC5FbnJvbGxtZW50UmVzcG9uc2UiABKGAQoVRGVsZXRlRW5yb2xsbWVu",
+            "dEdyb3VwEjcuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5EZWxldGVFbnJv",
+            "bGxtZW50R3JvdXBSZXF1ZXN0GjIuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVu",
+            "dC5FbnJvbGxtZW50R3JvdXBSZXNwb25zZSIAQogBChxpby5zZW5zb3J5LmFw",
+            "aS52MS5tYW5hZ2VtZW50QiVTZW5zb3J5QXBpVjFNYW5hZ2VtZW50RW5yb2xs",
+            "bWVudFByb3RvUAFaP2dpdGxhYi5jb20vc2Vuc29yeS1jbG91ZC9zZXJ2ZXIv",
+            "dGl0YW4uZ2l0L3BrZy9hcGkvdjEvbWFuYWdlbWVudGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.GetEnrollmentsRequest), global::Sensory.Api.V1.Management.GetEnrollmentsRequest.Parser, new[]{ "UserId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.GetEnrollmentsResponse), global::Sensory.Api.V1.Management.GetEnrollmentsResponse.Parser, new[]{ "Enrollments", "IsRequestorTrusted" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.EnrollmentResponse), global::Sensory.Api.V1.Management.EnrollmentResponse.Parser, new[]{ "Id", "CreatedAt", "UpdatedAt", "Description", "ModelName", "ModelType", "ModelVersion", "DeviceId", "UserId", "Compression", "DeviceName", "DidEnrollWithLiveness" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.EnrollmentResponse), global::Sensory.Api.V1.Management.EnrollmentResponse.Parser, new[]{ "Id", "CreatedAt", "UpdatedAt", "Description", "ModelName", "ModelType", "ModelVersion", "DeviceId", "UserId", "Compression", "DeviceName", "DidEnrollWithLiveness", "ReferenceId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.GetEnrollmentGroupsResponse), global::Sensory.Api.V1.Management.GetEnrollmentGroupsResponse.Parser, new[]{ "EnrollmentGroups" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.EnrollmentGroupResponse), global::Sensory.Api.V1.Management.EnrollmentGroupResponse.Parser, new[]{ "Id", "CreatedAt", "UpdatedAt", "Name", "Description", "ModelName", "ModelType", "ModelVersion", "UserId", "Enrollments" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.CreateEnrollmentGroupRequest), global::Sensory.Api.V1.Management.CreateEnrollmentGroupRequest.Parser, new[]{ "Id", "Name", "Description", "ModelName", "UserId", "EnrollmentIds" }, null, null, null, null),
@@ -568,6 +568,7 @@ namespace Sensory.Api.V1.Management {
       compression_ = other.compression_ != null ? other.compression_.Clone() : null;
       deviceName_ = other.deviceName_;
       didEnrollWithLiveness_ = other.didEnrollWithLiveness_;
+      referenceId_ = other.referenceId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -757,6 +758,21 @@ namespace Sensory.Api.V1.Management {
       }
     }
 
+    /// <summary>Field number for the "referenceId" field.</summary>
+    public const int ReferenceIdFieldNumber = 13;
+    private string referenceId_ = "";
+    /// <summary>
+    /// Client-assigned referenceId for external use
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ReferenceId {
+      get { return referenceId_; }
+      set {
+        referenceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -784,6 +800,7 @@ namespace Sensory.Api.V1.Management {
       if (!object.Equals(Compression, other.Compression)) return false;
       if (DeviceName != other.DeviceName) return false;
       if (DidEnrollWithLiveness != other.DidEnrollWithLiveness) return false;
+      if (ReferenceId != other.ReferenceId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -803,6 +820,7 @@ namespace Sensory.Api.V1.Management {
       if (compression_ != null) hash ^= Compression.GetHashCode();
       if (DeviceName.Length != 0) hash ^= DeviceName.GetHashCode();
       if (DidEnrollWithLiveness != false) hash ^= DidEnrollWithLiveness.GetHashCode();
+      if (ReferenceId.Length != 0) hash ^= ReferenceId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -869,6 +887,10 @@ namespace Sensory.Api.V1.Management {
         output.WriteRawTag(96);
         output.WriteBool(DidEnrollWithLiveness);
       }
+      if (ReferenceId.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(ReferenceId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -927,6 +949,10 @@ namespace Sensory.Api.V1.Management {
         output.WriteRawTag(96);
         output.WriteBool(DidEnrollWithLiveness);
       }
+      if (ReferenceId.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(ReferenceId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -972,6 +998,9 @@ namespace Sensory.Api.V1.Management {
       }
       if (DidEnrollWithLiveness != false) {
         size += 1 + 1;
+      }
+      if (ReferenceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ReferenceId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1029,6 +1058,9 @@ namespace Sensory.Api.V1.Management {
       }
       if (other.DidEnrollWithLiveness != false) {
         DidEnrollWithLiveness = other.DidEnrollWithLiveness;
+      }
+      if (other.ReferenceId.Length != 0) {
+        ReferenceId = other.ReferenceId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1102,6 +1134,10 @@ namespace Sensory.Api.V1.Management {
             DidEnrollWithLiveness = input.ReadBool();
             break;
           }
+          case 106: {
+            ReferenceId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1172,6 +1208,10 @@ namespace Sensory.Api.V1.Management {
           }
           case 96: {
             DidEnrollWithLiveness = input.ReadBool();
+            break;
+          }
+          case 106: {
+            ReferenceId = input.ReadString();
             break;
           }
         }

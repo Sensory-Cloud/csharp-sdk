@@ -49,9 +49,10 @@ namespace Test.Examples
             Console.WriteLine($"Starting SensorsCallExample");
             // Tenant ID granted by Sensory Inc.
             string sensoryTenantId = "8fb58cb8-c0aa-472c-800f-e14c0e3e8528";
+            string deviceId = "globally-unique-hardware-identifier";
 
             // Configuration specific to your tenant
-            Config config = new Config("sensorscall.cloud.sensory.com", sensoryTenantId).Connect();
+            Config config = new Config("sensorscall.cloud.sensory.com", sensoryTenantId, deviceId).Connect();
 
             // Get Server Health
             HealthService healthService = new HealthService(config);
@@ -69,13 +70,12 @@ namespace Test.Examples
                 credentialStore.ClientId = client.ClientId;
                 credentialStore.ClientSecret = client.ClientSecret;
 
-                string deviceId = "a-unique-id-that-identifies-my-hardware";
                 string deviceName = "A friendly device name";
                 // TODO: set this value
                 string enrollCredential = "REPLACE_ME_WITH_CRENDENTIAL_FROM_SENSORY";
 
                 // This call should only be made once per unique device ID
-                oAuthService.Register(deviceId, deviceName, enrollCredential);
+                oAuthService.Register(deviceName, enrollCredential);
                 Console.WriteLine($"Successfully registered OAuth client with clientId: {client.ClientId} and secret {client.ClientSecret}");
                 return;
             }

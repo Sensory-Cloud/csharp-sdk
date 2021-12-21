@@ -14,9 +14,10 @@ namespace Test.Examples
         {
             // Tenant ID granted by Sensory Inc.
             string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
+            string deviceId = "a-hardware-identifier-unique-to-your-device";
 
             // Configuration specific to your tenant
-            Config config = new Config("https://your-inference-server.com", sensoryTenantId);
+            Config config = new Config("https://your-inference-server.com", sensoryTenantId, deviceId);
 
             ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
             IOauthService oauthService = new OauthService(config, credentialStore);
@@ -38,6 +39,7 @@ namespace Test.Examples
             // Set basic enrollment information
             string enrollmentDescription = "My Enrollment";
             string userId = "72f286b8-173f-436a-8869-6f7887789ee9";
+            string deviceId = "f483b33a-5d83-4960-8e1c-b854992f47c9"; // device ID used in OAuth registration
             string modelName = "wakeword-16kHz-open_sesame.ubm";
             bool isLivenessEnabled = false;
 
@@ -45,6 +47,7 @@ namespace Test.Examples
             var stream = await videoService.StreamEnrollment(
                 enrollmentDescription,
                 userId,
+                deviceId,
                 modelName,
                 isLivenessEnabled
                 );
@@ -53,7 +56,7 @@ namespace Test.Examples
             string enrollmentId = null;
 
             // Start blocking while streaming up image data.
-            while (enrollmentId == null)
+            while (String.IsNullOrEmpty(enrollmentId))
             {
                 // Populate with real video data. This example creates an empty bytestring.
                 var lin16VideoData = Google.Protobuf.ByteString.Empty;
@@ -104,7 +107,7 @@ namespace Test.Examples
             bool authenticateSuccess = false;
 
             // Start blocking while streaming up image data.
-            while (enrollmentId == null)
+            while (String.IsNullOrEmpty(enrollmentId))
             {
                 // Populate with real video data. This example creates an empty bytestring.
                 var lin16VideoData = Google.Protobuf.ByteString.Empty;

@@ -256,8 +256,8 @@ namespace Sensory.Api.V1.Audio {
       }
 
       /// <summary>
-      /// Enrolls a user with a stream of audio. Streams a CreateEnrollmentResponse
-      /// as the audio is processed.
+      /// Enrolls a user with a stream of audio. Streams a CreateEnrollmentResponse as the audio is processed.
+      /// CreateEnrollment only supports biometric-enabled models
       /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
       /// </summary>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -270,8 +270,8 @@ namespace Sensory.Api.V1.Audio {
         return CreateEnrollment(new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Enrolls a user with a stream of audio. Streams a CreateEnrollmentResponse
-      /// as the audio is processed.
+      /// Enrolls a user with a stream of audio. Streams a CreateEnrollmentResponse as the audio is processed.
+      /// CreateEnrollment only supports biometric-enabled models
       /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
       /// </summary>
       /// <param name="options">The options for the call.</param>
@@ -284,6 +284,7 @@ namespace Sensory.Api.V1.Audio {
       /// <summary>
       /// Authenticates a user with a stream of audio against an existing enrollment.
       /// Streams an AuthenticateResponse as the audio is processed.
+      /// Authenticate only supports biometric-enabled models
       /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
       /// </summary>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -298,6 +299,7 @@ namespace Sensory.Api.V1.Audio {
       /// <summary>
       /// Authenticates a user with a stream of audio against an existing enrollment.
       /// Streams an AuthenticateResponse as the audio is processed.
+      /// Authenticate only supports biometric-enabled models
       /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
       /// </summary>
       /// <param name="options">The options for the call.</param>
@@ -360,6 +362,14 @@ namespace Sensory.Api.V1.Audio {
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Audio.ValidateEventRequest> __Marshaller_sensory_api_v1_audio_ValidateEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Audio.ValidateEventRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Audio.ValidateEventResponse> __Marshaller_sensory_api_v1_audio_ValidateEventResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Audio.ValidateEventResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Audio.CreateEnrolledEventRequest> __Marshaller_sensory_api_v1_audio_CreateEnrolledEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Audio.CreateEnrolledEventRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Audio.CreateEnrollmentResponse> __Marshaller_sensory_api_v1_audio_CreateEnrollmentResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Audio.CreateEnrollmentResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Audio.ValidateEnrolledEventRequest> __Marshaller_sensory_api_v1_audio_ValidateEnrolledEventRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Audio.ValidateEnrolledEventRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse> __Marshaller_sensory_api_v1_audio_ValidateEnrolledEventResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Sensory.Api.V1.Audio.ValidateEventRequest, global::Sensory.Api.V1.Audio.ValidateEventResponse> __Method_ValidateEvent = new grpc::Method<global::Sensory.Api.V1.Audio.ValidateEventRequest, global::Sensory.Api.V1.Audio.ValidateEventResponse>(
@@ -368,6 +378,22 @@ namespace Sensory.Api.V1.Audio {
         "ValidateEvent",
         __Marshaller_sensory_api_v1_audio_ValidateEventRequest,
         __Marshaller_sensory_api_v1_audio_ValidateEventResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Audio.CreateEnrolledEventRequest, global::Sensory.Api.V1.Audio.CreateEnrollmentResponse> __Method_CreateEnrolledEvent = new grpc::Method<global::Sensory.Api.V1.Audio.CreateEnrolledEventRequest, global::Sensory.Api.V1.Audio.CreateEnrollmentResponse>(
+        grpc::MethodType.DuplexStreaming,
+        __ServiceName,
+        "CreateEnrolledEvent",
+        __Marshaller_sensory_api_v1_audio_CreateEnrolledEventRequest,
+        __Marshaller_sensory_api_v1_audio_CreateEnrollmentResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Audio.ValidateEnrolledEventRequest, global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse> __Method_ValidateEnrolledEvent = new grpc::Method<global::Sensory.Api.V1.Audio.ValidateEnrolledEventRequest, global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse>(
+        grpc::MethodType.DuplexStreaming,
+        __ServiceName,
+        "ValidateEnrolledEvent",
+        __Marshaller_sensory_api_v1_audio_ValidateEnrolledEventRequest,
+        __Marshaller_sensory_api_v1_audio_ValidateEnrolledEventResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -427,6 +453,58 @@ namespace Sensory.Api.V1.Audio {
       public virtual grpc::AsyncDuplexStreamingCall<global::Sensory.Api.V1.Audio.ValidateEventRequest, global::Sensory.Api.V1.Audio.ValidateEventResponse> ValidateEvent(grpc::CallOptions options)
       {
         return CallInvoker.AsyncDuplexStreamingCall(__Method_ValidateEvent, null, options);
+      }
+      /// <summary>
+      /// Enrolls a sound or voice. Streams a CreateEnrollmentResponse as the audio is processed.
+      /// CreateEnrollment supports all enrollable models
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncDuplexStreamingCall<global::Sensory.Api.V1.Audio.CreateEnrolledEventRequest, global::Sensory.Api.V1.Audio.CreateEnrollmentResponse> CreateEnrolledEvent(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateEnrolledEvent(new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Enrolls a sound or voice. Streams a CreateEnrollmentResponse as the audio is processed.
+      /// CreateEnrollment supports all enrollable models
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncDuplexStreamingCall<global::Sensory.Api.V1.Audio.CreateEnrolledEventRequest, global::Sensory.Api.V1.Audio.CreateEnrollmentResponse> CreateEnrolledEvent(grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncDuplexStreamingCall(__Method_CreateEnrolledEvent, null, options);
+      }
+      /// <summary>
+      /// Authenticates a sound or voice. Streams a ValidateEventResponse as the audio is processed.
+      /// ValidateEnrolledEvent supports all enrollable models
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncDuplexStreamingCall<global::Sensory.Api.V1.Audio.ValidateEnrolledEventRequest, global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse> ValidateEnrolledEvent(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ValidateEnrolledEvent(new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Authenticates a sound or voice. Streams a ValidateEventResponse as the audio is processed.
+      /// ValidateEnrolledEvent supports all enrollable models
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncDuplexStreamingCall<global::Sensory.Api.V1.Audio.ValidateEnrolledEventRequest, global::Sensory.Api.V1.Audio.ValidateEnrolledEventResponse> ValidateEnrolledEvent(grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncDuplexStreamingCall(__Method_ValidateEnrolledEvent, null, options);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
