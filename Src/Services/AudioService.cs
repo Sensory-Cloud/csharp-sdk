@@ -204,7 +204,7 @@ namespace SensoryCloud.Src.Services
         /// time limits or model type restrictions. Additionally, the server will
         /// never close the stream, and thus a client may validate an enrolled sound
         /// as many times as they'd like.
-        /// Biometric model types are not supported by this function.
+        /// Any model types are supported by this function.
         /// This endpoint cannot be used to establish device trust.
         /// </summary>
         /// <param name="audioConfig">the audio-specifc configuration. Currently only LIN16 at 16000Hz is supported.</param>
@@ -236,7 +236,7 @@ namespace SensoryCloud.Src.Services
         /// time limits or model type restrictions. Additionally, the server will
         /// never close the stream, and thus a client may validate an enrolled group
         /// as many times as they'd like.
-        /// Biometric model types are not supported by this function.
+        /// Any model types are supported by this function.
         /// This endpoint cannot be used to establish device trust.
         /// </summary>
         /// <param name="audioConfig">the audio-specifc configuration. Currently only LIN16 at 16000Hz is supported.</param>
