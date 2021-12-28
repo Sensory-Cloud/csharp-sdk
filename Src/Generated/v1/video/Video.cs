@@ -57,32 +57,33 @@ namespace Sensory.Api.V1.Video {
             "c2hvbGQYBiABKA4yKi5zZW5zb3J5LmFwaS52MS52aWRlby5SZWNvZ25pdGlv",
             "blRocmVzaG9sZEII+kIFggECEAESQQoLY29tcHJlc3Npb24YByABKAsyLC5z",
             "ZW5zb3J5LmFwaS5jb21tb24uQ29tcHJlc3Npb25Db25maWd1cmF0aW9uEhwK",
-            "C3JlZmVyZW5jZUlkGAggASgJQgf6QgRyAhh/IvsBChJBdXRoZW50aWNhdGVD",
-            "b25maWcSHgoMZW5yb2xsbWVudElkGAEgASgJQgj6QgVyA7ABARIZChFpc0xp",
-            "dmVuZXNzRW5hYmxlZBgCIAEoCBJPChFsaXZlbmVzc1RocmVzaG9sZBgDIAEo",
-            "DjIqLnNlbnNvcnkuYXBpLnYxLnZpZGVvLlJlY29nbml0aW9uVGhyZXNob2xk",
-            "Qgj6QgWCAQIQARJBCgtjb21wcmVzc2lvbhgEIAEoCzIsLnNlbnNvcnkuYXBp",
-            "LmNvbW1vbi5Db21wcmVzc2lvbkNvbmZpZ3VyYXRpb24SFgoOZG9JbmNsdWRl",
-            "VG9rZW4YBSABKAgingEKGVZhbGlkYXRlUmVjb2duaXRpb25Db25maWcSHQoJ",
-            "bW9kZWxOYW1lGAEgASgJQgr6QgdyBRABGP8BEhkKBnVzZXJJZBgCIAEoCUIJ",
-            "+kIGcgQQARh/EkcKCXRocmVzaG9sZBgDIAEoDjIqLnNlbnNvcnkuYXBpLnYx",
-            "LnZpZGVvLlJlY29nbml0aW9uVGhyZXNob2xkQgj6QgWCAQIQASpCChRSZWNv",
-            "Z25pdGlvblRocmVzaG9sZBIHCgNMT1cQABIKCgZNRURJVU0QARIICgRISUdI",
-            "EAISCwoHSElHSEVTVBADMm0KC1ZpZGVvTW9kZWxzEl4KCUdldE1vZGVscxIm",
-            "LnNlbnNvcnkuYXBpLnYxLnZpZGVvLkdldE1vZGVsc1JlcXVlc3QaJy5zZW5z",
-            "b3J5LmFwaS52MS52aWRlby5HZXRNb2RlbHNSZXNwb25zZSIAMvcBCg9WaWRl",
-            "b0Jpb21ldHJpY3MSdwoQQ3JlYXRlRW5yb2xsbWVudBItLnNlbnNvcnkuYXBp",
-            "LnYxLnZpZGVvLkNyZWF0ZUVucm9sbG1lbnRSZXF1ZXN0Gi4uc2Vuc29yeS5h",
-            "cGkudjEudmlkZW8uQ3JlYXRlRW5yb2xsbWVudFJlc3BvbnNlIgAoATABEmsK",
-            "DEF1dGhlbnRpY2F0ZRIpLnNlbnNvcnkuYXBpLnYxLnZpZGVvLkF1dGhlbnRp",
-            "Y2F0ZVJlcXVlc3QaKi5zZW5zb3J5LmFwaS52MS52aWRlby5BdXRoZW50aWNh",
-            "dGVSZXNwb25zZSIAKAEwATKRAQoQVmlkZW9SZWNvZ25pdGlvbhJ9ChBWYWxp",
-            "ZGF0ZUxpdmVuZXNzEjAuc2Vuc29yeS5hcGkudjEudmlkZW8uVmFsaWRhdGVS",
-            "ZWNvZ25pdGlvblJlcXVlc3QaMS5zZW5zb3J5LmFwaS52MS52aWRlby5MaXZl",
-            "bmVzc1JlY29nbml0aW9uUmVzcG9uc2UiACgBMAFCbwoXaW8uc2Vuc29yeS5h",
-            "cGkudjEudmlkZW9CFlNlbnNvcnlBcGlWMVZpZGVvUHJvdG9QAVo6Z2l0bGFi",
-            "LmNvbS9zZW5zb3J5LWNsb3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS92",
-            "MS92aWRlb2IGcHJvdG8z"));
+            "C3JlZmVyZW5jZUlkGAggASgJQgf6QgRyAhh/IqkCChJBdXRoZW50aWNhdGVD",
+            "b25maWcSIAoMZW5yb2xsbWVudElkGAEgASgJQgj6QgVyA7ABAUgAEhsKEWVu",
+            "cm9sbG1lbnRHcm91cElkGAIgASgJSAASGQoRaXNMaXZlbmVzc0VuYWJsZWQY",
+            "AyABKAgSTwoRbGl2ZW5lc3NUaHJlc2hvbGQYBCABKA4yKi5zZW5zb3J5LmFw",
+            "aS52MS52aWRlby5SZWNvZ25pdGlvblRocmVzaG9sZEII+kIFggECEAESQQoL",
+            "Y29tcHJlc3Npb24YBSABKAsyLC5zZW5zb3J5LmFwaS5jb21tb24uQ29tcHJl",
+            "c3Npb25Db25maWd1cmF0aW9uEhYKDmRvSW5jbHVkZVRva2VuGAYgASgIQg0K",
+            "BmF1dGhJZBID+EIBIp4BChlWYWxpZGF0ZVJlY29nbml0aW9uQ29uZmlnEh0K",
+            "CW1vZGVsTmFtZRgBIAEoCUIK+kIHcgUQARj/ARIZCgZ1c2VySWQYAiABKAlC",
+            "CfpCBnIEEAEYfxJHCgl0aHJlc2hvbGQYAyABKA4yKi5zZW5zb3J5LmFwaS52",
+            "MS52aWRlby5SZWNvZ25pdGlvblRocmVzaG9sZEII+kIFggECEAEqQgoUUmVj",
+            "b2duaXRpb25UaHJlc2hvbGQSBwoDTE9XEAASCgoGTUVESVVNEAESCAoESElH",
+            "SBACEgsKB0hJR0hFU1QQAzJtCgtWaWRlb01vZGVscxJeCglHZXRNb2RlbHMS",
+            "Ji5zZW5zb3J5LmFwaS52MS52aWRlby5HZXRNb2RlbHNSZXF1ZXN0Gicuc2Vu",
+            "c29yeS5hcGkudjEudmlkZW8uR2V0TW9kZWxzUmVzcG9uc2UiADL3AQoPVmlk",
+            "ZW9CaW9tZXRyaWNzEncKEENyZWF0ZUVucm9sbG1lbnQSLS5zZW5zb3J5LmFw",
+            "aS52MS52aWRlby5DcmVhdGVFbnJvbGxtZW50UmVxdWVzdBouLnNlbnNvcnku",
+            "YXBpLnYxLnZpZGVvLkNyZWF0ZUVucm9sbG1lbnRSZXNwb25zZSIAKAEwARJr",
+            "CgxBdXRoZW50aWNhdGUSKS5zZW5zb3J5LmFwaS52MS52aWRlby5BdXRoZW50",
+            "aWNhdGVSZXF1ZXN0Giouc2Vuc29yeS5hcGkudjEudmlkZW8uQXV0aGVudGlj",
+            "YXRlUmVzcG9uc2UiACgBMAEykQEKEFZpZGVvUmVjb2duaXRpb24SfQoQVmFs",
+            "aWRhdGVMaXZlbmVzcxIwLnNlbnNvcnkuYXBpLnYxLnZpZGVvLlZhbGlkYXRl",
+            "UmVjb2duaXRpb25SZXF1ZXN0GjEuc2Vuc29yeS5hcGkudjEudmlkZW8uTGl2",
+            "ZW5lc3NSZWNvZ25pdGlvblJlc3BvbnNlIgAoATABQm8KF2lvLnNlbnNvcnku",
+            "YXBpLnYxLnZpZGVvQhZTZW5zb3J5QXBpVjFWaWRlb1Byb3RvUAFaOmdpdGxh",
+            "Yi5jb20vc2Vuc29yeS1jbG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkv",
+            "djEvdmlkZW9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.Video.RecognitionThreshold), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -96,7 +97,7 @@ namespace Sensory.Api.V1.Video {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.AuthenticateResponse), global::Sensory.Api.V1.Video.AuthenticateResponse.Parser, new[]{ "Success", "Score", "IsAlive", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.LivenessRecognitionResponse), global::Sensory.Api.V1.Video.LivenessRecognitionResponse.Parser, new[]{ "IsAlive", "Score" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.CreateEnrollmentConfig), global::Sensory.Api.V1.Video.CreateEnrollmentConfig.Parser, new[]{ "UserId", "DeviceId", "ModelName", "Description", "IsLivenessEnabled", "LivenessThreshold", "Compression", "ReferenceId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.AuthenticateConfig), global::Sensory.Api.V1.Video.AuthenticateConfig.Parser, new[]{ "EnrollmentId", "IsLivenessEnabled", "LivenessThreshold", "Compression", "DoIncludeToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.AuthenticateConfig), global::Sensory.Api.V1.Video.AuthenticateConfig.Parser, new[]{ "EnrollmentId", "EnrollmentGroupId", "IsLivenessEnabled", "LivenessThreshold", "Compression", "DoIncludeToken" }, new[]{ "AuthId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.ValidateRecognitionConfig), global::Sensory.Api.V1.Video.ValidateRecognitionConfig.Parser, new[]{ "ModelName", "UserId", "Threshold" }, null, null, null, null)
           }));
     }
@@ -3220,11 +3221,19 @@ namespace Sensory.Api.V1.Video {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AuthenticateConfig(AuthenticateConfig other) : this() {
-      enrollmentId_ = other.enrollmentId_;
       isLivenessEnabled_ = other.isLivenessEnabled_;
       livenessThreshold_ = other.livenessThreshold_;
       compression_ = other.compression_ != null ? other.compression_.Clone() : null;
       doIncludeToken_ = other.doIncludeToken_;
+      switch (other.AuthIdCase) {
+        case AuthIdOneofCase.EnrollmentId:
+          EnrollmentId = other.EnrollmentId;
+          break;
+        case AuthIdOneofCase.EnrollmentGroupId:
+          EnrollmentGroupId = other.EnrollmentGroupId;
+          break;
+      }
+
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3236,21 +3245,36 @@ namespace Sensory.Api.V1.Video {
 
     /// <summary>Field number for the "enrollmentId" field.</summary>
     public const int EnrollmentIdFieldNumber = 1;
-    private string enrollmentId_ = "";
     /// <summary>
-    /// The unique enrollment Identifer
+    /// Unique identifier created at enrollment
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string EnrollmentId {
-      get { return enrollmentId_; }
+      get { return authIdCase_ == AuthIdOneofCase.EnrollmentId ? (string) authId_ : ""; }
       set {
-        enrollmentId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        authId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        authIdCase_ = AuthIdOneofCase.EnrollmentId;
+      }
+    }
+
+    /// <summary>Field number for the "enrollmentGroupId" field.</summary>
+    public const int EnrollmentGroupIdFieldNumber = 2;
+    /// <summary>
+    /// Unique identifier for an enrollment group
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string EnrollmentGroupId {
+      get { return authIdCase_ == AuthIdOneofCase.EnrollmentGroupId ? (string) authId_ : ""; }
+      set {
+        authId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        authIdCase_ = AuthIdOneofCase.EnrollmentGroupId;
       }
     }
 
     /// <summary>Field number for the "isLivenessEnabled" field.</summary>
-    public const int IsLivenessEnabledFieldNumber = 2;
+    public const int IsLivenessEnabledFieldNumber = 3;
     private bool isLivenessEnabled_;
     /// <summary>
     /// Enable a liveness check on the image, which will further improve the security of authentication at the expense of a slightly slower response.
@@ -3265,7 +3289,7 @@ namespace Sensory.Api.V1.Video {
     }
 
     /// <summary>Field number for the "livenessThreshold" field.</summary>
-    public const int LivenessThresholdFieldNumber = 3;
+    public const int LivenessThresholdFieldNumber = 4;
     private global::Sensory.Api.V1.Video.RecognitionThreshold livenessThreshold_ = global::Sensory.Api.V1.Video.RecognitionThreshold.Low;
     /// <summary>
     /// The liveness threshold
@@ -3280,7 +3304,7 @@ namespace Sensory.Api.V1.Video {
     }
 
     /// <summary>Field number for the "compression" field.</summary>
-    public const int CompressionFieldNumber = 4;
+    public const int CompressionFieldNumber = 5;
     private global::Sensory.Api.Common.CompressionConfiguration compression_;
     /// <summary>
     /// Information aobut how the video data will be compressed.
@@ -3295,7 +3319,7 @@ namespace Sensory.Api.V1.Video {
     }
 
     /// <summary>Field number for the "doIncludeToken" field.</summary>
-    public const int DoIncludeTokenFieldNumber = 5;
+    public const int DoIncludeTokenFieldNumber = 6;
     private bool doIncludeToken_;
     /// <summary>
     /// A boolean indicating if the response should include an OAuth token for the user associated with the enrollmentId
@@ -3309,6 +3333,27 @@ namespace Sensory.Api.V1.Video {
       set {
         doIncludeToken_ = value;
       }
+    }
+
+    private object authId_;
+    /// <summary>Enum of possible cases for the "authId" oneof.</summary>
+    public enum AuthIdOneofCase {
+      None = 0,
+      EnrollmentId = 1,
+      EnrollmentGroupId = 2,
+    }
+    private AuthIdOneofCase authIdCase_ = AuthIdOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AuthIdOneofCase AuthIdCase {
+      get { return authIdCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAuthId() {
+      authIdCase_ = AuthIdOneofCase.None;
+      authId_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3327,10 +3372,12 @@ namespace Sensory.Api.V1.Video {
         return true;
       }
       if (EnrollmentId != other.EnrollmentId) return false;
+      if (EnrollmentGroupId != other.EnrollmentGroupId) return false;
       if (IsLivenessEnabled != other.IsLivenessEnabled) return false;
       if (LivenessThreshold != other.LivenessThreshold) return false;
       if (!object.Equals(Compression, other.Compression)) return false;
       if (DoIncludeToken != other.DoIncludeToken) return false;
+      if (AuthIdCase != other.AuthIdCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3338,11 +3385,13 @@ namespace Sensory.Api.V1.Video {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (EnrollmentId.Length != 0) hash ^= EnrollmentId.GetHashCode();
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentId) hash ^= EnrollmentId.GetHashCode();
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentGroupId) hash ^= EnrollmentGroupId.GetHashCode();
       if (IsLivenessEnabled != false) hash ^= IsLivenessEnabled.GetHashCode();
       if (LivenessThreshold != global::Sensory.Api.V1.Video.RecognitionThreshold.Low) hash ^= LivenessThreshold.GetHashCode();
       if (compression_ != null) hash ^= Compression.GetHashCode();
       if (DoIncludeToken != false) hash ^= DoIncludeToken.GetHashCode();
+      hash ^= (int) authIdCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3361,24 +3410,28 @@ namespace Sensory.Api.V1.Video {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (EnrollmentId.Length != 0) {
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentId) {
         output.WriteRawTag(10);
         output.WriteString(EnrollmentId);
       }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentGroupId) {
+        output.WriteRawTag(18);
+        output.WriteString(EnrollmentGroupId);
+      }
       if (IsLivenessEnabled != false) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(24);
         output.WriteBool(IsLivenessEnabled);
       }
       if (LivenessThreshold != global::Sensory.Api.V1.Video.RecognitionThreshold.Low) {
-        output.WriteRawTag(24);
+        output.WriteRawTag(32);
         output.WriteEnum((int) LivenessThreshold);
       }
       if (compression_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteMessage(Compression);
       }
       if (DoIncludeToken != false) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(48);
         output.WriteBool(DoIncludeToken);
       }
       if (_unknownFields != null) {
@@ -3391,24 +3444,28 @@ namespace Sensory.Api.V1.Video {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (EnrollmentId.Length != 0) {
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentId) {
         output.WriteRawTag(10);
         output.WriteString(EnrollmentId);
       }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentGroupId) {
+        output.WriteRawTag(18);
+        output.WriteString(EnrollmentGroupId);
+      }
       if (IsLivenessEnabled != false) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(24);
         output.WriteBool(IsLivenessEnabled);
       }
       if (LivenessThreshold != global::Sensory.Api.V1.Video.RecognitionThreshold.Low) {
-        output.WriteRawTag(24);
+        output.WriteRawTag(32);
         output.WriteEnum((int) LivenessThreshold);
       }
       if (compression_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteMessage(Compression);
       }
       if (DoIncludeToken != false) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(48);
         output.WriteBool(DoIncludeToken);
       }
       if (_unknownFields != null) {
@@ -3421,8 +3478,11 @@ namespace Sensory.Api.V1.Video {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (EnrollmentId.Length != 0) {
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(EnrollmentId);
+      }
+      if (authIdCase_ == AuthIdOneofCase.EnrollmentGroupId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EnrollmentGroupId);
       }
       if (IsLivenessEnabled != false) {
         size += 1 + 1;
@@ -3448,9 +3508,6 @@ namespace Sensory.Api.V1.Video {
       if (other == null) {
         return;
       }
-      if (other.EnrollmentId.Length != 0) {
-        EnrollmentId = other.EnrollmentId;
-      }
       if (other.IsLivenessEnabled != false) {
         IsLivenessEnabled = other.IsLivenessEnabled;
       }
@@ -3466,6 +3523,15 @@ namespace Sensory.Api.V1.Video {
       if (other.DoIncludeToken != false) {
         DoIncludeToken = other.DoIncludeToken;
       }
+      switch (other.AuthIdCase) {
+        case AuthIdOneofCase.EnrollmentId:
+          EnrollmentId = other.EnrollmentId;
+          break;
+        case AuthIdOneofCase.EnrollmentGroupId:
+          EnrollmentGroupId = other.EnrollmentGroupId;
+          break;
+      }
+
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3485,22 +3551,26 @@ namespace Sensory.Api.V1.Video {
             EnrollmentId = input.ReadString();
             break;
           }
-          case 16: {
-            IsLivenessEnabled = input.ReadBool();
+          case 18: {
+            EnrollmentGroupId = input.ReadString();
             break;
           }
           case 24: {
+            IsLivenessEnabled = input.ReadBool();
+            break;
+          }
+          case 32: {
             LivenessThreshold = (global::Sensory.Api.V1.Video.RecognitionThreshold) input.ReadEnum();
             break;
           }
-          case 34: {
+          case 42: {
             if (compression_ == null) {
               Compression = new global::Sensory.Api.Common.CompressionConfiguration();
             }
             input.ReadMessage(Compression);
             break;
           }
-          case 40: {
+          case 48: {
             DoIncludeToken = input.ReadBool();
             break;
           }
@@ -3523,22 +3593,26 @@ namespace Sensory.Api.V1.Video {
             EnrollmentId = input.ReadString();
             break;
           }
-          case 16: {
-            IsLivenessEnabled = input.ReadBool();
+          case 18: {
+            EnrollmentGroupId = input.ReadString();
             break;
           }
           case 24: {
+            IsLivenessEnabled = input.ReadBool();
+            break;
+          }
+          case 32: {
             LivenessThreshold = (global::Sensory.Api.V1.Video.RecognitionThreshold) input.ReadEnum();
             break;
           }
-          case 34: {
+          case 42: {
             if (compression_ == null) {
               Compression = new global::Sensory.Api.Common.CompressionConfiguration();
             }
             input.ReadMessage(Compression);
             break;
           }
-          case 40: {
+          case 48: {
             DoIncludeToken = input.ReadBool();
             break;
           }
