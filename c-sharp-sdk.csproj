@@ -12,7 +12,20 @@
     <Owners>Sensory Inc</Owners>
     <Description>Enables C# applications to communicate with Sensory Cloud.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Configurations>Release;Debug</Configurations>
+    <PackageIconUrl>https://demo.sensorycloud.ai/favicon.ico</PackageIconUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageProjectUrl>https://github.com/Sensory-Cloud/csharp-sdk</PackageProjectUrl>
+    <Title>Sensory Cloud C# SDK</Title>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+</ItemGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType></DebugType>
