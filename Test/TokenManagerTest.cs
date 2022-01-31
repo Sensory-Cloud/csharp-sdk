@@ -75,5 +75,10 @@ namespace Test
         {
             throw new NotImplementedException();
         }
+
+        public DeviceResponse RenewDeviceCredential(string credential)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

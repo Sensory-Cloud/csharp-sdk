@@ -151,6 +151,29 @@ namespace Test.Services
             Assert.AreEqual(deviceResponse.Name, deviceName);
             Assert.AreEqual(deviceResponse.DeviceId, response.DeviceId);
         }
+
+
+        [Test]
+        public void TestRenewCredential()
+        {
+            var oauthClient = new Mock<Sensory.Api.Oauth.OauthService.OauthServiceClient>();
+            var deviceClient = new Mock<DeviceService.DeviceServiceClient>();
+            var deviceName = "matter";
+            var credential = "at-all";
+            var response = new DeviceResponse { DeviceId = "doesnt", Name = deviceName };
+
+            deviceClient.Setup(client => client.RenewDeviceCredential(It.IsAny<RenewDeviceCredentialRequest>(), null, null, CancellationToken.None)).Returns(response);
+
+            OauthService oauthService = new MockOauthService(
+                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new MockSecureCredentialsStore { ClientId = "doesnt-matter", ClientSecret = "doesnt-matter" },
+                oauthClient.Object,
+                deviceClient.Object);
+
+            var deviceResponse = oauthService.RenewDeviceCredential("doest-matter");
+            Assert.AreEqual(deviceResponse.Name, deviceName);
+            Assert.AreEqual(deviceResponse.DeviceId, response.DeviceId);
+        }
     }
 
     public class MockOauthService : OauthService

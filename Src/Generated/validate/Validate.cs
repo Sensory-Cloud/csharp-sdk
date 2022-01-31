@@ -8699,7 +8699,6 @@ namespace Validate {
     private ulong lenBytes_;
     /// <summary>
     /// LenBytes specifies that this field must be the specified number of bytes
-    /// at a minimum
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

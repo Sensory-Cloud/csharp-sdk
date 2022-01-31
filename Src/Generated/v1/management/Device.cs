@@ -30,21 +30,28 @@ namespace Sensory.Api.V1.Management {
             "IAEoCUIJ+kIGcgQQARh/EhsKCGRldmljZUlkGAIgASgJQgn6QgZyBBABGH8S",
             "GgoIdGVuYW50SWQYAyABKAlCCPpCBXIDsAEBEjsKBmNsaWVudBgEIAEoCzIh",
             "LnNlbnNvcnkuYXBpLmNvbW1vbi5HZW5lcmljQ2xpZW50Qgj6QgWKAQIQARIS",
-            "CgpjcmVkZW50aWFsGAUgASgJIjAKDkRldmljZVJlc3BvbnNlEgwKBG5hbWUY",
-            "ASABKAkSEAoIZGV2aWNlSWQYAiABKAkiGAoWRGV2aWNlR2V0V2hvQW1JUmVx",
-            "dWVzdDLpAQoNRGV2aWNlU2VydmljZRJrCgxFbnJvbGxEZXZpY2USLi5zZW5z",
-            "b3J5LmFwaS52MS5tYW5hZ2VtZW50LkVucm9sbERldmljZVJlcXVlc3QaKS5z",
-            "ZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50LkRldmljZVJlc3BvbnNlIgASawoJ",
-            "R2V0V2hvQW1JEjEuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5EZXZpY2VH",
-            "ZXRXaG9BbUlSZXF1ZXN0Gikuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5E",
-            "ZXZpY2VSZXNwb25zZSIAQoQBChxpby5zZW5zb3J5LmFwaS52MS5tYW5hZ2Vt",
-            "ZW50QiFTZW5zb3J5QXBpVjFNYW5hZ2VtZW50RGV2aWNlUHJvdG9QAVo/Z2l0",
-            "bGFiLmNvbS9zZW5zb3J5LWNsb3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2Fw",
-            "aS92MS9tYW5hZ2VtZW50YgZwcm90bzM="));
+            "CgpjcmVkZW50aWFsGAUgASgJIpMBChxSZW5ld0RldmljZUNyZWRlbnRpYWxS",
+            "ZXF1ZXN0EhsKCGRldmljZUlkGAEgASgJQgn6QgZyBBABGH8SGgoIY2xpZW50",
+            "SWQYAiABKAlCCPpCBXIDsAEBEhoKCHRlbmFudElkGAMgASgJQgj6QgVyA7AB",
+            "ARIeCgpjcmVkZW50aWFsGAQgASgJQgr6QgdyBRABGP8BIjAKDkRldmljZVJl",
+            "c3BvbnNlEgwKBG5hbWUYASABKAkSEAoIZGV2aWNlSWQYAiABKAkiGAoWRGV2",
+            "aWNlR2V0V2hvQW1JUmVxdWVzdDLoAgoNRGV2aWNlU2VydmljZRJrCgxFbnJv",
+            "bGxEZXZpY2USLi5zZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50LkVucm9sbERl",
+            "dmljZVJlcXVlc3QaKS5zZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50LkRldmlj",
+            "ZVJlc3BvbnNlIgASfQoVUmVuZXdEZXZpY2VDcmVkZW50aWFsEjcuc2Vuc29y",
+            "eS5hcGkudjEubWFuYWdlbWVudC5SZW5ld0RldmljZUNyZWRlbnRpYWxSZXF1",
+            "ZXN0Gikuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5EZXZpY2VSZXNwb25z",
+            "ZSIAEmsKCUdldFdob0FtSRIxLnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQu",
+            "RGV2aWNlR2V0V2hvQW1JUmVxdWVzdBopLnNlbnNvcnkuYXBpLnYxLm1hbmFn",
+            "ZW1lbnQuRGV2aWNlUmVzcG9uc2UiAEKEAQocaW8uc2Vuc29yeS5hcGkudjEu",
+            "bWFuYWdlbWVudEIhU2Vuc29yeUFwaVYxTWFuYWdlbWVudERldmljZVByb3Rv",
+            "UAFaP2dpdGxhYi5jb20vc2Vuc29yeS1jbG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0",
+            "L3BrZy9hcGkvdjEvbWFuYWdlbWVudGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Sensory.Api.Common.CommonReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.EnrollDeviceRequest), global::Sensory.Api.V1.Management.EnrollDeviceRequest.Parser, new[]{ "Name", "DeviceId", "TenantId", "Client", "Credential" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest), global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest.Parser, new[]{ "DeviceId", "ClientId", "TenantId", "Credential" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.DeviceResponse), global::Sensory.Api.V1.Management.DeviceResponse.Parser, new[]{ "Name", "DeviceId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.DeviceGetWhoAmIRequest), global::Sensory.Api.V1.Management.DeviceGetWhoAmIRequest.Parser, null, null, null, null, null)
           }));
@@ -420,6 +427,323 @@ namespace Sensory.Api.V1.Management {
   }
 
   /// <summary>
+  /// Request to renew a device's credential
+  /// </summary>
+  public sealed partial class RenewDeviceCredentialRequest : pb::IMessage<RenewDeviceCredentialRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<RenewDeviceCredentialRequest> _parser = new pb::MessageParser<RenewDeviceCredentialRequest>(() => new RenewDeviceCredentialRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<RenewDeviceCredentialRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Management.DeviceReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RenewDeviceCredentialRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RenewDeviceCredentialRequest(RenewDeviceCredentialRequest other) : this() {
+      deviceId_ = other.deviceId_;
+      clientId_ = other.clientId_;
+      tenantId_ = other.tenantId_;
+      credential_ = other.credential_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public RenewDeviceCredentialRequest Clone() {
+      return new RenewDeviceCredentialRequest(this);
+    }
+
+    /// <summary>Field number for the "deviceId" field.</summary>
+    public const int DeviceIdFieldNumber = 1;
+    private string deviceId_ = "";
+    /// <summary>
+    /// The unique internal identifier for this device. Ideally, this value is static for the lifetime of the device.
+    /// A typical value would be a hardware serial number.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DeviceId {
+      get { return deviceId_; }
+      set {
+        deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "clientId" field.</summary>
+    public const int ClientIdFieldNumber = 2;
+    private string clientId_ = "";
+    /// <summary>
+    /// Unique Client ID as UUID
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ClientId {
+      get { return clientId_; }
+      set {
+        clientId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "tenantId" field.</summary>
+    public const int TenantIdFieldNumber = 3;
+    private string tenantId_ = "";
+    /// <summary>
+    /// Unique Tenant ID as UUID
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TenantId {
+      get { return tenantId_; }
+      set {
+        tenantId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "credential" field.</summary>
+    public const int CredentialFieldNumber = 4;
+    private string credential_ = "";
+    /// <summary>
+    /// The credential to be validated by the server upon enrollment.
+    /// Possible values are a shared secret or signed JWT.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Credential {
+      get { return credential_; }
+      set {
+        credential_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as RenewDeviceCredentialRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(RenewDeviceCredentialRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DeviceId != other.DeviceId) return false;
+      if (ClientId != other.ClientId) return false;
+      if (TenantId != other.TenantId) return false;
+      if (Credential != other.Credential) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
+      if (ClientId.Length != 0) hash ^= ClientId.GetHashCode();
+      if (TenantId.Length != 0) hash ^= TenantId.GetHashCode();
+      if (Credential.Length != 0) hash ^= Credential.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (DeviceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(DeviceId);
+      }
+      if (ClientId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ClientId);
+      }
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(TenantId);
+      }
+      if (Credential.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Credential);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (DeviceId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(DeviceId);
+      }
+      if (ClientId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(ClientId);
+      }
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(TenantId);
+      }
+      if (Credential.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Credential);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (DeviceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
+      }
+      if (ClientId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientId);
+      }
+      if (TenantId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TenantId);
+      }
+      if (Credential.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Credential);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(RenewDeviceCredentialRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.DeviceId.Length != 0) {
+        DeviceId = other.DeviceId;
+      }
+      if (other.ClientId.Length != 0) {
+        ClientId = other.ClientId;
+      }
+      if (other.TenantId.Length != 0) {
+        TenantId = other.TenantId;
+      }
+      if (other.Credential.Length != 0) {
+        Credential = other.Credential;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            DeviceId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ClientId = input.ReadString();
+            break;
+          }
+          case 26: {
+            TenantId = input.ReadString();
+            break;
+          }
+          case 34: {
+            Credential = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            DeviceId = input.ReadString();
+            break;
+          }
+          case 18: {
+            ClientId = input.ReadString();
+            break;
+          }
+          case 26: {
+            TenantId = input.ReadString();
+            break;
+          }
+          case 34: {
+            Credential = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
   /// A response containing information about a device
   /// </summary>
   public sealed partial class DeviceResponse : pb::IMessage<DeviceResponse>
@@ -436,7 +760,7 @@ namespace Sensory.Api.V1.Management {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Management.DeviceReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Sensory.Api.V1.Management.DeviceReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -671,7 +995,7 @@ namespace Sensory.Api.V1.Management {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Management.DeviceReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Sensory.Api.V1.Management.DeviceReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

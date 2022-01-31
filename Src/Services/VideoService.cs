@@ -57,9 +57,10 @@ namespace SensoryCloud.Src.Services
         /// <param name="modelName">the exact name of the model you intend to enroll into. This model name can be retrieved from the getModels() call.</param>
         /// <param name="isLivenessEnabled">indicates if liveness is enabled for this request</param>
         /// <param name="threshold">the liveness threshold (if liveness is enabled). Defaults to HIGH.</param>
+        /// <param name="numLivenessFramesRequired">the number of frames required to be live in order for enrollment to succeed (if liveness is enabled). Defaults to 0, which means all frames will be processed for liveness.</param>
         /// <returns>a bidirectional stream where CreateEnrollmentRequests can be passed to the cloud and CreateEnrollmentResponses are passed back</returns>
         public async Task<AsyncDuplexStreamingCall<CreateEnrollmentRequest, CreateEnrollmentResponse>> StreamEnrollment(
-            string description, string userId, string deviceId, string modelName, bool isLivenessEnabled, RecognitionThreshold threshold = RecognitionThreshold.High)
+            string description, string userId, string deviceId, string modelName, bool isLivenessEnabled, RecognitionThreshold threshold = RecognitionThreshold.High, int numLivenessFramesRequired = 0)
         {
             Metadata metadata = this.TokenManager.GetAuthorizationMetadata();
             AsyncDuplexStreamingCall<CreateEnrollmentRequest, CreateEnrollmentResponse> enrollmentStream = this.VideoBiometricsClient.CreateEnrollment(metadata);
@@ -72,6 +73,7 @@ namespace SensoryCloud.Src.Services
                 ModelName = modelName,
                 IsLivenessEnabled = isLivenessEnabled,
                 LivenessThreshold = threshold,
+                NumLivenessFramesRequired = numLivenessFramesRequired
             };
 
             CreateEnrollmentRequest request = new CreateEnrollmentRequest { Config = config };
@@ -96,6 +98,32 @@ namespace SensoryCloud.Src.Services
             AuthenticateConfig config = new AuthenticateConfig
             {
                 EnrollmentId = enrollmentId,
+                IsLivenessEnabled = isLivenessEnabled,
+                LivenessThreshold = threshold,
+            };
+
+            AuthenticateRequest request = new AuthenticateRequest { Config = config };
+
+            await authenticateStream.RequestStream.WriteAsync(request);
+            return authenticateStream;
+        }
+
+        /// <summary>
+        /// Stream images to sensory cloud in order to authenticate a user against an existing enrollment group.
+        /// </summary>
+        /// <param name="enrollmentGroupId">the ID assocaited with the enrollment group</param>
+        /// <param name="isLivenessEnabled">indicates if liveness is enabled for this request.</param>
+        /// <param name="threshold">the liveness threshold (if liveness is enabled) Defaults to HIGH.</param>
+        /// <returns>a bidirectional stream where AuthenticateRequests can be passed to the cloud and AuthenticateResponses are passed back.</returns>
+        public async Task<AsyncDuplexStreamingCall<AuthenticateRequest, AuthenticateResponse>> StreamGroupAuthentication(
+            string enrollmentGroupId, bool isLivenessEnabled, RecognitionThreshold threshold = RecognitionThreshold.High)
+        {
+            Metadata metadata = this.TokenManager.GetAuthorizationMetadata();
+            AsyncDuplexStreamingCall<AuthenticateRequest, AuthenticateResponse> authenticateStream = this.VideoBiometricsClient.Authenticate(metadata);
+
+            AuthenticateConfig config = new AuthenticateConfig
+            {
+                EnrollmentGroupId = enrollmentGroupId,
                 IsLivenessEnabled = isLivenessEnabled,
                 LivenessThreshold = threshold,
             };

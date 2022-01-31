@@ -55,6 +55,8 @@ namespace Sensory.Api.V1.Management {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.DeviceResponse> __Marshaller_sensory_api_v1_management_DeviceResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.DeviceResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest> __Marshaller_sensory_api_v1_management_RenewDeviceCredentialRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.DeviceGetWhoAmIRequest> __Marshaller_sensory_api_v1_management_DeviceGetWhoAmIRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.DeviceGetWhoAmIRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -63,6 +65,14 @@ namespace Sensory.Api.V1.Management {
         __ServiceName,
         "EnrollDevice",
         __Marshaller_sensory_api_v1_management_EnrollDeviceRequest,
+        __Marshaller_sensory_api_v1_management_DeviceResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest, global::Sensory.Api.V1.Management.DeviceResponse> __Method_RenewDeviceCredential = new grpc::Method<global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest, global::Sensory.Api.V1.Management.DeviceResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RenewDeviceCredential",
+        __Marshaller_sensory_api_v1_management_RenewDeviceCredentialRequest,
         __Marshaller_sensory_api_v1_management_DeviceResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -153,6 +163,58 @@ namespace Sensory.Api.V1.Management {
       public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceResponse> EnrollDeviceAsync(global::Sensory.Api.V1.Management.EnrollDeviceRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_EnrollDevice, null, options, request);
+      }
+      /// <summary>
+      /// Renew a device's credential, which links the device to a key in the database.
+      /// This endpoint can be used to assign a new credential to a device if the old credential has expired.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.DeviceResponse RenewDeviceCredential(global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RenewDeviceCredential(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Renew a device's credential, which links the device to a key in the database.
+      /// This endpoint can be used to assign a new credential to a device if the old credential has expired.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.DeviceResponse RenewDeviceCredential(global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RenewDeviceCredential, null, options, request);
+      }
+      /// <summary>
+      /// Renew a device's credential, which links the device to a key in the database.
+      /// This endpoint can be used to assign a new credential to a device if the old credential has expired.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceResponse> RenewDeviceCredentialAsync(global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RenewDeviceCredentialAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Renew a device's credential, which links the device to a key in the database.
+      /// This endpoint can be used to assign a new credential to a device if the old credential has expired.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceResponse> RenewDeviceCredentialAsync(global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RenewDeviceCredential, null, options, request);
       }
       /// <summary>
       /// Allows a device to fetch information about itself

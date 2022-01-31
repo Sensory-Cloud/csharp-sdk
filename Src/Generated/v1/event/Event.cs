@@ -28,24 +28,26 @@ namespace Sensory.Api.V1.Event {
             "H2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJvdG8aF3ZhbGlkYXRlL3Zh",
             "bGlkYXRlLnByb3RvGhNjb21tb24vY29tbW9uLnByb3RvIk0KGVB1Ymxpc2hV",
             "c2FnZUV2ZW50c1JlcXVlc3QSMAoGZXZlbnRzGAEgAygLMiAuc2Vuc29yeS5h",
-            "cGkudjEuZXZlbnQuVXNhZ2VFdmVudCLqAQoKVXNhZ2VFdmVudBI3Cgl0aW1l",
+            "cGkudjEuZXZlbnQuVXNhZ2VFdmVudCLmAgoKVXNhZ2VFdmVudBI3Cgl0aW1l",
             "c3RhbXAYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQgj6QgWy",
             "AQIIARIZCghkdXJhdGlvbhgCIAEoA0IH+kIEIgIoABIUCgJpZBgDIAEoCUII",
             "+kIFcgOwAQESGwoIY2xpZW50SWQYBCABKAlCCfpCBnIEEAEYfxI6CgR0eXBl",
             "GAUgASgOMiIuc2Vuc29yeS5hcGkuY29tbW9uLlVzYWdlRXZlbnRUeXBlQgj6",
-            "QgWCAQIQARIZCgVyb3V0ZRgGIAEoCUIK+kIHcgUQARj/AyIcChpQdWJsaXNo",
-            "VXNhZ2VFdmVudHNSZXNwb25zZTKJAQoMRXZlbnRTZXJ2aWNlEnkKElB1Ymxp",
-            "c2hVc2FnZUV2ZW50cxIvLnNlbnNvcnkuYXBpLnYxLmV2ZW50LlB1Ymxpc2hV",
-            "c2FnZUV2ZW50c1JlcXVlc3QaMC5zZW5zb3J5LmFwaS52MS5ldmVudC5QdWJs",
-            "aXNoVXNhZ2VFdmVudHNSZXNwb25zZSIAQm8KF2lvLnNlbnNvcnkuYXBpLnYx",
-            "LmV2ZW50QhZTZW5zb3J5QXBpVjFFdmVudFByb3RvUAFaOmdpdGxhYi5jb20v",
-            "c2Vuc29yeS1jbG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEvZXZl",
-            "bnRiBnByb3RvMw=="));
+            "QgWCAQIQARIZCgVyb3V0ZRgGIAEoCUIK+kIHcgUQARj/AxI4Cgx0ZWNobm9s",
+            "b2dpZXMYByADKA4yIi5zZW5zb3J5LmFwaS5jb21tb24uVGVjaG5vbG9neVR5",
+            "cGUSDgoGbW9kZWxzGAggAygJEhcKD2F1ZGlvRHVyYXRpb25NcxgJIAEoAxIX",
+            "Cg92aWRlb0ZyYW1lQ291bnQYCiABKAMiHAoaUHVibGlzaFVzYWdlRXZlbnRz",
+            "UmVzcG9uc2UyiQEKDEV2ZW50U2VydmljZRJ5ChJQdWJsaXNoVXNhZ2VFdmVu",
+            "dHMSLy5zZW5zb3J5LmFwaS52MS5ldmVudC5QdWJsaXNoVXNhZ2VFdmVudHNS",
+            "ZXF1ZXN0GjAuc2Vuc29yeS5hcGkudjEuZXZlbnQuUHVibGlzaFVzYWdlRXZl",
+            "bnRzUmVzcG9uc2UiAEJvChdpby5zZW5zb3J5LmFwaS52MS5ldmVudEIWU2Vu",
+            "c29yeUFwaVYxRXZlbnRQcm90b1ABWjpnaXRsYWIuY29tL3NlbnNvcnktY2xv",
+            "dWQvc2VydmVyL3RpdGFuLmdpdC9wa2cvYXBpL3YxL2V2ZW50YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.PublishUsageEventsRequest), global::Sensory.Api.V1.Event.PublishUsageEventsRequest.Parser, new[]{ "Events" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEvent), global::Sensory.Api.V1.Event.UsageEvent.Parser, new[]{ "Timestamp", "Duration", "Id", "ClientId", "Type", "Route" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEvent), global::Sensory.Api.V1.Event.UsageEvent.Parser, new[]{ "Timestamp", "Duration", "Id", "ClientId", "Type", "Route", "Technologies", "Models", "AudioDurationMs", "VideoFrameCount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.PublishUsageEventsResponse), global::Sensory.Api.V1.Event.PublishUsageEventsResponse.Parser, null, null, null, null, null)
           }));
     }
@@ -277,6 +279,10 @@ namespace Sensory.Api.V1.Event {
       clientId_ = other.clientId_;
       type_ = other.type_;
       route_ = other.route_;
+      technologies_ = other.technologies_.Clone();
+      models_ = other.models_.Clone();
+      audioDurationMs_ = other.audioDurationMs_;
+      videoFrameCount_ = other.videoFrameCount_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -376,6 +382,64 @@ namespace Sensory.Api.V1.Event {
       }
     }
 
+    /// <summary>Field number for the "technologies" field.</summary>
+    public const int TechnologiesFieldNumber = 7;
+    private static readonly pb::FieldCodec<global::Sensory.Api.Common.TechnologyType> _repeated_technologies_codec
+        = pb::FieldCodec.ForEnum(58, x => (int) x, x => (global::Sensory.Api.Common.TechnologyType) x);
+    private readonly pbc::RepeatedField<global::Sensory.Api.Common.TechnologyType> technologies_ = new pbc::RepeatedField<global::Sensory.Api.Common.TechnologyType>();
+    /// <summary>
+    /// The technologies that were used
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Sensory.Api.Common.TechnologyType> Technologies {
+      get { return technologies_; }
+    }
+
+    /// <summary>Field number for the "models" field.</summary>
+    public const int ModelsFieldNumber = 8;
+    private static readonly pb::FieldCodec<string> _repeated_models_codec
+        = pb::FieldCodec.ForString(66);
+    private readonly pbc::RepeatedField<string> models_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// The models that were used
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Models {
+      get { return models_; }
+    }
+
+    /// <summary>Field number for the "audioDurationMs" field.</summary>
+    public const int AudioDurationMsFieldNumber = 9;
+    private long audioDurationMs_;
+    /// <summary>
+    /// The duration audio processed in milliseconds
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long AudioDurationMs {
+      get { return audioDurationMs_; }
+      set {
+        audioDurationMs_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "videoFrameCount" field.</summary>
+    public const int VideoFrameCountFieldNumber = 10;
+    private long videoFrameCount_;
+    /// <summary>
+    /// The number of video frames processed
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long VideoFrameCount {
+      get { return videoFrameCount_; }
+      set {
+        videoFrameCount_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -397,6 +461,10 @@ namespace Sensory.Api.V1.Event {
       if (ClientId != other.ClientId) return false;
       if (Type != other.Type) return false;
       if (Route != other.Route) return false;
+      if(!technologies_.Equals(other.technologies_)) return false;
+      if(!models_.Equals(other.models_)) return false;
+      if (AudioDurationMs != other.AudioDurationMs) return false;
+      if (VideoFrameCount != other.VideoFrameCount) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -410,6 +478,10 @@ namespace Sensory.Api.V1.Event {
       if (ClientId.Length != 0) hash ^= ClientId.GetHashCode();
       if (Type != global::Sensory.Api.Common.UsageEventType.Authentication) hash ^= Type.GetHashCode();
       if (Route.Length != 0) hash ^= Route.GetHashCode();
+      hash ^= technologies_.GetHashCode();
+      hash ^= models_.GetHashCode();
+      if (AudioDurationMs != 0L) hash ^= AudioDurationMs.GetHashCode();
+      if (VideoFrameCount != 0L) hash ^= VideoFrameCount.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -452,6 +524,16 @@ namespace Sensory.Api.V1.Event {
         output.WriteRawTag(50);
         output.WriteString(Route);
       }
+      technologies_.WriteTo(output, _repeated_technologies_codec);
+      models_.WriteTo(output, _repeated_models_codec);
+      if (AudioDurationMs != 0L) {
+        output.WriteRawTag(72);
+        output.WriteInt64(AudioDurationMs);
+      }
+      if (VideoFrameCount != 0L) {
+        output.WriteRawTag(80);
+        output.WriteInt64(VideoFrameCount);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -486,6 +568,16 @@ namespace Sensory.Api.V1.Event {
         output.WriteRawTag(50);
         output.WriteString(Route);
       }
+      technologies_.WriteTo(ref output, _repeated_technologies_codec);
+      models_.WriteTo(ref output, _repeated_models_codec);
+      if (AudioDurationMs != 0L) {
+        output.WriteRawTag(72);
+        output.WriteInt64(AudioDurationMs);
+      }
+      if (VideoFrameCount != 0L) {
+        output.WriteRawTag(80);
+        output.WriteInt64(VideoFrameCount);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -513,6 +605,14 @@ namespace Sensory.Api.V1.Event {
       }
       if (Route.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Route);
+      }
+      size += technologies_.CalculateSize(_repeated_technologies_codec);
+      size += models_.CalculateSize(_repeated_models_codec);
+      if (AudioDurationMs != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(AudioDurationMs);
+      }
+      if (VideoFrameCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(VideoFrameCount);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -546,6 +646,14 @@ namespace Sensory.Api.V1.Event {
       }
       if (other.Route.Length != 0) {
         Route = other.Route;
+      }
+      technologies_.Add(other.technologies_);
+      models_.Add(other.models_);
+      if (other.AudioDurationMs != 0L) {
+        AudioDurationMs = other.AudioDurationMs;
+      }
+      if (other.VideoFrameCount != 0L) {
+        VideoFrameCount = other.VideoFrameCount;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -589,6 +697,23 @@ namespace Sensory.Api.V1.Event {
             Route = input.ReadString();
             break;
           }
+          case 58:
+          case 56: {
+            technologies_.AddEntriesFrom(input, _repeated_technologies_codec);
+            break;
+          }
+          case 66: {
+            models_.AddEntriesFrom(input, _repeated_models_codec);
+            break;
+          }
+          case 72: {
+            AudioDurationMs = input.ReadInt64();
+            break;
+          }
+          case 80: {
+            VideoFrameCount = input.ReadInt64();
+            break;
+          }
         }
       }
     #endif
@@ -629,6 +754,23 @@ namespace Sensory.Api.V1.Event {
           }
           case 50: {
             Route = input.ReadString();
+            break;
+          }
+          case 58:
+          case 56: {
+            technologies_.AddEntriesFrom(ref input, _repeated_technologies_codec);
+            break;
+          }
+          case 66: {
+            models_.AddEntriesFrom(ref input, _repeated_models_codec);
+            break;
+          }
+          case 72: {
+            AudioDurationMs = input.ReadInt64();
+            break;
+          }
+          case 80: {
+            VideoFrameCount = input.ReadInt64();
             break;
           }
         }

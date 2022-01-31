@@ -3911,7 +3911,7 @@ namespace Sensory.Api.V1.Audio {
     public const int EnrollmentIdFieldNumber = 5;
     private string enrollmentId_ = "";
     /// <summary>
-    /// The enrollmentID of the authenticated user
+    /// The enrollmentID of the authenticated enrollment
     /// Useful when evaluating enrollment groups
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

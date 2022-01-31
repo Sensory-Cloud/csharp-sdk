@@ -65,6 +65,8 @@ namespace Test.Examples
             });
 
             oauthService.Register(friendlyDeviceName, token);
+
+            oauthService.RenewDeviceCredential(token);
         }
     }
 }

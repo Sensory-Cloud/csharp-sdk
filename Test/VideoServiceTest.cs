@@ -65,11 +65,13 @@ namespace Test
 
             var description = "my description";
             var isLivenessEnabled = false;
+            var numLivenessFrames = 5;
+            var recognitionThreshold = RecognitionThreshold.Low;
             var userId = "1234";
             var deviceId = "1234";
             var modelName = "my-model";
 
-            var enrollmentStream = await videoService.StreamEnrollment(description, userId, deviceId, modelName, isLivenessEnabled);
+            var enrollmentStream = await videoService.StreamEnrollment(description, userId, deviceId, modelName, isLivenessEnabled, recognitionThreshold, numLivenessFrames);
             Assert.IsNotNull(enrollmentStream, "enrollment stream should be returned");
 
             Assert.AreEqual(mockRequestStream.Invocations.Count, 1, "one call should have been made to pass config to the server");
@@ -79,6 +81,8 @@ namespace Test
             Assert.AreEqual(configMessage.Config.UserId, userId, "userId should match what was passed in");
             Assert.AreEqual(configMessage.Config.ModelName, modelName, "modelName should match what was passed in");
             Assert.AreEqual(configMessage.Config.IsLivenessEnabled, isLivenessEnabled, "isLivenessEnabled should match what was passed in");
+            Assert.AreEqual(configMessage.Config.LivenessThreshold, recognitionThreshold, "recognitionThreshold should match what was passed in");
+            Assert.AreEqual(configMessage.Config.NumLivenessFramesRequired, numLivenessFrames, "numLivenessFrames should match what was passed in");
         }
 
         [Test]
@@ -114,6 +118,43 @@ namespace Test
             var configMessage = (AuthenticateRequest)mockRequestStream.Invocations[0].Arguments[0];
 
             Assert.AreEqual(configMessage.Config.EnrollmentId, enrollmentId, "enrollmentId should match what was passed in");
+            Assert.AreEqual(configMessage.Config.IsLivenessEnabled, isLivenessEnabled, "isLivenessEnabled should match what was passed in");
+            Assert.AreEqual(configMessage.Config.LivenessThreshold, threhsold, "threhsold should match what was passed in");
+        }
+
+        [Test]
+        public async Task TestStreamGroupAuthentication()
+        {
+            var tokenManager = new MockTokenManager();
+            var videoModelsClient = new Mock<VideoModels.VideoModelsClient>();
+            var videoBiometricsClient = new Mock<VideoBiometrics.VideoBiometricsClient>();
+            var videoRecognitionsClient = new Mock<VideoRecognition.VideoRecognitionClient>();
+
+            var mockRequestStream = new Mock<IClientStreamWriter<AuthenticateRequest>>();
+            var mockResponseStream = new Mock<IAsyncStreamReader<AuthenticateResponse>>();
+
+            var fakeCall = TestCalls.AsyncDuplexStreamingCall(mockRequestStream.Object, mockResponseStream.Object, Task.FromResult(new Metadata()), () => Status.DefaultSuccess, () => new Metadata(), () => { });
+            videoBiometricsClient.Setup(m => m.Authenticate(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
+
+            var videoService = new MockVideoService(
+                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                tokenManager,
+                videoModelsClient.Object,
+                videoBiometricsClient.Object,
+                videoRecognitionsClient.Object
+            );
+
+            var enrollmentGroupId = "enrollmentId";
+            var isLivenessEnabled = true;
+            var threhsold = RecognitionThreshold.Low;
+
+            var enrollmentStream = await videoService.StreamGroupAuthentication(enrollmentGroupId, isLivenessEnabled, threhsold);
+            Assert.IsNotNull(enrollmentStream, "authentication stream should be returned");
+
+            Assert.AreEqual(mockRequestStream.Invocations.Count, 1, "one call should have been made to pass config to the server");
+            var configMessage = (AuthenticateRequest)mockRequestStream.Invocations[0].Arguments[0];
+
+            Assert.AreEqual(configMessage.Config.EnrollmentGroupId, enrollmentGroupId, "enrollmentGroupId should match what was passed in");
             Assert.AreEqual(configMessage.Config.IsLivenessEnabled, isLivenessEnabled, "isLivenessEnabled should match what was passed in");
             Assert.AreEqual(configMessage.Config.LivenessThreshold, threhsold, "threhsold should match what was passed in");
         }

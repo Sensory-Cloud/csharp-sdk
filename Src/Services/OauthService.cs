@@ -32,6 +32,13 @@ namespace SensoryCloud.Src.Services
         /// <param name="credential">The credential configured on the Sensory Cloud server</param>
         DeviceResponse Register(string deviceName, string credential);
 
+
+        /// <summary>
+        /// Renew a device credential if the device credential has expired or is near expiration.
+        /// </summary>
+        /// <param name="credential">The credential configured on the Sensory Cloud server</param>
+        DeviceResponse RenewDeviceCredential(string credential);
+
         /// <summary>
         /// Get information about the current registered device as inferred by the OAuth credentials supplied by the credential manager.
         /// A new token is request every time this call is made, so use sparingly.
@@ -188,6 +195,25 @@ namespace SensoryCloud.Src.Services
             };
 
             return this.DeviceClient.EnrollDevice(request);
+        }
+
+        public DeviceResponse RenewDeviceCredential(string credential)
+        {
+            string clientId = this.SecureCredentialStore.GetClientId();
+            if (string.IsNullOrEmpty(clientId))
+            {
+                throw new ArgumentNullException("null clientId was returned from the secure credential store");
+            }
+
+            RenewDeviceCredentialRequest request = new RenewDeviceCredentialRequest
+            {
+                ClientId = clientId,
+                Credential = credential,
+                DeviceId = Config.DeviceId,
+                TenantId = Config.TenantId
+            };
+
+            return this.DeviceClient.RenewDeviceCredential(request);
         }
     }
 }

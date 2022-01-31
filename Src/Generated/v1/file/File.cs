@@ -33,41 +33,41 @@ namespace Sensory.Api.V1.File {
             "c29yeS5hcGkudjEuZmlsZS5GaWxlQ2h1bmtIABIQCghjb21wbGV0ZRgDIAEo",
             "CEITChFzdHJlYW1pbmdSZXNwb25zZSJeChJGaWxlQ2F0YWxvZ1JlcXVlc3QS",
             "SAoKY2F0ZWdvcmllcxgBIAMoCzIqLnNlbnNvcnkuYXBpLnYxLmZpbGUuVmVy",
-            "c2lvbmVkRmlsZUNhdGVnb3J5Qgj6QgWSAQIIASIcChpGaWxlQ29tcGxldGVD",
-            "YXRhbG9nUmVxdWVzdCJIChNGaWxlQ2F0YWxvZ1Jlc3BvbnNlEjEKB2NhdGFs",
-            "b2cYASADKAsyIC5zZW5zb3J5LmFwaS52MS5maWxlLkZpbGVDYXRhbG9nIioK",
-            "CUZpbGVDaHVuaxINCgVieXRlcxgBIAEoDBIOCgZvZmZzZXQYAiABKAMiXwoI",
-            "RmlsZUluZm8SDAoEZmlsZRgBIAEoCRIUCgxhYnNvbHV0ZVBhdGgYAiABKAkS",
-            "DAoEc2l6ZRgDIAEoAxITCgtjb250ZW50VHlwZRgEIAEoCRIMCgRoYXNoGAUg",
-            "ASgJInkKC0ZpbGVDYXRhbG9nEiwKBWZpbGVzGAEgAygLMh0uc2Vuc29yeS5h",
-            "cGkudjEuZmlsZS5GaWxlSW5mbxI8CghjYXRlZ29yeRgCIAEoCzIqLnNlbnNv",
-            "cnkuYXBpLnYxLmZpbGUuVmVyc2lvbmVkRmlsZUNhdGVnb3J5ImcKFVZlcnNp",
-            "b25lZEZpbGVDYXRlZ29yeRI9CghjYXRlZ29yeRgBIAEoDjIhLnNlbnNvcnku",
-            "YXBpLnYxLmZpbGUuRmlsZUNhdGVnb3J5Qgj6QgWCAQIQARIPCgd2ZXJzaW9u",
-            "GAIgASgJKkwKDEZpbGVDYXRlZ29yeRIOCgpUU1NWX01PREVMEAASEAoMRkVO",
-            "UklSX01PREVMEAESDQoJVE5MX01PREVMEAISCwoHVU5LTk9XThBkMv8CCgRG",
-            "aWxlEkwKB0dldEluZm8SIC5zZW5zb3J5LmFwaS52MS5maWxlLkZpbGVSZXF1",
-            "ZXN0Gh0uc2Vuc29yeS5hcGkudjEuZmlsZS5GaWxlSW5mbyIAEmEKCkdldENh",
-            "dGFsb2cSJy5zZW5zb3J5LmFwaS52MS5maWxlLkZpbGVDYXRhbG9nUmVxdWVz",
-            "dBooLnNlbnNvcnkuYXBpLnYxLmZpbGUuRmlsZUNhdGFsb2dSZXNwb25zZSIA",
-            "EnEKEkdldENvbXBsZXRlQ2F0YWxvZxIvLnNlbnNvcnkuYXBpLnYxLmZpbGUu",
-            "RmlsZUNvbXBsZXRlQ2F0YWxvZ1JlcXVlc3QaKC5zZW5zb3J5LmFwaS52MS5m",
-            "aWxlLkZpbGVDYXRhbG9nUmVzcG9uc2UiABJTCghEb3dubG9hZBIgLnNlbnNv",
-            "cnkuYXBpLnYxLmZpbGUuRmlsZVJlcXVlc3QaIS5zZW5zb3J5LmFwaS52MS5m",
-            "aWxlLkZpbGVSZXNwb25zZSIAMAFCbAoWaW8uc2Vuc29yeS5hcGkudjEuZmls",
-            "ZUIVU2Vuc29yeUFwaVYxRmlsZVByb3RvUAFaOWdpdGxhYi5jb20vc2Vuc29y",
-            "eS1jbG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEvZmlsZWIGcHJv",
-            "dG8z"));
+            "c2lvbmVkRmlsZUNhdGVnb3J5Qgj6QgWSAQIIASIuChpGaWxlQ29tcGxldGVD",
+            "YXRhbG9nUmVxdWVzdBIQCgh0ZW5hbnRJZBgBIAEoCSJIChNGaWxlQ2F0YWxv",
+            "Z1Jlc3BvbnNlEjEKB2NhdGFsb2cYASADKAsyIC5zZW5zb3J5LmFwaS52MS5m",
+            "aWxlLkZpbGVDYXRhbG9nIioKCUZpbGVDaHVuaxINCgVieXRlcxgBIAEoDBIO",
+            "CgZvZmZzZXQYAiABKAMicQoIRmlsZUluZm8SDAoEZmlsZRgBIAEoCRIUCgxh",
+            "YnNvbHV0ZVBhdGgYAiABKAkSDAoEc2l6ZRgDIAEoAxITCgtjb250ZW50VHlw",
+            "ZRgEIAEoCRIMCgRoYXNoGAUgASgJEhAKCHRlbmFudElkGAYgASgJInkKC0Zp",
+            "bGVDYXRhbG9nEiwKBWZpbGVzGAEgAygLMh0uc2Vuc29yeS5hcGkudjEuZmls",
+            "ZS5GaWxlSW5mbxI8CghjYXRlZ29yeRgCIAEoCzIqLnNlbnNvcnkuYXBpLnYx",
+            "LmZpbGUuVmVyc2lvbmVkRmlsZUNhdGVnb3J5ImcKFVZlcnNpb25lZEZpbGVD",
+            "YXRlZ29yeRI9CghjYXRlZ29yeRgBIAEoDjIhLnNlbnNvcnkuYXBpLnYxLmZp",
+            "bGUuRmlsZUNhdGVnb3J5Qgj6QgWCAQIQARIPCgd2ZXJzaW9uGAIgASgJKkwK",
+            "DEZpbGVDYXRlZ29yeRIOCgpUU1NWX01PREVMEAASEAoMRkVOUklSX01PREVM",
+            "EAESDQoJVE5MX01PREVMEAISCwoHVU5LTk9XThBkMv8CCgRGaWxlEkwKB0dl",
+            "dEluZm8SIC5zZW5zb3J5LmFwaS52MS5maWxlLkZpbGVSZXF1ZXN0Gh0uc2Vu",
+            "c29yeS5hcGkudjEuZmlsZS5GaWxlSW5mbyIAEmEKCkdldENhdGFsb2cSJy5z",
+            "ZW5zb3J5LmFwaS52MS5maWxlLkZpbGVDYXRhbG9nUmVxdWVzdBooLnNlbnNv",
+            "cnkuYXBpLnYxLmZpbGUuRmlsZUNhdGFsb2dSZXNwb25zZSIAEnEKEkdldENv",
+            "bXBsZXRlQ2F0YWxvZxIvLnNlbnNvcnkuYXBpLnYxLmZpbGUuRmlsZUNvbXBs",
+            "ZXRlQ2F0YWxvZ1JlcXVlc3QaKC5zZW5zb3J5LmFwaS52MS5maWxlLkZpbGVD",
+            "YXRhbG9nUmVzcG9uc2UiABJTCghEb3dubG9hZBIgLnNlbnNvcnkuYXBpLnYx",
+            "LmZpbGUuRmlsZVJlcXVlc3QaIS5zZW5zb3J5LmFwaS52MS5maWxlLkZpbGVS",
+            "ZXNwb25zZSIAMAFCbAoWaW8uc2Vuc29yeS5hcGkudjEuZmlsZUIVU2Vuc29y",
+            "eUFwaVYxRmlsZVByb3RvUAFaOWdpdGxhYi5jb20vc2Vuc29yeS1jbG91ZC9z",
+            "ZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEvZmlsZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.File.FileCategory), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileRequest), global::Sensory.Api.V1.File.FileRequest.Parser, new[]{ "File", "Category", "Offset" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileResponse), global::Sensory.Api.V1.File.FileResponse.Parser, new[]{ "Info", "Chunk", "Complete" }, new[]{ "StreamingResponse" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileCatalogRequest), global::Sensory.Api.V1.File.FileCatalogRequest.Parser, new[]{ "Categories" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileCompleteCatalogRequest), global::Sensory.Api.V1.File.FileCompleteCatalogRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileCompleteCatalogRequest), global::Sensory.Api.V1.File.FileCompleteCatalogRequest.Parser, new[]{ "TenantId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileCatalogResponse), global::Sensory.Api.V1.File.FileCatalogResponse.Parser, new[]{ "Catalog" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileChunk), global::Sensory.Api.V1.File.FileChunk.Parser, new[]{ "Bytes", "Offset" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileInfo), global::Sensory.Api.V1.File.FileInfo.Parser, new[]{ "File", "AbsolutePath", "Size", "ContentType", "Hash" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileInfo), global::Sensory.Api.V1.File.FileInfo.Parser, new[]{ "File", "AbsolutePath", "Size", "ContentType", "Hash", "TenantId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.FileCatalog), global::Sensory.Api.V1.File.FileCatalog.Parser, new[]{ "Files", "Category" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.File.VersionedFileCategory), global::Sensory.Api.V1.File.VersionedFileCategory.Parser, new[]{ "Category", "Version" }, null, null, null, null)
           }));
@@ -946,6 +946,7 @@ namespace Sensory.Api.V1.File {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public FileCompleteCatalogRequest(FileCompleteCatalogRequest other) : this() {
+      tenantId_ = other.tenantId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -953,6 +954,21 @@ namespace Sensory.Api.V1.File {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public FileCompleteCatalogRequest Clone() {
       return new FileCompleteCatalogRequest(this);
+    }
+
+    /// <summary>Field number for the "tenantId" field.</summary>
+    public const int TenantIdFieldNumber = 1;
+    private string tenantId_ = "";
+    /// <summary>
+    /// Optional tenantId to retrieve tenant-specific models in addition to the complete catalog
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TenantId {
+      get { return tenantId_; }
+      set {
+        tenantId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -970,6 +986,7 @@ namespace Sensory.Api.V1.File {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (TenantId != other.TenantId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -977,6 +994,7 @@ namespace Sensory.Api.V1.File {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (TenantId.Length != 0) hash ^= TenantId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -995,6 +1013,10 @@ namespace Sensory.Api.V1.File {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TenantId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1005,6 +1027,10 @@ namespace Sensory.Api.V1.File {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TenantId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1015,6 +1041,9 @@ namespace Sensory.Api.V1.File {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (TenantId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TenantId);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1026,6 +1055,9 @@ namespace Sensory.Api.V1.File {
     public void MergeFrom(FileCompleteCatalogRequest other) {
       if (other == null) {
         return;
+      }
+      if (other.TenantId.Length != 0) {
+        TenantId = other.TenantId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1042,6 +1074,10 @@ namespace Sensory.Api.V1.File {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 10: {
+            TenantId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1057,6 +1093,10 @@ namespace Sensory.Api.V1.File {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 10: {
+            TenantId = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -1525,6 +1565,7 @@ namespace Sensory.Api.V1.File {
       size_ = other.size_;
       contentType_ = other.contentType_;
       hash_ = other.hash_;
+      tenantId_ = other.tenantId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1610,6 +1651,21 @@ namespace Sensory.Api.V1.File {
       }
     }
 
+    /// <summary>Field number for the "tenantId" field.</summary>
+    public const int TenantIdFieldNumber = 6;
+    private string tenantId_ = "";
+    /// <summary>
+    /// Optional tenantID associated with this file
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TenantId {
+      get { return tenantId_; }
+      set {
+        tenantId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1630,6 +1686,7 @@ namespace Sensory.Api.V1.File {
       if (Size != other.Size) return false;
       if (ContentType != other.ContentType) return false;
       if (Hash != other.Hash) return false;
+      if (TenantId != other.TenantId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1642,6 +1699,7 @@ namespace Sensory.Api.V1.File {
       if (Size != 0L) hash ^= Size.GetHashCode();
       if (ContentType.Length != 0) hash ^= ContentType.GetHashCode();
       if (Hash.Length != 0) hash ^= Hash.GetHashCode();
+      if (TenantId.Length != 0) hash ^= TenantId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1680,6 +1738,10 @@ namespace Sensory.Api.V1.File {
         output.WriteRawTag(42);
         output.WriteString(Hash);
       }
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(TenantId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1710,6 +1772,10 @@ namespace Sensory.Api.V1.File {
         output.WriteRawTag(42);
         output.WriteString(Hash);
       }
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(TenantId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1734,6 +1800,9 @@ namespace Sensory.Api.V1.File {
       }
       if (Hash.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Hash);
+      }
+      if (TenantId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TenantId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1761,6 +1830,9 @@ namespace Sensory.Api.V1.File {
       }
       if (other.Hash.Length != 0) {
         Hash = other.Hash;
+      }
+      if (other.TenantId.Length != 0) {
+        TenantId = other.TenantId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1797,6 +1869,10 @@ namespace Sensory.Api.V1.File {
             Hash = input.ReadString();
             break;
           }
+          case 50: {
+            TenantId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1830,6 +1906,10 @@ namespace Sensory.Api.V1.File {
           }
           case 42: {
             Hash = input.ReadString();
+            break;
+          }
+          case 50: {
+            TenantId = input.ReadString();
             break;
           }
         }

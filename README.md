@@ -112,6 +112,17 @@ var token = handler.CreateToken(new SecurityTokenDescriptor
 oauthService.Register(friendlyDeviceName, token);
 ```
 
+## Renewing Credentials
+
+If you are evaluting Sensory Cloud as part of a Proof of Concept then likely the token granted to you will expire.
+Should the secret expire, you can request a new from from Sensory. You will need to renew your credential via the OAuth service.
+You can always renew your secret before it has expired to ensure you have 0 downtime.
+
+```
+oauthService.RenewDeviceCredential(newToken);
+```
+
+
 ## Creating a TokenManager
 
 The TokenManger class handles requesting OAuth tokens when necessary.

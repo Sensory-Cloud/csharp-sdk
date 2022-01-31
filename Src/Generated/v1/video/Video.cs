@@ -45,45 +45,46 @@ namespace Sensory.Api.V1.Video {
             "YW1pbmdSZXF1ZXN0EgP4QgEikgEKGENyZWF0ZUVucm9sbG1lbnRSZXNwb25z",
             "ZRIXCg9wZXJjZW50Q29tcGxldGUYASABKAMSDwoHaXNBbGl2ZRgCIAEoCBIU",
             "CgxlbnJvbGxtZW50SWQYAyABKAkSEQoJbW9kZWxOYW1lGAQgASgJEhQKDG1v",
-            "ZGVsVmVyc2lvbhgFIAEoCRINCgVzY29yZRgGIAEoAiJ5ChRBdXRoZW50aWNh",
-            "dGVSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIEg0KBXNjb3JlGAIgASgCEg8K",
-            "B2lzQWxpdmUYAyABKAgSMAoFdG9rZW4YBCABKAsyIS5zZW5zb3J5LmFwaS5j",
-            "b21tb24uVG9rZW5SZXNwb25zZSI9ChtMaXZlbmVzc1JlY29nbml0aW9uUmVz",
-            "cG9uc2USDwoHaXNBbGl2ZRgBIAEoCBINCgVzY29yZRgCIAEoAiLbAgoWQ3Jl",
-            "YXRlRW5yb2xsbWVudENvbmZpZxIZCgZ1c2VySWQYASABKAlCCfpCBnIEEAEY",
-            "fxIbCghkZXZpY2VJZBgCIAEoCUIJ+kIGcgQQARh/Eh0KCW1vZGVsTmFtZRgD",
-            "IAEoCUIK+kIHcgUQARj/ARIdCgtkZXNjcmlwdGlvbhgEIAEoCUII+kIFcgMY",
-            "/wcSGQoRaXNMaXZlbmVzc0VuYWJsZWQYBSABKAgSTwoRbGl2ZW5lc3NUaHJl",
-            "c2hvbGQYBiABKA4yKi5zZW5zb3J5LmFwaS52MS52aWRlby5SZWNvZ25pdGlv",
-            "blRocmVzaG9sZEII+kIFggECEAESQQoLY29tcHJlc3Npb24YByABKAsyLC5z",
-            "ZW5zb3J5LmFwaS5jb21tb24uQ29tcHJlc3Npb25Db25maWd1cmF0aW9uEhwK",
-            "C3JlZmVyZW5jZUlkGAggASgJQgf6QgRyAhh/IqkCChJBdXRoZW50aWNhdGVD",
-            "b25maWcSIAoMZW5yb2xsbWVudElkGAEgASgJQgj6QgVyA7ABAUgAEhsKEWVu",
-            "cm9sbG1lbnRHcm91cElkGAIgASgJSAASGQoRaXNMaXZlbmVzc0VuYWJsZWQY",
-            "AyABKAgSTwoRbGl2ZW5lc3NUaHJlc2hvbGQYBCABKA4yKi5zZW5zb3J5LmFw",
-            "aS52MS52aWRlby5SZWNvZ25pdGlvblRocmVzaG9sZEII+kIFggECEAESQQoL",
-            "Y29tcHJlc3Npb24YBSABKAsyLC5zZW5zb3J5LmFwaS5jb21tb24uQ29tcHJl",
-            "c3Npb25Db25maWd1cmF0aW9uEhYKDmRvSW5jbHVkZVRva2VuGAYgASgIQg0K",
-            "BmF1dGhJZBID+EIBIp4BChlWYWxpZGF0ZVJlY29nbml0aW9uQ29uZmlnEh0K",
-            "CW1vZGVsTmFtZRgBIAEoCUIK+kIHcgUQARj/ARIZCgZ1c2VySWQYAiABKAlC",
-            "CfpCBnIEEAEYfxJHCgl0aHJlc2hvbGQYAyABKA4yKi5zZW5zb3J5LmFwaS52",
-            "MS52aWRlby5SZWNvZ25pdGlvblRocmVzaG9sZEII+kIFggECEAEqQgoUUmVj",
-            "b2duaXRpb25UaHJlc2hvbGQSBwoDTE9XEAASCgoGTUVESVVNEAESCAoESElH",
-            "SBACEgsKB0hJR0hFU1QQAzJtCgtWaWRlb01vZGVscxJeCglHZXRNb2RlbHMS",
-            "Ji5zZW5zb3J5LmFwaS52MS52aWRlby5HZXRNb2RlbHNSZXF1ZXN0Gicuc2Vu",
-            "c29yeS5hcGkudjEudmlkZW8uR2V0TW9kZWxzUmVzcG9uc2UiADL3AQoPVmlk",
-            "ZW9CaW9tZXRyaWNzEncKEENyZWF0ZUVucm9sbG1lbnQSLS5zZW5zb3J5LmFw",
-            "aS52MS52aWRlby5DcmVhdGVFbnJvbGxtZW50UmVxdWVzdBouLnNlbnNvcnku",
-            "YXBpLnYxLnZpZGVvLkNyZWF0ZUVucm9sbG1lbnRSZXNwb25zZSIAKAEwARJr",
-            "CgxBdXRoZW50aWNhdGUSKS5zZW5zb3J5LmFwaS52MS52aWRlby5BdXRoZW50",
-            "aWNhdGVSZXF1ZXN0Giouc2Vuc29yeS5hcGkudjEudmlkZW8uQXV0aGVudGlj",
-            "YXRlUmVzcG9uc2UiACgBMAEykQEKEFZpZGVvUmVjb2duaXRpb24SfQoQVmFs",
-            "aWRhdGVMaXZlbmVzcxIwLnNlbnNvcnkuYXBpLnYxLnZpZGVvLlZhbGlkYXRl",
-            "UmVjb2duaXRpb25SZXF1ZXN0GjEuc2Vuc29yeS5hcGkudjEudmlkZW8uTGl2",
-            "ZW5lc3NSZWNvZ25pdGlvblJlc3BvbnNlIgAoATABQm8KF2lvLnNlbnNvcnku",
-            "YXBpLnYxLnZpZGVvQhZTZW5zb3J5QXBpVjFWaWRlb1Byb3RvUAFaOmdpdGxh",
-            "Yi5jb20vc2Vuc29yeS1jbG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkv",
-            "djEvdmlkZW9iBnByb3RvMw=="));
+            "ZGVsVmVyc2lvbhgFIAEoCRINCgVzY29yZRgGIAEoAiKfAQoUQXV0aGVudGlj",
+            "YXRlUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCBINCgVzY29yZRgCIAEoAhIP",
+            "Cgdpc0FsaXZlGAMgASgIEjAKBXRva2VuGAQgASgLMiEuc2Vuc29yeS5hcGku",
+            "Y29tbW9uLlRva2VuUmVzcG9uc2USDgoGdXNlcklkGAUgASgJEhQKDGVucm9s",
+            "bG1lbnRJZBgGIAEoCSI9ChtMaXZlbmVzc1JlY29nbml0aW9uUmVzcG9uc2US",
+            "DwoHaXNBbGl2ZRgBIAEoCBINCgVzY29yZRgCIAEoAiL+AgoWQ3JlYXRlRW5y",
+            "b2xsbWVudENvbmZpZxIZCgZ1c2VySWQYASABKAlCCfpCBnIEEAEYfxIbCghk",
+            "ZXZpY2VJZBgCIAEoCUIJ+kIGcgQQARh/Eh0KCW1vZGVsTmFtZRgDIAEoCUIK",
+            "+kIHcgUQARj/ARIdCgtkZXNjcmlwdGlvbhgEIAEoCUII+kIFcgMY/wcSGQoR",
+            "aXNMaXZlbmVzc0VuYWJsZWQYBSABKAgSTwoRbGl2ZW5lc3NUaHJlc2hvbGQY",
+            "BiABKA4yKi5zZW5zb3J5LmFwaS52MS52aWRlby5SZWNvZ25pdGlvblRocmVz",
+            "aG9sZEII+kIFggECEAESQQoLY29tcHJlc3Npb24YByABKAsyLC5zZW5zb3J5",
+            "LmFwaS5jb21tb24uQ29tcHJlc3Npb25Db25maWd1cmF0aW9uEhwKC3JlZmVy",
+            "ZW5jZUlkGAggASgJQgf6QgRyAhh/EiEKGW51bUxpdmVuZXNzRnJhbWVzUmVx",
+            "dWlyZWQYCSABKAUiqQIKEkF1dGhlbnRpY2F0ZUNvbmZpZxIgCgxlbnJvbGxt",
+            "ZW50SWQYASABKAlCCPpCBXIDsAEBSAASGwoRZW5yb2xsbWVudEdyb3VwSWQY",
+            "AiABKAlIABIZChFpc0xpdmVuZXNzRW5hYmxlZBgDIAEoCBJPChFsaXZlbmVz",
+            "c1RocmVzaG9sZBgEIAEoDjIqLnNlbnNvcnkuYXBpLnYxLnZpZGVvLlJlY29n",
+            "bml0aW9uVGhyZXNob2xkQgj6QgWCAQIQARJBCgtjb21wcmVzc2lvbhgFIAEo",
+            "CzIsLnNlbnNvcnkuYXBpLmNvbW1vbi5Db21wcmVzc2lvbkNvbmZpZ3VyYXRp",
+            "b24SFgoOZG9JbmNsdWRlVG9rZW4YBiABKAhCDQoGYXV0aElkEgP4QgEingEK",
+            "GVZhbGlkYXRlUmVjb2duaXRpb25Db25maWcSHQoJbW9kZWxOYW1lGAEgASgJ",
+            "Qgr6QgdyBRABGP8BEhkKBnVzZXJJZBgCIAEoCUIJ+kIGcgQQARh/EkcKCXRo",
+            "cmVzaG9sZBgDIAEoDjIqLnNlbnNvcnkuYXBpLnYxLnZpZGVvLlJlY29nbml0",
+            "aW9uVGhyZXNob2xkQgj6QgWCAQIQASpCChRSZWNvZ25pdGlvblRocmVzaG9s",
+            "ZBIHCgNMT1cQABIKCgZNRURJVU0QARIICgRISUdIEAISCwoHSElHSEVTVBAD",
+            "Mm0KC1ZpZGVvTW9kZWxzEl4KCUdldE1vZGVscxImLnNlbnNvcnkuYXBpLnYx",
+            "LnZpZGVvLkdldE1vZGVsc1JlcXVlc3QaJy5zZW5zb3J5LmFwaS52MS52aWRl",
+            "by5HZXRNb2RlbHNSZXNwb25zZSIAMvcBCg9WaWRlb0Jpb21ldHJpY3MSdwoQ",
+            "Q3JlYXRlRW5yb2xsbWVudBItLnNlbnNvcnkuYXBpLnYxLnZpZGVvLkNyZWF0",
+            "ZUVucm9sbG1lbnRSZXF1ZXN0Gi4uc2Vuc29yeS5hcGkudjEudmlkZW8uQ3Jl",
+            "YXRlRW5yb2xsbWVudFJlc3BvbnNlIgAoATABEmsKDEF1dGhlbnRpY2F0ZRIp",
+            "LnNlbnNvcnkuYXBpLnYxLnZpZGVvLkF1dGhlbnRpY2F0ZVJlcXVlc3QaKi5z",
+            "ZW5zb3J5LmFwaS52MS52aWRlby5BdXRoZW50aWNhdGVSZXNwb25zZSIAKAEw",
+            "ATKRAQoQVmlkZW9SZWNvZ25pdGlvbhJ9ChBWYWxpZGF0ZUxpdmVuZXNzEjAu",
+            "c2Vuc29yeS5hcGkudjEudmlkZW8uVmFsaWRhdGVSZWNvZ25pdGlvblJlcXVl",
+            "c3QaMS5zZW5zb3J5LmFwaS52MS52aWRlby5MaXZlbmVzc1JlY29nbml0aW9u",
+            "UmVzcG9uc2UiACgBMAFCbwoXaW8uc2Vuc29yeS5hcGkudjEudmlkZW9CFlNl",
+            "bnNvcnlBcGlWMVZpZGVvUHJvdG9QAVo6Z2l0bGFiLmNvbS9zZW5zb3J5LWNs",
+            "b3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS92MS92aWRlb2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.Video.RecognitionThreshold), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -94,9 +95,9 @@ namespace Sensory.Api.V1.Video {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.AuthenticateRequest), global::Sensory.Api.V1.Video.AuthenticateRequest.Parser, new[]{ "Config", "ImageContent" }, new[]{ "StreamingRequest" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.ValidateRecognitionRequest), global::Sensory.Api.V1.Video.ValidateRecognitionRequest.Parser, new[]{ "Config", "ImageContent" }, new[]{ "StreamingRequest" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.CreateEnrollmentResponse), global::Sensory.Api.V1.Video.CreateEnrollmentResponse.Parser, new[]{ "PercentComplete", "IsAlive", "EnrollmentId", "ModelName", "ModelVersion", "Score" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.AuthenticateResponse), global::Sensory.Api.V1.Video.AuthenticateResponse.Parser, new[]{ "Success", "Score", "IsAlive", "Token" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.AuthenticateResponse), global::Sensory.Api.V1.Video.AuthenticateResponse.Parser, new[]{ "Success", "Score", "IsAlive", "Token", "UserId", "EnrollmentId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.LivenessRecognitionResponse), global::Sensory.Api.V1.Video.LivenessRecognitionResponse.Parser, new[]{ "IsAlive", "Score" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.CreateEnrollmentConfig), global::Sensory.Api.V1.Video.CreateEnrollmentConfig.Parser, new[]{ "UserId", "DeviceId", "ModelName", "Description", "IsLivenessEnabled", "LivenessThreshold", "Compression", "ReferenceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.CreateEnrollmentConfig), global::Sensory.Api.V1.Video.CreateEnrollmentConfig.Parser, new[]{ "UserId", "DeviceId", "ModelName", "Description", "IsLivenessEnabled", "LivenessThreshold", "Compression", "ReferenceId", "NumLivenessFramesRequired" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.AuthenticateConfig), global::Sensory.Api.V1.Video.AuthenticateConfig.Parser, new[]{ "EnrollmentId", "EnrollmentGroupId", "IsLivenessEnabled", "LivenessThreshold", "Compression", "DoIncludeToken" }, new[]{ "AuthId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Video.ValidateRecognitionConfig), global::Sensory.Api.V1.Video.ValidateRecognitionConfig.Parser, new[]{ "ModelName", "UserId", "Threshold" }, null, null, null, null)
           }));
@@ -2178,6 +2179,8 @@ namespace Sensory.Api.V1.Video {
       score_ = other.score_;
       isAlive_ = other.isAlive_;
       token_ = other.token_ != null ? other.token_.Clone() : null;
+      userId_ = other.userId_;
+      enrollmentId_ = other.enrollmentId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2247,6 +2250,38 @@ namespace Sensory.Api.V1.Video {
       }
     }
 
+    /// <summary>Field number for the "userId" field.</summary>
+    public const int UserIdFieldNumber = 5;
+    private string userId_ = "";
+    /// <summary>
+    /// The userID of the authenticated user
+    /// Useful when evaluating enrollment groups
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string UserId {
+      get { return userId_; }
+      set {
+        userId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "enrollmentId" field.</summary>
+    public const int EnrollmentIdFieldNumber = 6;
+    private string enrollmentId_ = "";
+    /// <summary>
+    /// The enrollment ID of the authenticated enrollment
+    /// Useful when evaluating enrollment groups
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string EnrollmentId {
+      get { return enrollmentId_; }
+      set {
+        enrollmentId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2266,6 +2301,8 @@ namespace Sensory.Api.V1.Video {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Score, other.Score)) return false;
       if (IsAlive != other.IsAlive) return false;
       if (!object.Equals(Token, other.Token)) return false;
+      if (UserId != other.UserId) return false;
+      if (EnrollmentId != other.EnrollmentId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2277,6 +2314,8 @@ namespace Sensory.Api.V1.Video {
       if (Score != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Score);
       if (IsAlive != false) hash ^= IsAlive.GetHashCode();
       if (token_ != null) hash ^= Token.GetHashCode();
+      if (UserId.Length != 0) hash ^= UserId.GetHashCode();
+      if (EnrollmentId.Length != 0) hash ^= EnrollmentId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2311,6 +2350,14 @@ namespace Sensory.Api.V1.Video {
         output.WriteRawTag(34);
         output.WriteMessage(Token);
       }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(UserId);
+      }
+      if (EnrollmentId.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(EnrollmentId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2337,6 +2384,14 @@ namespace Sensory.Api.V1.Video {
         output.WriteRawTag(34);
         output.WriteMessage(Token);
       }
+      if (UserId.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(UserId);
+      }
+      if (EnrollmentId.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(EnrollmentId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2358,6 +2413,12 @@ namespace Sensory.Api.V1.Video {
       }
       if (token_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Token);
+      }
+      if (UserId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UserId);
+      }
+      if (EnrollmentId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(EnrollmentId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2385,6 +2446,12 @@ namespace Sensory.Api.V1.Video {
           Token = new global::Sensory.Api.Common.TokenResponse();
         }
         Token.MergeFrom(other.Token);
+      }
+      if (other.UserId.Length != 0) {
+        UserId = other.UserId;
+      }
+      if (other.EnrollmentId.Length != 0) {
+        EnrollmentId = other.EnrollmentId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2420,6 +2487,14 @@ namespace Sensory.Api.V1.Video {
             input.ReadMessage(Token);
             break;
           }
+          case 42: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 50: {
+            EnrollmentId = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2452,6 +2527,14 @@ namespace Sensory.Api.V1.Video {
               Token = new global::Sensory.Api.Common.TokenResponse();
             }
             input.ReadMessage(Token);
+            break;
+          }
+          case 42: {
+            UserId = input.ReadString();
+            break;
+          }
+          case 50: {
+            EnrollmentId = input.ReadString();
             break;
           }
         }
@@ -2741,6 +2824,7 @@ namespace Sensory.Api.V1.Video {
       livenessThreshold_ = other.livenessThreshold_;
       compression_ = other.compression_ != null ? other.compression_.Clone() : null;
       referenceId_ = other.referenceId_;
+      numLivenessFramesRequired_ = other.numLivenessFramesRequired_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2874,6 +2958,22 @@ namespace Sensory.Api.V1.Video {
       }
     }
 
+    /// <summary>Field number for the "numLivenessFramesRequired" field.</summary>
+    public const int NumLivenessFramesRequiredFieldNumber = 9;
+    private int numLivenessFramesRequired_;
+    /// <summary>
+    /// If isLivenessEnabled is true, this determines how many frames need to pass the liveness check before the enrollment can be successful
+    /// A value of 0 means that all enrollment frames must pass the liveness check.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int NumLivenessFramesRequired {
+      get { return numLivenessFramesRequired_; }
+      set {
+        numLivenessFramesRequired_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2897,6 +2997,7 @@ namespace Sensory.Api.V1.Video {
       if (LivenessThreshold != other.LivenessThreshold) return false;
       if (!object.Equals(Compression, other.Compression)) return false;
       if (ReferenceId != other.ReferenceId) return false;
+      if (NumLivenessFramesRequired != other.NumLivenessFramesRequired) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2912,6 +3013,7 @@ namespace Sensory.Api.V1.Video {
       if (LivenessThreshold != global::Sensory.Api.V1.Video.RecognitionThreshold.Low) hash ^= LivenessThreshold.GetHashCode();
       if (compression_ != null) hash ^= Compression.GetHashCode();
       if (ReferenceId.Length != 0) hash ^= ReferenceId.GetHashCode();
+      if (NumLivenessFramesRequired != 0) hash ^= NumLivenessFramesRequired.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2962,6 +3064,10 @@ namespace Sensory.Api.V1.Video {
         output.WriteRawTag(66);
         output.WriteString(ReferenceId);
       }
+      if (NumLivenessFramesRequired != 0) {
+        output.WriteRawTag(72);
+        output.WriteInt32(NumLivenessFramesRequired);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3004,6 +3110,10 @@ namespace Sensory.Api.V1.Video {
         output.WriteRawTag(66);
         output.WriteString(ReferenceId);
       }
+      if (NumLivenessFramesRequired != 0) {
+        output.WriteRawTag(72);
+        output.WriteInt32(NumLivenessFramesRequired);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3037,6 +3147,9 @@ namespace Sensory.Api.V1.Video {
       }
       if (ReferenceId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ReferenceId);
+      }
+      if (NumLivenessFramesRequired != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(NumLivenessFramesRequired);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3076,6 +3189,9 @@ namespace Sensory.Api.V1.Video {
       }
       if (other.ReferenceId.Length != 0) {
         ReferenceId = other.ReferenceId;
+      }
+      if (other.NumLivenessFramesRequired != 0) {
+        NumLivenessFramesRequired = other.NumLivenessFramesRequired;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3127,6 +3243,10 @@ namespace Sensory.Api.V1.Video {
             ReferenceId = input.ReadString();
             break;
           }
+          case 72: {
+            NumLivenessFramesRequired = input.ReadInt32();
+            break;
+          }
         }
       }
     #endif
@@ -3175,6 +3295,10 @@ namespace Sensory.Api.V1.Video {
           }
           case 66: {
             ReferenceId = input.ReadString();
+            break;
+          }
+          case 72: {
+            NumLivenessFramesRequired = input.ReadInt32();
             break;
           }
         }
