@@ -18,7 +18,7 @@ namespace SensoryCloud.Src.Services
         /// <returns></returns>
         OauthClient GenerateCredentials();
 
-        /// <summary>
+        /// <summary>s
         /// Obtains an OAuth token used for API authentication
         /// </summary>
         /// <returns></returns>

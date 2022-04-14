@@ -82,9 +82,10 @@ namespace Sensory.Api.V1.Video {
             "ATKRAQoQVmlkZW9SZWNvZ25pdGlvbhJ9ChBWYWxpZGF0ZUxpdmVuZXNzEjAu",
             "c2Vuc29yeS5hcGkudjEudmlkZW8uVmFsaWRhdGVSZWNvZ25pdGlvblJlcXVl",
             "c3QaMS5zZW5zb3J5LmFwaS52MS52aWRlby5MaXZlbmVzc1JlY29nbml0aW9u",
-            "UmVzcG9uc2UiACgBMAFCbwoXaW8uc2Vuc29yeS5hcGkudjEudmlkZW9CFlNl",
-            "bnNvcnlBcGlWMVZpZGVvUHJvdG9QAVo6Z2l0bGFiLmNvbS9zZW5zb3J5LWNs",
-            "b3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS92MS92aWRlb2IGcHJvdG8z"));
+            "UmVzcG9uc2UiACgBMAFCdAocYWkuc2Vuc29yeWNsb3VkLmFwaS52MS52aWRl",
+            "b0IWU2Vuc29yeUFwaVYxVmlkZW9Qcm90b1ABWjpnaXRsYWIuY29tL3NlbnNv",
+            "cnktY2xvdWQvc2VydmVyL3RpdGFuLmdpdC9wa2cvYXBpL3YxL3ZpZGVvYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.Video.RecognitionThreshold), }, null, new pbr::GeneratedClrTypeInfo[] {

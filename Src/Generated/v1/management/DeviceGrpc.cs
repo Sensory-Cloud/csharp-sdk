@@ -58,6 +58,14 @@ namespace Sensory.Api.V1.Management {
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest> __Marshaller_sensory_api_v1_management_RenewDeviceCredentialRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.RenewDeviceCredentialRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.DeviceGetWhoAmIRequest> __Marshaller_sensory_api_v1_management_DeviceGetWhoAmIRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.DeviceGetWhoAmIRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.GetDevicesRequest> __Marshaller_sensory_api_v1_management_GetDevicesRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.GetDevicesRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.DeviceListResponse> __Marshaller_sensory_api_v1_management_DeviceListResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.DeviceListResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.UpdateDeviceRequest> __Marshaller_sensory_api_v1_management_UpdateDeviceRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.UpdateDeviceRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.DeleteDeviceRequest> __Marshaller_sensory_api_v1_management_DeleteDeviceRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.DeleteDeviceRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Sensory.Api.V1.Management.EnrollDeviceRequest, global::Sensory.Api.V1.Management.DeviceResponse> __Method_EnrollDevice = new grpc::Method<global::Sensory.Api.V1.Management.EnrollDeviceRequest, global::Sensory.Api.V1.Management.DeviceResponse>(
@@ -81,6 +89,30 @@ namespace Sensory.Api.V1.Management {
         __ServiceName,
         "GetWhoAmI",
         __Marshaller_sensory_api_v1_management_DeviceGetWhoAmIRequest,
+        __Marshaller_sensory_api_v1_management_DeviceResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Management.GetDevicesRequest, global::Sensory.Api.V1.Management.DeviceListResponse> __Method_GetDevices = new grpc::Method<global::Sensory.Api.V1.Management.GetDevicesRequest, global::Sensory.Api.V1.Management.DeviceListResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetDevices",
+        __Marshaller_sensory_api_v1_management_GetDevicesRequest,
+        __Marshaller_sensory_api_v1_management_DeviceListResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Management.UpdateDeviceRequest, global::Sensory.Api.V1.Management.DeviceResponse> __Method_UpdateDevice = new grpc::Method<global::Sensory.Api.V1.Management.UpdateDeviceRequest, global::Sensory.Api.V1.Management.DeviceResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateDevice",
+        __Marshaller_sensory_api_v1_management_UpdateDeviceRequest,
+        __Marshaller_sensory_api_v1_management_DeviceResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Management.DeleteDeviceRequest, global::Sensory.Api.V1.Management.DeviceResponse> __Method_DeleteDevice = new grpc::Method<global::Sensory.Api.V1.Management.DeleteDeviceRequest, global::Sensory.Api.V1.Management.DeviceResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteDevice",
+        __Marshaller_sensory_api_v1_management_DeleteDeviceRequest,
         __Marshaller_sensory_api_v1_management_DeviceResponse);
 
     /// <summary>Service descriptor</summary>
@@ -267,6 +299,150 @@ namespace Sensory.Api.V1.Management {
       public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceResponse> GetWhoAmIAsync(global::Sensory.Api.V1.Management.DeviceGetWhoAmIRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetWhoAmI, null, options, request);
+      }
+      /// <summary>
+      /// Returns a list of devices associated with the given userId
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.DeviceListResponse GetDevices(global::Sensory.Api.V1.Management.GetDevicesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDevices(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns a list of devices associated with the given userId
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.DeviceListResponse GetDevices(global::Sensory.Api.V1.Management.GetDevicesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetDevices, null, options, request);
+      }
+      /// <summary>
+      /// Returns a list of devices associated with the given userId
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceListResponse> GetDevicesAsync(global::Sensory.Api.V1.Management.GetDevicesRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetDevicesAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Returns a list of devices associated with the given userId
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceListResponse> GetDevicesAsync(global::Sensory.Api.V1.Management.GetDevicesRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetDevices, null, options, request);
+      }
+      /// <summary>
+      /// Allows the name of a device to be updated
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.DeviceResponse UpdateDevice(global::Sensory.Api.V1.Management.UpdateDeviceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateDevice(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Allows the name of a device to be updated
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.DeviceResponse UpdateDevice(global::Sensory.Api.V1.Management.UpdateDeviceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateDevice, null, options, request);
+      }
+      /// <summary>
+      /// Allows the name of a device to be updated
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceResponse> UpdateDeviceAsync(global::Sensory.Api.V1.Management.UpdateDeviceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateDeviceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Allows the name of a device to be updated
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceResponse> UpdateDeviceAsync(global::Sensory.Api.V1.Management.UpdateDeviceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateDevice, null, options, request);
+      }
+      /// <summary>
+      /// Allows a device to be deleted
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.DeviceResponse DeleteDevice(global::Sensory.Api.V1.Management.DeleteDeviceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteDevice(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Allows a device to be deleted
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.DeviceResponse DeleteDevice(global::Sensory.Api.V1.Management.DeleteDeviceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteDevice, null, options, request);
+      }
+      /// <summary>
+      /// Allows a device to be deleted
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceResponse> DeleteDeviceAsync(global::Sensory.Api.V1.Management.DeleteDeviceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteDeviceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Allows a device to be deleted
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.DeviceResponse> DeleteDeviceAsync(global::Sensory.Api.V1.Management.DeleteDeviceRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteDevice, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

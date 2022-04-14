@@ -44,9 +44,9 @@ namespace Sensory.Api.Oauth {
             "dXRoLldob0FtSVJlcXVlc3QaIS5zZW5zb3J5LmFwaS5vYXV0aC5XaG9BbUlS",
             "ZXNwb25zZSIAElsKDEdldFB1YmxpY0tleRIjLnNlbnNvcnkuYXBpLm9hdXRo",
             "LlB1YmxpY0tleVJlcXVlc3QaJC5zZW5zb3J5LmFwaS5vYXV0aC5QdWJsaWNL",
-            "ZXlSZXNwb25zZSIAQmcKFGlvLnNlbnNvcnkuYXBpLm9hdXRoQhRTZW5zb3J5",
-            "QXBpT2F1dGhQcm90b1ABWjdnaXRsYWIuY29tL3NlbnNvcnktY2xvdWQvc2Vy",
-            "dmVyL3RpdGFuLmdpdC9wa2cvYXBpL29hdXRoYgZwcm90bzM="));
+            "ZXlSZXNwb25zZSIAQmwKGWFpLnNlbnNvcnljbG91ZC5hcGkub2F1dGhCFFNl",
+            "bnNvcnlBcGlPYXV0aFByb3RvUAFaN2dpdGxhYi5jb20vc2Vuc29yeS1jbG91",
+            "ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvb2F1dGhiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

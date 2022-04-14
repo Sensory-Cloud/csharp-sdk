@@ -47,116 +47,107 @@ namespace Validate {
             "MhIudmFsaWRhdGUuTWFwUnVsZXNIABIhCgNhbnkYFCABKAsyEi52YWxpZGF0",
             "ZS5BbnlSdWxlc0gAEisKCGR1cmF0aW9uGBUgASgLMhcudmFsaWRhdGUuRHVy",
             "YXRpb25SdWxlc0gAEi0KCXRpbWVzdGFtcBgWIAEoCzIYLnZhbGlkYXRlLlRp",
-            "bWVzdGFtcFJ1bGVzSABCBgoEdHlwZSJ/CgpGbG9hdFJ1bGVzEg0KBWNvbnN0",
+            "bWVzdGFtcFJ1bGVzSABCBgoEdHlwZSJpCgpGbG9hdFJ1bGVzEg0KBWNvbnN0",
             "GAEgASgCEgoKAmx0GAIgASgCEgsKA2x0ZRgDIAEoAhIKCgJndBgEIAEoAhIL",
-            "CgNndGUYBSABKAISCgoCaW4YBiADKAISDgoGbm90X2luGAcgAygCEhQKDGln",
-            "bm9yZV9lbXB0eRgIIAEoCCKAAQoLRG91YmxlUnVsZXMSDQoFY29uc3QYASAB",
-            "KAESCgoCbHQYAiABKAESCwoDbHRlGAMgASgBEgoKAmd0GAQgASgBEgsKA2d0",
-            "ZRgFIAEoARIKCgJpbhgGIAMoARIOCgZub3RfaW4YByADKAESFAoMaWdub3Jl",
-            "X2VtcHR5GAggASgIIn8KCkludDMyUnVsZXMSDQoFY29uc3QYASABKAUSCgoC",
+            "CgNndGUYBSABKAISCgoCaW4YBiADKAISDgoGbm90X2luGAcgAygCImoKC0Rv",
+            "dWJsZVJ1bGVzEg0KBWNvbnN0GAEgASgBEgoKAmx0GAIgASgBEgsKA2x0ZRgD",
+            "IAEoARIKCgJndBgEIAEoARILCgNndGUYBSABKAESCgoCaW4YBiADKAESDgoG",
+            "bm90X2luGAcgAygBImkKCkludDMyUnVsZXMSDQoFY29uc3QYASABKAUSCgoC",
             "bHQYAiABKAUSCwoDbHRlGAMgASgFEgoKAmd0GAQgASgFEgsKA2d0ZRgFIAEo",
-            "BRIKCgJpbhgGIAMoBRIOCgZub3RfaW4YByADKAUSFAoMaWdub3JlX2VtcHR5",
-            "GAggASgIIn8KCkludDY0UnVsZXMSDQoFY29uc3QYASABKAMSCgoCbHQYAiAB",
-            "KAMSCwoDbHRlGAMgASgDEgoKAmd0GAQgASgDEgsKA2d0ZRgFIAEoAxIKCgJp",
-            "bhgGIAMoAxIOCgZub3RfaW4YByADKAMSFAoMaWdub3JlX2VtcHR5GAggASgI",
-            "IoABCgtVSW50MzJSdWxlcxINCgVjb25zdBgBIAEoDRIKCgJsdBgCIAEoDRIL",
+            "BRIKCgJpbhgGIAMoBRIOCgZub3RfaW4YByADKAUiaQoKSW50NjRSdWxlcxIN",
+            "CgVjb25zdBgBIAEoAxIKCgJsdBgCIAEoAxILCgNsdGUYAyABKAMSCgoCZ3QY",
+            "BCABKAMSCwoDZ3RlGAUgASgDEgoKAmluGAYgAygDEg4KBm5vdF9pbhgHIAMo",
+            "AyJqCgtVSW50MzJSdWxlcxINCgVjb25zdBgBIAEoDRIKCgJsdBgCIAEoDRIL",
             "CgNsdGUYAyABKA0SCgoCZ3QYBCABKA0SCwoDZ3RlGAUgASgNEgoKAmluGAYg",
-            "AygNEg4KBm5vdF9pbhgHIAMoDRIUCgxpZ25vcmVfZW1wdHkYCCABKAgigAEK",
-            "C1VJbnQ2NFJ1bGVzEg0KBWNvbnN0GAEgASgEEgoKAmx0GAIgASgEEgsKA2x0",
-            "ZRgDIAEoBBIKCgJndBgEIAEoBBILCgNndGUYBSABKAQSCgoCaW4YBiADKAQS",
-            "DgoGbm90X2luGAcgAygEEhQKDGlnbm9yZV9lbXB0eRgIIAEoCCKAAQoLU0lu",
-            "dDMyUnVsZXMSDQoFY29uc3QYASABKBESCgoCbHQYAiABKBESCwoDbHRlGAMg",
-            "ASgREgoKAmd0GAQgASgREgsKA2d0ZRgFIAEoERIKCgJpbhgGIAMoERIOCgZu",
-            "b3RfaW4YByADKBESFAoMaWdub3JlX2VtcHR5GAggASgIIoABCgtTSW50NjRS",
-            "dWxlcxINCgVjb25zdBgBIAEoEhIKCgJsdBgCIAEoEhILCgNsdGUYAyABKBIS",
-            "CgoCZ3QYBCABKBISCwoDZ3RlGAUgASgSEgoKAmluGAYgAygSEg4KBm5vdF9p",
-            "bhgHIAMoEhIUCgxpZ25vcmVfZW1wdHkYCCABKAgigQEKDEZpeGVkMzJSdWxl",
-            "cxINCgVjb25zdBgBIAEoBxIKCgJsdBgCIAEoBxILCgNsdGUYAyABKAcSCgoC",
-            "Z3QYBCABKAcSCwoDZ3RlGAUgASgHEgoKAmluGAYgAygHEg4KBm5vdF9pbhgH",
-            "IAMoBxIUCgxpZ25vcmVfZW1wdHkYCCABKAgigQEKDEZpeGVkNjRSdWxlcxIN",
-            "CgVjb25zdBgBIAEoBhIKCgJsdBgCIAEoBhILCgNsdGUYAyABKAYSCgoCZ3QY",
-            "BCABKAYSCwoDZ3RlGAUgASgGEgoKAmluGAYgAygGEg4KBm5vdF9pbhgHIAMo",
-            "BhIUCgxpZ25vcmVfZW1wdHkYCCABKAgiggEKDVNGaXhlZDMyUnVsZXMSDQoF",
-            "Y29uc3QYASABKA8SCgoCbHQYAiABKA8SCwoDbHRlGAMgASgPEgoKAmd0GAQg",
-            "ASgPEgsKA2d0ZRgFIAEoDxIKCgJpbhgGIAMoDxIOCgZub3RfaW4YByADKA8S",
-            "FAoMaWdub3JlX2VtcHR5GAggASgIIoIBCg1TRml4ZWQ2NFJ1bGVzEg0KBWNv",
-            "bnN0GAEgASgQEgoKAmx0GAIgASgQEgsKA2x0ZRgDIAEoEBIKCgJndBgEIAEo",
-            "EBILCgNndGUYBSABKBASCgoCaW4YBiADKBASDgoGbm90X2luGAcgAygQEhQK",
-            "DGlnbm9yZV9lbXB0eRgIIAEoCCIaCglCb29sUnVsZXMSDQoFY29uc3QYASAB",
-            "KAgi/QMKC1N0cmluZ1J1bGVzEg0KBWNvbnN0GAEgASgJEgsKA2xlbhgTIAEo",
-            "BBIPCgdtaW5fbGVuGAIgASgEEg8KB21heF9sZW4YAyABKAQSEQoJbGVuX2J5",
-            "dGVzGBQgASgEEhEKCW1pbl9ieXRlcxgEIAEoBBIRCgltYXhfYnl0ZXMYBSAB",
-            "KAQSDwoHcGF0dGVybhgGIAEoCRIOCgZwcmVmaXgYByABKAkSDgoGc3VmZml4",
-            "GAggASgJEhAKCGNvbnRhaW5zGAkgASgJEhQKDG5vdF9jb250YWlucxgXIAEo",
-            "CRIKCgJpbhgKIAMoCRIOCgZub3RfaW4YCyADKAkSDwoFZW1haWwYDCABKAhI",
-            "ABISCghob3N0bmFtZRgNIAEoCEgAEgwKAmlwGA4gASgISAASDgoEaXB2NBgP",
-            "IAEoCEgAEg4KBGlwdjYYECABKAhIABINCgN1cmkYESABKAhIABIRCgd1cmlf",
-            "cmVmGBIgASgISAASEQoHYWRkcmVzcxgVIAEoCEgAEg4KBHV1aWQYFiABKAhI",
-            "ABIwChB3ZWxsX2tub3duX3JlZ2V4GBggASgOMhQudmFsaWRhdGUuS25vd25S",
-            "ZWdleEgAEhQKBnN0cmljdBgZIAEoCDoEdHJ1ZRIUCgxpZ25vcmVfZW1wdHkY",
-            "GiABKAhCDAoKd2VsbF9rbm93biL7AQoKQnl0ZXNSdWxlcxINCgVjb25zdBgB",
-            "IAEoDBILCgNsZW4YDSABKAQSDwoHbWluX2xlbhgCIAEoBBIPCgdtYXhfbGVu",
-            "GAMgASgEEg8KB3BhdHRlcm4YBCABKAkSDgoGcHJlZml4GAUgASgMEg4KBnN1",
-            "ZmZpeBgGIAEoDBIQCghjb250YWlucxgHIAEoDBIKCgJpbhgIIAMoDBIOCgZu",
-            "b3RfaW4YCSADKAwSDAoCaXAYCiABKAhIABIOCgRpcHY0GAsgASgISAASDgoE",
-            "aXB2NhgMIAEoCEgAEhQKDGlnbm9yZV9lbXB0eRgOIAEoCEIMCgp3ZWxsX2tu",
-            "b3duIkwKCUVudW1SdWxlcxINCgVjb25zdBgBIAEoBRIUCgxkZWZpbmVkX29u",
-            "bHkYAiABKAgSCgoCaW4YAyADKAUSDgoGbm90X2luGAQgAygFIi4KDE1lc3Nh",
-            "Z2VSdWxlcxIMCgRza2lwGAEgASgIEhAKCHJlcXVpcmVkGAIgASgIIoABCg1S",
-            "ZXBlYXRlZFJ1bGVzEhEKCW1pbl9pdGVtcxgBIAEoBBIRCgltYXhfaXRlbXMY",
-            "AiABKAQSDgoGdW5pcXVlGAMgASgIEiMKBWl0ZW1zGAQgASgLMhQudmFsaWRh",
-            "dGUuRmllbGRSdWxlcxIUCgxpZ25vcmVfZW1wdHkYBSABKAgiowEKCE1hcFJ1",
-            "bGVzEhEKCW1pbl9wYWlycxgBIAEoBBIRCgltYXhfcGFpcnMYAiABKAQSEQoJ",
-            "bm9fc3BhcnNlGAMgASgIEiIKBGtleXMYBCABKAsyFC52YWxpZGF0ZS5GaWVs",
-            "ZFJ1bGVzEiQKBnZhbHVlcxgFIAEoCzIULnZhbGlkYXRlLkZpZWxkUnVsZXMS",
-            "FAoMaWdub3JlX2VtcHR5GAYgASgIIjgKCEFueVJ1bGVzEhAKCHJlcXVpcmVk",
-            "GAEgASgIEgoKAmluGAIgAygJEg4KBm5vdF9pbhgDIAMoCSK7AgoNRHVyYXRp",
-            "b25SdWxlcxIQCghyZXF1aXJlZBgBIAEoCBIoCgVjb25zdBgCIAEoCzIZLmdv",
-            "b2dsZS5wcm90b2J1Zi5EdXJhdGlvbhIlCgJsdBgDIAEoCzIZLmdvb2dsZS5w",
-            "cm90b2J1Zi5EdXJhdGlvbhImCgNsdGUYBCABKAsyGS5nb29nbGUucHJvdG9i",
-            "dWYuRHVyYXRpb24SJQoCZ3QYBSABKAsyGS5nb29nbGUucHJvdG9idWYuRHVy",
-            "YXRpb24SJgoDZ3RlGAYgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9u",
-            "EiUKAmluGAcgAygLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uEikKBm5v",
-            "dF9pbhgIIAMoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbiK6AgoOVGlt",
-            "ZXN0YW1wUnVsZXMSEAoIcmVxdWlyZWQYASABKAgSKQoFY29uc3QYAiABKAsy",
-            "Gi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEiYKAmx0GAMgASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBInCgNsdGUYBCABKAsyGi5nb29nbGUu",
-            "cHJvdG9idWYuVGltZXN0YW1wEiYKAmd0GAUgASgLMhouZ29vZ2xlLnByb3Rv",
-            "YnVmLlRpbWVzdGFtcBInCgNndGUYBiABKAsyGi5nb29nbGUucHJvdG9idWYu",
-            "VGltZXN0YW1wEg4KBmx0X25vdxgHIAEoCBIOCgZndF9ub3cYCCABKAgSKQoG",
-            "d2l0aGluGAkgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uKkYKCktu",
-            "b3duUmVnZXgSCwoHVU5LTk9XThAAEhQKEEhUVFBfSEVBREVSX05BTUUQARIV",
-            "ChFIVFRQX0hFQURFUl9WQUxVRRACOjIKCGRpc2FibGVkEh8uZ29vZ2xlLnBy",
-            "b3RvYnVmLk1lc3NhZ2VPcHRpb25zGK8IIAEoCDoxCgdpZ25vcmVkEh8uZ29v",
-            "Z2xlLnByb3RvYnVmLk1lc3NhZ2VPcHRpb25zGLAIIAEoCDowCghyZXF1aXJl",
-            "ZBIdLmdvb2dsZS5wcm90b2J1Zi5PbmVvZk9wdGlvbnMYrwggASgIOkMKBXJ1",
-            "bGVzEh0uZ29vZ2xlLnByb3RvYnVmLkZpZWxkT3B0aW9ucxivCCABKAsyFC52",
-            "YWxpZGF0ZS5GaWVsZFJ1bGVzQlAKGmlvLmVudm95cHJveHkucGd2LnZhbGlk",
-            "YXRlWjJnaXRodWIuY29tL2Vudm95cHJveHkvcHJvdG9jLWdlbi12YWxpZGF0",
-            "ZS92YWxpZGF0ZQ=="));
+            "AygNEg4KBm5vdF9pbhgHIAMoDSJqCgtVSW50NjRSdWxlcxINCgVjb25zdBgB",
+            "IAEoBBIKCgJsdBgCIAEoBBILCgNsdGUYAyABKAQSCgoCZ3QYBCABKAQSCwoD",
+            "Z3RlGAUgASgEEgoKAmluGAYgAygEEg4KBm5vdF9pbhgHIAMoBCJqCgtTSW50",
+            "MzJSdWxlcxINCgVjb25zdBgBIAEoERIKCgJsdBgCIAEoERILCgNsdGUYAyAB",
+            "KBESCgoCZ3QYBCABKBESCwoDZ3RlGAUgASgREgoKAmluGAYgAygREg4KBm5v",
+            "dF9pbhgHIAMoESJqCgtTSW50NjRSdWxlcxINCgVjb25zdBgBIAEoEhIKCgJs",
+            "dBgCIAEoEhILCgNsdGUYAyABKBISCgoCZ3QYBCABKBISCwoDZ3RlGAUgASgS",
+            "EgoKAmluGAYgAygSEg4KBm5vdF9pbhgHIAMoEiJrCgxGaXhlZDMyUnVsZXMS",
+            "DQoFY29uc3QYASABKAcSCgoCbHQYAiABKAcSCwoDbHRlGAMgASgHEgoKAmd0",
+            "GAQgASgHEgsKA2d0ZRgFIAEoBxIKCgJpbhgGIAMoBxIOCgZub3RfaW4YByAD",
+            "KAciawoMRml4ZWQ2NFJ1bGVzEg0KBWNvbnN0GAEgASgGEgoKAmx0GAIgASgG",
+            "EgsKA2x0ZRgDIAEoBhIKCgJndBgEIAEoBhILCgNndGUYBSABKAYSCgoCaW4Y",
+            "BiADKAYSDgoGbm90X2luGAcgAygGImwKDVNGaXhlZDMyUnVsZXMSDQoFY29u",
+            "c3QYASABKA8SCgoCbHQYAiABKA8SCwoDbHRlGAMgASgPEgoKAmd0GAQgASgP",
+            "EgsKA2d0ZRgFIAEoDxIKCgJpbhgGIAMoDxIOCgZub3RfaW4YByADKA8ibAoN",
+            "U0ZpeGVkNjRSdWxlcxINCgVjb25zdBgBIAEoEBIKCgJsdBgCIAEoEBILCgNs",
+            "dGUYAyABKBASCgoCZ3QYBCABKBASCwoDZ3RlGAUgASgQEgoKAmluGAYgAygQ",
+            "Eg4KBm5vdF9pbhgHIAMoECIaCglCb29sUnVsZXMSDQoFY29uc3QYASABKAgi",
+            "5wMKC1N0cmluZ1J1bGVzEg0KBWNvbnN0GAEgASgJEgsKA2xlbhgTIAEoBBIP",
+            "CgdtaW5fbGVuGAIgASgEEg8KB21heF9sZW4YAyABKAQSEQoJbGVuX2J5dGVz",
+            "GBQgASgEEhEKCW1pbl9ieXRlcxgEIAEoBBIRCgltYXhfYnl0ZXMYBSABKAQS",
+            "DwoHcGF0dGVybhgGIAEoCRIOCgZwcmVmaXgYByABKAkSDgoGc3VmZml4GAgg",
+            "ASgJEhAKCGNvbnRhaW5zGAkgASgJEhQKDG5vdF9jb250YWlucxgXIAEoCRIK",
+            "CgJpbhgKIAMoCRIOCgZub3RfaW4YCyADKAkSDwoFZW1haWwYDCABKAhIABIS",
+            "Cghob3N0bmFtZRgNIAEoCEgAEgwKAmlwGA4gASgISAASDgoEaXB2NBgPIAEo",
+            "CEgAEg4KBGlwdjYYECABKAhIABINCgN1cmkYESABKAhIABIRCgd1cmlfcmVm",
+            "GBIgASgISAASEQoHYWRkcmVzcxgVIAEoCEgAEg4KBHV1aWQYFiABKAhIABIw",
+            "ChB3ZWxsX2tub3duX3JlZ2V4GBggASgOMhQudmFsaWRhdGUuS25vd25SZWdl",
+            "eEgAEhQKBnN0cmljdBgZIAEoCDoEdHJ1ZUIMCgp3ZWxsX2tub3duIuUBCgpC",
+            "eXRlc1J1bGVzEg0KBWNvbnN0GAEgASgMEgsKA2xlbhgNIAEoBBIPCgdtaW5f",
+            "bGVuGAIgASgEEg8KB21heF9sZW4YAyABKAQSDwoHcGF0dGVybhgEIAEoCRIO",
+            "CgZwcmVmaXgYBSABKAwSDgoGc3VmZml4GAYgASgMEhAKCGNvbnRhaW5zGAcg",
+            "ASgMEgoKAmluGAggAygMEg4KBm5vdF9pbhgJIAMoDBIMCgJpcBgKIAEoCEgA",
+            "Eg4KBGlwdjQYCyABKAhIABIOCgRpcHY2GAwgASgISABCDAoKd2VsbF9rbm93",
+            "biJMCglFbnVtUnVsZXMSDQoFY29uc3QYASABKAUSFAoMZGVmaW5lZF9vbmx5",
+            "GAIgASgIEgoKAmluGAMgAygFEg4KBm5vdF9pbhgEIAMoBSIuCgxNZXNzYWdl",
+            "UnVsZXMSDAoEc2tpcBgBIAEoCBIQCghyZXF1aXJlZBgCIAEoCCJqCg1SZXBl",
+            "YXRlZFJ1bGVzEhEKCW1pbl9pdGVtcxgBIAEoBBIRCgltYXhfaXRlbXMYAiAB",
+            "KAQSDgoGdW5pcXVlGAMgASgIEiMKBWl0ZW1zGAQgASgLMhQudmFsaWRhdGUu",
+            "RmllbGRSdWxlcyKNAQoITWFwUnVsZXMSEQoJbWluX3BhaXJzGAEgASgEEhEK",
+            "CW1heF9wYWlycxgCIAEoBBIRCglub19zcGFyc2UYAyABKAgSIgoEa2V5cxgE",
+            "IAEoCzIULnZhbGlkYXRlLkZpZWxkUnVsZXMSJAoGdmFsdWVzGAUgASgLMhQu",
+            "dmFsaWRhdGUuRmllbGRSdWxlcyI4CghBbnlSdWxlcxIQCghyZXF1aXJlZBgB",
+            "IAEoCBIKCgJpbhgCIAMoCRIOCgZub3RfaW4YAyADKAkiuwIKDUR1cmF0aW9u",
+            "UnVsZXMSEAoIcmVxdWlyZWQYASABKAgSKAoFY29uc3QYAiABKAsyGS5nb29n",
+            "bGUucHJvdG9idWYuRHVyYXRpb24SJQoCbHQYAyABKAsyGS5nb29nbGUucHJv",
+            "dG9idWYuRHVyYXRpb24SJgoDbHRlGAQgASgLMhkuZ29vZ2xlLnByb3RvYnVm",
+            "LkR1cmF0aW9uEiUKAmd0GAUgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0",
+            "aW9uEiYKA2d0ZRgGIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhIl",
+            "CgJpbhgHIAMoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhIpCgZub3Rf",
+            "aW4YCCADKAsyGS5nb29nbGUucHJvdG9idWYuRHVyYXRpb24iugIKDlRpbWVz",
+            "dGFtcFJ1bGVzEhAKCHJlcXVpcmVkGAEgASgIEikKBWNvbnN0GAIgASgLMhou",
+            "Z29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBImCgJsdBgDIAEoCzIaLmdvb2ds",
+            "ZS5wcm90b2J1Zi5UaW1lc3RhbXASJwoDbHRlGAQgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLlRpbWVzdGFtcBImCgJndBgFIAEoCzIaLmdvb2dsZS5wcm90b2J1",
+            "Zi5UaW1lc3RhbXASJwoDZ3RlGAYgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRp",
+            "bWVzdGFtcBIOCgZsdF9ub3cYByABKAgSDgoGZ3Rfbm93GAggASgIEikKBndp",
+            "dGhpbhgJIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbipGCgpLbm93",
+            "blJlZ2V4EgsKB1VOS05PV04QABIUChBIVFRQX0hFQURFUl9OQU1FEAESFQoR",
+            "SFRUUF9IRUFERVJfVkFMVUUQAjoyCghkaXNhYmxlZBIfLmdvb2dsZS5wcm90",
+            "b2J1Zi5NZXNzYWdlT3B0aW9ucxivCCABKAg6MAoIcmVxdWlyZWQSHS5nb29n",
+            "bGUucHJvdG9idWYuT25lb2ZPcHRpb25zGK8IIAEoCDpDCgVydWxlcxIdLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMYrwggASgLMhQudmFsaWRhdGUu",
+            "RmllbGRSdWxlc0JQChppby5lbnZveXByb3h5LnBndi52YWxpZGF0ZVoyZ2l0",
+            "aHViLmNvbS9lbnZveXByb3h5L3Byb3RvYy1nZW4tdmFsaWRhdGUvdmFsaWRh",
+            "dGU="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.Reflection.DescriptorReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Validate.KnownRegex), }, new pb::Extension[] { ValidateExtensions.Disabled, ValidateExtensions.Ignored, ValidateExtensions.Required, ValidateExtensions.Rules }, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Validate.KnownRegex), }, new pb::Extension[] { ValidateExtensions.Disabled, ValidateExtensions.Required, ValidateExtensions.Rules }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Validate.FieldRules), global::Validate.FieldRules.Parser, new[]{ "Message", "Float", "Double", "Int32", "Int64", "Uint32", "Uint64", "Sint32", "Sint64", "Fixed32", "Fixed64", "Sfixed32", "Sfixed64", "Bool", "String", "Bytes", "Enum", "Repeated", "Map", "Any", "Duration", "Timestamp" }, new[]{ "Type" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.FloatRules), global::Validate.FloatRules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.DoubleRules), global::Validate.DoubleRules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.Int32Rules), global::Validate.Int32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.Int64Rules), global::Validate.Int64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.UInt32Rules), global::Validate.UInt32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.UInt64Rules), global::Validate.UInt64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.SInt32Rules), global::Validate.SInt32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.SInt64Rules), global::Validate.SInt64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.Fixed32Rules), global::Validate.Fixed32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.Fixed64Rules), global::Validate.Fixed64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.SFixed32Rules), global::Validate.SFixed32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.SFixed64Rules), global::Validate.SFixed64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn", "IgnoreEmpty" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.FloatRules), global::Validate.FloatRules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.DoubleRules), global::Validate.DoubleRules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.Int32Rules), global::Validate.Int32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.Int64Rules), global::Validate.Int64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.UInt32Rules), global::Validate.UInt32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.UInt64Rules), global::Validate.UInt64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.SInt32Rules), global::Validate.SInt32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.SInt64Rules), global::Validate.SInt64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.Fixed32Rules), global::Validate.Fixed32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.Fixed64Rules), global::Validate.Fixed64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.SFixed32Rules), global::Validate.SFixed32Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.SFixed64Rules), global::Validate.SFixed64Rules.Parser, new[]{ "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Validate.BoolRules), global::Validate.BoolRules.Parser, new[]{ "Const" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.StringRules), global::Validate.StringRules.Parser, new[]{ "Const", "Len", "MinLen", "MaxLen", "LenBytes", "MinBytes", "MaxBytes", "Pattern", "Prefix", "Suffix", "Contains", "NotContains", "In", "NotIn", "Email", "Hostname", "Ip", "Ipv4", "Ipv6", "Uri", "UriRef", "Address", "Uuid", "WellKnownRegex", "Strict", "IgnoreEmpty" }, new[]{ "WellKnown" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.BytesRules), global::Validate.BytesRules.Parser, new[]{ "Const", "Len", "MinLen", "MaxLen", "Pattern", "Prefix", "Suffix", "Contains", "In", "NotIn", "Ip", "Ipv4", "Ipv6", "IgnoreEmpty" }, new[]{ "WellKnown" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.StringRules), global::Validate.StringRules.Parser, new[]{ "Const", "Len", "MinLen", "MaxLen", "LenBytes", "MinBytes", "MaxBytes", "Pattern", "Prefix", "Suffix", "Contains", "NotContains", "In", "NotIn", "Email", "Hostname", "Ip", "Ipv4", "Ipv6", "Uri", "UriRef", "Address", "Uuid", "WellKnownRegex", "Strict" }, new[]{ "WellKnown" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.BytesRules), global::Validate.BytesRules.Parser, new[]{ "Const", "Len", "MinLen", "MaxLen", "Pattern", "Prefix", "Suffix", "Contains", "In", "NotIn", "Ip", "Ipv4", "Ipv6" }, new[]{ "WellKnown" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Validate.EnumRules), global::Validate.EnumRules.Parser, new[]{ "Const", "DefinedOnly", "In", "NotIn" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Validate.MessageRules), global::Validate.MessageRules.Parser, new[]{ "Skip", "Required" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.RepeatedRules), global::Validate.RepeatedRules.Parser, new[]{ "MinItems", "MaxItems", "Unique", "Items", "IgnoreEmpty" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.MapRules), global::Validate.MapRules.Parser, new[]{ "MinPairs", "MaxPairs", "NoSparse", "Keys", "Values", "IgnoreEmpty" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.RepeatedRules), global::Validate.RepeatedRules.Parser, new[]{ "MinItems", "MaxItems", "Unique", "Items" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Validate.MapRules), global::Validate.MapRules.Parser, new[]{ "MinPairs", "MaxPairs", "NoSparse", "Keys", "Values" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Validate.AnyRules), global::Validate.AnyRules.Parser, new[]{ "Required", "In", "NotIn" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Validate.DurationRules), global::Validate.DurationRules.Parser, new[]{ "Required", "Const", "Lt", "Lte", "Gt", "Gte", "In", "NotIn" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Validate.TimestampRules), global::Validate.TimestampRules.Parser, new[]{ "Required", "Const", "Lt", "Lte", "Gt", "Gte", "LtNow", "GtNow", "Within" }, null, null, null, null)
@@ -173,11 +164,6 @@ namespace Validate {
     /// </summary>
     public static readonly pb::Extension<global::Google.Protobuf.Reflection.MessageOptions, bool> Disabled =
       new pb::Extension<global::Google.Protobuf.Reflection.MessageOptions, bool>(1071, pb::FieldCodec.ForBool(8568, false));
-    /// <summary>
-    /// Ignore skips generation of validation methods for this message.
-    /// </summary>
-    public static readonly pb::Extension<global::Google.Protobuf.Reflection.MessageOptions, bool> Ignored =
-      new pb::Extension<global::Google.Protobuf.Reflection.MessageOptions, bool>(1072, pb::FieldCodec.ForBool(8576, false));
     /// <summary>
     /// Required ensures that exactly one the field options in a oneof is set;
     /// validation fails if no fields in the oneof are set.
@@ -1608,7 +1594,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1804,37 +1789,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1857,7 +1811,6 @@ namespace Validate {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Gte, other.Gte)) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1872,7 +1825,6 @@ namespace Validate {
       if (HasGte) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Gte);
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1913,10 +1865,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1949,10 +1897,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1980,9 +1924,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2012,9 +1953,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2060,10 +1998,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -2107,10 +2041,6 @@ namespace Validate {
           case 58:
           case 61: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -2166,7 +2096,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2362,37 +2291,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2415,7 +2313,6 @@ namespace Validate {
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Gte, other.Gte)) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2430,7 +2327,6 @@ namespace Validate {
       if (HasGte) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Gte);
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2471,10 +2367,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2507,10 +2399,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2538,9 +2426,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2570,9 +2455,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2618,10 +2500,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -2665,10 +2543,6 @@ namespace Validate {
           case 58:
           case 57: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -2724,7 +2598,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2920,37 +2793,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2973,7 +2815,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2988,7 +2829,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3029,10 +2869,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3065,10 +2901,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3096,9 +2928,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3128,9 +2957,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3176,10 +3002,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -3223,10 +3045,6 @@ namespace Validate {
           case 58:
           case 56: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -3282,7 +3100,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3478,37 +3295,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3531,7 +3317,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3546,7 +3331,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3587,10 +3371,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3623,10 +3403,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3654,9 +3430,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3686,9 +3459,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3734,10 +3504,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -3781,10 +3547,6 @@ namespace Validate {
           case 58:
           case 56: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -3840,7 +3602,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4036,37 +3797,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4089,7 +3819,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4104,7 +3833,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4145,10 +3873,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4181,10 +3905,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4212,9 +3932,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4244,9 +3961,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4292,10 +4006,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -4339,10 +4049,6 @@ namespace Validate {
           case 58:
           case 56: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -4398,7 +4104,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4594,37 +4299,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4647,7 +4321,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4662,7 +4335,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4703,10 +4375,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4739,10 +4407,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4770,9 +4434,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -4802,9 +4463,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4850,10 +4508,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -4897,10 +4551,6 @@ namespace Validate {
           case 58:
           case 56: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -4956,7 +4606,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5152,37 +4801,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -5205,7 +4823,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5220,7 +4837,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5261,10 +4877,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5297,10 +4909,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5328,9 +4936,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5360,9 +4965,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5408,10 +5010,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -5455,10 +5053,6 @@ namespace Validate {
           case 58:
           case 56: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -5514,7 +5108,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5710,37 +5303,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -5763,7 +5325,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5778,7 +5339,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5819,10 +5379,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5855,10 +5411,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5886,9 +5438,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5918,9 +5467,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5966,10 +5512,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -6013,10 +5555,6 @@ namespace Validate {
           case 58:
           case 56: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -6072,7 +5610,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6268,37 +5805,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -6321,7 +5827,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6336,7 +5841,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6377,10 +5881,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6413,10 +5913,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -6444,9 +5940,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -6476,9 +5969,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -6524,10 +6014,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -6571,10 +6057,6 @@ namespace Validate {
           case 58:
           case 61: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -6630,7 +6112,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6826,37 +6307,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -6879,7 +6329,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6894,7 +6343,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6935,10 +6383,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6971,10 +6415,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -7002,9 +6442,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -7034,9 +6471,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -7082,10 +6516,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -7129,10 +6559,6 @@ namespace Validate {
           case 58:
           case 57: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -7188,7 +6614,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -7384,37 +6809,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -7437,7 +6831,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -7452,7 +6845,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7493,10 +6885,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -7529,10 +6917,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -7560,9 +6944,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -7592,9 +6973,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -7640,10 +7018,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -7687,10 +7061,6 @@ namespace Validate {
           case 58:
           case 61: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -7746,7 +7116,6 @@ namespace Validate {
       gte_ = other.gte_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -7942,37 +7311,6 @@ namespace Validate {
       get { return notIn_; }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 8;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 32) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 32;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 32) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~32;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -7995,7 +7333,6 @@ namespace Validate {
       if (Gte != other.Gte) return false;
       if(!in_.Equals(other.in_)) return false;
       if(!notIn_.Equals(other.notIn_)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -8010,7 +7347,6 @@ namespace Validate {
       if (HasGte) hash ^= Gte.GetHashCode();
       hash ^= in_.GetHashCode();
       hash ^= notIn_.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -8051,10 +7387,6 @@ namespace Validate {
       }
       in_.WriteTo(output, _repeated_in_codec);
       notIn_.WriteTo(output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -8087,10 +7419,6 @@ namespace Validate {
       }
       in_.WriteTo(ref output, _repeated_in_codec);
       notIn_.WriteTo(ref output, _repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(64);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -8118,9 +7446,6 @@ namespace Validate {
       }
       size += in_.CalculateSize(_repeated_in_codec);
       size += notIn_.CalculateSize(_repeated_notIn_codec);
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -8150,9 +7475,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -8198,10 +7520,6 @@ namespace Validate {
             notIn_.AddEntriesFrom(input, _repeated_notIn_codec);
             break;
           }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -8245,10 +7563,6 @@ namespace Validate {
           case 58:
           case 57: {
             notIn_.AddEntriesFrom(ref input, _repeated_notIn_codec);
-            break;
-          }
-          case 64: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -8524,7 +7838,6 @@ namespace Validate {
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
       strict_ = other.strict_;
-      ignoreEmpty_ = other.ignoreEmpty_;
       switch (other.WellKnownCase) {
         case WellKnownOneofCase.Email:
           Email = other.Email;
@@ -8699,6 +8012,7 @@ namespace Validate {
     private ulong lenBytes_;
     /// <summary>
     /// LenBytes specifies that this field must be the specified number of bytes
+    /// at a minimum
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -9299,37 +8613,6 @@ namespace Validate {
       _hasBits0 &= ~64;
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 26;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 128) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 128;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 128) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~128;
-    }
-
     private object wellKnown_;
     /// <summary>Enum of possible cases for the "well_known" oneof.</summary>
     public enum WellKnownOneofCase {
@@ -9399,7 +8682,6 @@ namespace Validate {
       if (Uuid != other.Uuid) return false;
       if (WellKnownRegex != other.WellKnownRegex) return false;
       if (Strict != other.Strict) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       if (WellKnownCase != other.WellKnownCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -9433,7 +8715,6 @@ namespace Validate {
       if (HasUuid) hash ^= Uuid.GetHashCode();
       if (HasWellKnownRegex) hash ^= WellKnownRegex.GetHashCode();
       if (HasStrict) hash ^= Strict.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       hash ^= (int) wellKnownCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -9547,10 +8828,6 @@ namespace Validate {
         output.WriteRawTag(200, 1);
         output.WriteBool(Strict);
       }
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(208, 1);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -9655,10 +8932,6 @@ namespace Validate {
         output.WriteRawTag(200, 1);
         output.WriteBool(Strict);
       }
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(208, 1);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -9740,9 +9013,6 @@ namespace Validate {
       if (HasStrict) {
         size += 2 + 1;
       }
-      if (HasIgnoreEmpty) {
-        size += 2 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -9795,9 +9065,6 @@ namespace Validate {
       notIn_.Add(other.notIn_);
       if (other.HasStrict) {
         Strict = other.Strict;
-      }
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
       }
       switch (other.WellKnownCase) {
         case WellKnownOneofCase.Email:
@@ -9948,10 +9215,6 @@ namespace Validate {
             Strict = input.ReadBool();
             break;
           }
-          case 208: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -10068,10 +9331,6 @@ namespace Validate {
             Strict = input.ReadBool();
             break;
           }
-          case 208: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     }
@@ -10128,7 +9387,6 @@ namespace Validate {
       contains_ = other.contains_;
       in_ = other.in_.Clone();
       notIn_ = other.notIn_.Clone();
-      ignoreEmpty_ = other.ignoreEmpty_;
       switch (other.WellKnownCase) {
         case WellKnownOneofCase.Ip:
           Ip = other.Ip;
@@ -10512,37 +9770,6 @@ namespace Validate {
       }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 14;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 8) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 8;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 8) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~8;
-    }
-
     private object wellKnown_;
     /// <summary>Enum of possible cases for the "well_known" oneof.</summary>
     public enum WellKnownOneofCase {
@@ -10593,7 +9820,6 @@ namespace Validate {
       if (Ip != other.Ip) return false;
       if (Ipv4 != other.Ipv4) return false;
       if (Ipv6 != other.Ipv6) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       if (WellKnownCase != other.WellKnownCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -10615,7 +9841,6 @@ namespace Validate {
       if (HasIp) hash ^= Ip.GetHashCode();
       if (HasIpv4) hash ^= Ipv4.GetHashCode();
       if (HasIpv6) hash ^= Ipv6.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       hash ^= (int) wellKnownCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -10681,10 +9906,6 @@ namespace Validate {
         output.WriteRawTag(104);
         output.WriteUInt64(Len);
       }
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(112);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10741,10 +9962,6 @@ namespace Validate {
         output.WriteRawTag(104);
         output.WriteUInt64(Len);
       }
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(112);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10790,9 +10007,6 @@ namespace Validate {
       if (HasIpv6) {
         size += 1 + 1;
       }
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -10831,9 +10045,6 @@ namespace Validate {
       }
       in_.Add(other.in_);
       notIn_.Add(other.notIn_);
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
-      }
       switch (other.WellKnownCase) {
         case WellKnownOneofCase.Ip:
           Ip = other.Ip;
@@ -10913,10 +10124,6 @@ namespace Validate {
             Len = input.ReadUInt64();
             break;
           }
-          case 112: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -10982,10 +10189,6 @@ namespace Validate {
           }
           case 104: {
             Len = input.ReadUInt64();
-            break;
-          }
-          case 112: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -11639,7 +10842,6 @@ namespace Validate {
       maxItems_ = other.maxItems_;
       unique_ = other.unique_;
       items_ = other.items_ != null ? other.items_.Clone() : null;
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -11760,37 +10962,6 @@ namespace Validate {
       }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 5;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 8) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 8;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 8) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~8;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -11810,7 +10981,6 @@ namespace Validate {
       if (MaxItems != other.MaxItems) return false;
       if (Unique != other.Unique) return false;
       if (!object.Equals(Items, other.Items)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -11822,7 +10992,6 @@ namespace Validate {
       if (HasMaxItems) hash ^= MaxItems.GetHashCode();
       if (HasUnique) hash ^= Unique.GetHashCode();
       if (items_ != null) hash ^= Items.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -11857,10 +11026,6 @@ namespace Validate {
         output.WriteRawTag(34);
         output.WriteMessage(Items);
       }
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(40);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -11887,10 +11052,6 @@ namespace Validate {
         output.WriteRawTag(34);
         output.WriteMessage(Items);
       }
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(40);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -11912,9 +11073,6 @@ namespace Validate {
       }
       if (items_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Items);
-      }
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -11942,9 +11100,6 @@ namespace Validate {
           Items = new global::Validate.FieldRules();
         }
         Items.MergeFrom(other.Items);
-      }
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -11980,10 +11135,6 @@ namespace Validate {
             input.ReadMessage(Items);
             break;
           }
-          case 40: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -12016,10 +11167,6 @@ namespace Validate {
               Items = new global::Validate.FieldRules();
             }
             input.ReadMessage(Items);
-            break;
-          }
-          case 40: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }
@@ -12073,7 +11220,6 @@ namespace Validate {
       noSparse_ = other.noSparse_;
       keys_ = other.keys_ != null ? other.keys_.Clone() : null;
       values_ = other.values_ != null ? other.values_.Clone() : null;
-      ignoreEmpty_ = other.ignoreEmpty_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -12208,37 +11354,6 @@ namespace Validate {
       }
     }
 
-    /// <summary>Field number for the "ignore_empty" field.</summary>
-    public const int IgnoreEmptyFieldNumber = 6;
-    private readonly static bool IgnoreEmptyDefaultValue = false;
-
-    private bool ignoreEmpty_;
-    /// <summary>
-    /// IgnoreEmpty specifies that the validation rules of this field should be
-    /// evaluated only if the field is not empty
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IgnoreEmpty {
-      get { if ((_hasBits0 & 8) != 0) { return ignoreEmpty_; } else { return IgnoreEmptyDefaultValue; } }
-      set {
-        _hasBits0 |= 8;
-        ignoreEmpty_ = value;
-      }
-    }
-    /// <summary>Gets whether the "ignore_empty" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIgnoreEmpty {
-      get { return (_hasBits0 & 8) != 0; }
-    }
-    /// <summary>Clears the value of the "ignore_empty" field</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIgnoreEmpty() {
-      _hasBits0 &= ~8;
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -12259,7 +11374,6 @@ namespace Validate {
       if (NoSparse != other.NoSparse) return false;
       if (!object.Equals(Keys, other.Keys)) return false;
       if (!object.Equals(Values, other.Values)) return false;
-      if (IgnoreEmpty != other.IgnoreEmpty) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -12272,7 +11386,6 @@ namespace Validate {
       if (HasNoSparse) hash ^= NoSparse.GetHashCode();
       if (keys_ != null) hash ^= Keys.GetHashCode();
       if (values_ != null) hash ^= Values.GetHashCode();
-      if (HasIgnoreEmpty) hash ^= IgnoreEmpty.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -12311,10 +11424,6 @@ namespace Validate {
         output.WriteRawTag(42);
         output.WriteMessage(Values);
       }
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(48);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -12345,10 +11454,6 @@ namespace Validate {
         output.WriteRawTag(42);
         output.WriteMessage(Values);
       }
-      if (HasIgnoreEmpty) {
-        output.WriteRawTag(48);
-        output.WriteBool(IgnoreEmpty);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -12373,9 +11478,6 @@ namespace Validate {
       }
       if (values_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Values);
-      }
-      if (HasIgnoreEmpty) {
-        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -12409,9 +11511,6 @@ namespace Validate {
           Values = new global::Validate.FieldRules();
         }
         Values.MergeFrom(other.Values);
-      }
-      if (other.HasIgnoreEmpty) {
-        IgnoreEmpty = other.IgnoreEmpty;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -12454,10 +11553,6 @@ namespace Validate {
             input.ReadMessage(Values);
             break;
           }
-          case 48: {
-            IgnoreEmpty = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -12497,10 +11592,6 @@ namespace Validate {
               Values = new global::Validate.FieldRules();
             }
             input.ReadMessage(Values);
-            break;
-          }
-          case 48: {
-            IgnoreEmpty = input.ReadBool();
             break;
           }
         }

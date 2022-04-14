@@ -147,10 +147,10 @@ namespace Sensory.Api.V1.Audio {
             "b2xsZWRFdmVudFJlc3BvbnNlIgAoATABMnwKE0F1ZGlvVHJhbnNjcmlwdGlv",
             "bnMSZQoKVHJhbnNjcmliZRInLnNlbnNvcnkuYXBpLnYxLmF1ZGlvLlRyYW5z",
             "Y3JpYmVSZXF1ZXN0Giguc2Vuc29yeS5hcGkudjEuYXVkaW8uVHJhbnNjcmli",
-            "ZVJlc3BvbnNlIgAoATABQm8KF2lvLnNlbnNvcnkuYXBpLnYxLmF1ZGlvQhZT",
-            "ZW5zb3J5QXBpVjFBdWRpb1Byb3RvUAFaOmdpdGxhYi5jb20vc2Vuc29yeS1j",
-            "bG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEvYXVkaW9iBnByb3Rv",
-            "Mw=="));
+            "ZVJlc3BvbnNlIgAoATABQnQKHGFpLnNlbnNvcnljbG91ZC5hcGkudjEuYXVk",
+            "aW9CFlNlbnNvcnlBcGlWMUF1ZGlvUHJvdG9QAVo6Z2l0bGFiLmNvbS9zZW5z",
+            "b3J5LWNsb3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS92MS9hdWRpb2IG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.Audio.AudioPostProcessingAction), typeof(global::Sensory.Api.V1.Audio.ThresholdSensitivity), }, null, new pbr::GeneratedClrTypeInfo[] {

@@ -55,9 +55,9 @@ namespace Sensory.Api.V1.File {
             "ZXRlQ2F0YWxvZ1JlcXVlc3QaKC5zZW5zb3J5LmFwaS52MS5maWxlLkZpbGVD",
             "YXRhbG9nUmVzcG9uc2UiABJTCghEb3dubG9hZBIgLnNlbnNvcnkuYXBpLnYx",
             "LmZpbGUuRmlsZVJlcXVlc3QaIS5zZW5zb3J5LmFwaS52MS5maWxlLkZpbGVS",
-            "ZXNwb25zZSIAMAFCbAoWaW8uc2Vuc29yeS5hcGkudjEuZmlsZUIVU2Vuc29y",
-            "eUFwaVYxRmlsZVByb3RvUAFaOWdpdGxhYi5jb20vc2Vuc29yeS1jbG91ZC9z",
-            "ZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEvZmlsZWIGcHJvdG8z"));
+            "ZXNwb25zZSIAMAFCcQobYWkuc2Vuc29yeWNsb3VkLmFwaS52MS5maWxlQhVT",
+            "ZW5zb3J5QXBpVjFGaWxlUHJvdG9QAVo5Z2l0bGFiLmNvbS9zZW5zb3J5LWNs",
+            "b3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS92MS9maWxlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.V1.File.FileCategory), }, null, new pbr::GeneratedClrTypeInfo[] {

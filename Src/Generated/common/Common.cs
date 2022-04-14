@@ -25,63 +25,88 @@ namespace Sensory.Api.Common {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChNjb21tb24vY29tbW9uLnByb3RvEhJzZW5zb3J5LmFwaS5jb21tb24aF3Zh",
-            "bGlkYXRlL3ZhbGlkYXRlLnByb3RvIlUKGENvbXByZXNzaW9uQ29uZmlndXJh",
-            "dGlvbhI5Cgxjb21wcmVzc2lvbnMYASADKA4yIy5zZW5zb3J5LmFwaS5jb21t",
-            "b24uQ29tcHJlc3Npb25UeXBlIlkKDVRva2VuUmVzcG9uc2USEwoLYWNjZXNz",
-            "VG9rZW4YASABKAkSEQoJZXhwaXJlc0luGAIgASgFEg0KBWtleUlkGAMgASgJ",
-            "EhEKCXRva2VuVHlwZRgEIAEoCSJBCg1TZXJ2aWNlSGVhbHRoEhEKCWlzSGVh",
-            "bHRoeRgBIAEoCBIMCgRuYW1lGAIgASgJEg8KB21lc3NhZ2UYAyABKAkigQEK",
-            "FFNlcnZlckhlYWx0aFJlc3BvbnNlEhEKCWlzSGVhbHRoeRgBIAEoCBIVCg1z",
-            "ZXJ2ZXJWZXJzaW9uGAIgASgJEgoKAmlkGAMgASgJEjMKCHNlcnZpY2VzGAQg",
-            "AygLMiEuc2Vuc29yeS5hcGkuY29tbW9uLlNlcnZpY2VIZWFsdGgigwEKDVN5",
-            "c3RlbVN1bW1hcnkSNQoDY3B1GAEgASgLMh4uc2Vuc29yeS5hcGkuY29tbW9u",
-            "LkNwdVN1bW1hcnlCCPpCBYoBAhABEjsKBm1lbW9yeRgCIAEoCzIhLnNlbnNv",
-            "cnkuYXBpLmNvbW1vbi5NZW1vcnlTdW1tYXJ5Qgj6QgWKAQIQASKlAQoKQ3B1",
-            "U3VtbWFyeRIMCgR1c2VyGAEgASgEEgwKBG5pY2UYAiABKAQSDgoGc3lzdGVt",
-            "GAMgASgEEgwKBGlkbGUYBCABKAQSDgoGaW9XYWl0GAUgASgEEgsKA2lycRgG",
-            "IAEoBBIPCgdzb2Z0SXJxGAcgASgEEg0KBXN0ZWFsGAggASgEEg0KBWd1ZXN0",
-            "GAkgASgEEhEKCWd1ZXN0TmljZRgKIAEoBCJICg1NZW1vcnlTdW1tYXJ5EhAK",
-            "CG1lbVRvdGFsGAEgASgEEg8KB21lbUZyZWUYAiABKAQSFAoMbWVtQXZhaWxh",
-            "YmxlGAMgASgEIkQKDUdlbmVyaWNDbGllbnQSGgoIY2xpZW50SWQYASABKAlC",
-            "CPpCBXIDsAEBEhcKBnNlY3JldBgCIAEoCUIH+kIEcgIQCipECgdLZXlUeXBl",
+            "bGlkYXRlL3ZhbGlkYXRlLnByb3RvGh9nb29nbGUvcHJvdG9idWYvdGltZXN0",
+            "YW1wLnByb3RvIlUKGENvbXByZXNzaW9uQ29uZmlndXJhdGlvbhI5Cgxjb21w",
+            "cmVzc2lvbnMYASADKA4yIy5zZW5zb3J5LmFwaS5jb21tb24uQ29tcHJlc3Np",
+            "b25UeXBlIlkKDVRva2VuUmVzcG9uc2USEwoLYWNjZXNzVG9rZW4YASABKAkS",
+            "EQoJZXhwaXJlc0luGAIgASgFEg0KBWtleUlkGAMgASgJEhEKCXRva2VuVHlw",
+            "ZRgEIAEoCSJBCg1TZXJ2aWNlSGVhbHRoEhEKCWlzSGVhbHRoeRgBIAEoCBIM",
+            "CgRuYW1lGAIgASgJEg8KB21lc3NhZ2UYAyABKAkitQEKFFNlcnZlckhlYWx0",
+            "aFJlc3BvbnNlEhEKCWlzSGVhbHRoeRgBIAEoCBIVCg1zZXJ2ZXJWZXJzaW9u",
+            "GAIgASgJEgoKAmlkGAMgASgJEjMKCHNlcnZpY2VzGAQgAygLMiEuc2Vuc29y",
+            "eS5hcGkuY29tbW9uLlNlcnZpY2VIZWFsdGgSMgoKc2VydmVyVHlwZRgFIAEo",
+            "DjIeLnNlbnNvcnkuYXBpLmNvbW1vbi5TZXJ2ZXJUeXBlIoMBCg1TeXN0ZW1T",
+            "dW1tYXJ5EjUKA2NwdRgBIAEoCzIeLnNlbnNvcnkuYXBpLmNvbW1vbi5DcHVT",
+            "dW1tYXJ5Qgj6QgWKAQIQARI7CgZtZW1vcnkYAiABKAsyIS5zZW5zb3J5LmFw",
+            "aS5jb21tb24uTWVtb3J5U3VtbWFyeUII+kIFigECEAEipQEKCkNwdVN1bW1h",
+            "cnkSDAoEdXNlchgBIAEoBBIMCgRuaWNlGAIgASgEEg4KBnN5c3RlbRgDIAEo",
+            "BBIMCgRpZGxlGAQgASgEEg4KBmlvV2FpdBgFIAEoBBILCgNpcnEYBiABKAQS",
+            "DwoHc29mdElycRgHIAEoBBINCgVzdGVhbBgIIAEoBBINCgVndWVzdBgJIAEo",
+            "BBIRCglndWVzdE5pY2UYCiABKAQiSAoNTWVtb3J5U3VtbWFyeRIQCghtZW1U",
+            "b3RhbBgBIAEoBBIPCgdtZW1GcmVlGAIgASgEEhQKDG1lbUF2YWlsYWJsZRgD",
+            "IAEoBCJECg1HZW5lcmljQ2xpZW50EhoKCGNsaWVudElkGAEgASgJQgj6QgVy",
+            "A7ABARIXCgZzZWNyZXQYAiABKAlCB/pCBHICEAoiiAEKDlRlbmFudFJlc3Bv",
+            "bnNlEgoKAmlkGAEgASgJEgwKBG5hbWUYAiABKAkSLQoJY3JlYXRlZEF0GAMg",
+            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBItCgl1cGRhdGVkQXQY",
+            "BCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIl0KEVBhZ2luYXRp",
+            "b25PcHRpb25zEhAKCG9yZGVyaW5nGAEgASgJEhEKCWRlY2VuZGluZxgCIAEo",
+            "CBIRCglwYWdlSW5kZXgYAyABKAUSEAoIcGFnZVNpemUYBCABKAUiwgEKElBh",
+            "Z2luYXRpb25SZXNwb25zZRIQCghvcmRlcmluZxgBIAEoCRIRCglkZWNlbmRp",
+            "bmcYAiABKAgSGQoRcG9zc2libGVPcmRlcmluZ3MYAyADKAkSEgoKdG90YWxD",
+            "b3VudBgEIAEoAxIQCghwYWdlU2l6ZRgFIAEoBRIVCg1wcmV2UGFnZUluZGV4",
+            "GAYgASgFEhgKEGN1cnJlbnRQYWdlSW5kZXgYByABKAUSFQoNbmV4dFBhZ2VJ",
+            "bmRleBgIIAEoBSoWCgRWb2lkEg4KClZPSURfVkFMVUUQACpRCgdLZXlUeXBl",
             "Eg4KClBVQkxJQ19LRVkQABIWChJQVUJMSUNfS0VZX0VEMjU1MTkQARIRCg1T",
-            "SEFSRURfU0VDUkVUEAMqkAQKCU1vZGVsVHlwZRIiCh5WT0lDRV9CSU9NRVRS",
-            "SUNfVEVYVF9ERVBFTkRFTlQQABIkCiBWT0lDRV9CSU9NRVRSSUNfVEVYVF9J",
-            "TkRFUEVOREVOVBABEhwKGFZPSUNFX0JJT01FVFJJQ19XQUtFV09SRBACEhgK",
-            "FFZPSUNFX0VWRU5UX1dBS0VXT1JEEAMSHAoYVk9JQ0VfVFJBTlNDUklCRV9H",
-            "UkFNTUFSEAQSJwojVk9JQ0VfVFJBTlNDUklCRV9DT01NQU5EX0FORF9TRUFS",
-            "Q0gQBRIoCiRWT0lDRV9SRUNPR05JVElPTl9BQ1RJVklUWV9ERVRFQ1RJT04Q",
-            "BhIbChdWT0lDRV9GRUFUVVJFX0VYVFJBQ1RPUhAHEiIKHlZPSUNFX0JJT01F",
-            "VFJJQ19MSVZFTkVTU19ESUdJVBAIEhoKFlNPVU5EX0VWRU5UX0VOUk9MTEFC",
-            "TEUQZBIcChhTT1VORF9FVkVOVF9SRVZBTElEQVRJT04QZRIVChFTT1VORF9F",
-            "VkVOVF9GSVhFRBBmEhUKEVNPVU5EX1NDRU5FX0ZJWEVEEGcSEwoORkFDRV9C",
-            "SU9NRVRSSUMQyQESFQoQRkFDRV9SRUNPR05JVElPThDKARIXChJPQkpFQ1Rf",
-            "UkVDT0dOSVRJT04QywESFAoPSU1BR0VfVFJBTlNGT1JNEMwBEgwKB1VOS05P",
-            "V04Q6AcqQQoOVGVjaG5vbG9neVR5cGUSCwoHTk9UX1NFVBAAEggKBFRTU1YQ",
-            "ARIGCgJUUxACEgcKA1ROTBADEgcKA1NUVBAEKiYKD0NvbXByZXNzaW9uVHlw",
-            "ZRITCg9JTUFHRV9HUkFZU0NBTEUQACo5CgpDbGllbnRUeXBlEggKBFJPT1QQ",
-            "ABIKCgZERVZJQ0UQARILCgdDTFVTVEVSEAISCAoEVVNFUhADKkUKDlVzYWdl",
-            "RXZlbnRUeXBlEhIKDkFVVEhFTlRJQ0FUSU9OEAASDwoLUkVDT0dOSVRJT04Q",
-            "ARIOCgpFTlJPTExNRU5UEAJCagoVaW8uc2Vuc29yeS5hcGkuY29tbW9uQhVT",
-            "ZW5zb3J5QXBpQ29tbW9uUHJvdG9QAVo4Z2l0bGFiLmNvbS9zZW5zb3J5LWNs",
-            "b3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS9jb21tb25iBnByb3RvMw=="));
+            "SEFSRURfU0VDUkVUEAMSCwoHQUVTXzI1NhAEKjQKC0ZlYXR1cmVGbGFnEgwK",
+            "CFRTU1ZfQUxMEAASCgoGVFNfQUxMEAESCwoHVE5MX0FMTBACKpAECglNb2Rl",
+            "bFR5cGUSIgoeVk9JQ0VfQklPTUVUUklDX1RFWFRfREVQRU5ERU5UEAASJAog",
+            "Vk9JQ0VfQklPTUVUUklDX1RFWFRfSU5ERVBFTkRFTlQQARIcChhWT0lDRV9C",
+            "SU9NRVRSSUNfV0FLRVdPUkQQAhIYChRWT0lDRV9FVkVOVF9XQUtFV09SRBAD",
+            "EhwKGFZPSUNFX1RSQU5TQ1JJQkVfR1JBTU1BUhAEEicKI1ZPSUNFX1RSQU5T",
+            "Q1JJQkVfQ09NTUFORF9BTkRfU0VBUkNIEAUSKAokVk9JQ0VfUkVDT0dOSVRJ",
+            "T05fQUNUSVZJVFlfREVURUNUSU9OEAYSGwoXVk9JQ0VfRkVBVFVSRV9FWFRS",
+            "QUNUT1IQBxIiCh5WT0lDRV9CSU9NRVRSSUNfTElWRU5FU1NfRElHSVQQCBIa",
+            "ChZTT1VORF9FVkVOVF9FTlJPTExBQkxFEGQSHAoYU09VTkRfRVZFTlRfUkVW",
+            "QUxJREFUSU9OEGUSFQoRU09VTkRfRVZFTlRfRklYRUQQZhIVChFTT1VORF9T",
+            "Q0VORV9GSVhFRBBnEhMKDkZBQ0VfQklPTUVUUklDEMkBEhUKEEZBQ0VfUkVD",
+            "T0dOSVRJT04QygESFwoST0JKRUNUX1JFQ09HTklUSU9OEMsBEhQKD0lNQUdF",
+            "X1RSQU5TRk9STRDMARIMCgdVTktOT1dOEOgHKkEKDlRlY2hub2xvZ3lUeXBl",
+            "EgsKB05PVF9TRVQQABIICgRUU1NWEAESBgoCVFMQAhIHCgNUTkwQAxIHCgNT",
+            "VFQQBComCg9Db21wcmVzc2lvblR5cGUSEwoPSU1BR0VfR1JBWVNDQUxFEAAq",
+            "OQoKQ2xpZW50VHlwZRIICgRST09UEAASCgoGREVWSUNFEAESCwoHQ0xVU1RF",
+            "UhACEggKBFVTRVIQAypFCg5Vc2FnZUV2ZW50VHlwZRISCg5BVVRIRU5USUNB",
+            "VElPThAAEg8KC1JFQ09HTklUSU9OEAESDgoKRU5ST0xMTUVOVBACKh8KClNl",
+            "cnZlclR5cGUSCQoFVElUQU4QABIGCgJJTxABQm8KGmFpLnNlbnNvcnljbG91",
+            "ZC5hcGkuY29tbW9uQhVTZW5zb3J5QXBpQ29tbW9uUHJvdG9QAVo4Z2l0bGFi",
+            "LmNvbS9zZW5zb3J5LWNsb3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS9j",
+            "b21tb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.Common.KeyType), typeof(global::Sensory.Api.Common.ModelType), typeof(global::Sensory.Api.Common.TechnologyType), typeof(global::Sensory.Api.Common.CompressionType), typeof(global::Sensory.Api.Common.ClientType), typeof(global::Sensory.Api.Common.UsageEventType), }, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.Common.Void), typeof(global::Sensory.Api.Common.KeyType), typeof(global::Sensory.Api.Common.FeatureFlag), typeof(global::Sensory.Api.Common.ModelType), typeof(global::Sensory.Api.Common.TechnologyType), typeof(global::Sensory.Api.Common.CompressionType), typeof(global::Sensory.Api.Common.ClientType), typeof(global::Sensory.Api.Common.UsageEventType), typeof(global::Sensory.Api.Common.ServerType), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.CompressionConfiguration), global::Sensory.Api.Common.CompressionConfiguration.Parser, new[]{ "Compressions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.TokenResponse), global::Sensory.Api.Common.TokenResponse.Parser, new[]{ "AccessToken", "ExpiresIn", "KeyId", "TokenType" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.ServiceHealth), global::Sensory.Api.Common.ServiceHealth.Parser, new[]{ "IsHealthy", "Name", "Message" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.ServerHealthResponse), global::Sensory.Api.Common.ServerHealthResponse.Parser, new[]{ "IsHealthy", "ServerVersion", "Id", "Services" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.ServerHealthResponse), global::Sensory.Api.Common.ServerHealthResponse.Parser, new[]{ "IsHealthy", "ServerVersion", "Id", "Services", "ServerType" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.SystemSummary), global::Sensory.Api.Common.SystemSummary.Parser, new[]{ "Cpu", "Memory" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.CpuSummary), global::Sensory.Api.Common.CpuSummary.Parser, new[]{ "User", "Nice", "System", "Idle", "IoWait", "Irq", "SoftIrq", "Steal", "Guest", "GuestNice" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.MemorySummary), global::Sensory.Api.Common.MemorySummary.Parser, new[]{ "MemTotal", "MemFree", "MemAvailable" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.GenericClient), global::Sensory.Api.Common.GenericClient.Parser, new[]{ "ClientId", "Secret" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.GenericClient), global::Sensory.Api.Common.GenericClient.Parser, new[]{ "ClientId", "Secret" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.TenantResponse), global::Sensory.Api.Common.TenantResponse.Parser, new[]{ "Id", "Name", "CreatedAt", "UpdatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.PaginationOptions), global::Sensory.Api.Common.PaginationOptions.Parser, new[]{ "Ordering", "Decending", "PageIndex", "PageSize" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.PaginationResponse), global::Sensory.Api.Common.PaginationResponse.Parser, new[]{ "Ordering", "Decending", "PossibleOrderings", "TotalCount", "PageSize", "PrevPageIndex", "CurrentPageIndex", "NextPageIndex" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Enums
+  /// <summary>
+  /// Generic NULL value
+  /// </summary>
+  public enum Void {
+    [pbr::OriginalName("VOID_VALUE")] Value = 0,
+  }
+
   /// <summary>
   /// A type of key supported by the API
   /// Note: if you change this enum, ensure to update schema.prisma KeyType
@@ -99,6 +124,33 @@ namespace Sensory.Api.Common {
     /// Shared secret string
     /// </summary>
     [pbr::OriginalName("SHARED_SECRET")] SharedSecret = 3,
+    /// <summary>
+    /// AES-256 32 byte string
+    /// </summary>
+    [pbr::OriginalName("AES_256")] Aes256 = 4,
+  }
+
+  /// <summary>
+  /// Example ideas of possible FFs
+  /// Voice
+  /// VoiceBiometricTextDependent   FeatureFlag = iota // Voice Auth Text Dependent (Enrollable)
+  /// VoiceBiometricTextIndependent                    // Voice Auth Text Independent (Enrollable)
+  /// VoiceBiometricWakeword                           // Voice Wakeword (Enrollable)
+  /// VoiceEventWakeword                               // Voice Wakeword
+  /// </summary>
+  public enum FeatureFlag {
+    /// <summary>
+    /// TssvAll feature set
+    /// </summary>
+    [pbr::OriginalName("TSSV_ALL")] TssvAll = 0,
+    /// <summary>
+    /// TsAll feature set
+    /// </summary>
+    [pbr::OriginalName("TS_ALL")] TsAll = 1,
+    /// <summary>
+    /// TnlAll feature set
+    /// </summary>
+    [pbr::OriginalName("TNL_ALL")] TnlAll = 2,
   }
 
   /// <summary>
@@ -256,6 +308,14 @@ namespace Sensory.Api.Common {
     /// Enrollment usage event
     /// </summary>
     [pbr::OriginalName("ENROLLMENT")] Enrollment = 2,
+  }
+
+  /// <summary>
+  /// Possible types of servers
+  /// </summary>
+  public enum ServerType {
+    [pbr::OriginalName("TITAN")] Titan = 0,
+    [pbr::OriginalName("IO")] Io = 1,
   }
 
   #endregion
@@ -1078,6 +1138,7 @@ namespace Sensory.Api.Common {
       serverVersion_ = other.serverVersion_;
       id_ = other.id_;
       services_ = other.services_.Clone();
+      serverType_ = other.serverType_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1146,6 +1207,21 @@ namespace Sensory.Api.Common {
       get { return services_; }
     }
 
+    /// <summary>Field number for the "serverType" field.</summary>
+    public const int ServerTypeFieldNumber = 5;
+    private global::Sensory.Api.Common.ServerType serverType_ = global::Sensory.Api.Common.ServerType.Titan;
+    /// <summary>
+    /// The type of server that is sending the health response
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.Common.ServerType ServerType {
+      get { return serverType_; }
+      set {
+        serverType_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1165,6 +1241,7 @@ namespace Sensory.Api.Common {
       if (ServerVersion != other.ServerVersion) return false;
       if (Id != other.Id) return false;
       if(!services_.Equals(other.services_)) return false;
+      if (ServerType != other.ServerType) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1176,6 +1253,7 @@ namespace Sensory.Api.Common {
       if (ServerVersion.Length != 0) hash ^= ServerVersion.GetHashCode();
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       hash ^= services_.GetHashCode();
+      if (ServerType != global::Sensory.Api.Common.ServerType.Titan) hash ^= ServerType.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1207,6 +1285,10 @@ namespace Sensory.Api.Common {
         output.WriteString(Id);
       }
       services_.WriteTo(output, _repeated_services_codec);
+      if (ServerType != global::Sensory.Api.Common.ServerType.Titan) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) ServerType);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1230,6 +1312,10 @@ namespace Sensory.Api.Common {
         output.WriteString(Id);
       }
       services_.WriteTo(ref output, _repeated_services_codec);
+      if (ServerType != global::Sensory.Api.Common.ServerType.Titan) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) ServerType);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1250,6 +1336,9 @@ namespace Sensory.Api.Common {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
       size += services_.CalculateSize(_repeated_services_codec);
+      if (ServerType != global::Sensory.Api.Common.ServerType.Titan) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServerType);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1272,6 +1361,9 @@ namespace Sensory.Api.Common {
         Id = other.Id;
       }
       services_.Add(other.services_);
+      if (other.ServerType != global::Sensory.Api.Common.ServerType.Titan) {
+        ServerType = other.ServerType;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1303,6 +1395,10 @@ namespace Sensory.Api.Common {
             services_.AddEntriesFrom(input, _repeated_services_codec);
             break;
           }
+          case 40: {
+            ServerType = (global::Sensory.Api.Common.ServerType) input.ReadEnum();
+            break;
+          }
         }
       }
     #endif
@@ -1332,6 +1428,10 @@ namespace Sensory.Api.Common {
           }
           case 34: {
             services_.AddEntriesFrom(ref input, _repeated_services_codec);
+            break;
+          }
+          case 40: {
+            ServerType = (global::Sensory.Api.Common.ServerType) input.ReadEnum();
             break;
           }
         }
@@ -2645,6 +2745,1119 @@ namespace Sensory.Api.Common {
           }
           case 18: {
             Secret = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Tenant response
+  /// </summary>
+  public sealed partial class TenantResponse : pb::IMessage<TenantResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<TenantResponse> _parser = new pb::MessageParser<TenantResponse>(() => new TenantResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<TenantResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.Common.CommonReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TenantResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TenantResponse(TenantResponse other) : this() {
+      id_ = other.id_;
+      name_ = other.name_;
+      createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+      updatedAt_ = other.updatedAt_ != null ? other.updatedAt_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public TenantResponse Clone() {
+      return new TenantResponse(this);
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private string id_ = "";
+    /// <summary>
+    /// The unique uuid for this tenant
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 2;
+    private string name_ = "";
+    /// <summary>
+    /// The unique name for this tenant
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "createdAt" field.</summary>
+    public const int CreatedAtFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
+    /// <summary>
+    /// Created timestamp
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
+      get { return createdAt_; }
+      set {
+        createdAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "updatedAt" field.</summary>
+    public const int UpdatedAtFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp updatedAt_;
+    /// <summary>
+    /// Last updated timestamp
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp UpdatedAt {
+      get { return updatedAt_; }
+      set {
+        updatedAt_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as TenantResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(TenantResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (Name != other.Name) return false;
+      if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+      if (!object.Equals(UpdatedAt, other.UpdatedAt)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+      if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Name);
+      }
+      if (createdAt_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(CreatedAt);
+      }
+      if (updatedAt_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(UpdatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Name.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Name);
+      }
+      if (createdAt_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(CreatedAt);
+      }
+      if (updatedAt_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(UpdatedAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (createdAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
+      }
+      if (updatedAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdatedAt);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(TenantResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.createdAt_ != null) {
+        if (createdAt_ == null) {
+          CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        CreatedAt.MergeFrom(other.CreatedAt);
+      }
+      if (other.updatedAt_ != null) {
+        if (updatedAt_ == null) {
+          UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        UpdatedAt.MergeFrom(other.UpdatedAt);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Name = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(CreatedAt);
+            break;
+          }
+          case 34: {
+            if (updatedAt_ == null) {
+              UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(UpdatedAt);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Name = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(CreatedAt);
+            break;
+          }
+          case 34: {
+            if (updatedAt_ == null) {
+              UpdatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(UpdatedAt);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// A message for telling the server how to paginate and order data
+  /// </summary>
+  public sealed partial class PaginationOptions : pb::IMessage<PaginationOptions>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<PaginationOptions> _parser = new pb::MessageParser<PaginationOptions>(() => new PaginationOptions());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<PaginationOptions> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.Common.CommonReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationOptions() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationOptions(PaginationOptions other) : this() {
+      ordering_ = other.ordering_;
+      decending_ = other.decending_;
+      pageIndex_ = other.pageIndex_;
+      pageSize_ = other.pageSize_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationOptions Clone() {
+      return new PaginationOptions(this);
+    }
+
+    /// <summary>Field number for the "ordering" field.</summary>
+    public const int OrderingFieldNumber = 1;
+    private string ordering_ = "";
+    /// <summary>
+    /// The parameter to order the data by. If empty, the server will choose a default ordering
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Ordering {
+      get { return ordering_; }
+      set {
+        ordering_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "decending" field.</summary>
+    public const int DecendingFieldNumber = 2;
+    private bool decending_;
+    /// <summary>
+    /// If "True" the data will be sorted in decending order
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Decending {
+      get { return decending_; }
+      set {
+        decending_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pageIndex" field.</summary>
+    public const int PageIndexFieldNumber = 3;
+    private int pageIndex_;
+    /// <summary>
+    /// The page index to return
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int PageIndex {
+      get { return pageIndex_; }
+      set {
+        pageIndex_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pageSize" field.</summary>
+    public const int PageSizeFieldNumber = 4;
+    private int pageSize_;
+    /// <summary>
+    /// The preferred number of elements per page. If zero the server will choose a default size
+    /// The server enforces a maximum page size of 100
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as PaginationOptions);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(PaginationOptions other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Ordering != other.Ordering) return false;
+      if (Decending != other.Decending) return false;
+      if (PageIndex != other.PageIndex) return false;
+      if (PageSize != other.PageSize) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Ordering.Length != 0) hash ^= Ordering.GetHashCode();
+      if (Decending != false) hash ^= Decending.GetHashCode();
+      if (PageIndex != 0) hash ^= PageIndex.GetHashCode();
+      if (PageSize != 0) hash ^= PageSize.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Ordering.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Ordering);
+      }
+      if (Decending != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Decending);
+      }
+      if (PageIndex != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(PageIndex);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(PageSize);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Ordering.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Ordering);
+      }
+      if (Decending != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Decending);
+      }
+      if (PageIndex != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(PageIndex);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(PageSize);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Ordering.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Ordering);
+      }
+      if (Decending != false) {
+        size += 1 + 1;
+      }
+      if (PageIndex != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageIndex);
+      }
+      if (PageSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(PaginationOptions other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Ordering.Length != 0) {
+        Ordering = other.Ordering;
+      }
+      if (other.Decending != false) {
+        Decending = other.Decending;
+      }
+      if (other.PageIndex != 0) {
+        PageIndex = other.PageIndex;
+      }
+      if (other.PageSize != 0) {
+        PageSize = other.PageSize;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Ordering = input.ReadString();
+            break;
+          }
+          case 16: {
+            Decending = input.ReadBool();
+            break;
+          }
+          case 24: {
+            PageIndex = input.ReadInt32();
+            break;
+          }
+          case 32: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Ordering = input.ReadString();
+            break;
+          }
+          case 16: {
+            Decending = input.ReadBool();
+            break;
+          }
+          case 24: {
+            PageIndex = input.ReadInt32();
+            break;
+          }
+          case 32: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// A message for the server to tell how the data has been paginated
+  /// </summary>
+  public sealed partial class PaginationResponse : pb::IMessage<PaginationResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<PaginationResponse> _parser = new pb::MessageParser<PaginationResponse>(() => new PaginationResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<PaginationResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.Common.CommonReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationResponse(PaginationResponse other) : this() {
+      ordering_ = other.ordering_;
+      decending_ = other.decending_;
+      possibleOrderings_ = other.possibleOrderings_.Clone();
+      totalCount_ = other.totalCount_;
+      pageSize_ = other.pageSize_;
+      prevPageIndex_ = other.prevPageIndex_;
+      currentPageIndex_ = other.currentPageIndex_;
+      nextPageIndex_ = other.nextPageIndex_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationResponse Clone() {
+      return new PaginationResponse(this);
+    }
+
+    /// <summary>Field number for the "ordering" field.</summary>
+    public const int OrderingFieldNumber = 1;
+    private string ordering_ = "";
+    /// <summary>
+    /// The parameter by which the data has been ordered by
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Ordering {
+      get { return ordering_; }
+      set {
+        ordering_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "decending" field.</summary>
+    public const int DecendingFieldNumber = 2;
+    private bool decending_;
+    /// <summary>
+    /// "True" if the data has been sorted in decending order
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Decending {
+      get { return decending_; }
+      set {
+        decending_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "possibleOrderings" field.</summary>
+    public const int PossibleOrderingsFieldNumber = 3;
+    private static readonly pb::FieldCodec<string> _repeated_possibleOrderings_codec
+        = pb::FieldCodec.ForString(26);
+    private readonly pbc::RepeatedField<string> possibleOrderings_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// A list of all possible parameters that the data can be ordered by
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> PossibleOrderings {
+      get { return possibleOrderings_; }
+    }
+
+    /// <summary>Field number for the "totalCount" field.</summary>
+    public const int TotalCountFieldNumber = 4;
+    private long totalCount_;
+    /// <summary>
+    /// The total count of data objects
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long TotalCount {
+      get { return totalCount_; }
+      set {
+        totalCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pageSize" field.</summary>
+    public const int PageSizeFieldNumber = 5;
+    private int pageSize_;
+    /// <summary>
+    /// The page size of the data
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "prevPageIndex" field.</summary>
+    public const int PrevPageIndexFieldNumber = 6;
+    private int prevPageIndex_;
+    /// <summary>
+    /// The page index for the previous page. If negative there is no previous page
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int PrevPageIndex {
+      get { return prevPageIndex_; }
+      set {
+        prevPageIndex_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "currentPageIndex" field.</summary>
+    public const int CurrentPageIndexFieldNumber = 7;
+    private int currentPageIndex_;
+    /// <summary>
+    /// The page index for the current page.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CurrentPageIndex {
+      get { return currentPageIndex_; }
+      set {
+        currentPageIndex_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "nextPageIndex" field.</summary>
+    public const int NextPageIndexFieldNumber = 8;
+    private int nextPageIndex_;
+    /// <summary>
+    /// The page index for the next page. If negative there is no next page
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int NextPageIndex {
+      get { return nextPageIndex_; }
+      set {
+        nextPageIndex_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as PaginationResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(PaginationResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Ordering != other.Ordering) return false;
+      if (Decending != other.Decending) return false;
+      if(!possibleOrderings_.Equals(other.possibleOrderings_)) return false;
+      if (TotalCount != other.TotalCount) return false;
+      if (PageSize != other.PageSize) return false;
+      if (PrevPageIndex != other.PrevPageIndex) return false;
+      if (CurrentPageIndex != other.CurrentPageIndex) return false;
+      if (NextPageIndex != other.NextPageIndex) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Ordering.Length != 0) hash ^= Ordering.GetHashCode();
+      if (Decending != false) hash ^= Decending.GetHashCode();
+      hash ^= possibleOrderings_.GetHashCode();
+      if (TotalCount != 0L) hash ^= TotalCount.GetHashCode();
+      if (PageSize != 0) hash ^= PageSize.GetHashCode();
+      if (PrevPageIndex != 0) hash ^= PrevPageIndex.GetHashCode();
+      if (CurrentPageIndex != 0) hash ^= CurrentPageIndex.GetHashCode();
+      if (NextPageIndex != 0) hash ^= NextPageIndex.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Ordering.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Ordering);
+      }
+      if (Decending != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Decending);
+      }
+      possibleOrderings_.WriteTo(output, _repeated_possibleOrderings_codec);
+      if (TotalCount != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(TotalCount);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(PageSize);
+      }
+      if (PrevPageIndex != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(PrevPageIndex);
+      }
+      if (CurrentPageIndex != 0) {
+        output.WriteRawTag(56);
+        output.WriteInt32(CurrentPageIndex);
+      }
+      if (NextPageIndex != 0) {
+        output.WriteRawTag(64);
+        output.WriteInt32(NextPageIndex);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Ordering.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Ordering);
+      }
+      if (Decending != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Decending);
+      }
+      possibleOrderings_.WriteTo(ref output, _repeated_possibleOrderings_codec);
+      if (TotalCount != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(TotalCount);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(PageSize);
+      }
+      if (PrevPageIndex != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(PrevPageIndex);
+      }
+      if (CurrentPageIndex != 0) {
+        output.WriteRawTag(56);
+        output.WriteInt32(CurrentPageIndex);
+      }
+      if (NextPageIndex != 0) {
+        output.WriteRawTag(64);
+        output.WriteInt32(NextPageIndex);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Ordering.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Ordering);
+      }
+      if (Decending != false) {
+        size += 1 + 1;
+      }
+      size += possibleOrderings_.CalculateSize(_repeated_possibleOrderings_codec);
+      if (TotalCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(TotalCount);
+      }
+      if (PageSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
+      }
+      if (PrevPageIndex != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PrevPageIndex);
+      }
+      if (CurrentPageIndex != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(CurrentPageIndex);
+      }
+      if (NextPageIndex != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(NextPageIndex);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(PaginationResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Ordering.Length != 0) {
+        Ordering = other.Ordering;
+      }
+      if (other.Decending != false) {
+        Decending = other.Decending;
+      }
+      possibleOrderings_.Add(other.possibleOrderings_);
+      if (other.TotalCount != 0L) {
+        TotalCount = other.TotalCount;
+      }
+      if (other.PageSize != 0) {
+        PageSize = other.PageSize;
+      }
+      if (other.PrevPageIndex != 0) {
+        PrevPageIndex = other.PrevPageIndex;
+      }
+      if (other.CurrentPageIndex != 0) {
+        CurrentPageIndex = other.CurrentPageIndex;
+      }
+      if (other.NextPageIndex != 0) {
+        NextPageIndex = other.NextPageIndex;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Ordering = input.ReadString();
+            break;
+          }
+          case 16: {
+            Decending = input.ReadBool();
+            break;
+          }
+          case 26: {
+            possibleOrderings_.AddEntriesFrom(input, _repeated_possibleOrderings_codec);
+            break;
+          }
+          case 32: {
+            TotalCount = input.ReadInt64();
+            break;
+          }
+          case 40: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            PrevPageIndex = input.ReadInt32();
+            break;
+          }
+          case 56: {
+            CurrentPageIndex = input.ReadInt32();
+            break;
+          }
+          case 64: {
+            NextPageIndex = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Ordering = input.ReadString();
+            break;
+          }
+          case 16: {
+            Decending = input.ReadBool();
+            break;
+          }
+          case 26: {
+            possibleOrderings_.AddEntriesFrom(ref input, _repeated_possibleOrderings_codec);
+            break;
+          }
+          case 32: {
+            TotalCount = input.ReadInt64();
+            break;
+          }
+          case 40: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            PrevPageIndex = input.ReadInt32();
+            break;
+          }
+          case 56: {
+            CurrentPageIndex = input.ReadInt32();
+            break;
+          }
+          case 64: {
+            NextPageIndex = input.ReadInt32();
             break;
           }
         }

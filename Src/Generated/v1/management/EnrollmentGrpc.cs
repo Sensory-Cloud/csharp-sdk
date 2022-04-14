@@ -68,6 +68,12 @@ namespace Sensory.Api.V1.Management {
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.EnrollmentResponse> __Marshaller_sensory_api_v1_management_EnrollmentResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.EnrollmentResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.DeleteEnrollmentGroupRequest> __Marshaller_sensory_api_v1_management_DeleteEnrollmentGroupRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.DeleteEnrollmentGroupRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.UpdateEnrollmentRequest> __Marshaller_sensory_api_v1_management_UpdateEnrollmentRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.UpdateEnrollmentRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.UpdateEnrollmentGroupRequest> __Marshaller_sensory_api_v1_management_UpdateEnrollmentGroupRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.UpdateEnrollmentGroupRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Management.RemoveEnrollmentsRequest> __Marshaller_sensory_api_v1_management_RemoveEnrollmentsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Management.RemoveEnrollmentsRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Sensory.Api.V1.Management.GetEnrollmentsRequest, global::Sensory.Api.V1.Management.GetEnrollmentsResponse> __Method_GetEnrollments = new grpc::Method<global::Sensory.Api.V1.Management.GetEnrollmentsRequest, global::Sensory.Api.V1.Management.GetEnrollmentsResponse>(
@@ -115,6 +121,30 @@ namespace Sensory.Api.V1.Management {
         __ServiceName,
         "DeleteEnrollmentGroup",
         __Marshaller_sensory_api_v1_management_DeleteEnrollmentGroupRequest,
+        __Marshaller_sensory_api_v1_management_EnrollmentGroupResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Management.UpdateEnrollmentRequest, global::Sensory.Api.V1.Management.EnrollmentResponse> __Method_UpdateEnrollment = new grpc::Method<global::Sensory.Api.V1.Management.UpdateEnrollmentRequest, global::Sensory.Api.V1.Management.EnrollmentResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateEnrollment",
+        __Marshaller_sensory_api_v1_management_UpdateEnrollmentRequest,
+        __Marshaller_sensory_api_v1_management_EnrollmentResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Management.UpdateEnrollmentGroupRequest, global::Sensory.Api.V1.Management.EnrollmentGroupResponse> __Method_UpdateEnrollmentGroup = new grpc::Method<global::Sensory.Api.V1.Management.UpdateEnrollmentGroupRequest, global::Sensory.Api.V1.Management.EnrollmentGroupResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateEnrollmentGroup",
+        __Marshaller_sensory_api_v1_management_UpdateEnrollmentGroupRequest,
+        __Marshaller_sensory_api_v1_management_EnrollmentGroupResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Management.RemoveEnrollmentsRequest, global::Sensory.Api.V1.Management.EnrollmentGroupResponse> __Method_RemoveEnrollmentsFromGroup = new grpc::Method<global::Sensory.Api.V1.Management.RemoveEnrollmentsRequest, global::Sensory.Api.V1.Management.EnrollmentGroupResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RemoveEnrollmentsFromGroup",
+        __Marshaller_sensory_api_v1_management_RemoveEnrollmentsRequest,
         __Marshaller_sensory_api_v1_management_EnrollmentGroupResponse);
 
     /// <summary>Service descriptor</summary>
@@ -469,6 +499,162 @@ namespace Sensory.Api.V1.Management {
       public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.EnrollmentGroupResponse> DeleteEnrollmentGroupAsync(global::Sensory.Api.V1.Management.DeleteEnrollmentGroupRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteEnrollmentGroup, null, options, request);
+      }
+      /// <summary>
+      /// Updates the name of an enrollment
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.EnrollmentResponse UpdateEnrollment(global::Sensory.Api.V1.Management.UpdateEnrollmentRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateEnrollment(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates the name of an enrollment
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.EnrollmentResponse UpdateEnrollment(global::Sensory.Api.V1.Management.UpdateEnrollmentRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateEnrollment, null, options, request);
+      }
+      /// <summary>
+      /// Updates the name of an enrollment
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.EnrollmentResponse> UpdateEnrollmentAsync(global::Sensory.Api.V1.Management.UpdateEnrollmentRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateEnrollmentAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates the name of an enrollment
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.EnrollmentResponse> UpdateEnrollmentAsync(global::Sensory.Api.V1.Management.UpdateEnrollmentRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateEnrollment, null, options, request);
+      }
+      /// <summary>
+      /// Updates the name of an enrollment group
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.EnrollmentGroupResponse UpdateEnrollmentGroup(global::Sensory.Api.V1.Management.UpdateEnrollmentGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateEnrollmentGroup(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates the name of an enrollment group
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.EnrollmentGroupResponse UpdateEnrollmentGroup(global::Sensory.Api.V1.Management.UpdateEnrollmentGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateEnrollmentGroup, null, options, request);
+      }
+      /// <summary>
+      /// Updates the name of an enrollment group
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.EnrollmentGroupResponse> UpdateEnrollmentGroupAsync(global::Sensory.Api.V1.Management.UpdateEnrollmentGroupRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateEnrollmentGroupAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Updates the name of an enrollment group
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.EnrollmentGroupResponse> UpdateEnrollmentGroupAsync(global::Sensory.Api.V1.Management.UpdateEnrollmentGroupRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateEnrollmentGroup, null, options, request);
+      }
+      /// <summary>
+      /// Removes a list of enrollments from an enrollment group
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.EnrollmentGroupResponse RemoveEnrollmentsFromGroup(global::Sensory.Api.V1.Management.RemoveEnrollmentsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RemoveEnrollmentsFromGroup(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Removes a list of enrollments from an enrollment group
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Management.EnrollmentGroupResponse RemoveEnrollmentsFromGroup(global::Sensory.Api.V1.Management.RemoveEnrollmentsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_RemoveEnrollmentsFromGroup, null, options, request);
+      }
+      /// <summary>
+      /// Removes a list of enrollments from an enrollment group
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.EnrollmentGroupResponse> RemoveEnrollmentsFromGroupAsync(global::Sensory.Api.V1.Management.RemoveEnrollmentsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return RemoveEnrollmentsFromGroupAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Removes a list of enrollments from an enrollment group
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Management.EnrollmentGroupResponse> RemoveEnrollmentsFromGroupAsync(global::Sensory.Api.V1.Management.RemoveEnrollmentsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_RemoveEnrollmentsFromGroup, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
