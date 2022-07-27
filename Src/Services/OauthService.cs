@@ -84,6 +84,9 @@ namespace SensoryCloud.Src.Services
     {
         string GetClientId();
         string GetClientSecret();
+        bool IsConfigured();
+        void SaveCredentials(OauthClient credentials);
+        void ClearCredentials();
     }
 
     /// <summary>

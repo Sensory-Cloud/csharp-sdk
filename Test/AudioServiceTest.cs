@@ -32,7 +32,7 @@ namespace Test
             audioModelsClient.Setup(client => client.GetModels(It.IsAny<GetModelsRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,
@@ -60,7 +60,7 @@ namespace Test
             audioBiometricsClient.Setup(m => m.CreateEnrollment(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,
@@ -104,7 +104,7 @@ namespace Test
             audioBiometricsClient.Setup(m => m.Authenticate(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,
@@ -148,7 +148,7 @@ namespace Test
             audioBiometricsClient.Setup(m => m.Authenticate(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,
@@ -192,7 +192,7 @@ namespace Test
             audioEventsClient.Setup(m => m.ValidateEvent(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,
@@ -233,7 +233,7 @@ namespace Test
             audioEventsClient.Setup(m => m.CreateEnrolledEvent(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,
@@ -273,7 +273,7 @@ namespace Test
             audioEventsClient.Setup(m => m.ValidateEnrolledEvent(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,
@@ -313,7 +313,7 @@ namespace Test
             audioEventsClient.Setup(m => m.ValidateEnrolledEvent(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,
@@ -352,7 +352,7 @@ namespace Test
             audioTranscriptionsClient.Setup(m => m.Transcribe(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var audioService = new MockAudioService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 audioModelsClient.Object,
                 audioBiometricsClient.Object,

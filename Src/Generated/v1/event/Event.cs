@@ -28,7 +28,7 @@ namespace Sensory.Api.V1.Event {
             "H2dvb2dsZS9wcm90b2J1Zi90aW1lc3RhbXAucHJvdG8aF3ZhbGlkYXRlL3Zh",
             "bGlkYXRlLnByb3RvGhNjb21tb24vY29tbW9uLnByb3RvIk0KGVB1Ymxpc2hV",
             "c2FnZUV2ZW50c1JlcXVlc3QSMAoGZXZlbnRzGAEgAygLMiAuc2Vuc29yeS5h",
-            "cGkudjEuZXZlbnQuVXNhZ2VFdmVudCLmAgoKVXNhZ2VFdmVudBI3Cgl0aW1l",
+            "cGkudjEuZXZlbnQuVXNhZ2VFdmVudCKxAwoKVXNhZ2VFdmVudBI3Cgl0aW1l",
             "c3RhbXAYASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQgj6QgWy",
             "AQIIARIZCghkdXJhdGlvbhgCIAEoA0IH+kIEIgIoABIUCgJpZBgDIAEoCUII",
             "+kIFcgOwAQESGwoIY2xpZW50SWQYBCABKAlCCfpCBnIEEAEYfxI6CgR0eXBl",
@@ -36,19 +36,54 @@ namespace Sensory.Api.V1.Event {
             "QgWCAQIQARIZCgVyb3V0ZRgGIAEoCUIK+kIHcgUQARj/AxI4Cgx0ZWNobm9s",
             "b2dpZXMYByADKA4yIi5zZW5zb3J5LmFwaS5jb21tb24uVGVjaG5vbG9neVR5",
             "cGUSDgoGbW9kZWxzGAggAygJEhcKD2F1ZGlvRHVyYXRpb25NcxgJIAEoAxIX",
-            "Cg92aWRlb0ZyYW1lQ291bnQYCiABKAMiHAoaUHVibGlzaFVzYWdlRXZlbnRz",
-            "UmVzcG9uc2UyiQEKDEV2ZW50U2VydmljZRJ5ChJQdWJsaXNoVXNhZ2VFdmVu",
-            "dHMSLy5zZW5zb3J5LmFwaS52MS5ldmVudC5QdWJsaXNoVXNhZ2VFdmVudHNS",
-            "ZXF1ZXN0GjAuc2Vuc29yeS5hcGkudjEuZXZlbnQuUHVibGlzaFVzYWdlRXZl",
-            "bnRzUmVzcG9uc2UiAEJ0ChxhaS5zZW5zb3J5Y2xvdWQuYXBpLnYxLmV2ZW50",
-            "QhZTZW5zb3J5QXBpVjFFdmVudFByb3RvUAFaOmdpdGxhYi5jb20vc2Vuc29y",
-            "eS1jbG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEvZXZlbnRiBnBy",
-            "b3RvMw=="));
+            "Cg92aWRlb0ZyYW1lQ291bnQYCiABKAMSEAoIdGVuYW50SWQYCyABKAkSNwoQ",
+            "YmlsbGFibGVGdW5jdGlvbhgMIAEoDjIdLnNlbnNvcnkuYXBpLmNvbW1vbi5N",
+            "b2RlbFR5cGUixgMKElVzYWdlRXZlbnRSZXNwb25zZRI3Cgl0aW1lc3RhbXAY",
+            "ASABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wQgj6QgWyAQIIARIZ",
+            "CghkdXJhdGlvbhgCIAEoA0IH+kIEIgIoABIUCgJpZBgDIAEoCUII+kIFcgOw",
+            "AQESGwoIY2xpZW50SWQYBCABKAlCCfpCBnIEEAEYfxI6CgR0eXBlGAUgASgO",
+            "MiIuc2Vuc29yeS5hcGkuY29tbW9uLlVzYWdlRXZlbnRUeXBlQgj6QgWCAQIQ",
+            "ARIZCgVyb3V0ZRgGIAEoCUIK+kIHcgUQARj/AxI4Cgx0ZWNobm9sb2dpZXMY",
+            "ByADKA4yIi5zZW5zb3J5LmFwaS5jb21tb24uVGVjaG5vbG9neVR5cGUSDgoG",
+            "bW9kZWxzGAggAygJEhUKDWJpbGxhYmxlVmFsdWUYCSABKAMSFQoNYmlsbGFi",
+            "bGVVbml0cxgKIAEoCRIQCgh0ZW5hbnRJZBgLIAEoCRI3ChBiaWxsYWJsZUZ1",
+            "bmN0aW9uGAwgASgOMh0uc2Vuc29yeS5hcGkuY29tbW9uLk1vZGVsVHlwZRIP",
+            "CgdjcmVkaXRzGA0gASgBIvUBChVVc2FnZUV2ZW50TGlzdFJlcXVlc3QSEAoI",
+            "dGVuYW50SWQYASABKAkSOQoKcGFnaW5hdGlvbhgCIAEoCzIlLnNlbnNvcnku",
+            "YXBpLmNvbW1vbi5QYWdpbmF0aW9uT3B0aW9ucxIpCgVhZnRlchgDIAEoCzIa",
+            "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASKgoGYmVmb3JlGAQgASgLMhou",
+            "Z29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBI4ChFiaWxsYWJsZUZ1bmN0aW9u",
+            "cxgFIAMoDjIdLnNlbnNvcnkuYXBpLmNvbW1vbi5Nb2RlbFR5cGUijgEKFlVz",
+            "YWdlRXZlbnRMaXN0UmVzcG9uc2USOAoGZXZlbnRzGAEgAygLMiguc2Vuc29y",
+            "eS5hcGkudjEuZXZlbnQuVXNhZ2VFdmVudFJlc3BvbnNlEjoKCnBhZ2luYXRp",
+            "b24YAiABKAsyJi5zZW5zb3J5LmFwaS5jb21tb24uUGFnaW5hdGlvblJlc3Bv",
+            "bnNlIlQKEVVzYWdlRXZlbnRTdW1tYXJ5Ej8KCXN1bW1hcmllcxgBIAMoCzIs",
+            "LnNlbnNvcnkuYXBpLnYxLmV2ZW50LlVzYWdlRXZlbnRNb2RlbFN1bW1hcnki",
+            "jwEKFlVzYWdlRXZlbnRNb2RlbFN1bW1hcnkSNwoQYmlsbGFibGVGdW5jdGlv",
+            "bhgBIAEoDjIdLnNlbnNvcnkuYXBpLmNvbW1vbi5Nb2RlbFR5cGUSDQoFdW5p",
+            "dHMYAiABKAkSDQoFdmFsdWUYAyABKAMSDQoFY291bnQYBCABKAMSDwoHY3Jl",
+            "ZGl0cxgFIAEoASIcChpQdWJsaXNoVXNhZ2VFdmVudHNSZXNwb25zZTLrAgoM",
+            "RXZlbnRTZXJ2aWNlEnkKElB1Ymxpc2hVc2FnZUV2ZW50cxIvLnNlbnNvcnku",
+            "YXBpLnYxLmV2ZW50LlB1Ymxpc2hVc2FnZUV2ZW50c1JlcXVlc3QaMC5zZW5z",
+            "b3J5LmFwaS52MS5ldmVudC5QdWJsaXNoVXNhZ2VFdmVudHNSZXNwb25zZSIA",
+            "EnAKEUdldFVzYWdlRXZlbnRMaXN0Eisuc2Vuc29yeS5hcGkudjEuZXZlbnQu",
+            "VXNhZ2VFdmVudExpc3RSZXF1ZXN0Giwuc2Vuc29yeS5hcGkudjEuZXZlbnQu",
+            "VXNhZ2VFdmVudExpc3RSZXNwb25zZSIAEm4KFEdldFVzYWdlRXZlbnRTdW1t",
+            "YXJ5Eisuc2Vuc29yeS5hcGkudjEuZXZlbnQuVXNhZ2VFdmVudExpc3RSZXF1",
+            "ZXN0Gicuc2Vuc29yeS5hcGkudjEuZXZlbnQuVXNhZ2VFdmVudFN1bW1hcnki",
+            "AEJ0ChxhaS5zZW5zb3J5Y2xvdWQuYXBpLnYxLmV2ZW50QhZTZW5zb3J5QXBp",
+            "VjFFdmVudFByb3RvUAFaOmdpdGxhYi5jb20vc2Vuc29yeS1jbG91ZC9zZXJ2",
+            "ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvdjEvZXZlbnRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.PublishUsageEventsRequest), global::Sensory.Api.V1.Event.PublishUsageEventsRequest.Parser, new[]{ "Events" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEvent), global::Sensory.Api.V1.Event.UsageEvent.Parser, new[]{ "Timestamp", "Duration", "Id", "ClientId", "Type", "Route", "Technologies", "Models", "AudioDurationMs", "VideoFrameCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEvent), global::Sensory.Api.V1.Event.UsageEvent.Parser, new[]{ "Timestamp", "Duration", "Id", "ClientId", "Type", "Route", "Technologies", "Models", "AudioDurationMs", "VideoFrameCount", "TenantId", "BillableFunction" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEventResponse), global::Sensory.Api.V1.Event.UsageEventResponse.Parser, new[]{ "Timestamp", "Duration", "Id", "ClientId", "Type", "Route", "Technologies", "Models", "BillableValue", "BillableUnits", "TenantId", "BillableFunction", "Credits" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEventListRequest), global::Sensory.Api.V1.Event.UsageEventListRequest.Parser, new[]{ "TenantId", "Pagination", "After", "Before", "BillableFunctions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEventListResponse), global::Sensory.Api.V1.Event.UsageEventListResponse.Parser, new[]{ "Events", "Pagination" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEventSummary), global::Sensory.Api.V1.Event.UsageEventSummary.Parser, new[]{ "Summaries" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.UsageEventModelSummary), global::Sensory.Api.V1.Event.UsageEventModelSummary.Parser, new[]{ "BillableFunction", "Units", "Value", "Count", "Credits" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Event.PublishUsageEventsResponse), global::Sensory.Api.V1.Event.PublishUsageEventsResponse.Parser, null, null, null, null, null)
           }));
     }
@@ -284,6 +319,8 @@ namespace Sensory.Api.V1.Event {
       models_ = other.models_.Clone();
       audioDurationMs_ = other.audioDurationMs_;
       videoFrameCount_ = other.videoFrameCount_;
+      tenantId_ = other.tenantId_;
+      billableFunction_ = other.billableFunction_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -441,6 +478,36 @@ namespace Sensory.Api.V1.Event {
       }
     }
 
+    /// <summary>Field number for the "tenantId" field.</summary>
+    public const int TenantIdFieldNumber = 11;
+    private string tenantId_ = "";
+    /// <summary>
+    /// Optional Tenant ID of the event. Used internally by Sensory multi-tenant servers
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TenantId {
+      get { return tenantId_; }
+      set {
+        tenantId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "billableFunction" field.</summary>
+    public const int BillableFunctionFieldNumber = 12;
+    private global::Sensory.Api.Common.ModelType billableFunction_ = global::Sensory.Api.Common.ModelType.Unknown;
+    /// <summary>
+    /// Billable function, if applicable
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.Common.ModelType BillableFunction {
+      get { return billableFunction_; }
+      set {
+        billableFunction_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -466,6 +533,8 @@ namespace Sensory.Api.V1.Event {
       if(!models_.Equals(other.models_)) return false;
       if (AudioDurationMs != other.AudioDurationMs) return false;
       if (VideoFrameCount != other.VideoFrameCount) return false;
+      if (TenantId != other.TenantId) return false;
+      if (BillableFunction != other.BillableFunction) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -483,6 +552,8 @@ namespace Sensory.Api.V1.Event {
       hash ^= models_.GetHashCode();
       if (AudioDurationMs != 0L) hash ^= AudioDurationMs.GetHashCode();
       if (VideoFrameCount != 0L) hash ^= VideoFrameCount.GetHashCode();
+      if (TenantId.Length != 0) hash ^= TenantId.GetHashCode();
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) hash ^= BillableFunction.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -535,6 +606,14 @@ namespace Sensory.Api.V1.Event {
         output.WriteRawTag(80);
         output.WriteInt64(VideoFrameCount);
       }
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(TenantId);
+      }
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        output.WriteRawTag(96);
+        output.WriteEnum((int) BillableFunction);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -579,6 +658,14 @@ namespace Sensory.Api.V1.Event {
         output.WriteRawTag(80);
         output.WriteInt64(VideoFrameCount);
       }
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(TenantId);
+      }
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        output.WriteRawTag(96);
+        output.WriteEnum((int) BillableFunction);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -614,6 +701,12 @@ namespace Sensory.Api.V1.Event {
       }
       if (VideoFrameCount != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(VideoFrameCount);
+      }
+      if (TenantId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TenantId);
+      }
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) BillableFunction);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -655,6 +748,12 @@ namespace Sensory.Api.V1.Event {
       }
       if (other.VideoFrameCount != 0L) {
         VideoFrameCount = other.VideoFrameCount;
+      }
+      if (other.TenantId.Length != 0) {
+        TenantId = other.TenantId;
+      }
+      if (other.BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        BillableFunction = other.BillableFunction;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -713,6 +812,14 @@ namespace Sensory.Api.V1.Event {
           }
           case 80: {
             VideoFrameCount = input.ReadInt64();
+            break;
+          }
+          case 90: {
+            TenantId = input.ReadString();
+            break;
+          }
+          case 96: {
+            BillableFunction = (global::Sensory.Api.Common.ModelType) input.ReadEnum();
             break;
           }
         }
@@ -774,6 +881,1808 @@ namespace Sensory.Api.V1.Event {
             VideoFrameCount = input.ReadInt64();
             break;
           }
+          case 90: {
+            TenantId = input.ReadString();
+            break;
+          }
+          case 96: {
+            BillableFunction = (global::Sensory.Api.Common.ModelType) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class UsageEventResponse : pb::IMessage<UsageEventResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UsageEventResponse> _parser = new pb::MessageParser<UsageEventResponse>(() => new UsageEventResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UsageEventResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Event.EventReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventResponse(UsageEventResponse other) : this() {
+      timestamp_ = other.timestamp_ != null ? other.timestamp_.Clone() : null;
+      duration_ = other.duration_;
+      id_ = other.id_;
+      clientId_ = other.clientId_;
+      type_ = other.type_;
+      route_ = other.route_;
+      technologies_ = other.technologies_.Clone();
+      models_ = other.models_.Clone();
+      billableValue_ = other.billableValue_;
+      billableUnits_ = other.billableUnits_;
+      tenantId_ = other.tenantId_;
+      billableFunction_ = other.billableFunction_;
+      credits_ = other.credits_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventResponse Clone() {
+      return new UsageEventResponse(this);
+    }
+
+    /// <summary>Field number for the "timestamp" field.</summary>
+    public const int TimestampFieldNumber = 1;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp timestamp_;
+    /// <summary>
+    /// The UTC timestamp
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp Timestamp {
+      get { return timestamp_; }
+      set {
+        timestamp_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "duration" field.</summary>
+    public const int DurationFieldNumber = 2;
+    private long duration_;
+    /// <summary>
+    /// The duration of the event in milliseconds
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long Duration {
+      get { return duration_; }
+      set {
+        duration_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 3;
+    private string id_ = "";
+    /// <summary>
+    /// UUID representing the unique event
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "clientId" field.</summary>
+    public const int ClientIdFieldNumber = 4;
+    private string clientId_ = "";
+    /// <summary>
+    /// OAuth ClientID related to the event
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ClientId {
+      get { return clientId_; }
+      set {
+        clientId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "type" field.</summary>
+    public const int TypeFieldNumber = 5;
+    private global::Sensory.Api.Common.UsageEventType type_ = global::Sensory.Api.Common.UsageEventType.Authentication;
+    /// <summary>
+    /// Type of event to create
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.Common.UsageEventType Type {
+      get { return type_; }
+      set {
+        type_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "route" field.</summary>
+    public const int RouteFieldNumber = 6;
+    private string route_ = "";
+    /// <summary>
+    /// The specific route (endpoint) that was accessed
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Route {
+      get { return route_; }
+      set {
+        route_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "technologies" field.</summary>
+    public const int TechnologiesFieldNumber = 7;
+    private static readonly pb::FieldCodec<global::Sensory.Api.Common.TechnologyType> _repeated_technologies_codec
+        = pb::FieldCodec.ForEnum(58, x => (int) x, x => (global::Sensory.Api.Common.TechnologyType) x);
+    private readonly pbc::RepeatedField<global::Sensory.Api.Common.TechnologyType> technologies_ = new pbc::RepeatedField<global::Sensory.Api.Common.TechnologyType>();
+    /// <summary>
+    /// The technologies that were used
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Sensory.Api.Common.TechnologyType> Technologies {
+      get { return technologies_; }
+    }
+
+    /// <summary>Field number for the "models" field.</summary>
+    public const int ModelsFieldNumber = 8;
+    private static readonly pb::FieldCodec<string> _repeated_models_codec
+        = pb::FieldCodec.ForString(66);
+    private readonly pbc::RepeatedField<string> models_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// The models that were used
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> Models {
+      get { return models_; }
+    }
+
+    /// <summary>Field number for the "billableValue" field.</summary>
+    public const int BillableValueFieldNumber = 9;
+    private long billableValue_;
+    /// <summary>
+    /// The value that is billed for this event
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long BillableValue {
+      get { return billableValue_; }
+      set {
+        billableValue_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "billableUnits" field.</summary>
+    public const int BillableUnitsFieldNumber = 10;
+    private string billableUnits_ = "";
+    /// <summary>
+    /// The units of this billed event
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string BillableUnits {
+      get { return billableUnits_; }
+      set {
+        billableUnits_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "tenantId" field.</summary>
+    public const int TenantIdFieldNumber = 11;
+    private string tenantId_ = "";
+    /// <summary>
+    /// Optional Tenant ID of the event. Used internally by Sensory multi-tenant servers
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TenantId {
+      get { return tenantId_; }
+      set {
+        tenantId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "billableFunction" field.</summary>
+    public const int BillableFunctionFieldNumber = 12;
+    private global::Sensory.Api.Common.ModelType billableFunction_ = global::Sensory.Api.Common.ModelType.Unknown;
+    /// <summary>
+    /// Billable function, if applicable
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.Common.ModelType BillableFunction {
+      get { return billableFunction_; }
+      set {
+        billableFunction_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "credits" field.</summary>
+    public const int CreditsFieldNumber = 13;
+    private double credits_;
+    /// <summary>
+    /// Credits used by this event
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public double Credits {
+      get { return credits_; }
+      set {
+        credits_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UsageEventResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UsageEventResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Timestamp, other.Timestamp)) return false;
+      if (Duration != other.Duration) return false;
+      if (Id != other.Id) return false;
+      if (ClientId != other.ClientId) return false;
+      if (Type != other.Type) return false;
+      if (Route != other.Route) return false;
+      if(!technologies_.Equals(other.technologies_)) return false;
+      if(!models_.Equals(other.models_)) return false;
+      if (BillableValue != other.BillableValue) return false;
+      if (BillableUnits != other.BillableUnits) return false;
+      if (TenantId != other.TenantId) return false;
+      if (BillableFunction != other.BillableFunction) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Credits, other.Credits)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (timestamp_ != null) hash ^= Timestamp.GetHashCode();
+      if (Duration != 0L) hash ^= Duration.GetHashCode();
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
+      if (ClientId.Length != 0) hash ^= ClientId.GetHashCode();
+      if (Type != global::Sensory.Api.Common.UsageEventType.Authentication) hash ^= Type.GetHashCode();
+      if (Route.Length != 0) hash ^= Route.GetHashCode();
+      hash ^= technologies_.GetHashCode();
+      hash ^= models_.GetHashCode();
+      if (BillableValue != 0L) hash ^= BillableValue.GetHashCode();
+      if (BillableUnits.Length != 0) hash ^= BillableUnits.GetHashCode();
+      if (TenantId.Length != 0) hash ^= TenantId.GetHashCode();
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) hash ^= BillableFunction.GetHashCode();
+      if (Credits != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Credits);
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (timestamp_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Timestamp);
+      }
+      if (Duration != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(Duration);
+      }
+      if (Id.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Id);
+      }
+      if (ClientId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(ClientId);
+      }
+      if (Type != global::Sensory.Api.Common.UsageEventType.Authentication) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) Type);
+      }
+      if (Route.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Route);
+      }
+      technologies_.WriteTo(output, _repeated_technologies_codec);
+      models_.WriteTo(output, _repeated_models_codec);
+      if (BillableValue != 0L) {
+        output.WriteRawTag(72);
+        output.WriteInt64(BillableValue);
+      }
+      if (BillableUnits.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(BillableUnits);
+      }
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(TenantId);
+      }
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        output.WriteRawTag(96);
+        output.WriteEnum((int) BillableFunction);
+      }
+      if (Credits != 0D) {
+        output.WriteRawTag(105);
+        output.WriteDouble(Credits);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (timestamp_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Timestamp);
+      }
+      if (Duration != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(Duration);
+      }
+      if (Id.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Id);
+      }
+      if (ClientId.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(ClientId);
+      }
+      if (Type != global::Sensory.Api.Common.UsageEventType.Authentication) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) Type);
+      }
+      if (Route.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(Route);
+      }
+      technologies_.WriteTo(ref output, _repeated_technologies_codec);
+      models_.WriteTo(ref output, _repeated_models_codec);
+      if (BillableValue != 0L) {
+        output.WriteRawTag(72);
+        output.WriteInt64(BillableValue);
+      }
+      if (BillableUnits.Length != 0) {
+        output.WriteRawTag(82);
+        output.WriteString(BillableUnits);
+      }
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(TenantId);
+      }
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        output.WriteRawTag(96);
+        output.WriteEnum((int) BillableFunction);
+      }
+      if (Credits != 0D) {
+        output.WriteRawTag(105);
+        output.WriteDouble(Credits);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (timestamp_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Timestamp);
+      }
+      if (Duration != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Duration);
+      }
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
+      if (ClientId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientId);
+      }
+      if (Type != global::Sensory.Api.Common.UsageEventType.Authentication) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
+      }
+      if (Route.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Route);
+      }
+      size += technologies_.CalculateSize(_repeated_technologies_codec);
+      size += models_.CalculateSize(_repeated_models_codec);
+      if (BillableValue != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(BillableValue);
+      }
+      if (BillableUnits.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(BillableUnits);
+      }
+      if (TenantId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TenantId);
+      }
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) BillableFunction);
+      }
+      if (Credits != 0D) {
+        size += 1 + 8;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UsageEventResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.timestamp_ != null) {
+        if (timestamp_ == null) {
+          Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        Timestamp.MergeFrom(other.Timestamp);
+      }
+      if (other.Duration != 0L) {
+        Duration = other.Duration;
+      }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
+      }
+      if (other.ClientId.Length != 0) {
+        ClientId = other.ClientId;
+      }
+      if (other.Type != global::Sensory.Api.Common.UsageEventType.Authentication) {
+        Type = other.Type;
+      }
+      if (other.Route.Length != 0) {
+        Route = other.Route;
+      }
+      technologies_.Add(other.technologies_);
+      models_.Add(other.models_);
+      if (other.BillableValue != 0L) {
+        BillableValue = other.BillableValue;
+      }
+      if (other.BillableUnits.Length != 0) {
+        BillableUnits = other.BillableUnits;
+      }
+      if (other.TenantId.Length != 0) {
+        TenantId = other.TenantId;
+      }
+      if (other.BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        BillableFunction = other.BillableFunction;
+      }
+      if (other.Credits != 0D) {
+        Credits = other.Credits;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (timestamp_ == null) {
+              Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Timestamp);
+            break;
+          }
+          case 16: {
+            Duration = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            Id = input.ReadString();
+            break;
+          }
+          case 34: {
+            ClientId = input.ReadString();
+            break;
+          }
+          case 40: {
+            Type = (global::Sensory.Api.Common.UsageEventType) input.ReadEnum();
+            break;
+          }
+          case 50: {
+            Route = input.ReadString();
+            break;
+          }
+          case 58:
+          case 56: {
+            technologies_.AddEntriesFrom(input, _repeated_technologies_codec);
+            break;
+          }
+          case 66: {
+            models_.AddEntriesFrom(input, _repeated_models_codec);
+            break;
+          }
+          case 72: {
+            BillableValue = input.ReadInt64();
+            break;
+          }
+          case 82: {
+            BillableUnits = input.ReadString();
+            break;
+          }
+          case 90: {
+            TenantId = input.ReadString();
+            break;
+          }
+          case 96: {
+            BillableFunction = (global::Sensory.Api.Common.ModelType) input.ReadEnum();
+            break;
+          }
+          case 105: {
+            Credits = input.ReadDouble();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (timestamp_ == null) {
+              Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Timestamp);
+            break;
+          }
+          case 16: {
+            Duration = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            Id = input.ReadString();
+            break;
+          }
+          case 34: {
+            ClientId = input.ReadString();
+            break;
+          }
+          case 40: {
+            Type = (global::Sensory.Api.Common.UsageEventType) input.ReadEnum();
+            break;
+          }
+          case 50: {
+            Route = input.ReadString();
+            break;
+          }
+          case 58:
+          case 56: {
+            technologies_.AddEntriesFrom(ref input, _repeated_technologies_codec);
+            break;
+          }
+          case 66: {
+            models_.AddEntriesFrom(ref input, _repeated_models_codec);
+            break;
+          }
+          case 72: {
+            BillableValue = input.ReadInt64();
+            break;
+          }
+          case 82: {
+            BillableUnits = input.ReadString();
+            break;
+          }
+          case 90: {
+            TenantId = input.ReadString();
+            break;
+          }
+          case 96: {
+            BillableFunction = (global::Sensory.Api.Common.ModelType) input.ReadEnum();
+            break;
+          }
+          case 105: {
+            Credits = input.ReadDouble();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class UsageEventListRequest : pb::IMessage<UsageEventListRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UsageEventListRequest> _parser = new pb::MessageParser<UsageEventListRequest>(() => new UsageEventListRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UsageEventListRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Event.EventReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventListRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventListRequest(UsageEventListRequest other) : this() {
+      tenantId_ = other.tenantId_;
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      after_ = other.after_ != null ? other.after_.Clone() : null;
+      before_ = other.before_ != null ? other.before_.Clone() : null;
+      billableFunctions_ = other.billableFunctions_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventListRequest Clone() {
+      return new UsageEventListRequest(this);
+    }
+
+    /// <summary>Field number for the "tenantId" field.</summary>
+    public const int TenantIdFieldNumber = 1;
+    private string tenantId_ = "";
+    /// <summary>
+    /// Optional tenantId which must be a UUID. If this UUID is omitted, it will be inferred from the requestor.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TenantId {
+      get { return tenantId_; }
+      set {
+        tenantId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Sensory.Api.Common.PaginationOptions pagination_;
+    /// <summary>
+    /// Metadata about how to paginate the response
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.Common.PaginationOptions Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "after" field.</summary>
+    public const int AfterFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp after_;
+    /// <summary>
+    /// Optional Start UTC timestamp. Internally this timestamp is rounded to the nearest second.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp After {
+      get { return after_; }
+      set {
+        after_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "before" field.</summary>
+    public const int BeforeFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp before_;
+    /// <summary>
+    /// Optional End UTC timestamp. Internally this timestamp is rounded to the nearest second.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp Before {
+      get { return before_; }
+      set {
+        before_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "billableFunctions" field.</summary>
+    public const int BillableFunctionsFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::Sensory.Api.Common.ModelType> _repeated_billableFunctions_codec
+        = pb::FieldCodec.ForEnum(42, x => (int) x, x => (global::Sensory.Api.Common.ModelType) x);
+    private readonly pbc::RepeatedField<global::Sensory.Api.Common.ModelType> billableFunctions_ = new pbc::RepeatedField<global::Sensory.Api.Common.ModelType>();
+    /// <summary>
+    /// Type of event to filter on
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Sensory.Api.Common.ModelType> BillableFunctions {
+      get { return billableFunctions_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UsageEventListRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UsageEventListRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TenantId != other.TenantId) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      if (!object.Equals(After, other.After)) return false;
+      if (!object.Equals(Before, other.Before)) return false;
+      if(!billableFunctions_.Equals(other.billableFunctions_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TenantId.Length != 0) hash ^= TenantId.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (after_ != null) hash ^= After.GetHashCode();
+      if (before_ != null) hash ^= Before.GetHashCode();
+      hash ^= billableFunctions_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TenantId);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (after_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(After);
+      }
+      if (before_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Before);
+      }
+      billableFunctions_.WriteTo(output, _repeated_billableFunctions_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (TenantId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(TenantId);
+      }
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (after_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(After);
+      }
+      if (before_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Before);
+      }
+      billableFunctions_.WriteTo(ref output, _repeated_billableFunctions_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (TenantId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TenantId);
+      }
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (after_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(After);
+      }
+      if (before_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Before);
+      }
+      size += billableFunctions_.CalculateSize(_repeated_billableFunctions_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UsageEventListRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TenantId.Length != 0) {
+        TenantId = other.TenantId;
+      }
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Sensory.Api.Common.PaginationOptions();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      if (other.after_ != null) {
+        if (after_ == null) {
+          After = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        After.MergeFrom(other.After);
+      }
+      if (other.before_ != null) {
+        if (before_ == null) {
+          Before = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        Before.MergeFrom(other.Before);
+      }
+      billableFunctions_.Add(other.billableFunctions_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            TenantId = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Sensory.Api.Common.PaginationOptions();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+          case 26: {
+            if (after_ == null) {
+              After = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(After);
+            break;
+          }
+          case 34: {
+            if (before_ == null) {
+              Before = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Before);
+            break;
+          }
+          case 42:
+          case 40: {
+            billableFunctions_.AddEntriesFrom(input, _repeated_billableFunctions_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            TenantId = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Sensory.Api.Common.PaginationOptions();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+          case 26: {
+            if (after_ == null) {
+              After = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(After);
+            break;
+          }
+          case 34: {
+            if (before_ == null) {
+              Before = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Before);
+            break;
+          }
+          case 42:
+          case 40: {
+            billableFunctions_.AddEntriesFrom(ref input, _repeated_billableFunctions_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class UsageEventListResponse : pb::IMessage<UsageEventListResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UsageEventListResponse> _parser = new pb::MessageParser<UsageEventListResponse>(() => new UsageEventListResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UsageEventListResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Event.EventReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventListResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventListResponse(UsageEventListResponse other) : this() {
+      events_ = other.events_.Clone();
+      pagination_ = other.pagination_ != null ? other.pagination_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventListResponse Clone() {
+      return new UsageEventListResponse(this);
+    }
+
+    /// <summary>Field number for the "events" field.</summary>
+    public const int EventsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Sensory.Api.V1.Event.UsageEventResponse> _repeated_events_codec
+        = pb::FieldCodec.ForMessage(10, global::Sensory.Api.V1.Event.UsageEventResponse.Parser);
+    private readonly pbc::RepeatedField<global::Sensory.Api.V1.Event.UsageEventResponse> events_ = new pbc::RepeatedField<global::Sensory.Api.V1.Event.UsageEventResponse>();
+    /// <summary>
+    /// A list of usage events
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Sensory.Api.V1.Event.UsageEventResponse> Events {
+      get { return events_; }
+    }
+
+    /// <summary>Field number for the "pagination" field.</summary>
+    public const int PaginationFieldNumber = 2;
+    private global::Sensory.Api.Common.PaginationResponse pagination_;
+    /// <summary>
+    /// Metadata about how the response has been paginated
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.Common.PaginationResponse Pagination {
+      get { return pagination_; }
+      set {
+        pagination_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UsageEventListResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UsageEventListResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!events_.Equals(other.events_)) return false;
+      if (!object.Equals(Pagination, other.Pagination)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= events_.GetHashCode();
+      if (pagination_ != null) hash ^= Pagination.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      events_.WriteTo(output, _repeated_events_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      events_.WriteTo(ref output, _repeated_events_codec);
+      if (pagination_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Pagination);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += events_.CalculateSize(_repeated_events_codec);
+      if (pagination_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pagination);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UsageEventListResponse other) {
+      if (other == null) {
+        return;
+      }
+      events_.Add(other.events_);
+      if (other.pagination_ != null) {
+        if (pagination_ == null) {
+          Pagination = new global::Sensory.Api.Common.PaginationResponse();
+        }
+        Pagination.MergeFrom(other.Pagination);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            events_.AddEntriesFrom(input, _repeated_events_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Sensory.Api.Common.PaginationResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            events_.AddEntriesFrom(ref input, _repeated_events_codec);
+            break;
+          }
+          case 18: {
+            if (pagination_ == null) {
+              Pagination = new global::Sensory.Api.Common.PaginationResponse();
+            }
+            input.ReadMessage(Pagination);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class UsageEventSummary : pb::IMessage<UsageEventSummary>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UsageEventSummary> _parser = new pb::MessageParser<UsageEventSummary>(() => new UsageEventSummary());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UsageEventSummary> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Event.EventReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventSummary() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventSummary(UsageEventSummary other) : this() {
+      summaries_ = other.summaries_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventSummary Clone() {
+      return new UsageEventSummary(this);
+    }
+
+    /// <summary>Field number for the "summaries" field.</summary>
+    public const int SummariesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Sensory.Api.V1.Event.UsageEventModelSummary> _repeated_summaries_codec
+        = pb::FieldCodec.ForMessage(10, global::Sensory.Api.V1.Event.UsageEventModelSummary.Parser);
+    private readonly pbc::RepeatedField<global::Sensory.Api.V1.Event.UsageEventModelSummary> summaries_ = new pbc::RepeatedField<global::Sensory.Api.V1.Event.UsageEventModelSummary>();
+    /// <summary>
+    /// List of summaries organized by type
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Sensory.Api.V1.Event.UsageEventModelSummary> Summaries {
+      get { return summaries_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UsageEventSummary);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UsageEventSummary other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!summaries_.Equals(other.summaries_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= summaries_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      summaries_.WriteTo(output, _repeated_summaries_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      summaries_.WriteTo(ref output, _repeated_summaries_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += summaries_.CalculateSize(_repeated_summaries_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UsageEventSummary other) {
+      if (other == null) {
+        return;
+      }
+      summaries_.Add(other.summaries_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            summaries_.AddEntriesFrom(input, _repeated_summaries_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            summaries_.AddEntriesFrom(ref input, _repeated_summaries_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class UsageEventModelSummary : pb::IMessage<UsageEventModelSummary>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<UsageEventModelSummary> _parser = new pb::MessageParser<UsageEventModelSummary>(() => new UsageEventModelSummary());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<UsageEventModelSummary> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.V1.Event.EventReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventModelSummary() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventModelSummary(UsageEventModelSummary other) : this() {
+      billableFunction_ = other.billableFunction_;
+      units_ = other.units_;
+      value_ = other.value_;
+      count_ = other.count_;
+      credits_ = other.credits_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public UsageEventModelSummary Clone() {
+      return new UsageEventModelSummary(this);
+    }
+
+    /// <summary>Field number for the "billableFunction" field.</summary>
+    public const int BillableFunctionFieldNumber = 1;
+    private global::Sensory.Api.Common.ModelType billableFunction_ = global::Sensory.Api.Common.ModelType.Unknown;
+    /// <summary>
+    /// Function of the model used
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Sensory.Api.Common.ModelType BillableFunction {
+      get { return billableFunction_; }
+      set {
+        billableFunction_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "units" field.</summary>
+    public const int UnitsFieldNumber = 2;
+    private string units_ = "";
+    /// <summary>
+    /// Units of measure for the summary value
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Units {
+      get { return units_; }
+      set {
+        units_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "value" field.</summary>
+    public const int ValueFieldNumber = 3;
+    private long value_;
+    /// <summary>
+    /// The value of the summary
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long Value {
+      get { return value_; }
+      set {
+        value_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "count" field.</summary>
+    public const int CountFieldNumber = 4;
+    private long count_;
+    /// <summary>
+    /// The number of events included in the summary
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long Count {
+      get { return count_; }
+      set {
+        count_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "credits" field.</summary>
+    public const int CreditsFieldNumber = 5;
+    private double credits_;
+    /// <summary>
+    /// Credits used by this event
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public double Credits {
+      get { return credits_; }
+      set {
+        credits_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as UsageEventModelSummary);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(UsageEventModelSummary other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (BillableFunction != other.BillableFunction) return false;
+      if (Units != other.Units) return false;
+      if (Value != other.Value) return false;
+      if (Count != other.Count) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Credits, other.Credits)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) hash ^= BillableFunction.GetHashCode();
+      if (Units.Length != 0) hash ^= Units.GetHashCode();
+      if (Value != 0L) hash ^= Value.GetHashCode();
+      if (Count != 0L) hash ^= Count.GetHashCode();
+      if (Credits != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Credits);
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) BillableFunction);
+      }
+      if (Units.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Units);
+      }
+      if (Value != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(Value);
+      }
+      if (Count != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(Count);
+      }
+      if (Credits != 0D) {
+        output.WriteRawTag(41);
+        output.WriteDouble(Credits);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) BillableFunction);
+      }
+      if (Units.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Units);
+      }
+      if (Value != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(Value);
+      }
+      if (Count != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(Count);
+      }
+      if (Credits != 0D) {
+        output.WriteRawTag(41);
+        output.WriteDouble(Credits);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) BillableFunction);
+      }
+      if (Units.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Units);
+      }
+      if (Value != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Value);
+      }
+      if (Count != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Count);
+      }
+      if (Credits != 0D) {
+        size += 1 + 8;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(UsageEventModelSummary other) {
+      if (other == null) {
+        return;
+      }
+      if (other.BillableFunction != global::Sensory.Api.Common.ModelType.Unknown) {
+        BillableFunction = other.BillableFunction;
+      }
+      if (other.Units.Length != 0) {
+        Units = other.Units;
+      }
+      if (other.Value != 0L) {
+        Value = other.Value;
+      }
+      if (other.Count != 0L) {
+        Count = other.Count;
+      }
+      if (other.Credits != 0D) {
+        Credits = other.Credits;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            BillableFunction = (global::Sensory.Api.Common.ModelType) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            Units = input.ReadString();
+            break;
+          }
+          case 24: {
+            Value = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            Count = input.ReadInt64();
+            break;
+          }
+          case 41: {
+            Credits = input.ReadDouble();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            BillableFunction = (global::Sensory.Api.Common.ModelType) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            Units = input.ReadString();
+            break;
+          }
+          case 24: {
+            Value = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            Count = input.ReadInt64();
+            break;
+          }
+          case 41: {
+            Credits = input.ReadDouble();
+            break;
+          }
         }
       }
     }
@@ -798,7 +2707,7 @@ namespace Sensory.Api.V1.Event {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Sensory.Api.V1.Event.EventReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Sensory.Api.V1.Event.EventReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

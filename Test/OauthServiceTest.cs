@@ -21,7 +21,7 @@ namespace Test.Services
             var deviceClient = new Mock<DeviceService.DeviceServiceClient>();
 
             OauthService oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = "doesnt-matter", ClientSecret = "doesnt-matter" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -44,7 +44,7 @@ namespace Test.Services
             deviceClient.Setup(client => client.GetWhoAmI(It.IsAny<DeviceGetWhoAmIRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
             OauthService oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = "doesnt-matter", ClientSecret = "doesnt-matter" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -61,7 +61,7 @@ namespace Test.Services
             var deviceClient = new Mock<DeviceService.DeviceServiceClient>();
 
             OauthService oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = null, ClientSecret = "doesnt-matter" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -71,7 +71,7 @@ namespace Test.Services
             }, "oauthService should throw an error if no clientId is found in secure storage");
 
             oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = "doesnt-matter", ClientSecret = "" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -91,7 +91,7 @@ namespace Test.Services
             oauthClient.Setup(client => client.GetToken(It.IsAny<Sensory.Api.Oauth.TokenRequest>(), null, null, CancellationToken.None)).Returns(tokenResponse);
 
             OauthService oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = "doesnt-matter", ClientSecret = "doesnt-matter" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -110,7 +110,7 @@ namespace Test.Services
             var credential = "at-all";
 
             OauthService oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = null, ClientSecret = "doesnt-matter" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -120,7 +120,7 @@ namespace Test.Services
             }, "oauthService should throw an error if no clientId is found in secure storage");
 
             oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = "doesnt-matter", ClientSecret = "" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -142,7 +142,7 @@ namespace Test.Services
             deviceClient.Setup(client => client.EnrollDevice(It.IsAny<EnrollDeviceRequest>(), null, null, CancellationToken.None)).Returns(response);
 
             OauthService oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = "doesnt-matter", ClientSecret = "doesnt-matter" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -165,7 +165,7 @@ namespace Test.Services
             deviceClient.Setup(client => client.RenewDeviceCredential(It.IsAny<RenewDeviceCredentialRequest>(), null, null, CancellationToken.None)).Returns(response);
 
             OauthService oauthService = new MockOauthService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 new MockSecureCredentialsStore { ClientId = "doesnt-matter", ClientSecret = "doesnt-matter" },
                 oauthClient.Object,
                 deviceClient.Object);
@@ -190,6 +190,12 @@ namespace Test.Services
         public string ClientId { get; set; }
         public string ClientSecret { get; set; }
 
+        public void ClearCredentials()
+        {
+            this.ClientId = null;
+            this.ClientSecret = null;
+        }
+
         public string GetClientId()
         {
             return ClientId;
@@ -198,6 +204,17 @@ namespace Test.Services
         public string GetClientSecret()
         {
             return ClientSecret;
+        }
+
+        public bool IsConfigured()
+        {
+            return this.ClientId != null;
+        }
+
+        public void SaveCredentials(OauthClient credentials)
+        {
+            this.ClientId = credentials.ClientId;
+            this.ClientSecret = credentials.ClientSecret;
         }
     }
 }

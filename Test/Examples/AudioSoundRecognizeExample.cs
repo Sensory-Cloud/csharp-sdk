@@ -12,11 +12,12 @@ using SensoryCloud.Src.TokenManager;
 using NUnit.Framework;
 
 using System.Collections.Generic;
+using SensoryCloud.Src.Initializer;
 
 namespace Test.Examples
 {
     [TestFixture]
-    public static class SensorsCallExample
+    public static class AudioSoundRecognizeExample
     {
         // First Run:
         // Pass 0 args on your very first run to register an OAuth client
@@ -27,20 +28,14 @@ namespace Test.Examples
         // Any Other Run Run:
         // Once you have OAuth credentials, you must pass three args to this function
         // arg0 - filePath to the 16000 wav file
-        // arg1 - clientId obtained from step 1
-        // arg2 - clientSecret obtained from step 2
         [Test]
         public static void TestMain()
         {
             // Should be replaced with string[] args 1, 2 and 3
             var filePath = "/Users/bryanmcgrane/Downloads/Sneeze.wav";
-            var clientId = "a2b3221c-f441-4685-9dd7-7746f43dd725";
+            var clientId = "a2b3221c-f441-4685-9dd7-7746f43dd728";
             var clientSecret = "yCq41TIEiisSkan1";
 
-            // First run
-            //TestMainAsync(new string[] {}).GetAwaiter().GetResult();
-
-            // Any run thereafter
             TestMainAsync(new string[] { filePath, clientId, clientSecret }).GetAwaiter().GetResult();
         }
 
@@ -51,43 +46,28 @@ namespace Test.Examples
             string sensoryTenantId = "8fb58cb8-c0aa-472c-800f-e14c0e3e8528";
             string deviceId = "globally-unique-hardware-identifier";
 
-            // Configuration specific to your tenant
-            Config config = new Config("sensorscall.cloud.sensory.com", sensoryTenantId, deviceId).Connect();
+            // Create a secure crendetial manager and OAuth service
+            SecureCredentialStoreExample credentialStore = new SecureCredentialStoreExample();
+
+            var initializer = new Initializer(credentialStore);
+            Config config =  initializer.Initialize(new SDKInitConfig
+            {
+                FullyQualifiedDomainName = "",
+                IsConnectionSecure = true,
+                TenantId = "",
+                EnrollmentType = EnrollmentType.SharedSecret,
+                Credential = args[2],
+                DeviceId = deviceId,
+                DeviceName = "TestDevice"
+            });
 
             // Get Server Health
             HealthService healthService = new HealthService(config);
             ServerHealthResponse serverHealth = healthService.GetHealth();
             Console.WriteLine($"Server health determined: ${serverHealth}");
 
-            // Create a secure crendetial manager and OAuth service
-            SecureCredentialStoreExample credentialStore = new SecureCredentialStoreExample();
+            // Create a new OAuth Service
             IOauthService oAuthService = new OauthService(config, credentialStore);
-
-            // The very first time you reach out to the cloud, you must register your machine
-            if (args.Length == 0)
-            {
-                OauthClient client = oAuthService.GenerateCredentials();
-                credentialStore.ClientId = client.ClientId;
-                credentialStore.ClientSecret = client.ClientSecret;
-
-                string deviceName = "A friendly device name";
-                // TODO: set this value
-                string enrollCredential = "REPLACE_ME_WITH_CRENDENTIAL_FROM_SENSORY";
-
-                // This call should only be made once per unique device ID
-                oAuthService.Register(deviceName, enrollCredential);
-                Console.WriteLine($"Successfully registered OAuth client with clientId: {client.ClientId} and secret {client.ClientSecret}");
-                return;
-            }
-            else if (args.Length == 3)
-            {
-                credentialStore.ClientId = args[1];
-                credentialStore.ClientSecret = args[2];
-            }
-            else
-            {
-                throw new ArgumentException($"An invalid number of arguments were passed. Expected 1 or 3, recieved {args.Length}");
-            }
 
             var whoAmI = oAuthService.GetWhoAmI();
             Console.WriteLine($"OAuth Token successfully obtained for device: {whoAmI}");

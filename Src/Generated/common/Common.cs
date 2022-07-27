@@ -31,69 +31,74 @@ namespace Sensory.Api.Common {
             "b25UeXBlIlkKDVRva2VuUmVzcG9uc2USEwoLYWNjZXNzVG9rZW4YASABKAkS",
             "EQoJZXhwaXJlc0luGAIgASgFEg0KBWtleUlkGAMgASgJEhEKCXRva2VuVHlw",
             "ZRgEIAEoCSJBCg1TZXJ2aWNlSGVhbHRoEhEKCWlzSGVhbHRoeRgBIAEoCBIM",
-            "CgRuYW1lGAIgASgJEg8KB21lc3NhZ2UYAyABKAkitQEKFFNlcnZlckhlYWx0",
+            "CgRuYW1lGAIgASgJEg8KB21lc3NhZ2UYAyABKAkixwEKFFNlcnZlckhlYWx0",
             "aFJlc3BvbnNlEhEKCWlzSGVhbHRoeRgBIAEoCBIVCg1zZXJ2ZXJWZXJzaW9u",
             "GAIgASgJEgoKAmlkGAMgASgJEjMKCHNlcnZpY2VzGAQgAygLMiEuc2Vuc29y",
             "eS5hcGkuY29tbW9uLlNlcnZpY2VIZWFsdGgSMgoKc2VydmVyVHlwZRgFIAEo",
-            "DjIeLnNlbnNvcnkuYXBpLmNvbW1vbi5TZXJ2ZXJUeXBlIoMBCg1TeXN0ZW1T",
-            "dW1tYXJ5EjUKA2NwdRgBIAEoCzIeLnNlbnNvcnkuYXBpLmNvbW1vbi5DcHVT",
-            "dW1tYXJ5Qgj6QgWKAQIQARI7CgZtZW1vcnkYAiABKAsyIS5zZW5zb3J5LmFw",
-            "aS5jb21tb24uTWVtb3J5U3VtbWFyeUII+kIFigECEAEipQEKCkNwdVN1bW1h",
-            "cnkSDAoEdXNlchgBIAEoBBIMCgRuaWNlGAIgASgEEg4KBnN5c3RlbRgDIAEo",
-            "BBIMCgRpZGxlGAQgASgEEg4KBmlvV2FpdBgFIAEoBBILCgNpcnEYBiABKAQS",
-            "DwoHc29mdElycRgHIAEoBBINCgVzdGVhbBgIIAEoBBINCgVndWVzdBgJIAEo",
-            "BBIRCglndWVzdE5pY2UYCiABKAQiSAoNTWVtb3J5U3VtbWFyeRIQCghtZW1U",
-            "b3RhbBgBIAEoBBIPCgdtZW1GcmVlGAIgASgEEhQKDG1lbUF2YWlsYWJsZRgD",
-            "IAEoBCJECg1HZW5lcmljQ2xpZW50EhoKCGNsaWVudElkGAEgASgJQgj6QgVy",
-            "A7ABARIXCgZzZWNyZXQYAiABKAlCB/pCBHICEAoiiAEKDlRlbmFudFJlc3Bv",
-            "bnNlEgoKAmlkGAEgASgJEgwKBG5hbWUYAiABKAkSLQoJY3JlYXRlZEF0GAMg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBItCgl1cGRhdGVkQXQY",
-            "BCABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wIl0KEVBhZ2luYXRp",
-            "b25PcHRpb25zEhAKCG9yZGVyaW5nGAEgASgJEhEKCWRlY2VuZGluZxgCIAEo",
-            "CBIRCglwYWdlSW5kZXgYAyABKAUSEAoIcGFnZVNpemUYBCABKAUiwgEKElBh",
-            "Z2luYXRpb25SZXNwb25zZRIQCghvcmRlcmluZxgBIAEoCRIRCglkZWNlbmRp",
-            "bmcYAiABKAgSGQoRcG9zc2libGVPcmRlcmluZ3MYAyADKAkSEgoKdG90YWxD",
-            "b3VudBgEIAEoAxIQCghwYWdlU2l6ZRgFIAEoBRIVCg1wcmV2UGFnZUluZGV4",
-            "GAYgASgFEhgKEGN1cnJlbnRQYWdlSW5kZXgYByABKAUSFQoNbmV4dFBhZ2VJ",
-            "bmRleBgIIAEoBSoWCgRWb2lkEg4KClZPSURfVkFMVUUQACpRCgdLZXlUeXBl",
-            "Eg4KClBVQkxJQ19LRVkQABIWChJQVUJMSUNfS0VZX0VEMjU1MTkQARIRCg1T",
-            "SEFSRURfU0VDUkVUEAMSCwoHQUVTXzI1NhAEKjQKC0ZlYXR1cmVGbGFnEgwK",
-            "CFRTU1ZfQUxMEAASCgoGVFNfQUxMEAESCwoHVE5MX0FMTBACKpAECglNb2Rl",
-            "bFR5cGUSIgoeVk9JQ0VfQklPTUVUUklDX1RFWFRfREVQRU5ERU5UEAASJAog",
-            "Vk9JQ0VfQklPTUVUUklDX1RFWFRfSU5ERVBFTkRFTlQQARIcChhWT0lDRV9C",
-            "SU9NRVRSSUNfV0FLRVdPUkQQAhIYChRWT0lDRV9FVkVOVF9XQUtFV09SRBAD",
-            "EhwKGFZPSUNFX1RSQU5TQ1JJQkVfR1JBTU1BUhAEEicKI1ZPSUNFX1RSQU5T",
-            "Q1JJQkVfQ09NTUFORF9BTkRfU0VBUkNIEAUSKAokVk9JQ0VfUkVDT0dOSVRJ",
-            "T05fQUNUSVZJVFlfREVURUNUSU9OEAYSGwoXVk9JQ0VfRkVBVFVSRV9FWFRS",
-            "QUNUT1IQBxIiCh5WT0lDRV9CSU9NRVRSSUNfTElWRU5FU1NfRElHSVQQCBIa",
-            "ChZTT1VORF9FVkVOVF9FTlJPTExBQkxFEGQSHAoYU09VTkRfRVZFTlRfUkVW",
-            "QUxJREFUSU9OEGUSFQoRU09VTkRfRVZFTlRfRklYRUQQZhIVChFTT1VORF9T",
-            "Q0VORV9GSVhFRBBnEhMKDkZBQ0VfQklPTUVUUklDEMkBEhUKEEZBQ0VfUkVD",
-            "T0dOSVRJT04QygESFwoST0JKRUNUX1JFQ09HTklUSU9OEMsBEhQKD0lNQUdF",
-            "X1RSQU5TRk9STRDMARIMCgdVTktOT1dOEOgHKkEKDlRlY2hub2xvZ3lUeXBl",
-            "EgsKB05PVF9TRVQQABIICgRUU1NWEAESBgoCVFMQAhIHCgNUTkwQAxIHCgNT",
-            "VFQQBComCg9Db21wcmVzc2lvblR5cGUSEwoPSU1BR0VfR1JBWVNDQUxFEAAq",
-            "OQoKQ2xpZW50VHlwZRIICgRST09UEAASCgoGREVWSUNFEAESCwoHQ0xVU1RF",
-            "UhACEggKBFVTRVIQAypFCg5Vc2FnZUV2ZW50VHlwZRISCg5BVVRIRU5USUNB",
-            "VElPThAAEg8KC1JFQ09HTklUSU9OEAESDgoKRU5ST0xMTUVOVBACKh8KClNl",
-            "cnZlclR5cGUSCQoFVElUQU4QABIGCgJJTxABQm8KGmFpLnNlbnNvcnljbG91",
-            "ZC5hcGkuY29tbW9uQhVTZW5zb3J5QXBpQ29tbW9uUHJvdG9QAVo4Z2l0bGFi",
-            "LmNvbS9zZW5zb3J5LWNsb3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS9j",
-            "b21tb25iBnByb3RvMw=="));
+            "DjIeLnNlbnNvcnkuYXBpLmNvbW1vbi5TZXJ2ZXJUeXBlEhAKCGlzTGVhZGVy",
+            "GAYgASgIIoMBCg1TeXN0ZW1TdW1tYXJ5EjUKA2NwdRgBIAEoCzIeLnNlbnNv",
+            "cnkuYXBpLmNvbW1vbi5DcHVTdW1tYXJ5Qgj6QgWKAQIQARI7CgZtZW1vcnkY",
+            "AiABKAsyIS5zZW5zb3J5LmFwaS5jb21tb24uTWVtb3J5U3VtbWFyeUII+kIF",
+            "igECEAEipQEKCkNwdVN1bW1hcnkSDAoEdXNlchgBIAEoBBIMCgRuaWNlGAIg",
+            "ASgEEg4KBnN5c3RlbRgDIAEoBBIMCgRpZGxlGAQgASgEEg4KBmlvV2FpdBgF",
+            "IAEoBBILCgNpcnEYBiABKAQSDwoHc29mdElycRgHIAEoBBINCgVzdGVhbBgI",
+            "IAEoBBINCgVndWVzdBgJIAEoBBIRCglndWVzdE5pY2UYCiABKAQiSAoNTWVt",
+            "b3J5U3VtbWFyeRIQCghtZW1Ub3RhbBgBIAEoBBIPCgdtZW1GcmVlGAIgASgE",
+            "EhQKDG1lbUF2YWlsYWJsZRgDIAEoBCJECg1HZW5lcmljQ2xpZW50EhoKCGNs",
+            "aWVudElkGAEgASgJQgj6QgVyA7ABARIXCgZzZWNyZXQYAiABKAlCB/pCBHIC",
+            "EAoiiAEKDlRlbmFudFJlc3BvbnNlEgoKAmlkGAEgASgJEgwKBG5hbWUYAiAB",
+            "KAkSLQoJY3JlYXRlZEF0GAMgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
+            "dGFtcBItCgl1cGRhdGVkQXQYBCABKAsyGi5nb29nbGUucHJvdG9idWYuVGlt",
+            "ZXN0YW1wIl0KEVBhZ2luYXRpb25PcHRpb25zEhAKCG9yZGVyaW5nGAEgASgJ",
+            "EhEKCWRlY2VuZGluZxgCIAEoCBIRCglwYWdlSW5kZXgYAyABKAUSEAoIcGFn",
+            "ZVNpemUYBCABKAUiwgEKElBhZ2luYXRpb25SZXNwb25zZRIQCghvcmRlcmlu",
+            "ZxgBIAEoCRIRCglkZWNlbmRpbmcYAiABKAgSGQoRcG9zc2libGVPcmRlcmlu",
+            "Z3MYAyADKAkSEgoKdG90YWxDb3VudBgEIAEoAxIQCghwYWdlU2l6ZRgFIAEo",
+            "BRIVCg1wcmV2UGFnZUluZGV4GAYgASgFEhgKEGN1cnJlbnRQYWdlSW5kZXgY",
+            "ByABKAUSFQoNbmV4dFBhZ2VJbmRleBgIIAEoBSI0Cg9FbnJvbGxtZW50VG9r",
+            "ZW4SDQoFdG9rZW4YASABKAwSEgoKZXhwaXJhdGlvbhgCIAEoAyoWCgRWb2lk",
+            "Eg4KClZPSURfVkFMVUUQACpRCgdLZXlUeXBlEg4KClBVQkxJQ19LRVkQABIW",
+            "ChJQVUJMSUNfS0VZX0VEMjU1MTkQARIRCg1TSEFSRURfU0VDUkVUEAMSCwoH",
+            "QUVTXzI1NhAEKjQKC0ZlYXR1cmVGbGFnEgwKCFRTU1ZfQUxMEAASCgoGVFNf",
+            "QUxMEAESCwoHVE5MX0FMTBACKqQECglNb2RlbFR5cGUSCwoHVU5LTk9XThAA",
+            "EiQKIFZPSUNFX0JJT01FVFJJQ19URVhUX0lOREVQRU5ERU5UEAESHAoYVk9J",
+            "Q0VfQklPTUVUUklDX1dBS0VXT1JEEAISGAoUVk9JQ0VfRVZFTlRfV0FLRVdP",
+            "UkQQAxIcChhWT0lDRV9UUkFOU0NSSUJFX0dSQU1NQVIQBBInCiNWT0lDRV9U",
+            "UkFOU0NSSUJFX0NPTU1BTkRfQU5EX1NFQVJDSBAFEigKJFZPSUNFX1JFQ09H",
+            "TklUSU9OX0FDVElWSVRZX0RFVEVDVElPThAGEhsKF1ZPSUNFX0ZFQVRVUkVf",
+            "RVhUUkFDVE9SEAcSIgoeVk9JQ0VfQklPTUVUUklDX0xJVkVORVNTX0RJR0lU",
+            "EAgSIgoeVk9JQ0VfQklPTUVUUklDX1RFWFRfREVQRU5ERU5UEAkSEwoPVk9J",
+            "Q0VfU1lOVEhFU0lTEAoSGgoWU09VTkRfRVZFTlRfRU5ST0xMQUJMRRBkEhwK",
+            "GFNPVU5EX0VWRU5UX1JFVkFMSURBVElPThBlEhUKEVNPVU5EX0VWRU5UX0ZJ",
+            "WEVEEGYSFQoRU09VTkRfU0NFTkVfRklYRUQQZxITCg5GQUNFX0JJT01FVFJJ",
+            "QxDJARIVChBGQUNFX1JFQ09HTklUSU9OEMoBEhcKEk9CSkVDVF9SRUNPR05J",
+            "VElPThDLARIUCg9JTUFHRV9UUkFOU0ZPUk0QzAEqSgoOVGVjaG5vbG9neVR5",
+            "cGUSCwoHTk9UX1NFVBAAEggKBFRTU1YQARIGCgJUUxACEgcKA1ROTBADEgcK",
+            "A1NUVBAEEgcKA1RUUxAFKiYKD0NvbXByZXNzaW9uVHlwZRITCg9JTUFHRV9H",
+            "UkFZU0NBTEUQACpbCgpDbGllbnRUeXBlEggKBFJPT1QQABIKCgZERVZJQ0UQ",
+            "ARILCgdDTFVTVEVSEAISCAoEVVNFUhADEg4KClNVUEVSX1VTRVIQBBIQCgxC",
+            "SUxMSU5HX1VTRVIQBSpnCg5Vc2FnZUV2ZW50VHlwZRISCg5BVVRIRU5USUNB",
+            "VElPThAAEg8KC1JFQ09HTklUSU9OEAESDgoKRU5ST0xMTUVOVBACEg0KCVNZ",
+            "TlRIRVNJUxADEhEKDVRSQU5TQ1JJUFRJT04QBCofCgpTZXJ2ZXJUeXBlEgkK",
+            "BVRJVEFOEAASBgoCSU8QAUJvChphaS5zZW5zb3J5Y2xvdWQuYXBpLmNvbW1v",
+            "bkIVU2Vuc29yeUFwaUNvbW1vblByb3RvUAFaOGdpdGxhYi5jb20vc2Vuc29y",
+            "eS1jbG91ZC9zZXJ2ZXIvdGl0YW4uZ2l0L3BrZy9hcGkvY29tbW9uYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Validate.ValidateReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Sensory.Api.Common.Void), typeof(global::Sensory.Api.Common.KeyType), typeof(global::Sensory.Api.Common.FeatureFlag), typeof(global::Sensory.Api.Common.ModelType), typeof(global::Sensory.Api.Common.TechnologyType), typeof(global::Sensory.Api.Common.CompressionType), typeof(global::Sensory.Api.Common.ClientType), typeof(global::Sensory.Api.Common.UsageEventType), typeof(global::Sensory.Api.Common.ServerType), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.CompressionConfiguration), global::Sensory.Api.Common.CompressionConfiguration.Parser, new[]{ "Compressions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.TokenResponse), global::Sensory.Api.Common.TokenResponse.Parser, new[]{ "AccessToken", "ExpiresIn", "KeyId", "TokenType" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.ServiceHealth), global::Sensory.Api.Common.ServiceHealth.Parser, new[]{ "IsHealthy", "Name", "Message" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.ServerHealthResponse), global::Sensory.Api.Common.ServerHealthResponse.Parser, new[]{ "IsHealthy", "ServerVersion", "Id", "Services", "ServerType" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.ServerHealthResponse), global::Sensory.Api.Common.ServerHealthResponse.Parser, new[]{ "IsHealthy", "ServerVersion", "Id", "Services", "ServerType", "IsLeader" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.SystemSummary), global::Sensory.Api.Common.SystemSummary.Parser, new[]{ "Cpu", "Memory" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.CpuSummary), global::Sensory.Api.Common.CpuSummary.Parser, new[]{ "User", "Nice", "System", "Idle", "IoWait", "Irq", "SoftIrq", "Steal", "Guest", "GuestNice" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.MemorySummary), global::Sensory.Api.Common.MemorySummary.Parser, new[]{ "MemTotal", "MemFree", "MemAvailable" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.GenericClient), global::Sensory.Api.Common.GenericClient.Parser, new[]{ "ClientId", "Secret" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.TenantResponse), global::Sensory.Api.Common.TenantResponse.Parser, new[]{ "Id", "Name", "CreatedAt", "UpdatedAt" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.PaginationOptions), global::Sensory.Api.Common.PaginationOptions.Parser, new[]{ "Ordering", "Decending", "PageIndex", "PageSize" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.PaginationResponse), global::Sensory.Api.Common.PaginationResponse.Parser, new[]{ "Ordering", "Decending", "PossibleOrderings", "TotalCount", "PageSize", "PrevPageIndex", "CurrentPageIndex", "NextPageIndex" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.PaginationResponse), global::Sensory.Api.Common.PaginationResponse.Parser, new[]{ "Ordering", "Decending", "PossibleOrderings", "TotalCount", "PageSize", "PrevPageIndex", "CurrentPageIndex", "NextPageIndex" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.Common.EnrollmentToken), global::Sensory.Api.Common.EnrollmentToken.Parser, new[]{ "Token", "Expiration" }, null, null, null, null)
           }));
     }
     #endregion
@@ -159,9 +164,9 @@ namespace Sensory.Api.Common {
   /// </summary>
   public enum ModelType {
     /// <summary>
-    /// Voice Auth Text Dependent (Enrollable)
+    /// Unknown Model Type
     /// </summary>
-    [pbr::OriginalName("VOICE_BIOMETRIC_TEXT_DEPENDENT")] VoiceBiometricTextDependent = 0,
+    [pbr::OriginalName("UNKNOWN")] Unknown = 0,
     /// <summary>
     /// Voice Auth Text Independent (Enrollable)
     /// </summary>
@@ -195,6 +200,14 @@ namespace Sensory.Api.Common {
     /// </summary>
     [pbr::OriginalName("VOICE_BIOMETRIC_LIVENESS_DIGIT")] VoiceBiometricLivenessDigit = 8,
     /// <summary>
+    /// Voice Auth Text Dependent (Enrollable)
+    /// </summary>
+    [pbr::OriginalName("VOICE_BIOMETRIC_TEXT_DEPENDENT")] VoiceBiometricTextDependent = 9,
+    /// <summary>
+    /// Voice Synthesis
+    /// </summary>
+    [pbr::OriginalName("VOICE_SYNTHESIS")] VoiceSynthesis = 10,
+    /// <summary>
     /// Sound Event Auth (Enrollable)
     /// </summary>
     [pbr::OriginalName("SOUND_EVENT_ENROLLABLE")] SoundEventEnrollable = 100,
@@ -226,10 +239,6 @@ namespace Sensory.Api.Common {
     /// Image Transformation
     /// </summary>
     [pbr::OriginalName("IMAGE_TRANSFORM")] ImageTransform = 204,
-    /// <summary>
-    /// Unknown Model Type
-    /// </summary>
-    [pbr::OriginalName("UNKNOWN")] Unknown = 1000,
   }
 
   /// <summary>
@@ -256,6 +265,10 @@ namespace Sensory.Api.Common {
     /// Speech to Text, a large scale neural speech recognition tool
     /// </summary>
     [pbr::OriginalName("STT")] Stt = 4,
+    /// <summary>
+    /// Text to Speech, a voice synthesis tool
+    /// </summary>
+    [pbr::OriginalName("TTS")] Tts = 5,
   }
 
   /// <summary>
@@ -278,17 +291,25 @@ namespace Sensory.Api.Common {
     /// </summary>
     [pbr::OriginalName("ROOT")] Root = 0,
     /// <summary>
-    /// User End Device (E.G. Sensory SDK on Smartphone)
+    /// User End Device       (E.G. Sensory SDK on Smartphone)
     /// </summary>
     [pbr::OriginalName("DEVICE")] Device = 1,
     /// <summary>
-    /// Remote Cluster   (E.G. Customer-Deployed Io Cluster)
+    /// Remote Cluster        (E.G. Customer-Deployed Io Cluster)
     /// </summary>
     [pbr::OriginalName("CLUSTER")] Cluster = 2,
     /// <summary>
-    /// User Account    (E.G. Customer-Portal)
+    /// User Account          (E.G. Customer-Portal)
     /// </summary>
     [pbr::OriginalName("USER")] User = 3,
+    /// <summary>
+    /// Super User Account    (E.G. Admin)
+    /// </summary>
+    [pbr::OriginalName("SUPER_USER")] SuperUser = 4,
+    /// <summary>
+    /// Billing User Account   (E.G. CFO)
+    /// </summary>
+    [pbr::OriginalName("BILLING_USER")] BillingUser = 5,
   }
 
   /// <summary>
@@ -308,6 +329,14 @@ namespace Sensory.Api.Common {
     /// Enrollment usage event
     /// </summary>
     [pbr::OriginalName("ENROLLMENT")] Enrollment = 2,
+    /// <summary>
+    /// Synthesis usage event
+    /// </summary>
+    [pbr::OriginalName("SYNTHESIS")] Synthesis = 3,
+    /// <summary>
+    /// Speech to text usage event
+    /// </summary>
+    [pbr::OriginalName("TRANSCRIPTION")] Transcription = 4,
   }
 
   /// <summary>
@@ -1139,6 +1168,7 @@ namespace Sensory.Api.Common {
       id_ = other.id_;
       services_ = other.services_.Clone();
       serverType_ = other.serverType_;
+      isLeader_ = other.isLeader_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1222,6 +1252,18 @@ namespace Sensory.Api.Common {
       }
     }
 
+    /// <summary>Field number for the "isLeader" field.</summary>
+    public const int IsLeaderFieldNumber = 6;
+    private bool isLeader_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool IsLeader {
+      get { return isLeader_; }
+      set {
+        isLeader_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1242,6 +1284,7 @@ namespace Sensory.Api.Common {
       if (Id != other.Id) return false;
       if(!services_.Equals(other.services_)) return false;
       if (ServerType != other.ServerType) return false;
+      if (IsLeader != other.IsLeader) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1254,6 +1297,7 @@ namespace Sensory.Api.Common {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       hash ^= services_.GetHashCode();
       if (ServerType != global::Sensory.Api.Common.ServerType.Titan) hash ^= ServerType.GetHashCode();
+      if (IsLeader != false) hash ^= IsLeader.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1289,6 +1333,10 @@ namespace Sensory.Api.Common {
         output.WriteRawTag(40);
         output.WriteEnum((int) ServerType);
       }
+      if (IsLeader != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(IsLeader);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1316,6 +1364,10 @@ namespace Sensory.Api.Common {
         output.WriteRawTag(40);
         output.WriteEnum((int) ServerType);
       }
+      if (IsLeader != false) {
+        output.WriteRawTag(48);
+        output.WriteBool(IsLeader);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1338,6 +1390,9 @@ namespace Sensory.Api.Common {
       size += services_.CalculateSize(_repeated_services_codec);
       if (ServerType != global::Sensory.Api.Common.ServerType.Titan) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ServerType);
+      }
+      if (IsLeader != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1363,6 +1418,9 @@ namespace Sensory.Api.Common {
       services_.Add(other.services_);
       if (other.ServerType != global::Sensory.Api.Common.ServerType.Titan) {
         ServerType = other.ServerType;
+      }
+      if (other.IsLeader != false) {
+        IsLeader = other.IsLeader;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1399,6 +1457,10 @@ namespace Sensory.Api.Common {
             ServerType = (global::Sensory.Api.Common.ServerType) input.ReadEnum();
             break;
           }
+          case 48: {
+            IsLeader = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -1432,6 +1494,10 @@ namespace Sensory.Api.Common {
           }
           case 40: {
             ServerType = (global::Sensory.Api.Common.ServerType) input.ReadEnum();
+            break;
+          }
+          case 48: {
+            IsLeader = input.ReadBool();
             break;
           }
         }
@@ -3858,6 +3924,242 @@ namespace Sensory.Api.Common {
           }
           case 64: {
             NextPageIndex = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// A message with an encrypted enrollment token and a token expiration date
+  /// </summary>
+  public sealed partial class EnrollmentToken : pb::IMessage<EnrollmentToken>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<EnrollmentToken> _parser = new pb::MessageParser<EnrollmentToken>(() => new EnrollmentToken());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<EnrollmentToken> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Sensory.Api.Common.CommonReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EnrollmentToken() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EnrollmentToken(EnrollmentToken other) : this() {
+      token_ = other.token_;
+      expiration_ = other.expiration_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public EnrollmentToken Clone() {
+      return new EnrollmentToken(this);
+    }
+
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 1;
+    private pb::ByteString token_ = pb::ByteString.Empty;
+    /// <summary>
+    /// Encrypted token containing enrollment information
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "expiration" field.</summary>
+    public const int ExpirationFieldNumber = 2;
+    private long expiration_;
+    /// <summary>
+    /// The number of seconds until the enrollment token expires
+    /// An expiration of 0 means that the enrollment token never expires
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long Expiration {
+      get { return expiration_; }
+      set {
+        expiration_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as EnrollmentToken);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(EnrollmentToken other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Token != other.Token) return false;
+      if (Expiration != other.Expiration) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
+      if (Expiration != 0L) hash ^= Expiration.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Token.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(Token);
+      }
+      if (Expiration != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(Expiration);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Token.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(Token);
+      }
+      if (Expiration != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(Expiration);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Token);
+      }
+      if (Expiration != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Expiration);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(EnrollmentToken other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
+      }
+      if (other.Expiration != 0L) {
+        Expiration = other.Expiration;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Token = input.ReadBytes();
+            break;
+          }
+          case 16: {
+            Expiration = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Token = input.ReadBytes();
+            break;
+          }
+          case 16: {
+            Expiration = input.ReadInt64();
             break;
           }
         }

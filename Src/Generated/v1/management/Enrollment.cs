@@ -30,7 +30,7 @@ namespace Sensory.Api.V1.Management {
             "b3RvIjIKFUdldEVucm9sbG1lbnRzUmVxdWVzdBIZCgZ1c2VySWQYASABKAlC",
             "CfpCBnIEEAEYfyJ4ChZHZXRFbnJvbGxtZW50c1Jlc3BvbnNlEkIKC2Vucm9s",
             "bG1lbnRzGAEgAygLMi0uc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJv",
-            "bGxtZW50UmVzcG9uc2USGgoSaXNSZXF1ZXN0b3JUcnVzdGVkGAIgASgIIpsD",
+            "bGxtZW50UmVzcG9uc2USGgoSaXNSZXF1ZXN0b3JUcnVzdGVkGAIgASgIIrkD",
             "ChJFbnJvbGxtZW50UmVzcG9uc2USCgoCaWQYASABKAkSLQoJY3JlYXRlZEF0",
             "GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBItCgl1cGRhdGVk",
             "QXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhMKC2Rlc2Ny",
@@ -40,67 +40,67 @@ namespace Sensory.Api.V1.Management {
             "KAkSQQoLY29tcHJlc3Npb24YCiABKAsyLC5zZW5zb3J5LmFwaS5jb21tb24u",
             "Q29tcHJlc3Npb25Db25maWd1cmF0aW9uEhIKCmRldmljZU5hbWUYCyABKAkS",
             "HQoVZGlkRW5yb2xsV2l0aExpdmVuZXNzGAwgASgIEhMKC3JlZmVyZW5jZUlk",
-            "GA0gASgJImsKG0dldEVucm9sbG1lbnRHcm91cHNSZXNwb25zZRJMChBlbnJv",
-            "bGxtZW50R3JvdXBzGAEgAygLMjIuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVu",
-            "dC5FbnJvbGxtZW50R3JvdXBSZXNwb25zZSLVAgoXRW5yb2xsbWVudEdyb3Vw",
-            "UmVzcG9uc2USCgoCaWQYASABKAkSLQoJY3JlYXRlZEF0GAIgASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBItCgl1cGRhdGVkQXQYAyABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVz",
-            "Y3JpcHRpb24YBSABKAkSEQoJbW9kZWxOYW1lGAYgASgJEjAKCW1vZGVsVHlw",
-            "ZRgHIAEoDjIdLnNlbnNvcnkuYXBpLmNvbW1vbi5Nb2RlbFR5cGUSFAoMbW9k",
-            "ZWxWZXJzaW9uGAggASgJEg4KBnVzZXJJZBgJIAEoCRJCCgtlbnJvbGxtZW50",
-            "cxgKIAMoCzItLnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuRW5yb2xsbWVu",
-            "dFJlc3BvbnNlIr8BChxDcmVhdGVFbnJvbGxtZW50R3JvdXBSZXF1ZXN0EhUK",
-            "AmlkGAEgASgJQgn6QgZyBBABGH8SGAoEbmFtZRgCIAEoCUIK+kIHcgUQARj/",
-            "ARIdCgtkZXNjcmlwdGlvbhgDIAEoCUII+kIFcgMY/wcSHQoJbW9kZWxOYW1l",
-            "GAQgASgJQgr6QgdyBRABGP8BEhkKBnVzZXJJZBgFIAEoCUIJ+kIGcgQQARh/",
-            "EhUKDWVucm9sbG1lbnRJZHMYBiADKAkiUQocQXBwZW5kRW5yb2xsbWVudEdy",
-            "b3VwUmVxdWVzdBIaCgdncm91cElkGAEgASgJQgn6QgZyBBABGH8SFQoNZW5y",
-            "b2xsbWVudElkcxgCIAMoCSIvChdEZWxldGVFbnJvbGxtZW50UmVxdWVzdBIU",
-            "CgJpZBgBIAEoCUII+kIFcgOwAQEiNQocRGVsZXRlRW5yb2xsbWVudEdyb3Vw",
-            "UmVxdWVzdBIVCgJpZBgBIAEoCUIJ+kIGcgQQARh/Ik4KF1VwZGF0ZUVucm9s",
-            "bG1lbnRSZXF1ZXN0EhQKAmlkGAEgASgJQgj6QgVyA7ABARIdCgtkZXNjcmlw",
-            "dGlvbhgCIAEoCUII+kIFcgMY/wciTgocVXBkYXRlRW5yb2xsbWVudEdyb3Vw",
-            "UmVxdWVzdBIVCgJpZBgBIAEoCUIJ+kIGcgQQARh/EhcKBG5hbWUYAiABKAlC",
-            "CfpCBnIEEAEYfyJXChhSZW1vdmVFbnJvbGxtZW50c1JlcXVlc3QSGgoHZ3Jv",
-            "dXBJZBgBIAEoCUIJ+kIGcgQQARh/Eh8KDWVucm9sbG1lbnRJZHMYAiADKAlC",
-            "CPpCBZIBAggBMrAJChFFbnJvbGxtZW50U2VydmljZRJ3Cg5HZXRFbnJvbGxt",
-            "ZW50cxIwLnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuR2V0RW5yb2xsbWVu",
-            "dHNSZXF1ZXN0GjEuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5HZXRFbnJv",
-            "bGxtZW50c1Jlc3BvbnNlIgASgQEKE0dldEVucm9sbG1lbnRHcm91cHMSMC5z",
-            "ZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50LkdldEVucm9sbG1lbnRzUmVxdWVz",
-            "dBo2LnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuR2V0RW5yb2xsbWVudEdy",
-            "b3Vwc1Jlc3BvbnNlIgAShgEKFUNyZWF0ZUVucm9sbG1lbnRHcm91cBI3LnNl",
-            "bnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuQ3JlYXRlRW5yb2xsbWVudEdyb3Vw",
-            "UmVxdWVzdBoyLnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuRW5yb2xsbWVu",
-            "dEdyb3VwUmVzcG9uc2UiABKGAQoVQXBwZW5kRW5yb2xsbWVudEdyb3VwEjcu",
-            "c2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5BcHBlbmRFbnJvbGxtZW50R3Jv",
-            "dXBSZXF1ZXN0GjIuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxt",
-            "ZW50R3JvdXBSZXNwb25zZSIAEncKEERlbGV0ZUVucm9sbG1lbnQSMi5zZW5z",
-            "b3J5LmFwaS52MS5tYW5hZ2VtZW50LkRlbGV0ZUVucm9sbG1lbnRSZXF1ZXN0",
-            "Gi0uc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50UmVzcG9u",
-            "c2UiABKGAQoVRGVsZXRlRW5yb2xsbWVudEdyb3VwEjcuc2Vuc29yeS5hcGku",
-            "djEubWFuYWdlbWVudC5EZWxldGVFbnJvbGxtZW50R3JvdXBSZXF1ZXN0GjIu",
-            "c2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50R3JvdXBSZXNw",
-            "b25zZSIAEncKEFVwZGF0ZUVucm9sbG1lbnQSMi5zZW5zb3J5LmFwaS52MS5t",
-            "YW5hZ2VtZW50LlVwZGF0ZUVucm9sbG1lbnRSZXF1ZXN0Gi0uc2Vuc29yeS5h",
-            "cGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50UmVzcG9uc2UiABKGAQoVVXBk",
-            "YXRlRW5yb2xsbWVudEdyb3VwEjcuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVu",
-            "dC5VcGRhdGVFbnJvbGxtZW50R3JvdXBSZXF1ZXN0GjIuc2Vuc29yeS5hcGku",
-            "djEubWFuYWdlbWVudC5FbnJvbGxtZW50R3JvdXBSZXNwb25zZSIAEocBChpS",
-            "ZW1vdmVFbnJvbGxtZW50c0Zyb21Hcm91cBIzLnNlbnNvcnkuYXBpLnYxLm1h",
-            "bmFnZW1lbnQuUmVtb3ZlRW5yb2xsbWVudHNSZXF1ZXN0GjIuc2Vuc29yeS5h",
-            "cGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50R3JvdXBSZXNwb25zZSIAQo0B",
-            "CiFhaS5zZW5zb3J5Y2xvdWQuYXBpLnYxLm1hbmFnZW1lbnRCJVNlbnNvcnlB",
-            "cGlWMU1hbmFnZW1lbnRFbnJvbGxtZW50UHJvdG9QAVo/Z2l0bGFiLmNvbS9z",
-            "ZW5zb3J5LWNsb3VkL3NlcnZlci90aXRhbi5naXQvcGtnL2FwaS92MS9tYW5h",
-            "Z2VtZW50YgZwcm90bzM="));
+            "GA0gASgJEhwKFGRpZEVucm9sbEFzQmlvbWV0cmljGA4gASgIImsKG0dldEVu",
+            "cm9sbG1lbnRHcm91cHNSZXNwb25zZRJMChBlbnJvbGxtZW50R3JvdXBzGAEg",
+            "AygLMjIuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50R3Jv",
+            "dXBSZXNwb25zZSLVAgoXRW5yb2xsbWVudEdyb3VwUmVzcG9uc2USCgoCaWQY",
+            "ASABKAkSLQoJY3JlYXRlZEF0GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRp",
+            "bWVzdGFtcBItCgl1cGRhdGVkQXQYAyABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "VGltZXN0YW1wEgwKBG5hbWUYBCABKAkSEwoLZGVzY3JpcHRpb24YBSABKAkS",
+            "EQoJbW9kZWxOYW1lGAYgASgJEjAKCW1vZGVsVHlwZRgHIAEoDjIdLnNlbnNv",
+            "cnkuYXBpLmNvbW1vbi5Nb2RlbFR5cGUSFAoMbW9kZWxWZXJzaW9uGAggASgJ",
+            "Eg4KBnVzZXJJZBgJIAEoCRJCCgtlbnJvbGxtZW50cxgKIAMoCzItLnNlbnNv",
+            "cnkuYXBpLnYxLm1hbmFnZW1lbnQuRW5yb2xsbWVudFJlc3BvbnNlIr8BChxD",
+            "cmVhdGVFbnJvbGxtZW50R3JvdXBSZXF1ZXN0EhUKAmlkGAEgASgJQgn6QgZy",
+            "BBABGH8SGAoEbmFtZRgCIAEoCUIK+kIHcgUQARj/ARIdCgtkZXNjcmlwdGlv",
+            "bhgDIAEoCUII+kIFcgMY/wcSHQoJbW9kZWxOYW1lGAQgASgJQgr6QgdyBRAB",
+            "GP8BEhkKBnVzZXJJZBgFIAEoCUIJ+kIGcgQQARh/EhUKDWVucm9sbG1lbnRJ",
+            "ZHMYBiADKAkiUQocQXBwZW5kRW5yb2xsbWVudEdyb3VwUmVxdWVzdBIaCgdn",
+            "cm91cElkGAEgASgJQgn6QgZyBBABGH8SFQoNZW5yb2xsbWVudElkcxgCIAMo",
+            "CSIvChdEZWxldGVFbnJvbGxtZW50UmVxdWVzdBIUCgJpZBgBIAEoCUII+kIF",
+            "cgOwAQEiNQocRGVsZXRlRW5yb2xsbWVudEdyb3VwUmVxdWVzdBIVCgJpZBgB",
+            "IAEoCUIJ+kIGcgQQARh/Ik4KF1VwZGF0ZUVucm9sbG1lbnRSZXF1ZXN0EhQK",
+            "AmlkGAEgASgJQgj6QgVyA7ABARIdCgtkZXNjcmlwdGlvbhgCIAEoCUII+kIF",
+            "cgMY/wciTgocVXBkYXRlRW5yb2xsbWVudEdyb3VwUmVxdWVzdBIVCgJpZBgB",
+            "IAEoCUIJ+kIGcgQQARh/EhcKBG5hbWUYAiABKAlCCfpCBnIEEAEYfyJXChhS",
+            "ZW1vdmVFbnJvbGxtZW50c1JlcXVlc3QSGgoHZ3JvdXBJZBgBIAEoCUIJ+kIG",
+            "cgQQARh/Eh8KDWVucm9sbG1lbnRJZHMYAiADKAlCCPpCBZIBAggBMrAJChFF",
+            "bnJvbGxtZW50U2VydmljZRJ3Cg5HZXRFbnJvbGxtZW50cxIwLnNlbnNvcnku",
+            "YXBpLnYxLm1hbmFnZW1lbnQuR2V0RW5yb2xsbWVudHNSZXF1ZXN0GjEuc2Vu",
+            "c29yeS5hcGkudjEubWFuYWdlbWVudC5HZXRFbnJvbGxtZW50c1Jlc3BvbnNl",
+            "IgASgQEKE0dldEVucm9sbG1lbnRHcm91cHMSMC5zZW5zb3J5LmFwaS52MS5t",
+            "YW5hZ2VtZW50LkdldEVucm9sbG1lbnRzUmVxdWVzdBo2LnNlbnNvcnkuYXBp",
+            "LnYxLm1hbmFnZW1lbnQuR2V0RW5yb2xsbWVudEdyb3Vwc1Jlc3BvbnNlIgAS",
+            "hgEKFUNyZWF0ZUVucm9sbG1lbnRHcm91cBI3LnNlbnNvcnkuYXBpLnYxLm1h",
+            "bmFnZW1lbnQuQ3JlYXRlRW5yb2xsbWVudEdyb3VwUmVxdWVzdBoyLnNlbnNv",
+            "cnkuYXBpLnYxLm1hbmFnZW1lbnQuRW5yb2xsbWVudEdyb3VwUmVzcG9uc2Ui",
+            "ABKGAQoVQXBwZW5kRW5yb2xsbWVudEdyb3VwEjcuc2Vuc29yeS5hcGkudjEu",
+            "bWFuYWdlbWVudC5BcHBlbmRFbnJvbGxtZW50R3JvdXBSZXF1ZXN0GjIuc2Vu",
+            "c29yeS5hcGkudjEubWFuYWdlbWVudC5FbnJvbGxtZW50R3JvdXBSZXNwb25z",
+            "ZSIAEncKEERlbGV0ZUVucm9sbG1lbnQSMi5zZW5zb3J5LmFwaS52MS5tYW5h",
+            "Z2VtZW50LkRlbGV0ZUVucm9sbG1lbnRSZXF1ZXN0Gi0uc2Vuc29yeS5hcGku",
+            "djEubWFuYWdlbWVudC5FbnJvbGxtZW50UmVzcG9uc2UiABKGAQoVRGVsZXRl",
+            "RW5yb2xsbWVudEdyb3VwEjcuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5E",
+            "ZWxldGVFbnJvbGxtZW50R3JvdXBSZXF1ZXN0GjIuc2Vuc29yeS5hcGkudjEu",
+            "bWFuYWdlbWVudC5FbnJvbGxtZW50R3JvdXBSZXNwb25zZSIAEncKEFVwZGF0",
+            "ZUVucm9sbG1lbnQSMi5zZW5zb3J5LmFwaS52MS5tYW5hZ2VtZW50LlVwZGF0",
+            "ZUVucm9sbG1lbnRSZXF1ZXN0Gi0uc2Vuc29yeS5hcGkudjEubWFuYWdlbWVu",
+            "dC5FbnJvbGxtZW50UmVzcG9uc2UiABKGAQoVVXBkYXRlRW5yb2xsbWVudEdy",
+            "b3VwEjcuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5VcGRhdGVFbnJvbGxt",
+            "ZW50R3JvdXBSZXF1ZXN0GjIuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVudC5F",
+            "bnJvbGxtZW50R3JvdXBSZXNwb25zZSIAEocBChpSZW1vdmVFbnJvbGxtZW50",
+            "c0Zyb21Hcm91cBIzLnNlbnNvcnkuYXBpLnYxLm1hbmFnZW1lbnQuUmVtb3Zl",
+            "RW5yb2xsbWVudHNSZXF1ZXN0GjIuc2Vuc29yeS5hcGkudjEubWFuYWdlbWVu",
+            "dC5FbnJvbGxtZW50R3JvdXBSZXNwb25zZSIAQo0BCiFhaS5zZW5zb3J5Y2xv",
+            "dWQuYXBpLnYxLm1hbmFnZW1lbnRCJVNlbnNvcnlBcGlWMU1hbmFnZW1lbnRF",
+            "bnJvbGxtZW50UHJvdG9QAVo/Z2l0bGFiLmNvbS9zZW5zb3J5LWNsb3VkL3Nl",
+            "cnZlci90aXRhbi5naXQvcGtnL2FwaS92MS9tYW5hZ2VtZW50YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Sensory.Api.Common.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.GetEnrollmentsRequest), global::Sensory.Api.V1.Management.GetEnrollmentsRequest.Parser, new[]{ "UserId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.GetEnrollmentsResponse), global::Sensory.Api.V1.Management.GetEnrollmentsResponse.Parser, new[]{ "Enrollments", "IsRequestorTrusted" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.EnrollmentResponse), global::Sensory.Api.V1.Management.EnrollmentResponse.Parser, new[]{ "Id", "CreatedAt", "UpdatedAt", "Description", "ModelName", "ModelType", "ModelVersion", "DeviceId", "UserId", "Compression", "DeviceName", "DidEnrollWithLiveness", "ReferenceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.EnrollmentResponse), global::Sensory.Api.V1.Management.EnrollmentResponse.Parser, new[]{ "Id", "CreatedAt", "UpdatedAt", "Description", "ModelName", "ModelType", "ModelVersion", "DeviceId", "UserId", "Compression", "DeviceName", "DidEnrollWithLiveness", "ReferenceId", "DidEnrollAsBiometric" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.GetEnrollmentGroupsResponse), global::Sensory.Api.V1.Management.GetEnrollmentGroupsResponse.Parser, new[]{ "EnrollmentGroups" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.EnrollmentGroupResponse), global::Sensory.Api.V1.Management.EnrollmentGroupResponse.Parser, new[]{ "Id", "CreatedAt", "UpdatedAt", "Name", "Description", "ModelName", "ModelType", "ModelVersion", "UserId", "Enrollments" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Sensory.Api.V1.Management.CreateEnrollmentGroupRequest), global::Sensory.Api.V1.Management.CreateEnrollmentGroupRequest.Parser, new[]{ "Id", "Name", "Description", "ModelName", "UserId", "EnrollmentIds" }, null, null, null, null),
@@ -587,6 +587,7 @@ namespace Sensory.Api.V1.Management {
       deviceName_ = other.deviceName_;
       didEnrollWithLiveness_ = other.didEnrollWithLiveness_;
       referenceId_ = other.referenceId_;
+      didEnrollAsBiometric_ = other.didEnrollAsBiometric_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -673,7 +674,7 @@ namespace Sensory.Api.V1.Management {
 
     /// <summary>Field number for the "modelType" field.</summary>
     public const int ModelTypeFieldNumber = 6;
-    private global::Sensory.Api.Common.ModelType modelType_ = global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent;
+    private global::Sensory.Api.Common.ModelType modelType_ = global::Sensory.Api.Common.ModelType.Unknown;
     /// <summary>
     /// Type of the model enrolled
     /// </summary>
@@ -791,6 +792,21 @@ namespace Sensory.Api.V1.Management {
       }
     }
 
+    /// <summary>Field number for the "didEnrollAsBiometric" field.</summary>
+    public const int DidEnrollAsBiometricFieldNumber = 14;
+    private bool didEnrollAsBiometric_;
+    /// <summary>
+    /// Indicates if the enrollmed is suited for biometrics. If this value is false, the enrollment cannot be used for authentication.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool DidEnrollAsBiometric {
+      get { return didEnrollAsBiometric_; }
+      set {
+        didEnrollAsBiometric_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -819,6 +835,7 @@ namespace Sensory.Api.V1.Management {
       if (DeviceName != other.DeviceName) return false;
       if (DidEnrollWithLiveness != other.DidEnrollWithLiveness) return false;
       if (ReferenceId != other.ReferenceId) return false;
+      if (DidEnrollAsBiometric != other.DidEnrollAsBiometric) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -831,7 +848,7 @@ namespace Sensory.Api.V1.Management {
       if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       if (ModelName.Length != 0) hash ^= ModelName.GetHashCode();
-      if (ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) hash ^= ModelType.GetHashCode();
+      if (ModelType != global::Sensory.Api.Common.ModelType.Unknown) hash ^= ModelType.GetHashCode();
       if (ModelVersion.Length != 0) hash ^= ModelVersion.GetHashCode();
       if (DeviceId.Length != 0) hash ^= DeviceId.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
@@ -839,6 +856,7 @@ namespace Sensory.Api.V1.Management {
       if (DeviceName.Length != 0) hash ^= DeviceName.GetHashCode();
       if (DidEnrollWithLiveness != false) hash ^= DidEnrollWithLiveness.GetHashCode();
       if (ReferenceId.Length != 0) hash ^= ReferenceId.GetHashCode();
+      if (DidEnrollAsBiometric != false) hash ^= DidEnrollAsBiometric.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -877,7 +895,7 @@ namespace Sensory.Api.V1.Management {
         output.WriteRawTag(42);
         output.WriteString(ModelName);
       }
-      if (ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) {
+      if (ModelType != global::Sensory.Api.Common.ModelType.Unknown) {
         output.WriteRawTag(48);
         output.WriteEnum((int) ModelType);
       }
@@ -908,6 +926,10 @@ namespace Sensory.Api.V1.Management {
       if (ReferenceId.Length != 0) {
         output.WriteRawTag(106);
         output.WriteString(ReferenceId);
+      }
+      if (DidEnrollAsBiometric != false) {
+        output.WriteRawTag(112);
+        output.WriteBool(DidEnrollAsBiometric);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -939,7 +961,7 @@ namespace Sensory.Api.V1.Management {
         output.WriteRawTag(42);
         output.WriteString(ModelName);
       }
-      if (ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) {
+      if (ModelType != global::Sensory.Api.Common.ModelType.Unknown) {
         output.WriteRawTag(48);
         output.WriteEnum((int) ModelType);
       }
@@ -971,6 +993,10 @@ namespace Sensory.Api.V1.Management {
         output.WriteRawTag(106);
         output.WriteString(ReferenceId);
       }
+      if (DidEnrollAsBiometric != false) {
+        output.WriteRawTag(112);
+        output.WriteBool(DidEnrollAsBiometric);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -996,7 +1022,7 @@ namespace Sensory.Api.V1.Management {
       if (ModelName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ModelName);
       }
-      if (ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) {
+      if (ModelType != global::Sensory.Api.Common.ModelType.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ModelType);
       }
       if (ModelVersion.Length != 0) {
@@ -1019,6 +1045,9 @@ namespace Sensory.Api.V1.Management {
       }
       if (ReferenceId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ReferenceId);
+      }
+      if (DidEnrollAsBiometric != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1053,7 +1082,7 @@ namespace Sensory.Api.V1.Management {
       if (other.ModelName.Length != 0) {
         ModelName = other.ModelName;
       }
-      if (other.ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) {
+      if (other.ModelType != global::Sensory.Api.Common.ModelType.Unknown) {
         ModelType = other.ModelType;
       }
       if (other.ModelVersion.Length != 0) {
@@ -1079,6 +1108,9 @@ namespace Sensory.Api.V1.Management {
       }
       if (other.ReferenceId.Length != 0) {
         ReferenceId = other.ReferenceId;
+      }
+      if (other.DidEnrollAsBiometric != false) {
+        DidEnrollAsBiometric = other.DidEnrollAsBiometric;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1156,6 +1188,10 @@ namespace Sensory.Api.V1.Management {
             ReferenceId = input.ReadString();
             break;
           }
+          case 112: {
+            DidEnrollAsBiometric = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -1230,6 +1266,10 @@ namespace Sensory.Api.V1.Management {
           }
           case 106: {
             ReferenceId = input.ReadString();
+            break;
+          }
+          case 112: {
+            DidEnrollAsBiometric = input.ReadBool();
             break;
           }
         }
@@ -1571,7 +1611,7 @@ namespace Sensory.Api.V1.Management {
 
     /// <summary>Field number for the "modelType" field.</summary>
     public const int ModelTypeFieldNumber = 7;
-    private global::Sensory.Api.Common.ModelType modelType_ = global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent;
+    private global::Sensory.Api.Common.ModelType modelType_ = global::Sensory.Api.Common.ModelType.Unknown;
     /// <summary>
     /// Type of the model for this enrollment gooup
     /// </summary>
@@ -1666,7 +1706,7 @@ namespace Sensory.Api.V1.Management {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       if (ModelName.Length != 0) hash ^= ModelName.GetHashCode();
-      if (ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) hash ^= ModelType.GetHashCode();
+      if (ModelType != global::Sensory.Api.Common.ModelType.Unknown) hash ^= ModelType.GetHashCode();
       if (ModelVersion.Length != 0) hash ^= ModelVersion.GetHashCode();
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
       hash ^= enrollments_.GetHashCode();
@@ -1712,7 +1752,7 @@ namespace Sensory.Api.V1.Management {
         output.WriteRawTag(50);
         output.WriteString(ModelName);
       }
-      if (ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) {
+      if (ModelType != global::Sensory.Api.Common.ModelType.Unknown) {
         output.WriteRawTag(56);
         output.WriteEnum((int) ModelType);
       }
@@ -1759,7 +1799,7 @@ namespace Sensory.Api.V1.Management {
         output.WriteRawTag(50);
         output.WriteString(ModelName);
       }
-      if (ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) {
+      if (ModelType != global::Sensory.Api.Common.ModelType.Unknown) {
         output.WriteRawTag(56);
         output.WriteEnum((int) ModelType);
       }
@@ -1800,7 +1840,7 @@ namespace Sensory.Api.V1.Management {
       if (ModelName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ModelName);
       }
-      if (ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) {
+      if (ModelType != global::Sensory.Api.Common.ModelType.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ModelType);
       }
       if (ModelVersion.Length != 0) {
@@ -1846,7 +1886,7 @@ namespace Sensory.Api.V1.Management {
       if (other.ModelName.Length != 0) {
         ModelName = other.ModelName;
       }
-      if (other.ModelType != global::Sensory.Api.Common.ModelType.VoiceBiometricTextDependent) {
+      if (other.ModelType != global::Sensory.Api.Common.ModelType.Unknown) {
         ModelType = other.ModelType;
       }
       if (other.ModelVersion.Length != 0) {

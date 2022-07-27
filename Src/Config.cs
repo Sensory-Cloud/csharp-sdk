@@ -3,6 +3,17 @@ using Grpc.Core;
 
 namespace SensoryCloud.Src
 {
+    public struct SDKInitConfig
+    {
+        public string FullyQualifiedDomainName;
+        public bool IsConnectionSecure;
+        public string TenantId;
+        public EnrollmentType EnrollmentType;
+        public string Credential;
+        public string DeviceId;
+        public string DeviceName;
+    }
+
     public class Config
     {
         public string FullyQualifiedDomainName { get; private set; }
@@ -12,11 +23,12 @@ namespace SensoryCloud.Src
 
         private Channel Channel = null;
 
-        public Config(string fullyQualifiedDomainName, string tenantId, string deviceId)
+        public Config(SDKInitConfig config)
         {
-            this.FullyQualifiedDomainName = fullyQualifiedDomainName;
-            this.TenantId = tenantId;
-            this.DeviceId = deviceId;
+            this.FullyQualifiedDomainName = config.FullyQualifiedDomainName;
+            this.IsConnectionSecure = config.IsConnectionSecure;
+            this.TenantId = config.TenantId;
+            this.DeviceId = config.DeviceId;
         }
 
         public Config Connect()
@@ -41,5 +53,12 @@ namespace SensoryCloud.Src
 
             return this.Channel;
         }
+    }
+
+    public enum EnrollmentType
+    {
+        None,
+        SharedSecret,
+        JWT
     }
 }

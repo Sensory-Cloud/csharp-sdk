@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Grpc.Core;
 using Sensory.Api.V1.Audio;
 using SensoryCloud.Src;
+using SensoryCloud.Src.Initializer;
 using SensoryCloud.Src.Services;
 using SensoryCloud.Src.TokenManager;
 
@@ -16,10 +17,20 @@ namespace Test.Examples
             string sensoryTenantId = "f6580f3b-dcaf-465b-867e-59fbbb0ab3fc";
             string deviceId = "a-hardware-identifier-unique-to-your-device";
 
-            // Configuration specific to your tenant
-            Config config = new Config("https://your-inference-server.com", sensoryTenantId, deviceId);
-
+            // Create a secure crendetial manager and OAuth service
             ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
+
+            var initializer = new Initializer(credentialStore);
+            Config config = initializer.Initialize(new SDKInitConfig
+            {
+                FullyQualifiedDomainName = "https://your-inference-server.com",
+                IsConnectionSecure = true,
+                TenantId = sensoryTenantId,
+                EnrollmentType = EnrollmentType.SharedSecret,
+                Credential = "credential-provided-by-sensory",
+                DeviceId = deviceId,
+                DeviceName = "a friendly device name"
+            });
             IOauthService oAuthService = new OauthService(config, credentialStore);
             ITokenManager tokenManager = new TokenManager(oAuthService);
 
@@ -393,6 +404,10 @@ namespace Test.Examples
                 LanguageCode = "en-US",
             };
 
+            // Create aggregator if you want to collect the entire transcript
+            // Without the aggregator, you will only have access to a sliding window of data from the server
+            FullTranscriptAggregator aggregator = new FullTranscriptAggregator();
+
             // Set basic enrollment information
             string userId = "72f286b8-173f-436a-8869-6f7887789ee9";
             string modelName = "sound-16kHz-door_bell.trg";
@@ -413,6 +428,10 @@ namespace Test.Examples
                     {
                         // Response contains the current transcription.
                         TranscribeResponse response = stream.ResponseStream.Current;
+                        aggregator.ProcessResponse(response.WordList);
+
+                        // Full transcript can be accessed here
+                        //aggregator.GetCurrentTranscript();
                     }
                 }
                 catch (RpcException ex)

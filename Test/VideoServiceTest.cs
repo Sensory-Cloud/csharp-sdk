@@ -30,7 +30,7 @@ namespace Test
             videoModelsClient.Setup(client => client.GetModels(It.IsAny<GetModelsRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,
@@ -56,7 +56,7 @@ namespace Test
             videoBiometricsClient.Setup(m => m.CreateEnrollment(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,
@@ -100,7 +100,7 @@ namespace Test
             videoBiometricsClient.Setup(m => m.Authenticate(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,
@@ -137,7 +137,7 @@ namespace Test
             videoBiometricsClient.Setup(m => m.Authenticate(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,
@@ -174,7 +174,7 @@ namespace Test
             videoRecognitionsClient.Setup(m => m.ValidateLiveness(It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(fakeCall);
 
             var videoService = new MockVideoService(
-                new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"),
+                new Config(new SDKInitConfig { }),
                 tokenManager,
                 videoModelsClient.Object,
                 videoBiometricsClient.Object,

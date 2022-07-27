@@ -23,7 +23,7 @@ namespace Test
 
             enrollmentClient.Setup(client => client.GetEnrollments(It.IsAny<GetEnrollmentsRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
-            var managementService = new MockManagementService(new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"), tokenManager, enrollmentClient.Object);
+            var managementService = new MockManagementService(new Config(new SDKInitConfig { }), tokenManager, enrollmentClient.Object);
 
             var enrollmentResponse = managementService.GetEnrollments("foo");
             Assert.AreSame(enrollmentResponse, response);
@@ -40,7 +40,7 @@ namespace Test
 
             enrollmentClient.Setup(client => client.GetEnrollmentGroups(It.IsAny<GetEnrollmentsRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
-            var managementService = new MockManagementService(new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"), tokenManager, enrollmentClient.Object);
+            var managementService = new MockManagementService(new Config(new SDKInitConfig { }), tokenManager, enrollmentClient.Object);
 
             var enrollmentResponse = managementService.GetEnrollmentGroups("foo");
             Assert.AreSame(enrollmentResponse, response);
@@ -58,7 +58,7 @@ namespace Test
 
             enrollmentClient.Setup(client => client.CreateEnrollmentGroup(It.IsAny<CreateEnrollmentGroupRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
-            var managementService = new MockManagementService(new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"), tokenManager, enrollmentClient.Object);
+            var managementService = new MockManagementService(new Config(new SDKInitConfig { }), tokenManager, enrollmentClient.Object);
 
             var enrollmentResponse = managementService.CreateEnrollmentGroup("foo", "bar", "baz", "wuz", "wux", new string[] { "1", "2", "3" });
             Assert.AreSame(enrollmentResponse, response);
@@ -77,7 +77,7 @@ namespace Test
 
             enrollmentClient.Setup(client => client.AppendEnrollmentGroup(It.IsAny<AppendEnrollmentGroupRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
-            var managementService = new MockManagementService(new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"), tokenManager, enrollmentClient.Object);
+            var managementService = new MockManagementService(new Config(new SDKInitConfig { }), tokenManager, enrollmentClient.Object);
 
             var enrollmentResponse = managementService.AppendEnrollmentGroup("foo", new string[] { "1", "2", "3" });
             Assert.AreSame(enrollmentResponse, response);
@@ -96,7 +96,7 @@ namespace Test
 
             enrollmentClient.Setup(client => client.DeleteEnrollment(It.IsAny<DeleteEnrollmentRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
-            var managementService = new MockManagementService(new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"), tokenManager, enrollmentClient.Object);
+            var managementService = new MockManagementService(new Config(new SDKInitConfig { }), tokenManager, enrollmentClient.Object);
 
             var enrollmentResponse = managementService.DeleteEnrollment("foo");
             Assert.AreSame(enrollmentResponse, response);
@@ -115,7 +115,7 @@ namespace Test
 
             enrollmentClient.Setup(client => client.DeleteEnrollmentGroup(It.IsAny<DeleteEnrollmentGroupRequest>(), It.IsAny<Metadata>(), null, CancellationToken.None)).Returns(response);
 
-            var managementService = new MockManagementService(new Config("doesnt-matter", "doesnt-matter", "doesnt-matter"), tokenManager, enrollmentClient.Object);
+            var managementService = new MockManagementService(new Config(new SDKInitConfig { }), tokenManager, enrollmentClient.Object);
 
             var enrollmentResponse = managementService.DeleteEnrollmentGroup("foo");
             Assert.AreSame(enrollmentResponse, response);

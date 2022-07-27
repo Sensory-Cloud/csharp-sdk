@@ -8,6 +8,7 @@ using Org.BouncyCastle.Security;
 using ScottBrady.IdentityModel.Crypto;
 using ScottBrady.IdentityModel.Tokens;
 using SensoryCloud.Src;
+using SensoryCloud.Src.Initializer;
 using SensoryCloud.Src.Services;
 
 namespace Test.Examples
@@ -21,9 +22,19 @@ namespace Test.Examples
             string deviceId = "a-hardware-identifier-unique-to-your-device";
 
             // Configuration specific to your tenant
-            Config config = new Config("https://your-inference-server.com", sensoryTenantId, deviceId);
-
             ISecureCredentialStore credentialStore = new SecureCredentialStoreExample();
+            var initializer = new Initializer(credentialStore);
+            Config config = initializer.Initialize(new SDKInitConfig
+            {
+                FullyQualifiedDomainName = "https://your-inference-server.com",
+                IsConnectionSecure = true,
+                TenantId = sensoryTenantId,
+                EnrollmentType = EnrollmentType.SharedSecret,
+                Credential = "credential-provided-by-sensory",
+                DeviceId = deviceId,
+                DeviceName = "a friendly device name"
+            });
+
             OauthService oauthService = new OauthService(config, credentialStore);
 
             // Generate cryptographically random credentials

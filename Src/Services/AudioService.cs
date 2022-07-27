@@ -288,6 +288,11 @@ namespace SensoryCloud.Src.Services
             return transcriptionStream;
         }
 
+        /// <summary>
+        /// Stream audio to Sensory Cloud in order to authenticate audio
+        /// </summary>
+        /// <param name="config">the specifc configuration.</param>
+        /// <returns>a bidirectional stream where AuthenticateRequest can be passed to the cloud and AuthenticateResponse are passed back</returns>
         private async Task<AsyncDuplexStreamingCall<AuthenticateRequest, AuthenticateResponse>> StreamAuthentication(AuthenticateConfig config)
         {
             Metadata metadata = this.TokenManager.GetAuthorizationMetadata();
