@@ -92,7 +92,6 @@ The below example waits for a single event to be recognized and ends the stream.
 
 The below example outlines how to stream a wav file in chunks to Sensory Cloud and process all events before closing the stream.
 [AudioSoundRecognizerExample.cs](Test/Examples/AudioSoundRecognizerExample.cs)
-```
 
 ## CreateEnrolledEvent
 
