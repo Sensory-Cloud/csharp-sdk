@@ -412,12 +412,16 @@ namespace Test.Examples
             string userId = "72f286b8-173f-436a-8869-6f7887789ee9";
             string modelName = "sound-16kHz-door_bell.trg";
 
+            // The most basic config - see the TranscribeConfig class for more details
+            TranscribeConfig config = new TranscribeConfig
+            {
+                Audio = audioConfig,
+                UserId = userId,
+                ModelName = modelName,
+            };
+
             // Stream is of type AsyncDuplexStreamingCall<TranscribeRequest, TranscribeResponse>
-            var stream = await audioService.StreamTranscription(
-                audioConfig,
-                userId,
-                modelName
-                );
+            var stream = await audioService.StreamTranscription(config);
 
             // Start background task to receive messages from the cloud
             var readTask = Task.Run(async () =>

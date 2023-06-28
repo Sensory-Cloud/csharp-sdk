@@ -268,19 +268,12 @@ namespace SensoryCloud.Src.Services
         /// <param name="audioConfig">the audio-specifc configuration. Currently only LIN16 at 16000Hz is supported.</param>
         /// <param name="userId">the unique userId for the user requesting this event</param>
         /// <param name="modelName">the exact name of the model you intend use for transcription. This model name can be retrieved from the getModels() call.</param>
+        /// <param name="transcribeConfig">optional wakeword model. This model name can be retrieved from the getModels() call.</param>
         /// <returns>a bidirectional stream where TranscribeRequests can be passed to the cloud and TranscribeResponses are passed back</returns>
-        public async Task<AsyncDuplexStreamingCall<TranscribeRequest, TranscribeResponse>> StreamTranscription(
-            AudioConfig audioConfig, string userId, string modelName)
+        public async Task<AsyncDuplexStreamingCall<TranscribeRequest, TranscribeResponse>> StreamTranscription(TranscribeConfig config)
         {
             Metadata metadata = this.TokenManager.GetAuthorizationMetadata();
             AsyncDuplexStreamingCall<TranscribeRequest, TranscribeResponse> transcriptionStream = this.AudioTranscriptionsClient.Transcribe(metadata);
-
-            TranscribeConfig config = new TranscribeConfig
-            {
-                Audio = audioConfig,
-                UserId = userId,
-                ModelName = modelName,
-            };
 
             TranscribeRequest request = new TranscribeRequest { Config = config };
 

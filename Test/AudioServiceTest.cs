@@ -364,7 +364,13 @@ namespace Test
             var modelName = "my-model";
 
             var audioConfig = new AudioConfig { AudioChannelCount = 1, Encoding = AudioConfig.Types.AudioEncoding.Linear16, LanguageCode = "en-US", SampleRateHertz = 16000 };
-            var enrollmentStream = await audioService.StreamTranscription(audioConfig, userId, modelName);
+            TranscribeConfig config = new TranscribeConfig
+            {
+                Audio = audioConfig,
+                UserId = userId,
+                ModelName = modelName,
+            };
+            var enrollmentStream = await audioService.StreamTranscription(config);
             Assert.IsNotNull(enrollmentStream, "transcription stream should be returned");
 
             Assert.AreEqual(mockRequestStream.Invocations.Count, 1, "one call should have been made to pass config to the server");

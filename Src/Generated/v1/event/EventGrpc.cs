@@ -4,7 +4,7 @@
 // </auto-generated>
 // Original file comments:
 // sensory.api.event
-#pragma warning disable 0414, 1591
+#pragma warning disable 0414, 1591, 8981, 0612
 #region Designer generated code
 
 using grpc = global::Grpc.Core;
@@ -60,6 +60,8 @@ namespace Sensory.Api.V1.Event {
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Event.UsageEventListResponse> __Marshaller_sensory_api_v1_event_UsageEventListResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Event.UsageEventListResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Sensory.Api.V1.Event.UsageEventSummary> __Marshaller_sensory_api_v1_event_UsageEventSummary = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Event.UsageEventSummary.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Sensory.Api.V1.Event.GlobalEventSummaryRequest> __Marshaller_sensory_api_v1_event_GlobalEventSummaryRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Sensory.Api.V1.Event.GlobalEventSummaryRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Sensory.Api.V1.Event.PublishUsageEventsRequest, global::Sensory.Api.V1.Event.PublishUsageEventsResponse> __Method_PublishUsageEvents = new grpc::Method<global::Sensory.Api.V1.Event.PublishUsageEventsRequest, global::Sensory.Api.V1.Event.PublishUsageEventsResponse>(
@@ -83,6 +85,14 @@ namespace Sensory.Api.V1.Event {
         __ServiceName,
         "GetUsageEventSummary",
         __Marshaller_sensory_api_v1_event_UsageEventListRequest,
+        __Marshaller_sensory_api_v1_event_UsageEventSummary);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Sensory.Api.V1.Event.GlobalEventSummaryRequest, global::Sensory.Api.V1.Event.UsageEventSummary> __Method_GetGlobalUsageSummary = new grpc::Method<global::Sensory.Api.V1.Event.GlobalEventSummaryRequest, global::Sensory.Api.V1.Event.UsageEventSummary>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetGlobalUsageSummary",
+        __Marshaller_sensory_api_v1_event_GlobalEventSummaryRequest,
         __Marshaller_sensory_api_v1_event_UsageEventSummary);
 
     /// <summary>Service descriptor</summary>
@@ -273,6 +283,58 @@ namespace Sensory.Api.V1.Event {
       public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Event.UsageEventSummary> GetUsageEventSummaryAsync(global::Sensory.Api.V1.Event.UsageEventListRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetUsageEventSummary, null, options, request);
+      }
+      /// <summary>
+      /// Obtains a usage summary of events across all specified tenants
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Event.UsageEventSummary GetGlobalUsageSummary(global::Sensory.Api.V1.Event.GlobalEventSummaryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetGlobalUsageSummary(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Obtains a usage summary of events across all specified tenants
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Sensory.Api.V1.Event.UsageEventSummary GetGlobalUsageSummary(global::Sensory.Api.V1.Event.GlobalEventSummaryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetGlobalUsageSummary, null, options, request);
+      }
+      /// <summary>
+      /// Obtains a usage summary of events across all specified tenants
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Event.UsageEventSummary> GetGlobalUsageSummaryAsync(global::Sensory.Api.V1.Event.GlobalEventSummaryRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetGlobalUsageSummaryAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Obtains a usage summary of events across all specified tenants
+      /// Authorization metadata is required {"authorization": "Bearer &lt;TOKEN>"}
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Sensory.Api.V1.Event.UsageEventSummary> GetGlobalUsageSummaryAsync(global::Sensory.Api.V1.Event.GlobalEventSummaryRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetGlobalUsageSummary, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
